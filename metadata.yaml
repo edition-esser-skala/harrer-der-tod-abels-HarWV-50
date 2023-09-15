@@ -1,0 +1,26 @@
+composer:
+  last: Harrer
+  first: Gottlob
+title: Der Todt Abels des Gerechten
+subtitle: La morte d’Abel
+id: HarWV 50
+genre: oratorio
+scoring: S, A, T, 2 B (solo), S, A, T, B (coro), 2 fl, 2 ob, 2 ob grande, 2 ob d'amore, 2 fag, 2 vl, vla, bc
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: D-LEem
+    shelfmark: Becker III.2.82
+    date: 1753
+    rism: 200043659
+    url: https://digital.slub-dresden.de/id454514484
+    license: public domain
+    principal: true
+    notes: full score, entitled “ORATORJO | La Morte d'Abel | del celebre Poeta Pietro Metastasio | tradotto da Gottlob Harrer in | Todesco e porto in Mu- | sica dal medemo | 1753”
+  A2:
+    siglum: D-LEm
+    shelfmark: PT 2
+    license: public domain
+    notes: text book, entitled “Der Todt Abels des Gerechten | In einem Paßions Oratorio wie es in der A. Nicolai | Kirche Ao 1753 am Heil. Charfreytage auffgeführt | werden soll”
+imslp:
+parts:
