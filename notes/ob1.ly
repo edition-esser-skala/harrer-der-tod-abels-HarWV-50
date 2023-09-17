@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-IntroViolinoI = {
+IntroOboeIeII = {
   \relative c' {
     \clef treble
     \key c \dorian \time 2/1 \tempoIntro
@@ -17,9 +17,9 @@ IntroViolinoI = {
     d f es d c1 %15
     d1. c2
     f1 es~
-    es r
-    r2 c b1
-    c2 es f1~ %20
+    es b'2. es,4
+    b'2 as1 g2~
+    g es f1~ %20
     f2 es1 d2
     es2. d8 c d4 es f d
     es es' c b as1~
