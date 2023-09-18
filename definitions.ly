@@ -6,7 +6,17 @@
 \include "ees_articulate.ly"
 
 
+Abel = \markup \remark "Abel"
+Cain = \markup \remark "Cain"
+Eva = \markup \remark "Eva"
+forceClef = \set Staff.forceClef = ##t
+
+
 tempoIntro = \tempoMarkup "[Tempo deest]"
+tempoWunderbarer = \tempoMarkup "Grave"
+  tempoWunderbarerB = \tempoMarkup "Allegro"
+  tempoWunderbarerC = \tempoMarkup "Lento"
+  tempoWunderbarerD = \tempoMarkup "[Recitativo]"
 
 
 \include "notes/ob1.ly"
@@ -14,7 +24,7 @@ tempoIntro = \tempoMarkup "[Tempo deest]"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
 \include "notes/vla.ly"
-% \include "notes/soli.ly"
+\include "notes/soli.ly"
 % \include "notes/S.ly"
 % \include "notes/A.ly"
 % \include "notes/T.ly"

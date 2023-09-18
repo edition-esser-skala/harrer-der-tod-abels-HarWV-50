@@ -35,3 +35,35 @@ IntroViola = {
     g1 e\fermata \bar "|." %29 finis
   }
 }
+
+WunderbarerViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoWunderbarer
+      \set Staff.timeSignatureFraction = 4/4
+    e8\fE d c g g fis g g
+    a fis' fis fis d h h c
+    d d d d g,4~ g8 r
+    R1*2 %5
+    r2 r4 gis'
+    fis r r2
+    R1
+    h,8 h h g g4~ g8 r
+    R1*2 %11
+    r2 r4 g'
+    e r r2
+    \tempoWunderbarerB a8 fis? h, a a fis r4
+    r2 g'8 g e d %15
+    d h r4 r2
+    \tempoWunderbarerC r8 g'(-. g-. g-.) \after 4 \pE g2
+    gis1~
+    gis
+    a %20
+    fis2 e~
+    e~ e4 r
+    r2-\critnote r4 h\fE
+    ais~ ais8 r \tempoWunderbarerD r2
+    R1*85 %109
+    \time 2/4 \markTimeSig #'(2 4) R2\fermata \bar "|." %110 finis
+  }
+}
