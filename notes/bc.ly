@@ -299,3 +299,375 @@ WunderbarerBassFigures = \figuremode {
   r2 <4\+ 2>
   <_+>4 <_!> %110 finis
 }
+
+IchBinEinBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/8 \tempoIchBinEin
+    \mvTr c4\fE-\soloE r8
+    c8. c'16 g e
+    c4 c'8
+    c, c' c
+    c,,4 r8 %5
+    c8. c'16 g e
+    c4 c'8
+    c, c' c
+    c4.~
+    c8 h h %10
+    c a' fis
+    g g, r
+    g' r r
+    g r r
+    g r r %15
+    g r r
+    g r r
+    \clef "treble_8" g\mf r r
+    g r r
+    g g, r %20
+    \clef bass g16\ff g' g g h g
+    g, g' g g c g
+    g, g' g g d' g,
+    g, g' g g e' e,
+    g, g' g g h g %25
+    c4 r8
+    r g g,
+    c4.~
+    c
+    r8 g' g, %30
+    \after 8 \p c4.~
+    c
+    r8 g'\fE g, \noBreak
+    c c, r \bar "S-S"
+    c'4\p r8 \noBreak %35
+    c8. c'16 g e
+    c4 c'8
+    c, c' c
+    c,,4 r8
+    c8. c'16 g e %40
+    c4 c'8
+    c, c' c
+    c4.~
+    c8 h h
+    c a' fis %45
+    g g, r
+    g'4 r8
+    g4 r8
+    g4 r8
+    g4 r8 %50
+    g4 r8
+    g4 r8
+    g4 r8
+    d' d, r
+    d r r %55
+    d r r
+    d r r
+    d r r
+    d r r
+    d r r %60
+    d r r
+    d d, r
+    d16 d' d d fis d
+    d, d' d d g d
+    d, d' d d a' d, %65
+    e, e' e e g[\f cis,]
+    d4.\fermata
+    g,4 r8
+    g8. g'16 d h
+    g4 g'8 %70
+    g, g' g
+    \once \tieDashed g4.~
+    g8 fis fis
+    g e cis
+    d d, r %75
+    d16 d' d d fis d
+    d, d' d d g d
+    d,\mf d' d d a' d,
+    d, d' d d h' d,
+    d,\ffE d' d d fis d %80
+    g4 r8
+    r d' d,
+    g4.~
+    g
+    r8 d d, %85
+    g g'16 f! e d
+    c4\p r8
+    c8. c'16 g e
+    c4 c'8
+    c, c' c %90
+    c,,4 r8
+    c8. c'16 g e
+    c4 c'8
+    c, c' c
+    c4 r8 %95
+    c4 r8
+    c4 r8
+    g' g, r
+    g4 r8
+    g4 r8 %100
+    g4 r8
+    g4 r8
+    g4 r8
+    g4 r8
+    g4 r8 %105
+    g4 r8
+    g4 r8
+    g4 r8
+    r g' g,
+    c c16 d e f %110
+    g8 r r
+    g r r
+    g r r
+    g r r
+    g r r %115
+    g r r
+    g r r
+    g4 r8
+    g,16 g' g g h g
+    g, g' g g c g %120
+    g, g' g g d' g,
+    a, a' a a c[\f fis,]
+    g4.\fermata
+    c,4\ffE r8
+    c8. c'16 g e %125
+    c4 c'8
+    c, c' c
+    c,4.~
+    c8 h h
+    c a fis %130
+    g g r
+    g' r r
+    g r r
+    g r r
+    g r r %135
+    g r r
+    \clef "treble_8" g\mf r r
+    g r r
+    g g, r
+    \clef bass g16\ffE g' g g h g %140
+    g, g' g g c g
+    g, g' g g d' g,
+    g, g' g g e' g,
+    g, g' g g h g
+    c4 r8 %145
+    r g g,
+    c4.~
+    c
+    r8 g' g,
+    \after 8 \p c4.~ %150
+    c
+    r8 g'\f g, \noBreak
+    c c, r\fermata \bar "||"
+    c'4\p r8 \noBreak
+    c,8. c'16 g e %155
+    c4 c'8
+    c, c' c
+    c4 r8
+    c4 r8
+    c4 r8 %160
+    c4 r8
+    f4 r8
+    f4 r8
+    f4 r8
+    f4 r8 %165
+    f4 r8
+    f4 r8
+    f4 r8
+    f4 h,!8\fE
+    c4.\fermata %170
+    f4\ff r8
+    f4 fis8
+    g g, r
+    g r r
+    g\p r r %175
+    g r r
+    g r r
+    g16\ff g' g g h g
+    c8 r r
+    r g g, %180
+    c c, r \bar "S-S" %181 finis
+  }
+}
+
+IchBinEinBassFigures = \figuremode {
+  r4.
+  r
+  r
+  <6 4>8 <5 3>4
+  r4. %5
+  r
+  r
+  <6 4>8 <5 3>4
+  r4.
+  <2>8 <6 5>4 %10
+  r8 <6 4> <7>
+  <6 4> <5 3>4
+  r4.
+  <6 4>
+  <5 3> %15
+  <6 4>
+  <5 3>
+  r
+  <7\\ 4>
+  <8 3> %20
+  <7! 5>
+  <6 4>
+  <7 5>
+  <6 4>
+  <7 5> %25
+  r
+  r8 <6 4> <5 3>
+  r4.
+  r8 <6 4> <5 3>
+  r <6 4> <5 3> %30
+  r4.
+  r8 <6 4> <5 3>
+  r <6 4> <7 5>
+  <\t \t> <5>4
+  r4. %35
+  r
+  r
+  <6 4>8 <5 3>4
+  r4.
+  r %40
+  r
+  <6 4>8 <5 3>4
+  r4.
+  <4 2>8 <6 5>4
+  r8 <6 4> <7> %45
+  <6 4> <5 3>4
+  r4.
+  <6 4>
+  <5 3>
+  <6 4> %50
+  <5 3>4 <7 5>8
+  <\t \t> <6 4> <7\\ \t>
+  <8 3>4.
+  <6 4>8 <5 _+>4
+  r4. %55
+  <6 4>
+  <5 _+>
+  <6 4>
+  <5 _+>
+  r %60
+  <7\\ 4>
+  <8 _+>
+  <7! _+>
+  <6 4>
+  <7 _+> %65
+  <5>4 <6>16 <7>
+  <6 4>8 <5 _+>4
+  r4.
+  r
+  r %70
+  <6 4>8 <5 3>4
+  r4.
+  <2>8 <6 5>4
+  r8 <6 4> <7>
+  <6 4> <5 _+>4 %75
+  <7 _+>4.
+  <6 4>
+  <7 _+>
+  <6 4>
+  <7 _+> %80
+  r
+  r8 <6 4> <5 _+>
+  r4.
+  r8 <6 4> <5 3>
+  r <6 4> <5 3> %85
+  r4.
+  r
+  r
+  r
+  <6 4>8 <5 3>4 %90
+  r4.
+  r
+  r
+  <6 4>8 <5 3>4
+  r <7- 5>8 %95
+  <\t \t> <6 4> <5 3>
+  r4.
+  <6 4>8 <5 3>4
+  r4.
+  <6 4> %100
+  <5 3>
+  <6 4>
+  <5 3>
+  <8 6>
+  <7 5> %105
+  <\t \t>
+  <6 4>
+  <\t \t>
+  r8 <6 4> <5 3>
+  r4. %110
+  r
+  <6 4>
+  <5 3>
+  <6 4>
+  <5 3> %115
+  r
+  <7\\ 4>
+  <8 3>
+  <7! 5>
+  <6 4> %120
+  <7 5>
+  <5>4 <6>16 <7>
+  <6 4>8 <5 3>4
+  r4.
+  r %125
+  r
+  <6 4>8 <5 3>4
+  r4.
+  <4 2>8 <6 5>4
+  r8 <6 4> <7> %130
+  <6 4> <5 3>4
+  r4.
+  <6 4>
+  <5 3>
+  <6 4> %135
+  <5 3>
+  r
+  <7\\ 4>
+  <8 3>
+  <7! 5> %140
+  <6 4>
+  <7 5>
+  <6 4>
+  <7 5>
+  r %145
+  r8 <6 4> <5 3>
+  r4.
+  r8 <6 4> <5 3>
+  r <6 4> <5 3>
+  r4. %150
+  r8 <6 4> <5 3>
+  r <6 4> <7 5>
+  r4.
+  r
+  r %155
+  r
+  <6 4>8 <5 3>4
+  <7- 5>4.
+  <6 4>
+  <7- 5>4 <6 4>8 %160
+  <5 3>4.
+  r4 <7- 5>8
+  <\t \t> <6 4-> <7! \t>
+  <\t 3> <8 \t> <7- 5>
+  <\t \t> <6 4-> <7! \t> %165
+  <8 3>4.
+  <7 4->
+  <8 3>
+  <7 4->8 <8 3> <7>
+  <6 4> <5 3>4 %170
+  r4.
+  <8 6>4 <7 5>8
+  <6 4> <5 _!>4
+  r4.
+  <6 4> %175
+  <5 3>
+  <6 4>
+  <7 5>
+  r
+  r8 <6 4> <7 5> %180
+  <\t \t> <5>4 %181 finis
+}

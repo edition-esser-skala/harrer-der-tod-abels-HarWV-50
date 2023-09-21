@@ -227,3 +227,201 @@ WunderbarerSoliLyrics = \lyricmode {
   bey gleich Müh’ und Ar -- beit
   ha -- be. %110 finis
 }
+
+IchBinEinSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/8 \autoBeamOff \tempoIchBinEin
+    R4.*34 \bar "S-S" %34
+    \mvTr c8\pE^\soloE e \appoggiatura g16 f16.[(\trill e64 f)] \noBreak %35
+    g8 g4
+    g8 g4
+    a8 g r
+    c, e f\trill
+    g g4 %40
+    g8 g4
+    a8 g r
+    g c h16([ a)]
+    \appoggiatura g f8 f4
+    e8([ f)] e %45
+    \appoggiatura e d4 r8
+    d g f!
+    e([ d)] c
+    d[ g f]
+    e[ d c] %50
+    d[ g f]~
+    f[ e fis]
+    g[ c] h
+    \appoggiatura h a4 r8
+    fis a16([ h)] h([ c)] %55
+    h8 a16([ g fis e)]
+    fis8([ a16 h)] h([ c)]
+    h8 a16([ g fis e)]
+    fis8 a a
+    a([ fis)] a %60
+    g([ e)] g
+    fis16([ e)] d8 r
+    c'4.
+    h
+    fis %65
+    g8 g4
+    g8\fermata a4\trill
+    g r8
+    R4.*18 %86
+    c,8 e f16.[(\trill e64 f])
+    g8 g4
+    g8 g8.[(\trill f32 g])
+    a8 g r %90
+    c, e \appoggiatura g16 f8\trill
+    g g4
+    g8 \appoggiatura a16 g8.([\trill f32 g)]
+    a8 g r
+    g c b %95
+    b([ a)] g
+    g([ f)] e
+    \appoggiatura f16 e8([ d)] r
+    d g f
+    e([ d)] c %100
+    d[ g f]
+    e[ d c]
+    d[ a' g]~
+    g[ f e]
+    f[ g f]~ %105
+    f[ e d]
+    e[ f e]~
+    e[ a g]
+    f[ e] d
+    c4 r8 %110
+    d d16([ e)] e([ f)]
+    e8 d16([ c h a)]
+    h8([ d16 e)] e([ f)]
+    e8 d16([ c h a)]
+    h8 d d %115
+    d([ h)] d
+    c4 fis8
+    g g, r
+    f'!4.
+    e %120
+    h'
+    c8 c,4
+    c8\fermata d4\trill
+    c r8
+    R4.*28 \noBreak %152
+    R4.\fermata \bar "||"
+    c8 e \appoggiatura g16 f16.([\trill e64 f)] \noBreak
+    g8 g4 %155
+    g8 \appoggiatura a16 g8.([\trill f32 g)]
+    a8 g r
+    c, b' b
+    a([ g)] f
+    g g([ f)] %160
+    e16([ d)] c8 r
+    c f es
+    es([ d)] e
+    e([ f) es]~
+    es[ d e] %165
+    f([ b) a]
+    g([ f e)]
+    f[ b a]
+    g[ f] f
+    f\fermata g4\trill %170
+    f r8
+    R4.*10 \bar "S-S" %181 finis
+
+  }
+}
+
+IchBinEinSoliLyrics = \lyricmode {
+  Ich bin ein __ %35
+  Hir -- te,
+  der ſein
+  Le -- ben
+  vor ſei -- ne
+  Schaaf -- fe %40
+  dar -- zu --
+  ge -- ben
+  aus Lie -- be __
+  kein Be --
+  den -- ken %45
+  trägt,
+  aus Lie -- be
+  kein Be --
+  den --
+  _ %50
+  _
+
+  _ ken
+  trägt,
+  ich bin ein %55
+  Hir -- te, __
+  der __ ſein
+  Le -- ben __
+  vor ſei -- ne
+  Schaaf -- fe %60
+  dar -- zu --
+  ge -- ben
+  aus
+  Lie --
+  be %65
+  kein Be --
+  den -- ken
+  trägt.
+
+  Ich bin ein __ %87
+  Hir -- te,
+  der ſein __
+  Le -- ben %90
+  \xE vor ſei -- ne
+  Schaaf -- fe
+  dar -- zu --
+  ge -- ben \x
+  aus Lie -- be %95
+  kein Be --
+  den -- ken
+  trägt,
+  aus Lie -- be
+  kein Be -- %100
+  den --
+  _
+  _
+
+  _ %105
+
+  _
+
+  _ ken
+  trägt, %110
+  ich bin ein
+  Hir -- te, __
+  der __ ſein
+  Le -- ben __
+  vor ſei -- ne %115
+  Schaaf -- fe
+  dar -- zu --
+  ge -- ben
+  \xE aus
+  Lie -- %120
+  be
+  kein Be --
+  den -- ken
+  trägt. \x
+
+  Sie hö -- ren __ %154
+  mei -- ne %155
+  Hir -- ten --
+  lie -- der,
+  ich ken -- ne
+  ſie, und
+  ſie auch %160
+  wie -- der
+  den Schä -- fer,
+  der ſie
+  zärt --
+  %165
+  _
+  _
+  _
+  _ lich,
+  zärt -- lich %170
+  pflegt. %171 finis
+}
