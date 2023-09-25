@@ -10,6 +10,7 @@ Abel = \markup \remark "Abel"
 Cain = \markup \remark "Cain"
 Eva = \markup \remark "Eva"
 forceClef = \set Staff.forceClef = ##t
+hideAcc = \once \override Accidental.stencil = ##f
 
 
 tempoIntro = \tempoMarkup "[Tempo deest]"
@@ -20,6 +21,7 @@ tempoWunderbarer = \tempoMarkup "Grave"
 tempoIchBinEin = \tempoMarkup "Allegretto"
 tempoWasFehlet = \tempoMarkup "[Recitativo]"
   tempoWasFehletB = \tempoMarkup "Adagio"
+tempoEinWasser = \tempoMarkup "Allegro"
 
 
 \include "notes/fl1.ly"

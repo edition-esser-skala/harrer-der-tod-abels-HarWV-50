@@ -191,35 +191,99 @@
   %     \midi { \tempo 4. = 50 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.3" "Recitativo" "Was fehlet, Cain, dir?"
+  %   % \addTocLabel "wasfehlet"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #21
+  %     system-system-spacing.minimum-distance = #21
+  %     systems-per-page = #5
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Cain" "Eva" }
+  %           \new Voice = "Soli" { \dynamicUp \WasFehletSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \WasFehletSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           \transpose c c,
+  %           \WasFehletBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \WasFehletBassFigures }
+  %     >>
+  %     % \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "1.3" "Recitativo" "Was fehlet, Cain, dir?"
-    % \addTocLabel "wasfehlet"
+    \section "1.4" "Aria" "Ein Waßer, das aus trüben Quellen"
+    \addTocLabel "einwasser"
     \paper {
-      system-system-spacing.basic-distance = #21
-      system-system-spacing.minimum-distance = #21
-      systems-per-page = #5
+      top-system-spacing.basic-distance = #10
+      top-system-spacing.minimum-distance = #10
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #10
+      markup-system-spacing.minimum-distance = #10
+      systems-per-page = #2
+      page-count = #10
     }
     \score { %\articulate
       <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \EinWasserOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \EinWasserOboeII
+            }
+          >>
+        >>
+        \new StaffGroup<<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \EinWasserViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \EinWasserViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "vla"
+            \EinWasserViola
+          }
+        >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Cain" "Eva" }
-            \new Voice = "Soli" { \dynamicUp \WasFehletSoli }
+            \set Staff.instrumentName = "Eva"
+            \new Voice = "Soli" { \dynamicUp \EinWasserSoli }
           }
-          \new Lyrics \lyricsto Soli \WasFehletSoliLyrics
+          \new Lyrics \lyricsto Soli \EinWasserSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
-            \transpose c c,
-            \WasFehletBassoContinuo
+            % \transpose c c,
+            \EinWasserBassoContinuo
           }
         >>
-        \new FiguredBass { \WasFehletBassFigures }
+        \new FiguredBass { \EinWasserBassFigures }
       >>
-      % \layout { }
-      \midi { \tempo 4 = 70 }
+      \layout { }
+      \midi { \tempo 4 = 120 }
     }
   }
-
 }

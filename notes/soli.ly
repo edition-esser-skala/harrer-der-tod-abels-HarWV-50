@@ -499,3 +499,97 @@ WasFehletSoliLyrics = \lyricmode {
   raus noch mit der Zeit was
   är -- gers kom -- men kan. %32 finis
 }
+
+EinWasserSoli = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \autoBeamOff \tempoEinWasser
+      \set Staff.timeSignatureFraction = 4/4
+    \partial 8 r8 R1*9 \noBreak %9
+    r2 r4 r8 \mvTr f\pE^\soloE \bar "S-S" %10
+    b4 b b b
+    b b a8 f r a16([ b)]
+    c4 c c c
+    c4. es8 d b r b
+    d4 d e4. e8 %15
+    f([ f, b)] a \appoggiatura a g4 r8 g
+    e'4 e f16[ e d c] b[ a g f]
+    e'8 e4 e8 f16[ e d c] b[ a g f]
+    b8 b4 b8 a4. a8
+    a4\fermata g\trill f r %20
+    R1*5 %25
+    r4 r8 f b4 b
+    b b b b
+    a8 f r a16([ b)] c4 c
+    c c c4. c8
+    b g r g16([ a)] b4 b %30
+    a4. f!16([ g)] as4 as
+    g4. g8 b4. b8
+    a!4 r8 c16([ d)] es!4 es
+    d16[ c b a] g[ f es d] es'8 es4 es8
+    d16[ c b a] g[ f es d] es'8 es4 es8 %35
+    d4. d8 d4 c
+    b r8 d c4 c
+    c c es4. es8
+    d b r f b4 b
+    b b b4. g8 %40
+    a f r f g2
+    a b4. b8
+    b4\fermata c\trill b r
+    R1*8 %51
+    r4 r8\fermata d, b'4 b
+    a4. a8 g4 \appoggiatura b8 a4\trill
+    b16([ a]) g8 r a b4 b
+    a4. a8 g4. f!8 %55
+    \appoggiatura g16 f8 e r a d4 e
+    f cis d4. d8
+    e4 r8 a, d4. c8
+    b4. a16([ g)] f!4\fermata e
+    d r r2 %60
+    R1*5 %65
+    \time 2/4 \markTimeSig #'(2 4) r4 r8 f \bar "S-S" %66 finis
+  }
+}
+
+EinWasserSoliLyrics = \lyricmode {
+  Ein %10
+  Waſ -- ſer, das aus
+  trü -- ben Quel -- len pflegt
+  ſei -- ne Flu -- then
+  her -- zu -- ſtel -- len, laufft
+  nie -- mahls klar ins %15
+  Meer __ hi -- nein, laufft
+  nie -- mahls klar __ _
+  _ _ _ _ _
+  _ _ _ _ ins
+  Meer hi -- nein. %20
+
+  Ein Waſ -- ſer, %26
+  das aus trü -- ben
+  Quel -- len pflegt ſei -- ne
+  Flu -- then her -- zu --
+  ſtel -- len, laufft nie -- mahls %30
+  klar, laufft nie -- mahls
+  klar ins Meer hi --
+  nein, laufft nie -- mahls
+  klar __ _ _ _ _
+  _ _ _ _ _ %35
+  _ ins Meer hi --
+  nein. Ein Waſ -- ſer,
+  das aus trü -- ben
+  Quel -- len pflegt ſei -- ne
+  Flu -- then her -- zu -- %40
+  ſtel -- len, laufft nie --
+  mahls klar ins
+  Meer hi -- nein.
+
+  Wie will es %52
+  al -- ſo hier auff
+  Er -- den nah mit euch
+  bey -- den Brü -- dern %55
+  wer -- den, wenn die -- ſes
+  ſoll der An -- fang
+  seyn, wenn die -- ſes
+  ſoll der An -- fang
+  seyn? %60 finis
+}

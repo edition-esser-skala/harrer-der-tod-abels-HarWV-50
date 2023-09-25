@@ -745,3 +745,146 @@ WasFehletBassFigures = \figuremode {
   r2 <_->
   <4\+ 2> <_+>4 <_!> %32 finis
 }
+
+EinWasserBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \tempoEinWasser
+      \set Staff.timeSignatureFraction = 4/4
+    \partial 8 r8 r \mvTr b\fE-\soloE b' a g f es d
+    c b a g f f' r4
+    r8 f a g f es d c
+    b a g f b b b b
+    es es es es es es es es %5
+    d d a b f' f, r4
+    f'8 f f f f f f f
+    f\p f f f f f f f
+    f16\f es d c b a g f b4 r8 es \noBreak
+    f4 f, b r \bar "S-S" %10
+    r8 b\p b' a g f es d \noBreak
+    c b a g f f' r4
+    r8 f a g f es d c
+    b a g f b b b b
+    b b b b b b b b %15
+    a a e' f c c c c
+    c c c c c c c c
+    c c c c c c c c
+    c16\f d e f g a b c d c b a g f e d
+    c2\fermata r8 f,\ff f' e %20
+    d c b a g f e d
+    c c' r4 r8 c e d
+    c b a g f e d c
+    f f f f f16 f' e d c b a g
+    f4 r8 b c4 c, %25
+    f r r8 b\p b' a
+    g f es! d c b a g
+    f f' r4 r8 f a g
+    fis c' a g fis d e fis
+    g g, g' f e e e e %30
+    f f f es d d d d
+    es es es es e e e e
+    f f, f f f f f f
+    f f f f f f f f
+    f f f f f16\f g a b c d es f %35
+    g-! g( f es) d c b es f8 f f f
+    b f b, r r f\pE f' c
+    a c a g f a c f
+    b, b b r r b d f
+    b b, b' a g g g g %40
+    f f f f es! es es es
+    es es es es d16(\f c) b( c) d( b) es( c)
+    f2\fermata r8 b,\ff b' a
+    g f es d c b a g
+    f f' r4 r8 f a g %45
+    f es d c b a g f
+    b b b b es es es e
+    f f, r4 f'8 f f f
+    f f f f f\p f f f
+    f f f f f16\f es d c b a g f %50
+    b4 r8 es f4 f,
+    b r\fermata r8 g'\pE g, g'
+    fis e d c b b' fis d
+    g g, b d g d b g
+    f! a d f e e e d %55
+    a' a, a' g f d cis a
+    d f a g f e? f d
+    a' a, a' g f f f fis
+    g g g g a2\fermata
+    d,4 r r8 b\fE b' a %60
+    g f es d c b a g
+    f f' r4 f8 f f f
+    f f f f f f\p f f
+    f f f f f f\f f f
+    b,4 r8 es f4 f, %65
+    \time 2/4 \markTimeSig #'(2 4) b r \bar "S-S" %66 finis
+  }
+}
+
+EinWasserBassFigures = \figuremode {
+  r8 r <8 3>2.. \bassFigureExtendersOn
+  q4 q8 \bassFigureExtendersOff <5>16 <6!> r2
+  r8 <5 3>2.. \bassFigureExtendersOn
+  q4 q8 \bassFigureExtendersOff <7-> r2
+  r <4 2> %5
+  <6>4 <6 5> <6 4>8 <5 3>4.
+  <7 5>2 <6 4>
+  <7 5> <6 4>
+  <7 5>4.. \once \bassFigureExtendersOn q16 r4. <6>8
+  <6 4>4 <\t \t>8 <7 5> r2 %10
+  r8 <8 3>2.. \bassFigureExtendersOn
+  q4 q8 \bassFigureExtendersOff <5>16 <6!> r2
+  r8 <5 3>2.. \bassFigureExtendersOn
+  q4 q8 \bassFigureExtendersOff <7-> r2
+  r <4! 2> %15
+  <6>4 <6 5> <6 4>8 <5 _!>4.
+  <7 _!>2 <6 4>
+  <7 _!> <6 4>
+  <7 _!>4.. \bassFigureExtendersOn q16 <5 3>4.. q16 \bassFigureExtendersOff
+  <6 4>4 <5 _!>4. <8 3> \bassFigureExtendersOn %20
+  q2. q8 \bassFigureExtendersOff <5>16 <6!>
+  <_!>2 r8 <5 _!>4. \bassFigureExtendersOn
+  q2. q8 \bassFigureExtendersOff <7- _!>8
+  r1
+  r4. <6>8 <6 4>4 <\t \t>8 <5 _!> %25
+  r2 r8 <8 3>4. \bassFigureExtendersOn
+  q2. q8 \bassFigureExtendersOff <5>16 <6!>
+  r2 r8 <5 3>4. \bassFigureExtendersOn
+  q2.. q8 \bassFigureExtendersOff
+  r4. <6>8 <6 5>2 %30
+  r4. <\t>8 <6 5->2
+  r <6 5>
+  <_!> <7- 5>
+  <6 4> <7 5>
+  <6 4> <7 5> %35
+  <5>4 <6> <6 4> <5 3>
+  r2 r8 <5 3>4. \bassFigureExtendersOn
+  q q8 \bassFigureExtendersOff <7>2
+  r1
+  r2 <5>4. <\t>16 <6!> %40
+  r1
+  <4 2>2 <6>4. <5>8
+  <6 4>4 <5 3>4. <8 3> \bassFigureExtendersOn
+  q2. q8 \bassFigureExtendersOff <5>16 <6!>
+  r2 r8 <5 3>4. \bassFigureExtendersOn %45
+  q2. q8 \bassFigureExtendersOff <7->8
+  r2 <5>4. <6>8
+  r2 <7- 5>
+  <6 4> <7 5>
+  <6 4> <7 5> %50
+  r4. <6>8 <6 4>4 <\t \t>8 <5 3>
+  r1
+  <6>4. \once \bassFigureExtendersOn q8 <6>4 q
+  r4. <_+>8 r2
+  <6> <6\\>4. <_!>8 %55
+  <6 4> <5! _+>4 <\t \t>8 <6>4 <6 _!>
+  r <5! _+> <6>2
+  <5! 4>8 <\t _+>4 <\t \t>8 <6>4. <5!>8
+  r4. <6!>8 <6! 4>4 <5! _+>
+  r2 r8 <8 3>4. \bassFigureExtendersOn %60
+  q2. q8 \bassFigureExtendersOff <5>16 <6!>
+  r2 <7- 5>
+  <6 4> <7 5>
+  <6 4> <7 5>
+  r4. <6>8 <6 4>4 <\t \t>8 <5 3> %65
+  r2 %66 finis
+}

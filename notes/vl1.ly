@@ -247,3 +247,77 @@ IchBinEinViolinoI = {
     \appoggiatura h8 c4 r8 \bar "S-S" %181 finis
   }
 }
+
+EinWasserViolinoI = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoEinWasser
+      \set Staff.timeSignatureFraction = 4/4
+    \partial 8 f8\fE b b4 b b b8~
+    b b4 b8 a f r a16 b
+    c8 c4 c c c8~
+    c c4 es8 d b r f'
+    g g4 g8 a a4 a8 %5
+    b b, es d \appoggiatura d c4 r8 f,
+    es' es4 es8 d16 c b a g f es d
+    es'8\p es4 es8 d16 c b a g f es d
+    es'8\f es4 es8 d16 b' a g f es d c \noBreak
+    b4 \appoggiatura d8 c4\trill b8 b, r f'\p \bar "S-S" %10
+    b b4 b b b8~ \noBreak
+    b b4 b8 a f r a16( b)
+    c8 c4 c c c8~
+    c c4 es8 d b r b
+    d d4 d8 e e4 e8 %15
+    f f, b a \appoggiatura a g4 r8 g
+    e' e4 e8 f16 e d c b a g f
+    e'8 e4 e8 f16 e d c b a g f
+    b'8\f b4 b8 a a4 a8
+    a4\fermata r f8\ff f4 f8~ %20
+    f f4 f f f8
+    e c r e16 f g8 g4 g8~
+    g g4 g g b8
+    a f r c a' a4 a8~
+    a16 a g f e d c b a32( g f8.) \appoggiatura a'8 g4\trill %25
+    f8 f, r f\p b b4 b8~
+    b b4 b b b8
+    a f r a16 b c8 c4 c8~
+    c c4 c c c8
+    b g r g'16 a b8 b4 b8 %30
+    a a4 f16( g) as8 as4 as8
+    g g4 g16 a b8 b4 b8
+    a f r c16 d es!8 es4 es8
+    d16 c b a g f es d es'8 es4 es8
+    d16 c b a g f es d es'8\f es4 es8 %35
+    d d4 d8 d4 c\trill
+    b8 b, r d'\pE c c4 c8~
+    c c4 c8 es es4 es8
+    d b r f b b4 b8~
+    b b4 b b g8 %40
+    a f r f' g g4 g8
+    a a4 a8 b\f b4 b8
+    b4\fermata r b,8\ff b4 b8~
+    b b4 b b b8
+    a f r a16 b c8 c4 c8~ %45
+    c c4 c c es8
+    d b r f' g16 f es d c b a g
+    a g f8 r c'16 d es!8 es4 es8
+    d16 c b a g f es d es'8\p es4 es8
+    d16 c b a g f es d es'8\f es4 es8 %50
+    d16 b' a g f es d c b4 c\trill
+    b8 b, r\fermata d\p b' b4 b8
+    a a4 a8 g4 \appoggiatura b8 a4\trill
+    b16 a g8 r a' b b4 b8
+    a a4 a8 g g4 f!8 %55
+    \appoggiatura g16 f8 e r a, d4 e\trill
+    f cis d4. d8
+    e4 r8 a, d4. c'!8
+    b4. a16 g f!4\fermata r
+    r r8 f,\fE b b4 b8~ %60
+    b b4 b b b8
+    a16 g f8 r f es' es4 es8
+    d16 c b a g f es d es8 es4\p es'8
+    d16 c b a g f es d es8 es'4\f es8
+    d16 b' a g f es d c b4 \appoggiatura d8 c4\trill %65
+    \time 2/4 \markTimeSig #'(2 4) b8 b, r f'\p \bar "S-S" %66 finis
+  }
+}

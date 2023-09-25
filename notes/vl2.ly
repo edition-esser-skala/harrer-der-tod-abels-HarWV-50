@@ -249,3 +249,77 @@ IchBinEinViolinoII = {
     \appoggiatura d8 e4 r8 \bar "S-S" %181
   }
 }
+
+EinWasserViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoEinWasser
+      \set Staff.timeSignatureFraction = 4/4
+    \partial 8 r8 << { s16 d d s s d d s s d d s s d d s } \\ { d^(\fE \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) d^( \unHideNotes d) } >>
+    << { s16 d d s s d d_( e) } \\ { d^( \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) } >> f( c) d( e) f( e) f( g)
+    << { s16 a a s s a a s s a a s s a a s } \\ { a^( \hideNotes a) a^( \unHideNotes a) a^( \hideNotes a) a^( \unHideNotes a) a^( \hideNotes a) a^( \unHideNotes a) a^( \hideNotes a) a^( \unHideNotes a) } >>
+    << { s16 a a s } \\ { a^( \hideNotes a) a^( \unHideNotes a) } >> a( b) b( c) b b, d es f es f d
+    es f g a b c d es f, g a b c d es f %5
+    b, c d b c8 b \appoggiatura b a4 r8 a
+    c16 b a g f es d c b8 b4 b'8\p
+    c16 b a g f es d c b8 b4 b'8\f
+    c c4 c8 b16 g f es d g f es \noBreak
+    d8 b'4 a8 b b, r4 \bar "S-S" %10
+    << { s16 d d s s d d s s d d s s d d s } \\ { d^(\pE \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) d^( \unHideNotes d) } >> \noBreak
+    << { s16 d d s s d d_( e) } \\ { d^( \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) } >> f( c) d( e) f( e) f( g)
+    << { s16 a a s s a a s s a a s s a a s } \\ { a^( \hideNotes a) a^( \unHideNotes a) a^( \hideNotes a) a^( \unHideNotes a) a^( \hideNotes a) a^( \unHideNotes a) a^( \hideNotes a) a^( \unHideNotes a) } >>
+    << { s16 a a s } \\ { a^( \hideNotes a) a^( \unHideNotes a) } >> a( b) b( c) f,( b) a( g) f( es) d( c)
+    b( c) d( es) f( g) a( b) c,( d) e( f) g a b c %15
+    f, g a f g8 f \appoggiatura f e4 r8 e
+    b'16( a) g( f) e( d) c( b) a8 a4 a'8
+    b16 a g f e d c b a8 a4 a'8
+    e16\f f g a b c d e f e d c b a g f
+    f4\fermata r << { s16 a a s s a a s } \\ { a^(\ff \hideNotes a) a^( \unHideNotes a) a^( \hideNotes a) a^( \unHideNotes a) } >> %20
+    << { s16 a a s s a a s s a a s s a a( h) } \\ { a^( \hideNotes a) a^( \unHideNotes a) a^( \hideNotes a) a^( \unHideNotes a) a^( \hideNotes a) a^( \unHideNotes a) a^( \hideNotes a) } >>
+    c g a h c h c d << { s16 e e s s \hideAcc e e s } \\ { e^( \hideNotes e) e^( \unHideNotes e) e^( \hideNotes e) e^( \unHideNotes e) } >>
+    << { s16 \hideAcc e e s s \hideAcc e e s s \hideAcc e e s } \\ { e^( \hideNotes e) e^( \unHideNotes e) e^( \hideNotes e) e^( \unHideNotes e) e^( \hideNotes e) e^( \unHideNotes e) } >> \hideAcc e( f) f( g)
+    f8 c r a f' f4 f8~
+    f16 f e d c b a g a8 f'4 e8 %25
+    f f, r4 << { s16 d d s s d d s } \\ { d^(\p \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) d^( \unHideNotes d) } >>
+    << { s16 d d s s d d s s d d s s d d( e) } \\ { d^( \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) } >>
+    f c d e f e f g << { s16 a a s s a a s } \\ { a^( \hideNotes a) a^( \unHideNotes a) a^( \hideNotes a) a^( \unHideNotes a) } >>
+    << { s16 a a s s a a s s a a s s a a s } \\ { a^( \hideNotes a) a^( \unHideNotes a) a^( \hideNotes a) a^( \unHideNotes a) a^( \hideNotes a) a^( \unHideNotes a) a^( \hideNotes a) a^( \unHideNotes a) } >>
+    g( b,) b( c) d-! d( e f!) g( a) b( c) d( e) f( g) %30
+    c,( f) e( d) c( b) a( g) f( g) as( b) c( d) es( f)
+    b,( es) d( c) b( a) g( f) g( a) b( c) d( e) f( g)
+    f8 c r a16 b c b a g f es d c
+    b8 b4 b'8 c16 b a g f es d c
+    b8 b4 b8 a16\f b c d es f g a %35
+    b-! b( a g) f es d g f4 es\trill
+    d r8 b'\pE << { s16 a a s s a a s } \\ { a^( \hideNotes a) a^( \unHideNotes a) a^( \hideNotes a) a^( \unHideNotes a) } >>
+    << { s16 a a s s a a s s a a s s a a( c) } \\ { a^( \hideNotes a) a^( \unHideNotes a) a^( \hideNotes a) a^( \unHideNotes a) a^( \hideNotes a) a^( \unHideNotes a) a^( \hideNotes a) } >>
+    b8 f r f << { s16 d d s s d d s } \\ { d^( \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) d^( \unHideNotes d) } >>
+    << { s16 d d s s d d s s d d s s d d( e) } \\ { d^( \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) } >> %40
+    f( c) a( b) b( c) c( d) es( f) g( a) b( c) d( es)
+    f,( g) a( b) c( d) es( f) b,(\f c) d( es) f( d) g( es)
+    d4\fermata r << { s16 d, d s s d d s } \\ { d^(\ff \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) d^( \unHideNotes d) } >>
+    << { s16 d d s s d d s s d d s s d d( e) } \\ { d^( \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) } >>
+    f c d e f e f g << { s16 a a s s a a s } \\ { a^( \hideNotes a) a^( \unHideNotes a) a^( \hideNotes a) a^( \unHideNotes a) } >> %45
+    << { s16 a a s s a a s s a a s } \\ { a^( \hideNotes a) a^( \unHideNotes a) a^( \hideNotes a) a^( \unHideNotes a) a^( \hideNotes a) a^( \unHideNotes a) } >> a( b) b( c)
+    b8 f r f' g16 f es d c b a g
+    a g f8 r a16 b c b a g f es d c
+    b8 b4 b'8 c16\p b a g f es d c
+    b8 b4 b'8 c\f c4 c8 %50
+    b16 g f es d g f es d8 b'4 a8
+    b b, r4\fermata << { s16 d d s s d d s } \\ { d^(\p \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) d^( \unHideNotes d) } >>
+    << { s16 d d s s d d s s d d s s d d s } \\ { d^( \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) d^( \unHideNotes d) } >>
+    << { s16 d d s s d d s s d d s s d d s } \\ { d^( \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) d^( \unHideNotes d) } >>
+    << { s16 d d s s d d s } \\ { d^( \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) d^( \unHideNotes d) } >> d( cis) cis( h) h( cis) cis( d) %55
+    \appoggiatura e d8 cis r4 << { s16 a' a s s a a s } \\ { a^( \hideNotes a) a^( \unHideNotes a) a^( \hideNotes a) a^( \unHideNotes a) } >>
+    << { s16 a a s s a a s s a a s s a a( d) } \\ { a^( \hideNotes a) a^( \unHideNotes a) a^( \hideNotes a) a^( \unHideNotes a) a^( \hideNotes a) a^( \unHideNotes a) a^( \hideNotes a) } >>
+    \appoggiatura d8 cis4 r8 a a a a a'
+    g4. f16 e d4\fermata r
+    r2 << { s16 d, d s s d d s } \\ { d^(\fE \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) d^( \unHideNotes d) } >> %60
+    << { s16 d d s s d d s s d d s s d d( e) } \\ { d^( \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) d^( \unHideNotes d) d^( \hideNotes d) } >>
+    f4 r8 a16 b c b a g f es d c
+    b8 b4 b'8 c16\p b a g f es d c
+    b8 b4 b8 c c'4\f c8
+    b16 g f es d g f es d8 b'4 a8 %65
+    \time 2/4 \markTimeSig #'(2 4) b8 b, r4 \bar "S-S" %66 finis
+  }
+}
