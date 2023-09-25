@@ -111,84 +111,115 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.2" "Aria" "Ich bin ein Hirte"
+  %   \addTocLabel "ichbinein"
+  %   \paper { indent = 1.5\cm }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "fl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \IchBinEinFlautoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \IchBinEinFlautoII
+  %           }
+  %         >>
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "ob grande"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             % \transpose g c
+  %             \IchBinEinOboeGrandeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             % \transpose g c
+  %             \IchBinEinOboeGrandeII
+  %           }
+  %         >>
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "fag"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \IchBinEinFagottoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \IchBinEinFagottoII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \IchBinEinViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \IchBinEinViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \IchBinEinViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Abel"
+  %           \new Voice = "Soli" { \dynamicUp \IchBinEinSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \IchBinEinSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \IchBinEinBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \IchBinEinBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4. = 50 }
+  %   }
+  % }
   \bookpart {
-    \section "1.2" "Aria" "Ich bin ein Hirte"
-    \addTocLabel "ichbinein"
-    \paper { indent = 1.5\cm }
+    \section "1.3" "Recitativo" "Was fehlet, Cain, dir?"
+    % \addTocLabel "wasfehlet"
+    \paper {
+      system-system-spacing.basic-distance = #21
+      system-system-spacing.minimum-distance = #21
+      systems-per-page = #5
+    }
     \score { %\articulate
       <<
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "fl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \IchBinEinFlautoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \IchBinEinFlautoII
-            }
-          >>
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "ob grande"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              % \transpose g c
-              \IchBinEinOboeGrandeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              % \transpose g c
-              \IchBinEinOboeGrandeII
-            }
-          >>
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "fag"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \IchBinEinFagottoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \IchBinEinFagottoII
-            }
-          >>
-        >>
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \IchBinEinViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \IchBinEinViolinoII
-            }
-          >>
-          \new Staff {
-            \set Staff.instrumentName = "vla"
-            \IchBinEinViola
-          }
-        >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "Abel"
-            \new Voice = "Soli" { \dynamicUp \IchBinEinSoli }
+            \set Staff.instrumentName = \markup \center-column { "Cain" "Eva" }
+            \new Voice = "Soli" { \dynamicUp \WasFehletSoli }
           }
-          \new Lyrics \lyricsto Soli \IchBinEinSoliLyrics
+          \new Lyrics \lyricsto Soli \WasFehletSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
-            % \transpose c c,
-            \IchBinEinBassoContinuo
+            \transpose c c,
+            \WasFehletBassoContinuo
           }
         >>
-        \new FiguredBass { \IchBinEinBassFigures }
+        \new FiguredBass { \WasFehletBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 4. = 50 }
+      % \layout { }
+      \midi { \tempo 4 = 70 }
     }
   }
+
 }

@@ -18,6 +18,8 @@ tempoWunderbarer = \tempoMarkup "Grave"
   tempoWunderbarerC = \tempoMarkup "Lento"
   tempoWunderbarerD = \tempoMarkup "[Recitativo]"
 tempoIchBinEin = \tempoMarkup "Allegretto"
+tempoWasFehlet = \tempoMarkup "[Recitativo]"
+  tempoWasFehletB = \tempoMarkup "Adagio"
 
 
 \include "notes/fl1.ly"

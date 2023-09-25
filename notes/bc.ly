@@ -671,3 +671,77 @@ IchBinEinBassFigures = \figuremode {
   r8 <6 4> <7 5> %180
   <\t \t> <5>4 %181 finis
 }
+
+WasFehletBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoWasFehlet
+    fis1\pE
+    g~
+    g
+    f!~
+    f2 b,~ %5
+    b1~
+    b~
+    b2 es~
+    es1~
+    es2 f4 e~ %10
+    e1
+    cis2 d~
+    d e4 dis~
+    dis1
+    e~ %15
+    e
+    d!
+    dis
+    e
+    f!~ %20
+    f2 b,~
+    b es
+    f4 fis2.~
+    fis1
+    g %25
+    e!~
+    e2 f!~
+    f g4 c,~
+    c2 cis~
+    cis d~ %30
+    d g~
+    g a4 d,\fermata \bar "|." %32 finis
+  }
+}
+
+WasFehletBassFigures = \figuremode {
+  <6>1
+  <_->
+  r
+  r
+  r %5
+  r
+  <7->
+  r2 <5->
+  r1
+  <4! 2>2. <6>4 %10
+  r1
+  <6>1
+  <4\+ 2>2 <_+>4 <6 _+>
+  <5 \t>1
+  <_!> %15
+  <6\\>
+  <_+>
+  <6 _+>
+  <5>2 <6>
+  r1 %20
+  r1
+  r2 <5->4 <4! 2>
+  <6 4->8 <5 3> <6>2.
+  r1
+  <5 _->2 <6- \t> %25
+  <6>1
+  <5->2 <_->
+  r4 <4! 2> <_!> q
+  r2 <6>
+  r1 %30
+  r2 <_->
+  <4\+ 2> <_+>4 <_!> %32 finis
+}

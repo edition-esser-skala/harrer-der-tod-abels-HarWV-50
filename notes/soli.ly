@@ -425,3 +425,77 @@ IchBinEinSoliLyrics = \lyricmode {
   zärt -- lich %170
   pflegt. %171 finis
 }
+
+WasFehletSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoWasFehlet
+    r4^\Eva r8 a' d d d a
+    b4 r8 d, g g g a
+    b4 r8 g b b b c
+    a4 r16 c c a f!4 r8 f
+    c' c d es d4 r16 f, b a %5
+    b4 r8 f f f as g
+    as as r as c as as g
+    f4 r16 f g as g8 g \clef bass r^\Cain g,
+    b g g f es?4 r8 es
+    a! a a b f4 \clef treble r8^\Eva c'' %10
+    c g g r16 g g8 a b16 b c b
+    \appoggiatura b8 a4 \clef bass e,8^\Cain a16 g f4 r8 d
+    gis8. gis16 gis8 a e e \clef treble r^\Eva fis'
+    a a a h c! r16 c c8 h
+    g! g r16 e g a h4 r16 h e d! %15
+    cis8 cis r16 cis cis d e8. a,16 g! g g fis
+    a8 a r fis a a c h
+    h4 r8 h a a h a
+    g4 r8 c c g b16 b b c
+    a4 r8 f! a16 a a b c8 c %20
+    f c d es d d r16 b? d c
+    b8 b as b g4 r16 es' a,? b
+    b8 f r4 d'8 a16 a a8 g
+    a4 r8 a a b c b
+    b b r b es b b16 b c des %25
+    c8 c r g g as b b
+    b b c b as as r f
+    as16 as g f h8. c16 g8 g \tempoWasFehletB r g
+    e!4 b'8 b16 a g4 r8 g
+    a a g a \appoggiatura g f4 r8 a %30
+    d d d c! b4 r8 g
+    cis8. cis16 cis8 d a4 r\fermata \bar "|." %32 finis
+  }
+}
+
+WasFehletSoliLyrics = \lyricmode {
+  Was feh -- let, Ca -- in,
+  dir? Du ſiehſt ja ſo zer --
+  ſtöhrt in dei -- nen Au -- gen
+  aus. Ent -- deck es mir und
+  ſag es frey he -- raus. Du re -- deſt %5
+  nichts und ſchlägſt die Au -- gen --
+  lie -- der voll Un -- muth und Ver --
+  druß zur Er -- de nie -- der. Es
+  geht mir nicht dar -- nach, daß
+  ich kan fröh -- lich ſeyn. Wie %10
+  ſol -- le dich des Bru -- ders Eh -- re nicht er --
+  freun! Die e -- ben iſts, die
+  mich em -- pfind -- lich krän -- ket. Iſts
+  mög -- lich, daß dein Herz ſo ü -- bel
+  den -- ket, ſo läßt du dich denn des ver -- %15
+  drie -- ßen, was wir vor Got -- tes Gna -- de ſchüt -- zen
+  müſ -- ſen? Dies iſt des Schöpf -- fers
+  Art, der iſt ein Scha -- den --
+  froh. Mein Ca -- in, haa -- der doch nicht
+  ſo. Wir müſ -- ſen un -- ſern Näch -- ſten %20
+  ja was Gu -- tes gön -- nen, weil wir der --
+  glei -- chen al -- le -- wohl auch hof -- fen
+  kön -- nen. Reiß die -- ſes Un -- kraut
+  aus, eh es auf Wur -- zel
+  faſ -- ſet. Wenn Ca -- in ſei -- nen Bru -- der %25
+  haſ -- ſet, ſo wird ſich täg -- lich
+  et -- was an -- dres fin -- den, wo --
+  rauff er ſei -- nen Haß kann grün -- den. Mein
+  Sohn, ach thu mir doch ſolch
+  Her -- ze -- leid nicht an, da -- %30
+  raus noch mit der Zeit was
+  är -- gers kom -- men kan. %32 finis
+}
