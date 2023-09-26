@@ -888,3 +888,56 @@ EinWasserBassFigures = \figuremode {
   r4. <6>8 <6 4>4 <\t \t>8 <5 3> %65
   r2 %66 finis
 }
+
+SoSollDerBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoSoSollDer
+      \set Staff.timeSignatureFraction = 4/4
+    h!1~\pE
+    h
+    c2 as~
+    as g~
+    g1~ %5
+    g2 c~
+    c a!~
+    a1
+    b~
+    b %10
+    a4 b2.~
+    b1
+    es
+    e
+    f~ %15
+    f2 es~
+    es d~
+    d1
+    es~
+    es %20
+    \time 2/4 \markTimeSig #'(2 4) f4 b,\fermata \bar "|." %21 finis
+  }
+}
+
+SoSollDerBassFigures = \figuremode {
+  <6>1
+  r
+  <_->2 <6>
+  r <_!>
+  r1 %5
+  r2 q
+  r <6>
+  r1
+  <5>2 <6>
+  r <4\+ 2> %10
+  <6 4>8 <5 _+> <5>2.
+  <7->1
+  r
+  <6>
+  <_-> %15
+  <4! 2>2 <6>
+  <4! 2> <6->
+  <6- 5->1
+  <5->
+  r2 <4! 2> %20
+  r %21 finis
+}

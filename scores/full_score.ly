@@ -193,7 +193,7 @@
   % }
   % \bookpart {
   %   \section "1.3" "Recitativo" "Was fehlet, Cain, dir?"
-  %   % \addTocLabel "wasfehlet"
+  %   \addTocLabel "wasfehlet"
   %   \paper {
   %     system-system-spacing.basic-distance = #21
   %     system-system-spacing.minimum-distance = #21
@@ -211,79 +211,109 @@
   %       \new StaffGroup <<
   %         \new Staff {
   %           \set Staff.instrumentName = "bc"
-  %           \transpose c c,
+  %           % \transpose c c,
   %           \WasFehletBassoContinuo
   %         }
   %       >>
   %       \new FiguredBass { \WasFehletBassFigures }
   %     >>
-  %     % \layout { }
+  %     \layout { }
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.4" "Aria" "Ein Waßer, das aus trüben Quellen"
+  %   \addTocLabel "einwasser"
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     systems-per-page = #2
+  %     page-count = #10
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \EinWasserOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \EinWasserOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup<<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \EinWasserViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \EinWasserViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \EinWasserViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Eva"
+  %           \new Voice = "Soli" { \dynamicUp \EinWasserSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \EinWasserSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \EinWasserBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \EinWasserBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 120 }
+  %   }
+  % }
   \bookpart {
-    \section "1.4" "Aria" "Ein Waßer, das aus trüben Quellen"
-    \addTocLabel "einwasser"
+    \section "1.5" "Recitativo" "So ſoll der junge Bruder"
+    \addTocLabel "sosollder"
     \paper {
-      top-system-spacing.basic-distance = #10
-      top-system-spacing.minimum-distance = #10
-      top-markup-spacing.basic-distance = #0
-      top-markup-spacing.minimum-distance = #0
-      markup-system-spacing.basic-distance = #10
-      markup-system-spacing.minimum-distance = #10
-      systems-per-page = #2
-      page-count = #10
+      system-system-spacing.basic-distance = #18
+      system-system-spacing.minimum-distance = #18
+      systems-per-page = #6
     }
     \score { %\articulate
       <<
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \EinWasserOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \EinWasserOboeII
-            }
-          >>
-        >>
-        \new StaffGroup<<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \EinWasserViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \EinWasserViolinoII
-            }
-          >>
+        \new ChoirStaff \with { \smallGroupDistance } <<
           \new Staff {
-            \set Staff.instrumentName = "vla"
-            \EinWasserViola
+            \set Staff.instrumentName = "Cain"
+            \new Voice = "Soli" { \dynamicUp \SoSollDerSoli }
           }
-        >>
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "Eva"
-            \new Voice = "Soli" { \dynamicUp \EinWasserSoli }
-          }
-          \new Lyrics \lyricsto Soli \EinWasserSoliLyrics
+          \new Lyrics \lyricsto Soli \SoSollDerSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \EinWasserBassoContinuo
+            \SoSollDerBassoContinuo
           }
         >>
-        \new FiguredBass { \EinWasserBassFigures }
+        \new FiguredBass { \SoSollDerBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 120 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }

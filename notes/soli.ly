@@ -593,3 +593,56 @@ EinWasserSoliLyrics = \lyricmode {
   ſoll der An -- fang
   seyn? %60 finis
 }
+
+SoSollDerSoli = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoSoSollDer
+      \set Staff.timeSignatureFraction = 4/4
+    r8 g' g d d es f es
+    f r16 g as8. g16 f8 f g d
+    es4 r16 es d c f4 r8 f
+    f f as c, d d r d'
+    h! h h a g4 r8 d %5
+    d e! f8. g16 e!8 e r4
+    c'8 g16 g b16. b32 b16 a \appoggiatura g8 f4 r8 c
+    f e f4 r8 f c'8. es,16
+    d8 d r d g g b a
+    g4 r8 g cis8. cis16 cis8 d %10
+    d a r16 b, d es f8 g as8. g16
+    as4 r8 as g f b as
+    g g r g g g c h
+    c g r16 g g as b8 b b as
+    f4 r16 f f g as4 r8 f %15
+    h! h h c g g r16 g c b
+    a!8 r16 a a8 b b f r16 f f g
+    as16. as32 as8 r f b b as b
+    g4 r8 g as8. b16 b8 g
+    \appoggiatura f es4 r8 c' a8. a16 a8 b %20
+    \time 2/4 \markTimeSig #'(2 4) f4 r\fermata \bar "|." %21 finis
+  }
+}
+
+SoSollDerSoliLyrics = \lyricmode {
+  So ſoll der jun -- ge Bru -- der
+  denn viel -- mehr als ich der Äl -- tre
+  ſeyn, und ich da -- bey ganz
+  un -- em -- pfind -- lich blei -- ben, daß
+  hei -- ßet die Ge -- duld auffs %5
+  al -- ler -- höch -- ſte trei -- ben.
+  Er hat die Eh -- re nur al -- lein, ich
+  a -- ber nichts als Schimpff und
+  Schan -- de, und nie -- mand kla -- get
+  mich in ſo be -- trüb -- tem %10
+  Stan -- de. Ja fang ichs noch ſo li -- ſtig
+  an und will ihn nur be --
+  drü -- cken, muß ſich doch et -- was
+  ſchi -- cken, daß ich auch an ihn kom -- men
+  kan, da -- durch wird er von %15
+  Zeit zu Zei -- ten grö -- ßer, al -- lein mit
+  mir wirds nie -- mahls be -- ßer. Es wächſt ſein
+  Ü -- ber -- muth, in den ich mit Be --
+  druß, der kaum zu dul -- den
+  ist, doch al -- les lei -- den %20
+  muß. %21 finis
+}

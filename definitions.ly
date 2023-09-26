@@ -22,6 +22,7 @@ tempoIchBinEin = \tempoMarkup "Allegretto"
 tempoWasFehlet = \tempoMarkup "[Recitativo]"
   tempoWasFehletB = \tempoMarkup "Adagio"
 tempoEinWasser = \tempoMarkup "Allegro"
+tempoSoSollDer = \tempoMarkup "[Recitativo]"
 
 
 \include "notes/fl1.ly"
