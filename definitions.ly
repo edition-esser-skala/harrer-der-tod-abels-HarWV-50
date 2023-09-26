@@ -12,6 +12,11 @@ Eva = \markup \remark "Eva"
 forceClef = \set Staff.forceClef = ##t
 hideAcc = \once \override Accidental.stencil = ##f
 
+markSegnoRec = {
+  \once \override Score.RehearsalMark.self-alignment-X = #LEFT
+  \mark \markup \remark { \hspace #-.5 \musicglyph "scripts.segno" \hspace #.5 \left-column { "a questo segno s’entra" "nel Recit[ativo]" } }
+}
+
 
 tempoIntro = \tempoMarkup "[Tempo deest]"
 tempoWunderbarer = \tempoMarkup "Grave"
@@ -23,6 +28,7 @@ tempoWasFehlet = \tempoMarkup "[Recitativo]"
   tempoWasFehletB = \tempoMarkup "Adagio"
 tempoEinWasser = \tempoMarkup "Allegro"
 tempoSoSollDer = \tempoMarkup "[Recitativo]"
+tempoIchLebeNur = \tempoMarkup "Allegro non troppo"
 
 
 \include "notes/fl1.ly"

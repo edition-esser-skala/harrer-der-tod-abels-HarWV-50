@@ -286,34 +286,98 @@
   %     \midi { \tempo 4 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.5" "Recitativo" "So ſoll der junge Bruder"
+  %   \addTocLabel "sosollder"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #18
+  %     system-system-spacing.minimum-distance = #18
+  %     systems-per-page = #6
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new ChoirStaff \with { \smallGroupDistance } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Cain"
+  %           \new Voice = "Soli" { \dynamicUp \SoSollDerSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \SoSollDerSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \SoSollDerBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \SoSollDerBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "1.5" "Recitativo" "So ſoll der junge Bruder"
-    \addTocLabel "sosollder"
+    \section "1.6" "Aria" "Ich lebe nur ſelber zur Marter und leide"
+    \addTocLabel "ichlebenur"
     \paper {
-      system-system-spacing.basic-distance = #18
-      system-system-spacing.minimum-distance = #18
-      systems-per-page = #6
+      top-system-spacing.basic-distance = #10
+      top-system-spacing.minimum-distance = #10
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #10
+      markup-system-spacing.minimum-distance = #10
+      systems-per-page = #2
     }
     \score { %\articulate
       <<
-        \new ChoirStaff \with { \smallGroupDistance } <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \IchLebeNurOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \IchLebeNurOboeII
+            }
+          >>
+        >>
+        \new StaffGroup<<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \IchLebeNurViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \IchLebeNurViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "vla"
+            \IchLebeNurViola
+          }
+        >>
+        \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "Cain"
-            \new Voice = "Soli" { \dynamicUp \SoSollDerSoli }
+            \new Voice = "Soli" { \dynamicUp \IchLebeNurSoli }
           }
-          \new Lyrics \lyricsto Soli \SoSollDerSoliLyrics
+          \new Lyrics \lyricsto Soli \IchLebeNurSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \SoSollDerBassoContinuo
+            \IchLebeNurBassoContinuo
           }
         >>
-        \new FiguredBass { \SoSollDerBassFigures }
+        \new FiguredBass { \IchLebeNurBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4. = 72 }
     }
   }
 }

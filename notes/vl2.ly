@@ -323,3 +323,172 @@ EinWasserViolinoII = {
     \time 2/4 \markTimeSig #'(2 4) b8 b, r4 \bar "S-S" %66 finis
   }
 }
+
+IchLebeNurViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 3/8 \tempoIchLebeNur
+    \partial 8 g'8\fE d' d d16( es)
+    d8 d d
+    g g16 a g8
+    fis[ d] d,\p
+    g g \once \slurDashed g16( a) %5
+    g8 g g
+    g'\f g16 a g8
+    fis[ d] d
+    f16 d' f, d' f, d'
+    f,\mf d' f, d' f, d' %10
+    f,\f d' f, d' f, d'
+    es, c' es, c' es, c'
+    es, c' es, c' es, c'
+    es, c' es, c' es, c'
+    es, c' es, c' es, c' %15
+    d, b' d, b' d, b'
+    d, b' d, b' d, b'
+    c, a' c, a' c, a'
+    c, a' c, a' c, a'
+    b, g' b, g' b, g' %20
+    c, a' c, a' c, a'
+    b, es d c b a
+    b d c b a g
+    d'8[ d,] d'
+    es!( cis) cis-! %25
+    d( h) h-!
+    c!( a) a-!
+    b!( g) g-!
+    as( fis) fis-!
+    g16 f es d c b %30
+    c8 a! d \noBreak
+    g,4 g'8\p \bar "S-S"
+    d' d d16( es) \noBreak
+    d8 d d
+    g g16 a g8 %35
+    fis[ d] d,
+    g g g16( a)
+    g8 g g
+    g' g16 a g8
+    fis[ d] d %40
+    f16 d' f, d' f, d'
+    f,\f d' f, d' f, d'
+    f,\p d' f, d' f, d'
+    es, c' es, c' es, c'
+    es, c' es, c' es, c' %45
+    es,\f c' es, c' es, c'
+    es,\p c' es, c' es, c'
+    d,8[ b] b
+    des( b) b-!
+    b( ges) ges-! %50
+    ges( e) e-!
+    f4 f8\mf
+    f f b
+    \appoggiatura b a4 f8\p
+    g!( es!) es-! %55
+    f[ d!] e\f
+    f4\fermata r8
+    f'\ff f \once \slurDashed f16( g)
+    f8 f f
+    as as16 b as8 %60
+    g es b
+    g'16 f es d c b
+    a! g' f es d c
+    b8 a4\trill
+    b g8\p %65
+    d' d \once \slurDashed d16( es)
+    d8 d \once \slurDashed d16( es)
+    d8 d d
+    es[ c] g
+    c c c16( d) %70
+    c8 c c16( d)
+    c8 c c
+    d[ b] d
+    d16 b' d, b' d, b'
+    d, b' d, b' d, b' %75
+    d, b' d, b' d, b'
+    c, a' c, a' c, a'
+    c, a' c, a' c, a'
+    c, a' c, a' c, a'
+    c, a' c, a' c, a' %80
+    b,8[ g] d'
+    d( b) b-!
+    b( g) g-!
+    \once \slurDashed g( es!) cis-\parenthesize-!
+    d4 d'8\mf %85
+    d d g
+    \appoggiatura g fis4 d8\p
+    es!( cis) cis-!
+    d( h) h-!
+    c!\f a d %90
+    g, r\fermata g\p
+    f!16 d' f, d' f, d'
+    f, d' f, d' f, d'
+    f,\mf d' f, d' f, d'
+    es,8[\p c] g' %95
+    g16 e' g, e' g, e'
+    g, e' g, e' g, e'
+    g,\f e' g, e' g, e'
+    d8[ d,] d'\p
+    es!( cis) cis-! %100
+    d[ b!] c\f
+    d4\fermata r8
+    d\ff d \once \slurDashed d16( es)
+    d8 d d
+    f! f16 g f8 %105
+    es[ c] c
+    c c c16( d)
+    c8 c c
+    es es16 f es8
+    d[ b] d %110
+    d16 b' d, b' d, b'
+    c, a' c, a' c, a'
+    c, a' c, a' c, a'
+    b, g' b, g' b, g'
+    b, g' b, g' b, g' %115
+    fis es? d c b a
+    b d c b a g
+    d'8[ d,] d'
+    es!( cis) cis-!
+    d( h) h-! %120
+    c!( a) a-!
+    b!( g) g-!
+    as( fis) fis-!
+    g16 f es d c b
+    c8 a! d \markSegnoRec %125
+    g,4\fermata g'8\p
+    d' d d16( es)
+    d8 d d
+    g\mf h, h16( d)
+    c8[ c] c\p %130
+    c c c16( d)
+    c8 c c
+    f a, a16( c)
+    b8[ b] b
+    b b b16( c) %135
+    b8 b b
+    b b b
+    a[ a] a
+    d d \once \slurDashed d16( e?)
+    d8 d d %140
+    d d d
+    cis[ a] a
+    d( b!) b-!
+    b( g) g-!
+    a4\fermata r8 %145
+    r r d,\fE
+    d' d d16( es!)
+    d8 d d
+    f! f16 g f8
+    es[ c] c %150
+    e e \once \slurDashed e16( f)
+    e8 e e
+    g g16 a g8
+    fis[ d] d
+    es!( c!) c-! %155
+    d( b) b-!
+    c( a) a-!
+    b( g) g-!
+    as( fis) fis-!
+    g16 f es d c b %160
+    c8 a! d
+    g,4 g'8\p \bar "S-S" %162 finis
+  }
+}

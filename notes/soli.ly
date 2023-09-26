@@ -646,3 +646,194 @@ SoSollDerSoliLyrics = \lyricmode {
   ist, doch al -- les lei -- den %20
   muß. %21 finis
 }
+
+IchLebeNurSoli = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 3/8 \autoBeamOff \tempoIchLebeNur
+    \partial 8 r8 R4.*31 \noBreak %31
+    r8 r g'\pE^\soloE \bar "S-S"
+    b a g
+    b a g
+    es' d cis %35
+    d d, c'
+    b a g
+    b a g
+    es' d cis
+    d d, c' %40
+    h a g
+    d' c h
+    h a g
+    c c, b'
+    a g f %45
+    c' b a
+    a g f
+    b b, b'
+    des b b
+    b ges ges %50
+    ges e e
+    f4 f8
+    f des b
+    f'4 f8
+    g! es es %55
+    f d! e
+    f\fermata es f
+    b,4 r8
+    R4.*6 %64
+    r8 r g' %65
+    b a g
+    b a g
+    h a g
+    c c, b'
+    a g f %70
+    a g f
+    a g f
+    b b, a'
+    g f es
+    b' a g %75
+    g f es
+    a a, g'
+    fis e d
+    a' g fis
+    fis e d %80
+    g g, d''
+    d b b
+    b g g
+    g es! cis
+    d4 d'8 %85
+    d b g
+    d'4 d8
+    es! cis cis
+    d h h
+    c! a d %90
+    g, r\fermata g
+    h a g
+    h a g
+    h a g
+    c c, c' %95
+    cis h a
+    cis h a
+    cis h a
+    d d, d'
+    es! cis cis %100
+    d b! c
+    d\fermata d, d
+    g4 r8
+    R4.*22 \markSegnoRec %125
+    r8\fermata r g
+    b a g
+    b a g
+    g g f!
+    es c c' %130
+    a g f
+    a g f
+    f f es
+    d b b'
+    g f e %135
+    g f e
+    e e d
+    cis a a'
+    f e d
+    f e d %140
+    b'! a gis
+    a a, a'
+    d b b
+    b g g
+    a\fermata g a %145
+    d,4 r8
+    R4.*15 %161
+    r8 r g \bar "S-S" %162 finis
+  }
+}
+
+IchLebeNurSoliLyrics = \lyricmode {
+  Ich %32
+  le -- be nur
+  ſel -- ber zur
+  Mar -- ter und %35
+  lei -- de, in --
+  dem ich den
+  Wohl -- ſtand des
+  A -- bels be --
+  nei -- de. Ich %40
+  ra -- ſe bey
+  tau -- ſend ver --
+  drieß -- li -- chen
+  Quä -- len, die
+  Miß -- gunſt ver -- %45
+  zeh -- ret die
+  Kräff -- te der
+  See -- len, er
+  iſt mir zu --
+  wi -- der, ich %50
+  weiß nicht wa --
+  rum, ich
+  weiß nicht wa --
+  rum, er
+  iſt mir zu -- %55
+  wi -- der, ich
+  weiß nicht wa --
+  rum.
+
+  Ich %65
+  le -- be nur
+  ſel -- ber zur
+  Mar -- ter und
+  lei -- de, in --
+  dem ich den %70
+  Wohl -- ſtand des
+  A -- bels be --
+  nei -- de. Ich
+  ra -- ſe bey
+  tau -- ſend ver -- %75
+  drieß -- li -- chen
+  Quä -- len, die
+  Miß -- gunſt ver --
+  zeh -- ret die
+  Kräff -- te der %80
+  See -- len, er
+  iſt mir zu --
+  wi -- der, ich
+  weiß nicht wa --
+  rum, ich %85
+  weiß nicht wa --
+  rum, er
+  iſt mir zu --
+  wi -- der, ich
+  weiß nicht wa -- %90
+  rum. Ich
+  ra -- ſe bey
+  tau -- ſend ver --
+  drieß -- li -- chen
+  Quä -- len, die %95
+  Miß -- gunſt ver --
+  zeh -- ret die
+  Kräff -- te der
+  See -- len, er
+  iſt mir zu -- %100
+  wi -- der, ich
+  weiß nicht wa --
+  rum.
+
+  Ja %126
+  will ich die
+  Ur -- ſach des
+  Haſ -- ſes er --
+  grün -- den, ſo %130
+  ſuch ich ſie
+  ſtünd -- lich und
+  kan ſie nicht
+  fin -- den, in --
+  deſ -- ſen ſo %135
+  wäch -- ſet der
+  Ei -- fer im
+  Her -- zen, und
+  wollt ich, und
+  könnt ich gleich %140
+  al -- les ver --
+  ſchmer -- tzen, ſo
+  iſt es ver --
+  ge -- bens, und
+  lohnt mir nicht %145
+  drum. %146 finis
+}

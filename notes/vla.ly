@@ -314,3 +314,172 @@ EinWasserViola = {
     \time 2/4 \markTimeSig #'(2 4) d r \bar "S-S" %66 finis
   }
 }
+
+IchLebeNurViola = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 3/8 \tempoIchLebeNur
+    \partial 8 g'8\fE g a b
+    g a b
+    b b a
+    a[ fis] fis\pE
+    d c b %5
+    d c b
+    b\fE b' a
+    a[ fis] fis
+    d' c h
+    h\mf c d %10
+    g,\fE a h
+    g g g
+    c b! a
+    a b c
+    f, g a %15
+    f f f
+    g g g
+    es es es
+    d e fis
+    d d d %20
+    d e fis
+    d b r
+    d g c,
+    d4 d'8
+    es!( cis) cis-! %25
+    d( h) h-!
+    c!( a) a-!
+    b!( g) g-!
+    as( fis) fis-!
+    g16 f es d c b %30
+    c8 a! d \noBreak
+    g,4 g'8\p \bar "S-S"
+    g a b \noBreak
+    g a b
+    b b a %35
+    a[ fis] fis
+    d c b
+    d c b
+    b b' a
+    a[ fis] fis %40
+    d' c h
+    h\f c d
+    d\p c h
+    g g g
+    c b! a %45
+    a\f b c
+    c\pE b a
+    f4 b8
+    des( b) b-!
+    b( ges) ges-! %50
+    ges( e) e-!
+    f4 f8\mf
+    f f f
+    f4 f8\pE
+    g!( es!) es-! %55
+    f[ d!] e\fE
+    f4\fermata r8
+    d\ffE f es!
+    d d d
+    c c f %60
+    b, b b
+    b b b
+    c c c
+    f g f
+    d4 g8\p %65
+    g a b
+    g a b
+    g a h
+    g[ es] es
+    f g a %70
+    f g a
+    f g a
+    f[ d] f
+    g g g
+    g g g %75
+    g f es
+    a a a
+    d, e fis
+    fis g a
+    d, e fis %80
+    d[ b] d'
+    d( b) b-!
+    b( g) g-!
+    g( es!) cis-!
+    d4 d'8\mf %85
+    d d d
+    d4 d8\p
+    es!( cis) cis-!
+    d( h) h-!
+    c!\f a d %90
+    g, r\fermata g\pE
+    d c h
+    d c h
+    d\mf c h
+    c4\p c8 %95
+    e d cis
+    e d cis
+    e\f d cis
+    d4 d'8\p
+    es!( cis) cis-! %100
+    d[ b!] c\f
+    d4\fermata r8
+    b\ff g g
+    g a b
+    h c d %105
+    g,[ es] es
+    f g a
+    f g a
+    a b! c
+    f,[ d] d %110
+    g f es
+    a4 a8
+    d, e fis
+    d d d
+    g4 es!8 %115
+    d4 fis8
+    d g c,
+    d4 d'8
+    es!( cis) cis-!
+    d( h) h-! %120
+    c!( a) a-!
+    b!( g) g-!
+    as( fis) fis-!
+    g16 f es d c b
+    c8 a! d \markSegnoRec %125
+    g,4\fermata g'8\p
+    g a b
+    g g g
+    h,\mfE d d
+    g[ es] es\pE %130
+    f g a
+    f g a
+    a, c c
+    f[ d] d
+    b' a g %135
+    b a g
+    g g f!
+    e?[ cis] e
+    a g f
+    a g f %140
+    f f f
+    e?4 a8
+    d( b!) b-!
+    b( g) g-!
+    a4\fermata r8 %145
+    d,4 r8
+    g\fE a h
+    g a h
+    h c d
+    g,[ g] g %150
+    a h cis
+    a h cis
+    cis d e
+    a,[ fis] d'
+    es!( c!) c-! %155
+    d( b) b-!
+    c( a) a-!
+    b( g) g-!
+    as( fis) fis-!
+    g16 f es d c b %160
+    c8 a! d
+    g,4 g'8\p \bar "S-S" %162 finis
+  }
+}

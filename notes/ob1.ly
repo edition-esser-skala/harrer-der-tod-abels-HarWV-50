@@ -77,3 +77,99 @@ EinWasserOboeI = {
     \time 2/4 \markTimeSig #'(2 4) b r \bar "S-S" %66 finis
   }
 }
+
+IchLebeNurOboeI = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 3/8 \tempoIchLebeNur
+    \partial 8 g'8\fE d' d d16( es)
+    d8 d d
+    g g16 a g8
+    fis[ d] d,\p
+    g g \once \slurDashed g16( a) %5
+    g8 g g
+    g'\f g16 a g8
+    fis[ d] d
+    f4.~
+    f~\mfE %10
+    f\mfE
+    es~
+    es~
+    es~
+    es %15
+    d~
+    d
+    c~
+    c
+    b %20
+    c
+    b16 es d c b a
+    b d c b a g
+    d'8[ d,] d'
+    es!( cis) cis-! %25
+    d( h) h-!
+    c!( a) a-!
+    b!( g) g-!
+    as( fis) fis-!
+    g4 r8 %30
+    c8 a! d \noBreak
+    g,4 r8 \bar "S-S"
+    R4.*24 %56
+    R4.\fermata
+    f'8\ffE f \once \slurDashed f16( g)
+    f8 f f
+    as^\critnote as16 b as8 %60
+    g es b
+    g'16 f es d c b
+    a! g' f es d c
+    b8 c4\trill
+    b r8 %65
+    R4.*25 %90
+    R4.\fermata
+    R4.*10 %101
+    R4.\fermata
+    d8\ffE d d16( es)
+    d8 d d
+    f! f16 g f8 %105
+    es[ c] c
+    c c c16( d)
+    c8 c c
+    es es16 f es8
+    d[ b] d %110
+    d4.
+    c~
+    c
+    b~
+    b %115
+    a
+    b16 d c b a g
+    d'8[ d,] d'
+    es!( cis) cis-!
+    d( h) h-! %120
+    c!( a) a-!
+    b!( g) g-!
+    as( fis) fis-!
+    g4 r8
+    c8 a! d \markSegnoRec %125
+    g,4\fermata r8
+    R4.*18 %144
+    R4.\fermata %145
+    r8 r d\fE
+    d' d d16( es!)
+    d8 d d
+    f! f16 g f8
+    es[ c] c %150
+    e e \once \slurDashed e16( f)
+    e8 e e
+    g g16 a g8
+    fis[ d] d
+    es!( c!) c-! %155
+    d( b) b-!
+    c( a) a-!
+    b( g) g-!
+    as( fis) fis-!
+    g4 r8 %160
+    c8 a! d
+    g,4 r8 \bar "S-S" %162 finis
+  }
+}

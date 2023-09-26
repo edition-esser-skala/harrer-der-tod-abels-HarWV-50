@@ -941,3 +941,337 @@ SoSollDerBassFigures = \figuremode {
   r2 <4! 2> %20
   r %21 finis
 }
+
+IchLebeNurBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 3/8 \tempoIchLebeNur
+    \partial 8 \mvTr g'8\fE-\soloE b a g
+    b a g
+    es' d cis
+    d[ d,] c'\p
+    b a g %5
+    b a g
+    es'\f d cis
+    d[ d,] c'
+    h a g
+    d'\mf c h %10
+    h\fE a g
+    c c, b'
+    a g f
+    c' b a
+    a g f %15
+    b b, a'
+    g f es
+    a a, g'
+    fis e? d
+    g g, g' %20
+    fis e d
+    g g, r
+    g' es! es
+    d4 d'8-\unisonoE
+    es!( cis) cis-! %25
+    d( h) h-!
+    c!( a) a-!
+    b!( g) g-!
+    as( fis) fis-!
+    g16 f es d c b %30
+    c8 a! d \noBreak
+    g,4 g'8\p \bar "S-S"
+    b a g \noBreak
+    b a g
+    es' d cis %35
+    d[ d,] c'
+    b a g
+    b a g
+    es' d cis
+    d[ d,] c' %40
+    h a g
+    d'\f c h
+    h\p a g
+    c c, b'
+    a g f %45
+    c'\f b a
+    a\p g f
+    b[ b,] b'-\unisonoE
+    des( b) b-!
+    b( ges) ges-! %50
+    ges( e) e-!
+    f4 f8\mf
+    f des b
+    f'4 \mvTr f8\pE-\unisonoE
+    g!( es!) es-! %55
+    f[ d!] e\f
+    f4.\fermata
+    b,8\ff d c
+    d c b
+    f' es d %60
+    es4 d8
+    es es es
+    es es es
+    d es f
+    b,4 g'8\p %65
+    b a g
+    b a g
+    h a g
+    c[ c,] b'
+    a g f %70
+    a g f
+    a g f
+    b[ b,] a'
+    g f es
+    b' a g %75
+    g f es
+    a a, g'
+    fis e d
+    a' g fis
+    fis e d %80
+    g[ g,] d''-\unisonoE
+    d( b) b-!
+    b( g) g-!
+    g( es!) cis-!
+    d4 d'8\mf %85
+    d b g
+    d4 \mvTr d'8\p-\unisonoE
+    es!( cis) cis-!
+    d( h) h-!
+    c!\f a d %90
+    g, r\fermata g\p
+    h a g
+    h a g
+    h\mf a g
+    c[\p c,] c' %95
+    cis h a
+    cis h a
+    cis\f h a
+    d[ d,] \mvTr d'\p-\unisonoE
+    es!( cis) cis-! %100
+    d[ b!] c\f
+    d4.\fermata
+    g,8 \ff b a
+    b a g
+    d' c h %105
+    c[ c,] b'
+    a g f
+    a g f
+    c' b a
+    b[ b,] a' %110
+    g f es
+    a a, g'
+    fis e d
+    g g, f'
+    es! d c %115
+    d d d
+    g es es
+    d4 d'8-\unisonoE
+    es!( cis) cis-!
+    d( h) h-! %120
+    c!( a) a-!
+    b!( g) g-!
+    as( fis) fis-!
+    g16 f es d c b
+    c8 a! d \markSegnoRec %125
+    g,4\fermata g'8\p
+    b a g
+    b a g
+    g\mfE g f!
+    es[ c] c'\pE %130
+    a g f
+    a g f
+    f f es
+    d[ b] b'
+    g f e %135
+    g f e
+    e e d
+    cis[ a] a'
+    f e d
+    f e d %140
+    b'! a gis
+    a[ a,] a'-\unisonoE
+    d( b!) b-!
+    b( g) g-!
+    a4.\fermata %145
+    d,4 r8
+    h'\fE a g
+    h a g
+    d' c h
+    c[ c,] c' %150
+    cis h a
+    cis h a
+    e' d cis
+    d[ d,] d'-\unisonoE
+    es!( c!) c-! %155
+    d( b) b-!
+    c( a) a-!
+    b( g) g-!
+    as( fis) fis-!
+    g16 f es d c b %160
+    c8 a d
+    g,4 g'8\p \bar "S-S" %162 finis
+  }
+}
+
+IchLebeNurBassFigures = \figuremode {
+  r8 <6>4.
+  <\t>
+  <5 3>8 <\t \t> <6 5 _!>
+  <_+>4 <\t>8
+  <6>4. %5
+  <\t>
+  <5 3>8 <\t \t> <6 5 _!>
+  <_+>4 <\t>8
+  <6 5!>4.
+  <6!> %10
+  <6 5>
+  r4 <\t>8
+  <6 5>4.
+  <6>
+  <6 5> %15
+  r4 <\t>8
+  r4.
+  r4 <\t>8
+  <6 5>4.
+  r %20
+  <6 5>
+  r
+  r8 <6>4
+  <_+>4.
+  r %25
+  r
+  r
+  r
+  r
+  r %30
+  r
+  r4 <5>8
+  <6>4.
+  <\t>
+  <5 3>8 <\t \t> <6 5 _!> %35
+  <_+>4 <\t>8
+  <6>4.
+  <\t>
+  <5 3>8 <\t \t> <6 5 _!>
+  <_+>4 <\t>8 %40
+  <6 5!>4.
+  <6!>
+  <6 5>
+  r4 <\t>8
+  <6 5>4. %45
+  <6>
+  <6 5>
+  r
+  r
+  r %50
+  r
+  r4 <5 3>8
+  <6- 4>4. \once \bassFigureExtendersOn
+  q8 <5 3>4
+  r4. %55
+  r
+  <6! 4>4 <5 3>8
+  r <6> <6 _->
+  <6>4.
+  <6 _-> %60
+  r4 <6>8
+  r4.
+  <4! 2>
+  <6>8 q4
+  r4. %65
+  <6>
+  <\t>
+  <6>4 \once \bassFigureExtendersOn q8
+  r4 <\t>8
+  <6>4. %70
+  <\t>
+  q
+  r4 <\t>8
+  r4.
+  <6> %75
+  r
+  <5>
+  <6>
+  <6\\>
+  <6> %80
+  r
+  r
+  r
+  r
+  r4 <5 _+>8 %85
+  <6 4>4. \once \bassFigureExtendersOn
+  q8 <5 _+>4
+  r4.
+  r
+  r %90
+  r4 <_!>8
+  <6 5!>4.
+  <\t \t>
+  q
+  r %95
+  <6 5 _!>
+  <\t \t \t>
+  q
+  <_+>
+  r %100
+  r
+  <6 4>4 <5 _+>8
+  r4.
+  <6>
+  <6 _!> %105
+  r4 <\t>8
+  <6>4.
+  <\t>
+  <6>
+  r4 <\t>8 %110
+  r4.
+  <5>4 <\t>8
+  <6 5>4.
+  r4 <\t>8
+  <5>4 \once \bassFigureExtendersOn q8 %115
+  <_+>4.
+  r8 <6>4
+  <_+>4.
+  r
+  r %120
+  r
+  r
+  r
+  r
+  r %125
+  r4 <5>8
+  <6>4.
+  <\t>
+  <_!>4 <\t>8
+  <6>4. %130
+  q
+  <\t>
+  r4 <\t>8
+  <6>4.
+  r %135
+  r
+  <5>4 <6>8
+  <6 5 _!>4.
+  <6>
+  <\t>
+  <5 3>8 <\t \t> <7 _!>
+  <5! _+>4.
+  r
+  r
+  <6 4>4 <5! _+>8
+  r4.
+  <6>
+  <\t>
+  <6!>
+  r
+  <6 _!>
+  <\t \t>
+  <6\\>
+  <_+>
+  r
+  r
+  r
+  r
+  r
+  r
+  r
+  r4 <5>8
+}
