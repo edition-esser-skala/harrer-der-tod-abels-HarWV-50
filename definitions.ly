@@ -6,12 +6,15 @@
 \include "ees_articulate.ly"
 
 
+Adam = \markup \remark "Adam"
 Abel = \markup \remark "Abel"
 Cain = \markup \remark "Cain"
 Eva = \markup \remark "Eva"
+Gott = \markup \remark "Die Stimme Gottes"
 forceClef = \set Staff.forceClef = ##t
 hideAcc = \once \override Accidental.stencil = ##f
 
+markSegno = \mark \markup \remark { \musicglyph "scripts.segno" }
 markSegnoRec = {
   \once \override Score.RehearsalMark.self-alignment-X = #LEFT
   \mark \markup \remark { \hspace #-.5 \musicglyph "scripts.segno" \hspace #.5 \left-column { "a questo segno s’entra" "nel Recit[ativo]" } }
@@ -19,6 +22,8 @@ markSegnoRec = {
 
 
 tempoIntro = \tempoMarkup "[Tempo deest]"
+
+% 1.1
 tempoWunderbarer = \tempoMarkup "Grave"
   tempoWunderbarerB = \tempoMarkup "Allegro"
   tempoWunderbarerC = \tempoMarkup "Lento"
@@ -28,7 +33,12 @@ tempoWasFehlet = \tempoMarkup "[Recitativo]"
   tempoWasFehletB = \tempoMarkup "Adagio"
 tempoEinWasser = \tempoMarkup "Allegro"
 tempoSoSollDer = \tempoMarkup "[Recitativo]"
+
+% 1.6
 tempoIchLebeNur = \tempoMarkup "Allegro non troppo"
+tempoWarumErgrimmest = \tempoMarkup "[Recitativo]"
+  tempoWarumErgrimmestB = \tempoMarkup "Allegro"
+  tempoWarumErgrimmestC = \tempoMarkup "[Recitativo]"
 
 
 \include "notes/fl1.ly"

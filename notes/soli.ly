@@ -147,7 +147,7 @@ WunderbarerSoliLyrics = \lyricmode {
   thei -- le doch mit mir, ge -- liebt -- er
   Ca -- in, mei -- ne Freu -- de, ach %30
   freu -- en wir uns bey -- de, weil ich mit
-  Wahr -- heit ſa -- gen kann, Gott ſah’ mein
+  Wahr -- heit ſa -- gen kan, Gott ſah’ mein
   Opf -- fer gnä -- dig an. Und
   A -- bel un -- ter -- ſteht ſich das zu
   ſa -- gen, du ſchmei -- chelſt dir zu %35
@@ -201,7 +201,7 @@ WunderbarerSoliLyrics = \lyricmode {
   mei -- ne Au -- gen ſchau -- en, drauff
   kanſt du ſi -- cher bau -- en. O
   Wahr -- heit, die vor mich nicht %85
-  ſchreck -- li -- cher kann ſeyn. Ach
+  ſchreck -- li -- cher kan ſeyn. Ach
   Kin -- der, bil -- det euch da -- rauff nichts
   ein, laß’t euch den Stolz nicht ſchmei -- chelnd
   näh -- ren, laß’t euch die Miß -- gunſt nicht ver --
@@ -493,7 +493,7 @@ WasFehletSoliLyrics = \lyricmode {
   faſ -- ſet. Wenn Ca -- in ſei -- nen Bru -- der %25
   haſ -- ſet, ſo wird ſich täg -- lich
   et -- was an -- dres fin -- den, wo --
-  rauff er ſei -- nen Haß kann grün -- den. Mein
+  rauff er ſei -- nen Haß kan grün -- den. Mein
   Sohn, ach thu mir doch ſolch
   Her -- ze -- leid nicht an, da -- %30
   raus noch mit der Zeit was
@@ -836,4 +836,309 @@ IchLebeNurSoliLyrics = \lyricmode {
   ge -- bens, und
   lohnt mir nicht %145
   drum. %146 finis
+}
+
+WarumErgrimmestSoli = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoWarumErgrimmest
+      \markSegno
+    r4 r8 e^\Gott e e a e
+    f4 r16 d d d g8. g16 g8 d
+    es es r c f f a16 f f c
+    d8 d r4 r8 b d es
+    f4 r8 f f f as g %5
+    as4 r8 as b b b as
+    g4 r8 g b b b as
+    b4 r16 b b c des8 des des c
+    \appoggiatura des c4 r16 g g as b8 b b c
+    as4 as r8 c as g %10
+    \appoggiatura g f4 r8 f h! h h c
+    c g r4 r r8 a!
+    a a d c! b4 r8 g
+    b b a g cis8. cis16 cis8 d
+    a4 r r \forceClef r8 d,^\Cain %15
+    \tempoWarumErgrimmestC d d fis e fis4 r16 fis fis g
+    a4 a r r16 a a h
+    c!8. h16 a a h c h4 r8 h
+    h fis? fis g a4 r8 a
+    a h c h \appoggiatura a g g r16 g fis e %20
+    ais8. ais16 ais8 h fis4 r16 d g a
+    h4 r8 h g g g fis
+    fis fis r fis cis d e8. fis16
+    \appoggiatura e8 d4 r16 fis h a! gis8 gis a h
+    a4 r16 e a e e8 fis g fis %25
+    \appoggiatura e d d r d a' g a a
+    a h c! c r c c h
+    g4 r16 g g d d8 e f! e
+    c4 r c' e,8 f
+    g g b a a4 r8 c, %30
+    f g a a a b? c f,
+    es es r16 f es f d8 d r d
+    f f g as g4 r16 g a? b?
+    f4 \clef treble r8 f'^\Abel \appoggiatura es d d r4
+    b' r16 b b f g4 \clef bass r8 b,,^\Cain %35
+    es es es d es4 r8 es
+    g as b as as as r es
+    as es es des? es r16 es f8 ges
+    f f r des f f as ges
+    as4 r8 b ces ces ces b %40
+    b4 r8 b ges r16 ges b8 ges
+    c!8. c16 c8 des as4 \clef treble r8 c^\Abel
+    c c es d es es f c
+    d d \clef bass r16 b,^\Cain d es? f8 f g as
+    as d, r16 d d es f8 f g f %45
+    es4 r8 g c g g16 g as b
+    as4 r8 f h8. h16 h8 c
+    g4 \clef treble r8 g'^\Abel e! e e f
+    g4 r8 g g g b\fermata a
+    f f r16 a f e d4 r8 d %50
+    gis gis gis a a e r4
+    \clef bass h8^\Cain fis16 fis fis8 e fis4 r8 fis
+    fis fis a gis gis4 r16 gis gis dis
+    dis8 e fis gis e4 r16 gis gis fis
+    eis8. fis16 gis gis gis a \appoggiatura gis8 fis fis r cis %55
+    fis fis fis e! d r16 fis eis8 fis
+    fis cis \clef treble r d'^\Abel fis fis fis g!
+    a4 r c!8\fermata fis,16 g a8 c,!
+    c c d c h4 r
+    g'8 d16 d d8 e f!4 r8 f %60
+    a4^\critnote f8 d g g g f
+    e4 r16 c g' f g8 g b a
+    a4 r8 a f f f es
+    d d r16 d g f \appoggiatura f8 e8. e16 e8 f
+    f c r c'\fermata \appoggiatura b8 a4 r16 a a g %65
+    f4 r8 c c d es8. d16
+    d4 r8 d a' a a g
+    a r16 a h!8 c \appoggiatura c h h r g
+    h h h a g4 r8 g
+    c4. h8 \appoggiatura h ais ais r fis %70
+    fis cis cis h cis4 r8 d
+    e e e d \appoggiatura cis h4 r8 fis'
+    h h h h c!4 r8 c
+    fis, fis gis a gis gis r e
+    gis gis a h a4 r8 a %75
+    fis fis fis eis \appoggiatura dis cis cis r4
+    \clef bass r4 r8 gis^\Cain cis cis cis h!
+    h4 r16 fis fis gis a8 fis h a
+    gis4 r16 h, e dis e4 r8 fis
+    gis gis h e, a a r cis %80
+    a a a fis d4 r8 d
+    gis a h d, e e \clef treble r a^\Abel
+    cis cis cis d e r16 e fis8 g!
+    fis4 r16 fis a g a4 r8 h
+    c! c c h h4 r16 h g d %85
+    f!8 f f g e e \clef bass r g,^\Cain
+    c4 r8 g g g b a
+    f f \clef treble r c'^\Abel f f f g
+    a4 \clef bass c,^\Cain es,8 es es f
+    d4 \clef treble r8 b'^\Abel f'4 \clef bass b,^\Cain %90
+    f8 g as g \appoggiatura f es4 r16 es b' c
+    des8 des des c as as r4
+    \clef treble as'4^\Abel as8 es es f ges f
+    f f r16 c c des es8 es f es
+    des4 \clef bass r16 f,^\Cain b as ges4 r8 es %95
+    a8. a16 a8 b f4 \clef "treble_8" r8 g^\Adam
+    c c c des b? b r b
+    as g c g as4 r8 c
+    as as as16 as c as \appoggiatura g8 f r16 f h!8 c
+    c g r a! d d es d %100
+    c4 r8 c b a d c
+    b b r b d g, g a
+    b b c b a a r16 a d c
+    b8. g16 cis8 d a4 r8 e
+    h' h h a h4 r8 h %105
+    h h d c d d r d
+    f8. d16 d8 c h h r16 h e h
+    h8 c d c a4 r8 e
+    a a a h c4 r8 e
+    c c c h a a r16 a c h %110
+    a8 a a g fis4 r8 fis
+    h h a h g4 r8 h
+    g g a g fis fis \clef bass r^\Cain a\fermata
+    a d, fis g a4 r8 h
+    c! c c8. h16 h4 r8 d, %115
+    g g g fis g4 r8 a
+    h h c d d g, r16 g g a
+    \appoggiatura g8 f!4 r8 d f f f e
+    c4 r8 c'\fermata e, f g16 g b a
+    a8 a r f a b c a %120
+    \appoggiatura g f4 r8 f c' c d es
+    es a, r16 a a b c8 c d c
+    b b r d, g4 r16 g b a
+    g8. g16 cis8. d16 a4 r16 b d c?
+    b8 r16 f! f8 g as as b as %125
+    g g r16 g c h c4 r8 c
+    a! g fis8. g16 g8 d \clef "treble_8" r g^\Adam
+    h! h h c d4 r8 e
+    f! r16 f f8 e e e r16 e, h' a
+    h8 h h c d4 r8 d %130
+    c h d c c c r a
+    c c h a dis8. dis16 dis8 e
+    h4 r8 h e e e16 cis cis h
+    \appoggiatura h8 ais4 r16 fis ais gis ais4 r8 h
+    cis cis cis d e e r e %135
+    fis r16 fis cis d e d d8 d r fis,
+    h h cis d cis4 r16 cis h cis
+    d8 d d cis \appoggiatura h a4 r
+    d8 a16 a a8 g! a4 r8 a
+    c! c c h h h r h %140
+    a a a h g g r g
+    c c e8.\fermata h16 ais4 r16 cis fis, gis
+    ais8 h cis r16 d e8 e e d
+    \appoggiatura cis8 h4 r8 fis' fis h, h h
+    c!4 r8 h a! a h a %145
+    \appoggiatura a g g r h e e e d!
+    \appoggiatura d c4 r16 a dis e h8 h r4\fermata \bar "|." %147 finis
+  }
+}
+
+WarumErgrimmestSoliLyrics = \lyricmode {
+  Wa -- rum er -- grim -- meſt
+  du? Wa -- rum ver -- ſtellſt du die Ge --
+  ben -- den und willſt nicht bey dir rich -- tig
+  wen -- den? Iſts nicht al --
+  ſo? wenn du dich fromm er -- %5
+  ziehſt, ſo biſt du an --
+  ge -- nehm, hin -- ge -- gen ſie -- he
+  zu, wo du dein Herz zur Boſ -- heit
+  neigſt, ſo ruht die Sün -- de vor der
+  Thü -- re. Nimm dich in %10
+  Acht, daß ſie dich nicht ver --
+  füh -- re. Wer
+  ihr den Wil -- len bricht, an
+  dem ge -- winnt ſie kei -- ne Herr -- ſchafft
+  nicht. Es %15
+  iſt noch nicht ge -- nug, daß A -- bel
+  Eh -- re mich in dem
+  in -- ner -- ſten der See -- le plagt, nun
+  kommt es gar ſo weit, daß
+  ich Ver -- wei -- ſe hö -- re, die man mir %20
+  ins Ge -- ſich -- te ſagt. Al -- lein, es
+  kommt die mir ver -- haß -- te
+  See -- le dort mit der Heer -- de
+  raus. Wie ſieht er voll Ver -- gnü -- gen
+  aus, wie viel weiß er ſich ein -- zu -- %25
+  bil -- den, wie wird er nicht auff
+  den Ge -- fil -- den recht trot -- zig
+  thun. Ich will ihm aus dem We -- ge
+  gehn. Er ist vor
+  mir nicht aus -- zu -- ſtehn, ich %30
+  kan die Au -- gen, die vor Ei -- fer
+  bren -- nen, ihm kaum ver -- gön -- nen, und
+  al -- les, was er thut, das är -- gert
+  mich. Mein Bru -- der_–
+  wie? ent -- fernſt du dich? Ein %35
+  ſchlech -- ter Menſch muß ſich zu
+  ſei -- nes -- glei -- chen fin -- den, bey
+  dir durfft ich es mir nicht un -- ter --
+  win -- den, weil dich der Him -- mel
+  ſelbſt zu groſ -- ſen Her -- ren %40
+  zählt und dich als ſei -- nen
+  Lieb -- ling aus -- er -- wählt. Wie
+  re -- det Ca -- in doch ſo un -- ge --
+  wöhn -- lich. Du kommſt viel -- leicht da -- rum ge --
+  ſöhn -- lich, daß ich dir Glü -- cke wün -- ſchen %45
+  kan, weil Gott ſchon wie -- de -- rum an
+  dir was groſ -- ſes hat ge --
+  than. Ich rüh -- me mich ja
+  nichts als Got -- tes Gna -- den --
+  ga -- ben, die wir von ihm und %50
+  nie -- mand an -- ders ha -- ben.
+  Du biſt es nur al -- lein, der,
+  wenn man Opf -- fer bringt, den Him -- mel
+  zur Er -- hö -- rung zwingt. Zu ſol -- cher
+  Gna -- de werd ich wohl nicht kom -- men, denn %55
+  du haſt ſie vor dich ſchon weg -- ge --
+  nom -- men. Was hör ich doch von
+  dir, ach wie ver -- ſün -- di --
+  geſt du dich an mir.
+  Ich kan ja nicht da -- vor, daß %60
+  Gott dich nicht gnä -- dig an -- ge --
+  ſehn. Viel -- leicht iſt es da -- rum ge --
+  ſchehn, daß er dir wei -- ſen
+  wol -- len, wie du noch fröm -- mer wer -- den
+  ſol -- len. Ach Herr, wie wird dein %65
+  Thun ſo -- gar ſehr ſchlecht ge --
+  acht, du wei -- ſeſt je -- der --
+  mann die rech -- ten We -- ge, und
+  man -- che wei -- chen ab auff
+  Ne -- ben -- ſte -- ge, in %70
+  de -- nen er ſich dann ver --
+  kehr -- te Mey -- nung macht! So
+  fangt die Schlan -- ge Gifft aus
+  den ge -- ſünd -- ſten Kräu -- tern, wo --
+  raus die Bie -- nen ſonſt den %75
+  be -- ſten Ho -- nig läu -- tern.
+  Ver -- weg -- ner Menſch, halt
+  ein, willſt du ſo -- gar ver -- meſ -- ſen
+  ſeyn, daß ich von dir noch
+  ſoll Ver -- wei -- ſe hö -- ren, ich %80
+  glaub, ich ſoll dich gar als
+  mei -- nen Mei -- ſter eh -- ren? Ich
+  red ja mit dir nicht als wie ein
+  Feind, was ich ge -- ſagt, iſt
+  herz -- lich gut ge -- meynt und kommt aus %85
+  brü -- der -- li -- cher Lie -- be. Weg,
+  weg mit dei -- ner Bru -- der --
+  lie -- be. Und al -- ſo ſoll der
+  Haß_– Ja, den ver -- die -- neſt
+  du! Wa -- rum? Schweig, %90
+  geh, laß mich in Ruh, ich kan die
+  Re -- de kaum er -- dul -- den.
+  Ach ſa -- ge mir doch mein Ver --
+  ſchul -- den, ich ha -- be dir ja nichts ge --
+  than. Diß e -- ben iſts, was %95
+  ich nicht lei -- den kan. Was
+  habt ihr, mei -- ne Kin -- der, vor
+  ei -- nen har -- ten Streit? Ach
+  brau -- chet doch Be -- ſchei -- den -- heit und ſeid ge --
+  lin -- der. Stirbt ſchon die Brü -- der -- %100
+  treu, da kaum die Welt ent --
+  ſtan -- den, ſo glaub ich, daß ſie
+  gar nicht mehr vor -- han -- den und ir -- gends
+  wo zu fin -- den ſeyn. Ihr
+  ſeyd ein Fleiſch und Blut, aus %105
+  ei -- ner Mut -- ter Lei -- be, von
+  ei -- nem Mann und Wei -- be, und doch von
+  ſo ver -- ſchied -- nem Sinn. Wo
+  will es end -- lich hin, was
+  wird auff die -- ſer Er -- de, die Gott um %110
+  un -- ſre Miſ -- ſe -- that ohn --
+  dem ver -- flu -- chet hat, noch
+  mit dem Men -- ſchen wer -- den? Ach
+  Va -- ter, ſtraff nur auch des
+  A -- bels Ü -- ber -- muth und %115
+  gieb mir nicht al -- lein den
+  Ver -- ruff an -- zu -- hö -- ren, der mir zu
+  viel, und ihm zu we -- nig
+  thut. Er iſts, der will den Frie -- den
+  ſtöh -- ren, er, er iſt Schuld da -- %120
+  ran, daß ich mich nicht kan
+  faſ -- ſen, ge -- rech -- ten Ei -- fer aus -- zu --
+  laſ -- ſen. Wa -- rum? Er ſieht mich
+  nur ver -- ächt -- lich an, denn ſeit er
+  glaubt, er ſteh bey Gott in ho -- hen %125
+  Or -- den, ſo iſt ſein Stolz ganz
+  un -- er -- träg -- lich wor -- den. Ich
+  glaub -- te dir ge -- wiß, al --
+  lein ich kenn euch bey -- de, drum al -- les
+  dieß, was du ge -- ſagt, kömmt %130
+  nur aus lau -- ter Nei -- de, und
+  ei -- ne Ra -- ſe -- rey ver -- blen -- det
+  dich. Es ſcheint dir A -- bel är -- ger --
+  lich, die -- weil er mir von
+  Tu -- gend we -- gen wei -- chet und %135
+  dir in kei -- nem Stü -- cke glei -- chet. Du
+  biſt ihm da -- rum fremd, weil er es
+  red -- lich mit dir meynt.
+  Thu es ihm viel -- mehr nach, ſey
+  ihm nicht ſo zu -- wie -- der, und %140
+  lebt doch wie die Brü -- der. Mir
+  kommt ein Grau -- en an, weil ich den
+  Aus -- gang ſchon zum Vo -- raus ſe -- hen
+  kan, die Sün -- de brin -- get
+  dich zu ſol -- chen bö -- ſen %145
+  Tha -- ten, be -- den -- ke, was du
+  thuſt, und laß dir ra -- then. %147 finis
 }

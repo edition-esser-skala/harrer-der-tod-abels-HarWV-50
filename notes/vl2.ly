@@ -492,3 +492,41 @@ IchLebeNurViolinoII = {
     g,4 g'8\p \bar "S-S" %162 finis
   }
 }
+
+WarumErgrimmestViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoWarumErgrimmest
+      \markSegno
+    cis4~\fE cis8 r r2
+    r8 d h!4 r2
+    r8 c a4 r2
+    \tempoWarumErgrimmestB b'16 b, d b d' b, d b b''4 r
+    R1*2 %6
+    es,,4 r r2
+    R1
+    e!4 r r2
+    f4 r r2 %10
+    R1
+    r4 g fis~ fis8 r
+    r2 g4-\critnote r
+    R1
+    r4 e' d~ d8 r %15
+    \tempoWarumErgrimmestC R1*49 %64
+    r4 g\pE f2~ %65
+    f es
+    d1~
+    d~
+    d2 e!~
+    e cis~ %70
+    cis1~
+    cis2 h~
+    h c~
+    c h~
+    h a4~ a8 r %75
+    r2 r4 gis\fE
+    gis r r2
+    R1*69 %146
+    R1\fermata \bar "|." %147 finis
+  }
+}

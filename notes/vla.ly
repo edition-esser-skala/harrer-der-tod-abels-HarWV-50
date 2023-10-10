@@ -317,7 +317,7 @@ EinWasserViola = {
 
 IchLebeNurViola = {
   \relative c' {
-    \clef treble
+    \clef alto
     \key g \minor \time 3/8 \tempoIchLebeNur
     \partial 8 g'8\fE g a b
     g a b
@@ -481,5 +481,43 @@ IchLebeNurViola = {
     g16 f es d c b %160
     c8 a! d
     g,4 g'8\p \bar "S-S" %162 finis
+  }
+}
+
+WarumErgrimmestViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoWarumErgrimmest
+      \markSegno
+    cis4~\fE cis8 r r2
+    r8 d h!4 r2
+    r8 c a4 r2
+    \tempoWarumErgrimmestB b8 r b r b4-! r
+    R1*2 %6
+    es4 r r2
+    R1
+    e!4 r r2
+    f4 r r2 %10
+    R1
+    r4 g fis~ fis8 r
+    r2 g4-\critnote r
+    R1
+    r4 a a~ a8 r %15
+    \tempoWarumErgrimmestC R1*49 %64
+    r4 c\pE c2~ %65
+    c1
+    a~
+    a2 h!~
+    h1
+    c4. h8 ais2~ %70
+    ais1~
+    ais2 fis?~
+    fis a~
+    a gis~
+    gis fis4~ fis8 r %75
+    r2 r4 dis\fE
+    eis r r2
+    R1*69 %146
+    R1\fermata \bar "|." %147 finis
   }
 }

@@ -1275,3 +1275,306 @@ IchLebeNurBassFigures = \figuremode {
   r
   r4 <5>8
 }
+
+WarumErgrimmestBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoWarumErgrimmest
+      \markSegno
+    cis4~\fE cis8 r r2
+    r8 d h!4 r2
+    r8 c a4 r2
+    \tempoWarumErgrimmestB b8 r b r b4-! r
+    R1*2 %6
+    es4 r r2
+    R1
+    e!4 r r2
+    f4 r r2 %10
+    R1
+    r4 g fis~ fis8 r
+    r2 g4 r
+    R1
+    r4 a d,2~ %15
+    \tempoWarumErgrimmestC d1~\pE
+    d~
+    d2 \once \tieDashed dis~
+    dis1~
+    dis2 e~ %20
+    e fis4 g~
+    g1
+    ais,
+    h
+    cis %25
+    d~
+    d
+    h
+    c!~
+    c2 f~ %30
+    f1~
+    f2 b,~
+    b es
+    f4 b,2.~
+    b2 es~ %35
+    es1~
+    es2 c~
+    c1
+    des~
+    des %40
+    ges~
+    ges2 as4 a~
+    a1
+    b
+    h,! %45
+    c
+    f
+    g4 c,~ c2~
+    c1
+    d~ %50
+    d2 e4 dis~
+    dis1~
+    dis2 his~
+    his cis~
+    cis a~ %55
+    a h
+    cis4 d~ d2~
+    d1~
+    d2 g~
+    g1~ %60
+    g
+    c,
+    f
+    b,
+    r4 c f2~ %65
+    f1
+    fis~
+    fis2 g~
+    g e!~
+    e1~ %70
+    e~
+    e2 d~
+    d dis~
+    dis e~
+    e fis4~ fis8 r %75
+    r2 r4 gis
+    cis,1
+    dis
+    e~
+    e2 cis~ %80
+    cis h~
+    h a~
+    a1
+    d~
+    d2 g~ %85
+    g c,!~
+    c1
+    a~
+    a
+    b~ %90
+    b2 g~
+    g c~
+    c1
+    a!1
+    b2 es~ %95
+    es f4 e~
+    e1~
+    e2 f~
+    f1
+    g4 fis~ fis2~ %100
+    fis1
+    g~
+    g2 f!
+    g a4 gis~
+    gis1~ %105
+    gis~
+    gis~
+    gis2 a~
+    a1~
+    a2 dis,~ %110
+    dis1~
+    dis2 e~
+    e2 d~
+    d1~
+    d2 g,~ %115
+    g1~
+    g2 h~
+    h1
+    c
+    f~ %120
+    f
+    fis
+    g~
+    g2 a,4 b~
+    b1 %125
+    es~
+    es2 d4 g,~
+    \once \tieDashed g1~
+    g2 gis~
+    gis1~ %130
+    gis2 a~
+    a1
+    g!
+    fis'~
+    fis~ %135
+    fis2 h~
+    h eis,~
+    eis fis~
+    fis1~
+    fis2 dis~ %140
+    dis e~
+    e1~
+    e
+    d!~
+    d %145
+    e
+    a2 h4 e,\fermata \bar "|." %147 finis
+  }
+}
+
+WarumErgrimmestBassFigures = \figuremode {
+  <6>1
+  r8 <_!> <6>2.
+  r8 <_-> <6>2.
+  <5 3>4 <\t \t> q2
+  r1*2 %6
+  <5->1
+  r
+  <6>
+  <_-> %10
+  r
+  r4 <_!> <6 _!>2
+  r2 <_->
+  r1
+  r4 <7 _+> <_+>2 %15
+  r1
+  r
+  r2 <6 _+>
+  r1
+  r %20
+  <6\\ 4\+ 2\+>2 <5\+ _+>4 <3>
+  r1
+  <6\\ _+>
+  <5\+ _!>2 <6\\ \t>
+  <6>1 %25
+  <_+>
+  r
+  <6>
+  r
+  r %30
+  r
+  <7->1
+  r2 <5->
+  r1
+  r2 <5-> %35
+  r1
+  r2 <6- _->
+  r1
+  <5->
+  r %40
+  <5- _->
+  <6- 4! 2->2 <5->4 <6>
+  r1
+  r
+  <7-> %45
+  <_->
+  q2 <4! 2>
+  <_!>4 q2.
+  r1
+  <5> %50
+  <4\+ 2>2 <_+>4 <6 _+>
+  r1
+  r2 <6\\ _+>
+  r <5\+ _!>
+  <\t _+> <6\\ _+> %55
+  r <5\+ _!>
+  <5\+ _+>4 <_+>2.
+  r2 <7! _+>
+  r1
+  r %60
+  r
+  r
+  r
+  r2 <4! 2>
+  r4 <7->2. %65
+  r2 <7->
+  <6>1
+  r2 <_!>
+  r <5>
+  <6> <6\\ 4\+ 2\+> %70
+  r1
+  r2 <6 _+>
+  r <7! 5! _+>
+  r <_+>
+  r <5\+> %75
+  r2. <5\+ _+>4
+  q1
+  <6! _+>
+  <_+>
+  r2 <6> %80
+  r <5\+>
+  <6\\> <_+>
+  r1
+  q
+  r %85
+  r
+  r
+  <6>
+  r
+  r %90
+  r2 <6- _->
+  r q
+  r1
+  <6>
+  <_->2 <5- _-> %95
+  <4! 2>2. <6 _!>4
+  r1
+  r2 <_->
+  r1
+  <_!>4 <6 _!>2. %100
+  r1
+  <_->
+  <6 _->
+  <_->4 <4\+ 2> <_+> <6 _!>
+  r1 %105
+  r
+  r
+  r2 <_!>
+  r1
+  r2 <6 5 _+> %110
+  r1
+  r2 <5 _!>
+  <6\\ \t> <_+>
+  r1
+  r %115
+  r
+  r2 <6>
+  <5!>1
+  r
+  r %120
+  r
+  <7->2. <6>4
+  <_->1
+  r4 <4\+ 2> <_+> <5!>
+  r1 %125
+  <5->2 <6>
+  <4 2\+> <6- 4>8 <5 _+> <_!>4
+  r1
+  r2 <6>
+  r1 %130
+  r
+  r2 <6\\ 4\+>
+  <6>1
+  <5\+ _+>
+  r %135
+  r2 <5\+>
+  r <6\\ _+>
+  r <5\+ _!>
+  <6>1
+  <5!>2 <6 _+> %140
+  r1
+  <6>2 <6\\ 4\+ 2\+>
+  r1
+  <6 _+>1
+  <7! \t> %145
+  r
+  r2 <[5\+] _+>4 <_+> %147 finis
+}
