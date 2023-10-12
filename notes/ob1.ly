@@ -173,3 +173,44 @@ IchLebeNurOboeI = {
     g,4 r8 \bar "S-S" %162 finis
   }
 }
+
+DasLichtOboeI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoDasLicht
+    \partial 8 a'8\fE \tuplet 3/2 8 { e'16-! cis-! a-! } e4 d'8 \appoggiatura d4 cis4. fis8~
+    fis( e4) d8 \appoggiatura d32 cis16( h a gis) a e[\p a cis]
+    \tuplet 3/2 8 { e16-! cis-! a-! } e4 d'8 \appoggiatura d4 cis4. fis8
+    \appoggiatura fis e4( d8) cis \appoggiatura d16 cis8 h r d\fE
+    \appoggiatura d4 cis4. h8 a16( gis) fis8 r g' %5
+    \appoggiatura g4 fis4. e8 \appoggiatura e32 d16( cis) h8 r h'
+    a!8.\trill gis32( a h8) a gis8. a32 h h8. d,!16
+    cis8.\trillE h32( cis d8.) fis,16 \appoggiatura a32 gis16( fis) e8 r e
+    fis16.( a32) gis16.( h32) a16.( cis32) h16.( d32) cis16.( e32) d16.( fis32) e8 cis
+    \slurDashed d16.( fis32) e16.( g32) fis16.( a32) gis16.( h32) a16.( cis32) h16.( d32) \slurSolid cis8 e, %10
+    e4. cis'16( e,) \appoggiatura e4 d4. h'16( d,) \noBreak
+    \appoggiatura d32 cis( h a8.) \appoggiatura cis8 h4\trillE a4 r \bar "S-S"
+    R1*11 %23
+    r2 r4 r8\fermata h\ff
+    \tuplet 3/2 8 { h'16-! gis-! e-! } h4 a'8 \appoggiatura a4 gis4. cis8 %25
+    h8. a32( gis) fis8 e \appoggiatura e32 dis16 cis h8 r h'
+    h4. gis16( h) \appoggiatura h4 a4. \once \slurDashed fis16( a)
+    gis32( fis e8.) \appoggiatura gis8 fis4\trill e8 e, r4
+    R1*16 %44
+    R1\fermata %45
+    r2 r4 r8\fermata e\ff
+    \tuplet 3/2 8 { e'16-! cis-! a-! } e4 d'8 \appoggiatura d4 cis4. e8
+    \tuplet 3/2 8 { a16-! fis-! d-! } a4 g'8 \appoggiatura g4 fis4. e8
+    d8. e32( fis) fis8. a,16 \appoggiatura a32 gis!16 fis e8 r e
+    fis16.( a32) gis16.( h32) a16.( cis32) h16.( d32) cis16.( e32) d16.( fis32) e8 cis %50
+    d16.( fis32) e16.( g32) fis16.( a32) gis16.( h32) a16.( cis32) h16.( d32) cis8 e,
+    e4. cis'16( e,) \appoggiatura e4 d4. h'16( d,) \noBreak
+    \appoggiatura d32 cis( h a8.) \appoggiatura cis8 h4\trill a r\fermata
+    \key a \minor R1*7 \noBreak %60
+    r2\fermata r4 r8 e\ff
+    \key a \major fis16.( a32) gis16.( h32) a16.( cis32) h16.( d32) cis16.( e32) d16.( fis32) e8 cis
+    d16.( fis32) e16.( g32) fis16.( a32) gis16.( h32) a16.( cis32) h16.( d32) cis8 e,
+    e4. cis'16( e,) \appoggiatura e4 d4. h'16( d,)
+    cis32( h a8.) \appoggiatura cis8 h4\trill a r\fermata \bar "S-S" %65 finis
+  }
+}

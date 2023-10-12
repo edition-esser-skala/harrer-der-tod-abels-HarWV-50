@@ -521,3 +521,75 @@ WarumErgrimmestViola = {
     R1\fermata \bar "|." %147 finis
   }
 }
+
+DasLichtViola = {
+  \relative c' {
+    \clef alto
+    \key a \major \time 4/4 \tempoDasLicht
+    \partial 8 r8 r cis\fE e e e e a a
+    a a gis gis a^\critnote e r4
+    r8 cis\pE e e e e a a
+    a a gis a a gis gis r
+    r gis\fE eis gis cis, cis cis r %5
+    r cis ais cis h d d r
+    r e fis dis e! e e e
+    e e a, d h h h r
+    d r r4 e8 r r4
+    h8 r r4 e8 r r4 %10
+    r8 ais cis fis, r gis h e, \noBreak
+    e a4 gis8 a a, r4 \bar "S-S"
+    r8 cis\p e e e e a a \noBreak
+    a a gis gis e e e r
+    r dis dis dis e e e r %15
+    r dis dis dis h h e e
+    e e fis fis gis gis h, h
+    cis h h h h4 r
+    h8 r r4 h8 r r4
+    h8 r r4 h8 r r4 %20
+    h r8 gis' e4 r8 a
+    gis4 r8 gis e4 r8 h'
+    e,4 r8 h' e,4 r8 h
+    h[^\critnote fis' h,] cis\fE h4 r\fermata
+    r8 gis'\ffE h fis e e e e %25
+    e e cis' cis fis, dis dis r
+    r eis gis cis r dis, fis h
+    h e,4 dis8 e4 r
+    r8 gis,\pE h fis e e' e e
+    e e dis dis h h h r %30
+    r eis eis eis cis cis cis r
+    r ais ais ais fis fis r ais
+    h h h h h h fis' fis
+    r fis dis fis h, h h r
+    d r r4 fis8 r r4 %35
+    e8 r r4 gis8 r r4
+    fis8 r r4 a r8 a
+    fis4 r8 fis e4 r8 a,
+    h4 r8 h e4 r8 fis
+    h, h e cis e4 e %40
+    cis r dis8 dis dis dis
+    e e e e h h h h
+    h h r4 r8 ais' cis fis,
+    r gis h e, e e d d
+    cis4 r\fermata r8 ais' cis fis, %45
+    r gis h e, e4 r\fermata
+    r8 cis\ffE e e e e e cis
+    r d e e a, a a a
+    fis d' h fis' h, h h r
+    a r r4 a8 r r4 %50
+    h8 r r4 e8 r r4
+    r8 ais cis fis, r gis h e, \noBreak
+    e a4 gis8 a a, r4\fermata
+    \key a \minor r8 c\ppE e h a a a a \noBreak
+    a a gis gis a a a r %55
+    g e( f g) f a( c b)
+    a fis( g a) g h( d c)
+    h gis( a h) a c( e d)
+    cis? ais( h cis?) h4 r8 dis
+    h' g! a c g\f h fis a \noBreak %60
+    g4 r\fermata r r8 a,\ff
+    \key a \major a r r4 a'8 r r4 \noBreak
+    h,8 r r4 e8 r r4
+    r8 ais cis fis, r gis h e,
+    e a4 gis8 a a, r4 \bar "S-S" %65 finis
+  }
+}

@@ -1578,3 +1578,143 @@ WarumErgrimmestBassFigures = \figuremode {
   r
   r2 <[5\+] _+>4 <_+> %147 finis
 }
+
+DasLichtBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \tempoDasLicht
+    \partial 8 r8 r \mvTr a'\fE-\soloE cis gis a a, a d
+    cis e16( a) h,8 e16( gis) a8 a, r4
+    r8 a'\p cis gis a a, a d
+    cis e16( a) h,8 a e' e, e' r
+    r eis\fE cis eis fis fis fis r %5
+    r ais fis ais h h h r
+    r cis dis h e! e gis, gis
+    a! a fis d e e e r
+    d r r4 a8 r r4
+    h8 r r4 cis8 r r4 %10
+    r8 cis'-! fis,-! ais-! r h-! e,-! gis-! \noBreak
+    a a, e' e, a4 r \bar "S-S"
+    r8 a'\p cis gis a a, a d \noBreak
+    cis e16( a) h,8 e16( gis) a8 a, a r
+    r dis dis dis e e e r %15
+    r dis dis dis e e e e
+    a a fis fis gis gis e e
+    fis dis e e, h'4 r
+    e8 r r4 h'8 r r4
+    e,8 r r4 h'8 r r4 %20
+    e, r8 e e4 r8 e
+    e4 r8 e a4 r8 gis
+    a4 r8 gis a4 r8 dis,
+    e[ a gis] a\f h2\fermata
+    r8 e,\ffE gis dis e e' e a, %25
+    gis gis a fis h h, h r
+    r gis' cis, eis r fis h, dis
+    e e h' h, e4 r
+    r8 e\p gis dis e e, e a
+    gis h16( e) fis,8 h16( dis) e8 e, e r %30
+    r eis' eis eis fis fis fis r
+    r ais, ais ais h fis' r fis
+    h, h cis cis d d d d
+    r dis h dis e! e e r
+    d r r4 h8 r r4 %35
+    e8 r r4 cis8 r r4
+    fis8 r r4 d r8 cis'
+    h4 r8 a gis4 r8 fis
+    e4 r8 d cis4 r8 d
+    e d cis a e'4 e, %40
+    a r dis8 dis dis dis
+    e e e e dis dis dis dis
+    e e e r r cis' fis, ais
+    r h e, gis a a, e' e,
+    a4 r\fermata r8 cis' fis, ais %45
+    r h e, gis a e4.\fermata
+    r8 a\ffE cis gis a a, a g'
+    r fis cis cis d d, d' cis
+    h h d d e e e r
+    d r r4 a8 r r4 %50
+    h8 r r4 cis8 r r4
+    r8 cis' fis, ais r h e, gis \noBreak
+    a a, e' e, a4\fermata r
+    \key a \minor r8 a\ppE c gis a a' a d, \noBreak
+    c e16( a) h,8 e16( gis) a8 a, a r %55
+    g' c,( d e) f c'( a g)
+    fis d( e fis) g d'( h a)
+    gis e( fis gis) a e'( c h)
+    ais fis( gis ais) h h, h' a
+    g e c'! a h\f g a fis \noBreak %60
+    h2\fermata e,4 r8 cis\ff
+    \key a \major d r r4 a8 r r4 \noBreak
+    h8 r r4 cis8 r r4
+    r8 cis' fis, ais r h e, gis
+    a a, e' e, a4 r \bar "S-S" %65 finis
+  }
+}
+
+DasLichtBassFigures = \figuremode {
+  r8 r4 <6>8 <6 5> <4>4 <3>
+  <6 4>8 q16 <\t \t> <6>8 <7> r2
+  r4 <6>8 <6 5> <4>4 <3>
+  <6 4>8 q16 <\t \t> <6>4 <6 4>8 <5 3>4.
+  <7>8 <\t> <_+> <5> r2 %5
+  <7!>8 <\t> <_+> <5> r2
+  r8 <6!> <6> <7 _+> <_+>4 <6 5!>
+  r <6>2.
+  r1
+  r2 <6> %10
+  r8 <6\\>4 \bassFigureExtendersOn q8 r <6>4 q8 \bassFigureExtendersOff
+  r4 <6 4>8 <5 3> r2
+  r4 <6>8 <6 5> <4>4 <3>
+  <6 4>8 q16 <\t \t> <6>8 <7> r2
+  <7>8 <\t> <6> <7> <6 4> <\t \t> <5 3> <6 4> %15
+  <7> <\t> <6> <5> <9 4> <8 3>4.
+  r4 <5>8 <6\\> <6>2
+  <4>8 <6 5> <9> <8> <6 4> <5 _+>4.
+  r2 <6>
+  r q %20
+  <5 3>4. <\t \t>8 <6 4>4. <\t \t>8
+  <7! 5>4. <\t \t>2 <6>8
+  r4. <6>2 <6 5>8
+  r <4\+ 2> <6> q <6 4>4 <5 _+>
+  r <6>8 <6 5> <4>4 <3> %25
+  <6> q8 <7> <_+>2
+  r8 <6\\>4 \bassFigureExtendersOn q8 r q4 q8 \bassFigureExtendersOff
+  r4 <6 4>8 <5 _+> r2
+  r4 <6>8 <6 5> <4>4 <3>
+  <6 4>8 q16 <\t \t> <6\\>8 <7 _+> <9 4> <8 3>4. %30
+  <7>8 <6>4 <5>8 <9 4> <8 _+>4.
+  <7!>8 <6>4 <5> <_+>4 <\t>8
+  <9> <8> <7>4 q8 <6>4.
+  r8 <6 5!>4 \once \bassFigureExtendersOn q8 <_+>2
+  <6>1 %35
+  q
+  q2.. q8
+  r4. <6>8 q4. q8
+  <_+>4. <6>8 q4. <6>16 <5>
+  <4>8 q <6>4 <6 4> <5 3> %40
+  r2 <7>4 <6>8 <7>
+  <6 4>4 <5 3> <9 6 3> <10 \t \t>
+  <9 4>8 <8 3>2 <6\\>4 \bassFigureExtendersOn q8
+  r <6>4 q8 \bassFigureExtendersOff r2
+  r2 r8 <6\\>4 \bassFigureExtendersOn q8 %45
+  r <6>4 q8 \bassFigureExtendersOff r <6 4> <5 3>4
+  r <6>8 <6 5> <4>4 <3>8 <\t>
+  r <6> <6 5!>4 <4!> <3>8 <6>
+  r4 <6>8 <5> <_+>2
+  r1 %50
+  r2 <6>
+  r8 <6\\>4 \bassFigureExtendersOn q8 r <6>4 q8 \bassFigureExtendersOff
+  r4 <6 4>8 <5 3> r2
+  r8 <_!> <6> <6 5> <4>4 <3>
+  <6 4>8 q16 <\t \t> <6\\>8 <7 _+> r2 %55
+  <6 _->4. \once \bassFigureExtendersOn q8 <4->8 <6 4> <\t \t> <6- _->
+  <7-> <_+> <7> <5> <4> <6! 4> <\t \t> <6!>
+  <7> <_+> <7> <5> <4> <6 4> <\t \t> <6!>
+  <7! _+> <5\+ _+> <7> <5 _+> <5\+ 4> <\t _+>4 <\t \t>8
+  <6> <_!> <6>4 <6 4>8 <\t \t> <6\\ 5> <\t \t> %60
+  <6 4>4 <5\+ _+>2 r8 <6>
+  r1
+  r2 <6>
+  r8 <6\\>4 \bassFigureExtendersOn q8 r <6>4 q8 \bassFigureExtendersOff
+  r4 <6 4>8 <5 3> r2
+}

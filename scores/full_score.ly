@@ -380,9 +380,62 @@
   %     \midi { \tempo 4. = 72 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.7" "Accompagnato" "Warum ergrimmeſt du?"
+  %   \addTocLabel "warumergrimmest"
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #3
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \WarumErgrimmestViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \WarumErgrimmestViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \WarumErgrimmestViola
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "St. Gottes" "Cain" "Abel" "Adam" }
+  %           \new Voice = "Soli" { \dynamicUp \WarumErgrimmestSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \WarumErgrimmestSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \WarumErgrimmestBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \WarumErgrimmestBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "1.7" "Accompagnato" "Warum ergrimmeſt du?"
-    \addTocLabel "warumergrimmest"
+    \section "1.8" "Aria" "Das Licht ſcheint dir noch eine Weile"
+    \addTocLabel "daslicht"
     \paper {
       top-system-spacing.basic-distance = #10
       top-system-spacing.minimum-distance = #10
@@ -390,47 +443,58 @@
       top-markup-spacing.minimum-distance = #0
       markup-system-spacing.basic-distance = #10
       markup-system-spacing.minimum-distance = #10
-      system-system-spacing.basic-distance = #17
-      system-system-spacing.minimum-distance = #17
-      systems-per-page = #3
+      systems-per-page = #2
     }
     \score { %\articulate
       <<
-        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
-          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
-            \set GrandStaff.instrumentName = "vl"
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "ob"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \WarumErgrimmestViolinoI
+              \DasLichtOboeI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \WarumErgrimmestViolinoII
+              \DasLichtOboeII
+            }
+          >>
+        >>
+        \new StaffGroup<<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \DasLichtViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \DasLichtViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \WarumErgrimmestViola
+            \DasLichtViola
           }
         >>
-        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+        \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "St. Gottes" "Cain" "Abel" "Adam" }
-            \new Voice = "Soli" { \dynamicUp \WarumErgrimmestSoli }
+            \set Staff.instrumentName = "Adam"
+            \new Voice = "Soli" { \dynamicUp \DasLichtSoli }
           }
-          \new Lyrics \lyricsto Soli \WarumErgrimmestSoliLyrics
+          \new Lyrics \lyricsto Soli \DasLichtSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \WarumErgrimmestBassoContinuo
+            \DasLichtBassoContinuo
           }
         >>
-        \new FiguredBass { \WarumErgrimmestBassFigures }
+        \new FiguredBass { \DasLichtBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 4 = 70 }
+      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
+      \midi { \tempo 4 = 75 }
     }
   }
 }

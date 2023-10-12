@@ -39,6 +39,7 @@ tempoIchLebeNur = \tempoMarkup "Allegro non troppo"
 tempoWarumErgrimmest = \tempoMarkup "[Recitativo]"
   tempoWarumErgrimmestB = \tempoMarkup "Allegro"
   tempoWarumErgrimmestC = \tempoMarkup "[Recitativo]"
+tempoDasLicht = \tempoMarkup "Andantino"
 
 
 \include "notes/fl1.ly"

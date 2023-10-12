@@ -1142,3 +1142,109 @@ WarumErgrimmestSoliLyrics = \lyricmode {
   Tha -- ten, be -- den -- ke, was du
   thuſt, und laß dir ra -- then. %147 finis
 }
+
+DasLichtSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \major \time 4/4 \autoBeamOff \tempoDasLicht
+    \partial 8 r8 R1*11 \noBreak %11
+    r2 r4 r8 \mvTr a\pE^\soloE \bar "S-S"
+    e'4. d8 \appoggiatura d4 cis4. fis8 \noBreak
+    fis( e4) d8 cis16([ h)] a8 r cis
+    \appoggiatura cis4 h4. cis8 \appoggiatura cis4 h4. cis8 %15
+    \appoggiatura cis4 h4. a8 \appoggiatura h16 a8 gis r h
+    cis4. dis8 e4. h8
+    \appoggiatura h a4 gis4 \appoggiatura gis8 fis4 r8 fis
+    gis([ a h cis] dis[ e fis) a,]
+    gis([ a h cis] dis[ e fis) a,] %20
+    gis([ a] h4) a8([ h] cis4)
+    h8([ cis] d!4) cis8([ dis] e4)
+    cis8([ dis] e4) cis8([ dis e fis)]
+    gis dis e a, gis4 fis\trill\fermata
+    e r r2 %25
+    R1*2
+    r2 r4 r8 e
+    h'4. a8 \appoggiatura a4 gis4. cis8
+    \appoggiatura cis h4.^\critnote a8 \appoggiatura h16 a8 gis r d'! %30
+    \appoggiatura d8 cis4. h8 \appoggiatura h8 ais4. g'8
+    \appoggiatura g fis4. e!8 d cis r cis
+    \appoggiatura cis d4. e8 \appoggiatura e fis4. h,8
+    \appoggiatura h a!4. h8 \appoggiatura a gis!4 r8 e
+    fis([ ais h cis] d[ e fis) a,?] %35
+    gis([ his cis dis] e[ fis gis) h,]
+    a([ cis d e] fis[ gis)] a4
+    d,8([ e] fis4) h,8([ cis] d4)
+    gis,8([ a] h4) a8[ h cis] h16([ a)]
+    \appoggiatura a8 gis4 a cis h\trill %40
+    a r8 cis \appoggiatura cis4 h4. cis8
+    \appoggiatura cis4 h4. e8 \appoggiatura e4 fis4. a,8
+    \appoggiatura h16 a8 gis r e' e4. e16([ cis)]
+    d4. d16([ h)] cis4 h\trill
+    a r8\fermata e' e4. e16([ cis)] %45
+    \appoggiatura e8 d4.^\critnote d16([ h)] cis4 h\trill\fermata
+    a r r2
+    R1*5 \noBreak %52
+    r2 r4\fermata r8 a
+    \key a \minor e'4. d8 \appoggiatura d4 c4. f8 \noBreak
+    \appoggiatura f e4. d8 c16([ h)] a8 r a %55
+    b4 b \appoggiatura b8 a4. es'8
+    \appoggiatura es d4. c8 \appoggiatura d16 c8 h r f'!
+    \appoggiatura f e4. d8 \appoggiatura d c4. g'!8
+    \appoggiatura g fis4. e8 \appoggiatura e dis4 r8 h
+    e4. e8 e4. e8 %60
+    e4 \appoggiatura g8 fis4\trillE\fermata e r
+    \key a \major R1*3
+    r2^\critnote r4 r8 a, \bar "S-S" %65 finis
+
+  }
+}
+
+DasLichtSoliLyrics = \lyricmode {
+  Das %12
+  Licht ſcheint dir noch
+  ei -- ne Wei -- le, be --
+  denk es doch, mein %15
+  Sohn, und ei -- le, ent --
+  weich aus die -- ſer
+  Fin -- ſter -- niß, ent --
+  weich __
+  _ %20
+  _ _
+  _ _
+  _ _
+  _ aus die -- ſer Fin -- ſter --
+  niß. %25
+
+  Das %28
+  Licht ſcheint dir noch
+  ei -- ne Wei -- le, be -- %30
+  denk es doch, mein
+  Sohn, und ei -- le, ent --
+  weich aus die -- ſer
+  Fin -- ſter -- niß, ent --
+  weich __ %35
+  _
+  _ _
+  _ _
+  _ _ aus
+  die -- ſer Fin -- ſter -- %40
+  niß, be -- denk es
+  doch, mein Sohn, und
+  ei -- le, ent -- weich aus
+  die -- ſer Fin -- ſter --
+  niß, ent -- weich aus %45
+  die -- ſer Fin -- ſter --
+  niß.
+
+  Wer %53
+  in den -- ſel -- ben
+  Schat -- ten ſte -- het, der %55
+  weiß nicht, wie und
+  wo er ge -- het, und
+  iſt des We -- ges
+  nie ge -- wiß, und
+  iſt des We -- ges %60
+  nie ge -- wiß. %61
+
+  \xE Das \x %65 finis
+}
