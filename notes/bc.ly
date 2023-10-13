@@ -1897,3 +1897,51 @@ SoHatDennBassFigures = \figuremode {
   <5> <6\\ 4\+>
   <_+>4 q %84 finis
 }
+
+VerruchterBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \tempoVerruchter
+    \partial 8 \mvTr a8\fE-\tuttiE a' a, c a e' e, e' d
+    c a gis e' a a, r a'
+    d d, d' c h g! c c,
+    g' g, r g' g g g g
+    g g g g g f e f %5
+    g f g g, c4 r8 c
+    c' c c c h h, h' a
+    g g g e h' h h h
+    c c h h a a ais ais
+    h h h, h e4 r8 e %10
+    e e e a, e' e e e
+    a gis a gis a e \clef "treble_8" r e'\pE
+    e e e e e e e e
+    e4 e e dis
+    e \clef bass r8 e,\fE a a, g! g' %15
+    f f, e e' d d' cis a
+    d4 r8 d, d' c h g
+    c4-! g-! a-! d,-!
+    \tempoVerruchterB e e, a r\fermata \bar "|." %19 finis
+  }
+}
+
+VerruchterBassFigures = \figuremode {
+  r8 r2 <6 4>8 <5 _+>4 <\t \t>8
+  <6>4 q8 <7 _+> r2
+  r4. <\t>8 <6 5>4 <9>8 <8>
+  <6 4> <5 3>4. <8 6>8 <7 5> <6 4> <5 3>
+  <6 4> <5 3> <9 4> <8 3>4 <\t \t>8 <6> q %5
+  <6 4>4 <5 3>2.
+  <5>4 <6> <5\+ _+>4. <\t \t>8
+  <6>2 <5\+ _+>
+  <5>4 <6\\ _!>2 <6\\ 5 _+>4
+  <5\+ 4> <\t _+> r4. <_+>8 %10
+  r2 q
+  r8 <6>4 <6 5> <_+>4.
+  <3+ 1>4. <4 2\+>8 <5 _+>4. <6 4>8
+  <7 5>4 <6 4>8 <5 _+> <7 5>4 <7 _+>
+  <_+>2. <\t>4 %15
+  <6> <6\\>2 <6>8 <_+>
+  r2. <6 5>8 <\t \t>
+  r1
+  <4>4 <_+>2. %19 finis
+}

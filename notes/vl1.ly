@@ -600,3 +600,29 @@ DasLichtViolinoI = {
     cis32( h a8.) \appoggiatura cis8 h4\trill a8 a, r\fermata a'\p \bar "S-S" %65 finis
   }
 }
+
+VerruchterViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoVerruchter
+    \partial 8 e8\fE c'16 e, e e e e e e h' e, e e e e e e
+    e e' e e e, d' d d c h a gis a c d e
+    f a, a a f' a, a a f' g, g g g e' e e
+    e8 d r g, g'-! f-! e-! d-!
+    c-! h-! a-! g-! f h c f %5
+    e4 d\trill c8 c, r c'
+    e16 g, g g e' a, a a dis h h h dis h h h
+    e h h h e h e g fis h, dis fis h fis dis h
+    e e, e' e e e e e c' e, e e cis' e, e e
+    e8. h16 fis'4\trill e8 e, r e' %10
+    h h h c h16 dis e4 h8
+    c h c d \appoggiatura d16 c8 h r e\p
+    gis, gis gis a h h h c
+    d-! d( c h) \appoggiatura d4 c2
+    \appoggiatura c8 h4 r8 h\fE c16 a a a c a a a %15
+    d a a a g' a, a a f' a, a a e' a, a a
+    f'8 d, r a' f'16 a, a a f' g, g g
+    e'4-! d-! c-! d-!
+    \tempoVerruchterB h2\trill a4 r\fermata \bar "|." %19 finis
+  }
+}

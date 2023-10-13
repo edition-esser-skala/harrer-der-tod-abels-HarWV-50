@@ -497,34 +497,107 @@
   %     \midi { \tempo 4 = 75 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.9" "Recitativo" "So hat denn Abel nun bey allem Recht"
+  %   \addTocLabel "sohatdenn"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #21
+  %     system-system-spacing.minimum-distance = #21
+  %     systems-per-page = #5
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Cain" "Eva" "Adam" "Abel" }
+  %           \new Voice = "Soli" { \dynamicUp \SoHatDennSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \SoHatDennSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \SoHatDennBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \SoHatDennBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "1.9" "Recitativo" "So hat denn Abel nun bey allem Recht"
-    \addTocLabel "sohatdenn"
-    \paper {
-      system-system-spacing.basic-distance = #21
-      system-system-spacing.minimum-distance = #21
-      systems-per-page = #5
-    }
+    \section "1.9" "Coro" "Verruchter Haß und Neid"
+    \addTocLabel "verruchter"
     \score { %\articulate
       <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \VerruchterOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \VerruchterOboeII
+            }
+          >>
+        >>
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \VerruchterViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \VerruchterViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "vla"
+            \VerruchterViola
+          }
+        >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Cain" "Eva" "Adam" "Abel" }
-            \new Voice = "Soli" { \dynamicUp \SoHatDennSoli }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \VerruchterSoprano }
           }
-          \new Lyrics \lyricsto Soli \SoHatDennSoliLyrics
+          \new Lyrics \lyricsto Soprano \VerruchterSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \VerruchterAlto }
+          }
+          \new Lyrics \lyricsto Alto \VerruchterAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \VerruchterTenore }
+          }
+          \new Lyrics \lyricsto Tenore \VerruchterTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \VerruchterBasso }
+          }
+          \new Lyrics \lyricsto Basso \VerruchterBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \SoHatDennBassoContinuo
+            \VerruchterBassoContinuo
           }
         >>
-        \new FiguredBass { \SoHatDennBassFigures }
+        \new FiguredBass { \VerruchterBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 90 }
     }
   }
 }

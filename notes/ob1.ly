@@ -214,3 +214,29 @@ DasLichtOboeI = {
     cis32( h a8.) \appoggiatura cis8 h4\trill a r\fermata \bar "S-S" %65 finis
   }
 }
+
+VerruchterOboeI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoVerruchter
+    \partial 8 e8\fE c' c c c \appoggiatura c h4 r8 gis
+    a c h8. d16 c h a8 r a
+    f' f f f f4 e
+    e8 d r g, g' f e d
+    c h a g f h c a %5
+    c4 d\trill c r8 c
+    e e e e dis4 r8 dis
+    e e e g fis4 r8 dis
+    e4 e e e
+    e dis e r8 e %10
+    h h h c h4 r8 h
+    c h c d c h r e\pE
+    gis, gis gis a h4 r8 c
+    d d c h \appoggiatura d4 c2^\critnote
+    h4 r8 h\fE c4 c %15
+    d e f e
+    f r8 a, f' f f f
+    e4 d c d
+    \tempoVerruchterB h4.\trill h8 a4 r\fermata \bar "|." %19 finis
+  }
+}

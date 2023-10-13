@@ -593,3 +593,29 @@ DasLichtViola = {
     e a4 gis8 a a, r4 \bar "S-S" %65 finis
   }
 }
+
+VerruchterViola = {
+  \relative c' {
+    \clef alto
+    \key a \minor \time 4/4 \tempoVerruchter
+    \partial 8 c8\fE e e e e e4 r8 h
+    c a h8. e16 e8 e r e
+    d d d d d d d c
+    c h r h e d c h
+    g g g g h d g a %5
+    g g g f e4 r8 e
+    c e c e fis fis fis fis
+    e g g e dis fis dis fis
+    e e d d c a ais cis
+    h h h h h4 r8 e %10
+    e e e e e e e e
+    e e e e e e r e\p
+    e e e e e e e e
+    e4 e e( dis)
+    e r8 e\fE e e e e %15
+    d d cis cis d d cis e
+    d4 r8 d d d d h
+    \parOn c!4-\parenthesize-! h-! a-! \parOff a-\parenthesize-!
+    a4 gis\trill a r\fermata \bar "|." %19 finis
+  }
+}
