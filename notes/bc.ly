@@ -1718,3 +1718,182 @@ DasLichtBassFigures = \figuremode {
   r8 <6\\>4 \bassFigureExtendersOn q8 r <6>4 q8 \bassFigureExtendersOff
   r4 <6 4>8 <5 3> r2
 }
+
+SoHatDennBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoSoHatDenn
+      \set Staff.timeSignatureFraction = 4/4
+    cis1~\pE
+    cis2 ais~
+    ais1
+    h~
+    h~ %5
+    h2 c~
+    c1
+    d4 dis2.~
+    dis1
+    e~ %10
+    e
+    a,
+    h4 gis2.
+    a1~
+    a %15
+    d~
+    d2 dis~
+    dis4 e2.
+    fis4 eis2.
+    fis1 %20
+    his,~
+    his2 cis~
+    cis1
+    d2 g~
+    g a4 d,~ %25
+    d1~
+    d
+    g~
+    g2 e~
+    e1 %30
+    f~
+    f2 b,~
+    b1
+    c4 h2.
+    c1~ %35
+    c2 d4 es~
+    es1
+    e
+    f~
+    f %40
+    es2 f
+    g4 fis2.
+    g1~
+    g2 f!~
+    f1~ %45
+    f2 e~
+    e1~
+    e2 f~
+    f1
+    fis %50
+    g
+    cis,
+    d~
+    d
+    c! %55
+    dis
+    e
+    d!
+    h~
+    h2 eis~ %60
+    eis1
+    fis
+    gis?4 a2.~
+    a1
+    d,~ %65
+    d
+    h~
+    h
+    c
+    f %70
+    fis
+    g
+    a4 gis2.~
+    gis2 a~
+    a1 %75
+    dis,~
+    dis
+    e
+    f
+    g4 fis2.~ %80
+    fis1
+    g
+    a
+    \time 2/4 \markTimeSig #'(2 4) h4 e,\fermata \bar "|." %84 finis
+  }
+}
+
+SoHatDennBassFigures = \figuremode {
+  <6>1
+  r2 <6\\ _+>
+  r1
+  <5\+>2 <6>
+  r <5!> %5
+  r2 <5>
+  <6> <4\+ 2>
+  <_+>4 <6 _+>2.
+  r1
+  r %10
+  r
+  <5>2 <6\\ 4\+>
+  <5\+ _+>4 <6>2.
+  <8 _+>1
+  <7! \t> %15
+  <_+>
+  r2 <6 _+>
+  r4 <3> <6\\ 4\+ 2\+>2
+  <5\+ _+>4 <6\\ _+>2.
+  <5\+ _!>1 %20
+  <6\\ _+>1
+  r2 <5\+>4 <6>
+  r1
+  <_+>1
+  <4\+ 2>2 <_+>4 q %25
+  r1
+  r
+  r
+  r2 <6!>
+  r1 %30
+  r
+  r2 <5>4 <6>
+  r2 <4! 2>
+  <6 4>8 <5 3> <6>2.
+  <5 _->2 <6- \t> %35
+  <6! 4\+ 2> <_+>4 <5->
+  r1
+  <6>2 <5->
+  <_->1
+  r %40
+  <6>2 <_->
+  <_!>4 <6 _!>2.
+  <_->1
+  <4\+ 2>2 <6>
+  r <4! 2> %45
+  r <6>
+  r1
+  r
+  r2 <7->
+  <6>1 %50
+  <_->
+  <6 _!>2 <7- \t>
+  <_!>1
+  <6! 4\+ 2>
+  <6> %55
+  <6 _+>
+  <5 _!>2 <6>
+  <6 _+>1
+  r
+  r2 <6\\ _+> %60
+  <5 \t>1
+  <5\+>2 <6\\ 4\+ 2\+>
+  <6 4\+>8 <5\+ _+> <_+>2.
+  r2 <7! _+>
+  <8 _+>1 %65
+  r2 <7! \t>
+  <6>1
+  <5!>
+  <8>2 <7->
+  r1 %70
+  <6>2 <5>
+  <_-> <4\+ 2>
+  <_+>4 <6 _!>2.
+  r2 <_!>
+  r1 %75
+  <6 _+>
+  r
+  <5 _!>2 <6>
+  <3> <4! 2>
+  r4 <6>2. %80
+  r1
+  <5>2 <6>
+  <5> <6\\ 4\+>
+  <_+>4 q %84 finis
+}

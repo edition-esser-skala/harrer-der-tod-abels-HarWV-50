@@ -1248,3 +1248,182 @@ DasLichtSoliLyrics = \lyricmode {
 
   \xE Das \x %65 finis
 }
+
+SoHatDennSoli = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoSoHatDenn
+      \set Staff.timeSignatureFraction = 4/4
+    r4 r8 e^\Cain a e e d
+    e e g fis fis4 r8 cis'
+    cis cis, cis d e r16 fis g8 fis
+    d4 r8 d g g g fis
+    g r16 g g8 a f f r d %5
+    g g g f e e r e
+    e e a g fis r16 fis fis8 g
+    d4 r8 h fis' fis fis g
+    a4 r8 a h h a h
+    g4 r8 e g16 g g g a8 h %10
+    h e, r h e e e d!
+    c4 r8 a' dis, dis dis e
+    h h \clef treble r h''^\Eva e r16 e e8 d!
+    cis4 r8 e, a a a h
+    g!4 r8 g e' g, g a %15
+    fis4 \clef "treble_8" r16 a,^\Adam a a d4 r8 a
+    c! c c h h h r h
+    h a g e ais8. ais16 ais8 h
+    fis fis \clef treble r cis''^\Eva gis gis h a
+    \appoggiatura gis fis4 r8 fis a! a a gis %20
+    gis4 gis r8 gis gis dis
+    dis e! fis gis e e r16 e a gis
+    a4 r8 a cis a a g
+    fis4 r16 a d c! h4 r8 g
+    cis cis cis d a4 r8 d, %25
+    fis e fis4 r8 fis a g
+    a4 r16 d d a a8 h c! h
+    h4 h r8 g h c
+    d d d e c c r c
+    c g g f g a b a %30
+    f4 r8 f a b c8. f,16
+    f8 f es f d d r16 d g fis
+    g4 r8 b \appoggiatura f e8. e16 e8 f
+    f c \forceClef r d^\Abel g d es f
+    es4 \clef bass r8^\Cain c\fermata as as as g %35
+    fis r16 fis fis8 g d4 \clef treble b''^\Eva
+    g r8 b es b c des
+    c4 r16 g c des b8 r16 b c8 b
+    as4 r8 c as g f4
+    r8 c f g as as b b %40
+    g g \clef bass c,^\Cain b16 c as?4 r16 f h c
+    g8 g \clef treble r16 a'!^\Eva a b c8 r16 d es8 d
+    \appoggiatura c b4 r8 b b b es d
+    cis r16 cis cis8 d d4 r8 a
+    a a d c h!4 r16 g h c %45
+    d8 d d e c c r c
+    g g g a b4 r8 b
+    c c c b a a r c
+    c([ f,)] r c'\fermata es es es d
+    d4 r d8 a16 b c8 d %50
+    b4 r8 d, g g a b
+    a a r16 a a g b8.\fermata b16 b8 a
+    \appoggiatura g f! f r a a a d d
+    \appoggiatura d gis,4 r8 e h'! h h c!
+    a4 r8 e' a, a h c %55
+    h4 r8 h a a h a
+    \appoggiatura a g!4 r16 g g g c8.\fermata h16 ais8 h
+    h fis r fis h h h cis
+    d4 r8 d fis d d cis
+    h r16 h cis8 d cis4 r8 gis %60
+    h8.\fermata h16 h8 a h cis d cis
+    \appoggiatura  h a4 r16 cis a fis his8. his16 his8 cis
+    cis gis r e' cis cis cis h
+    a4 r8 a g g g a
+    fis4 \clef bass r8 d,^\Cain fis fis fis g %65
+    a4 r8 h c! c c h
+    g4 \clef treble r8 d''^\Eva d g, g a
+    f!4 r8 f g g g f
+    e e r g b b c b
+    a4 r16 f a b c8 c d es %70
+    d4 \clef "treble_8" r8 a,^\Adam c4 r16 c es d
+    b4 r8 g cis cis cis d
+    a a \clef treble r e'^\Eva h'!4 \clef "treble_8" r8 h,^\Adam
+    e e d e c!4 r16 e, a gis
+    a4 r8 a c c c h %75
+    h h r h h fis fis g!
+    a4 r8 h c c c h
+    g g r g c c c b
+    a4 r8 a h h h8. c16
+    g4 r8 d a' a a h %80
+    c4 r8 a d d d c
+    h h r h e e e d
+    c4 r8 a dis dis dis e
+    \time 2/4 \markTimeSig #'(2 4) e h r4\fermata \bar "|." %84 finis
+  }
+}
+
+SoHatDennSoliLyrics = \lyricmode {
+  So hat denn A -- bel
+  nun bey al -- lem Recht, und
+  Ca -- in iſt al -- lein der Sün -- de
+  Knecht. Ich glau -- be, daß auch
+  der noch auff der Er -- de ge -- %5
+  boh -- ren ſol -- len wer -- de, in
+  Mut -- ter -- lie -- be nur zu -- wie -- der
+  ſeyn. Hier kommt die Mut -- ter
+  auch, ich bil -- de mir ſchon
+  ein, hab ich die gan -- ze Welt zu %10
+  Fein -- den, ſo iſt ſie e -- ben --
+  falls auch nicht an mei -- nen
+  Freun -- den. Mein Sohn, was ſa -- geſt
+  du? Du biſt dein eig -- ner
+  Feind und ſtöh -- reſt dei -- ne %15
+  Ruh. Es hilfft bey ihm kein
+  Re -- den und kein Sa -- gen, drum
+  kei -- ne Leh -- re kan er mehr er --
+  tra -- gen. Noch glaub ichs nicht an
+  ihm! Ich ha -- be das Ver -- %20
+  trau -- en, wir wer -- den
+  ſei -- ne Beß -- rung ſchau -- en. Ich ſeh es
+  ſchon, die Reu -- e kommt ihn
+  an, wie du und ich nach
+  un -- ſerm Fall ge -- than. So %25
+  geh denn hin, mein lie -- ber
+  Sohn, er -- wei -- ſe, daß mein zärt -- lich
+  Hof -- fen bey dir voll --
+  kom -- men ein -- ge -- trof -- fen. Sprich
+  dei -- nem Grimm und Zor -- ne völ -- lig %30
+  Hohn, laß't uns durch brü -- der --
+  lich Um -- ar -- men wiſ -- ſen, daß un -- ter
+  euch ſich Lieb und Freu -- de
+  küſ -- ſen. Ich bin da -- zu be --
+  reit. Ach das ge -- ſchie -- het %35
+  nicht in E -- wig -- keit. Wie!
+  was? ent -- fer -- neſt du dich
+  gar, nun wird dein Groll nicht of -- fen --
+  bahr, ſo geh doch hin
+  und zeig die Beſ -- ſe -- rung des %40
+  Le -- bens. Schweig, E -- va, ſchweig, es iſt ver --
+  ge -- bens. Soll mei -- ne Müh ver -- ge -- bens
+  ſeyn! Drückt dir mein Wei -- nen
+  nicht Em -- pfin -- dung ein, ſoll
+  denn ein Fleiſch und Blut, ſo %45
+  ich in mei -- nem Schoß ge -- tra -- gen, ſich
+  mit nie -- man -- dem ſo ent --
+  zwey -- en und ver -- kla -- gen! Mein
+  Sohn, ach faß dir ei -- nen
+  Muth, geh und be -- nimm du %50
+  dich, laß mich ſolch Wie -- der --
+  ſtre -- ben und die -- ſen Jam -- mer nicht er --
+  le -- ben. Wie daß dein har -- ter
+  Sinn die Mut -- ter wie -- der --
+  bringt, die dich als ein klein %55
+  Kind an ih -- rer Bruſt ge --
+  ſäugt, die dich mit Weh und Schmerz ge --
+  boh -- ren, an der des Höch -- ſten
+  Fluch durch dich als Erst -- ge --
+  burth ſich of -- fen -- bahrt, die %60
+  Ley -- den da -- durch ü -- ber -- füh -- ret
+  ward, daß ſie ſein E -- ben -- bild ver --
+  loh -- ren. Ver -- tra -- ge dich mit
+  ihm, ver -- giß doch den Ver --
+  druß. Weil du es ſo be -- %65
+  fiehlſt, ſo ſeh ich, daß ich
+  muß. Wie glück -- lich bin ich
+  nun, wie glück -- lich mei -- ne
+  Zäh -- ren, die Fried und Ruh ge --
+  ſtifft. Nun -- mehr ruht al -- ler Feind -- ſchafft %70
+  Gifft. Ach, ach, ich glau -- be
+  nur, es wird nicht lan -- ge
+  wäh -- ren! Wa -- rum? Man
+  weiß nicht was ge -- ſchieht, denn wie das
+  Meer nicht im -- mer ru -- hig %75
+  blei -- bet, und durch die Wel -- len
+  Koth und Un -- flath vor ſich
+  trei -- bet, ſo hat, wer gott -- loß
+  iſt, auch kei -- nen Frie -- den
+  nicht. Er ſcheint die Stil -- le %80
+  zwar wohl äu -- ßer -- lich zu
+  ha -- ben, al -- lein im Her -- zen
+  liegt die ärg -- ſte Stimm ver --
+  gra -- ben. %84 finis
+}

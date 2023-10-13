@@ -40,6 +40,7 @@ tempoWarumErgrimmest = \tempoMarkup "[Recitativo]"
   tempoWarumErgrimmestB = \tempoMarkup "Allegro"
   tempoWarumErgrimmestC = \tempoMarkup "[Recitativo]"
 tempoDasLicht = \tempoMarkup "Andantino"
+tempoSoHatDenn = \tempoMarkup "[Recitativo]"
 
 
 \include "notes/fl1.ly"

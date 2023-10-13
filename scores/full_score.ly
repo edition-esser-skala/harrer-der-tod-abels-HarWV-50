@@ -433,68 +433,98 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.8" "Aria" "Das Licht ſcheint dir noch eine Weile"
+  %   \addTocLabel "daslicht"
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     systems-per-page = #2
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \DasLichtOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \DasLichtOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup<<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \DasLichtViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \DasLichtViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \DasLichtViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Adam"
+  %           \new Voice = "Soli" { \dynamicUp \DasLichtSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \DasLichtSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \DasLichtBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \DasLichtBassFigures }
+  %     >>
+  %     \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
+  %     \midi { \tempo 4 = 75 }
+  %   }
+  % }
   \bookpart {
-    \section "1.8" "Aria" "Das Licht ſcheint dir noch eine Weile"
-    \addTocLabel "daslicht"
+    \section "1.9" "Recitativo" "So hat denn Abel nun bey allem Recht"
+    \addTocLabel "sohatdenn"
     \paper {
-      top-system-spacing.basic-distance = #10
-      top-system-spacing.minimum-distance = #10
-      top-markup-spacing.basic-distance = #0
-      top-markup-spacing.minimum-distance = #0
-      markup-system-spacing.basic-distance = #10
-      markup-system-spacing.minimum-distance = #10
-      systems-per-page = #2
+      system-system-spacing.basic-distance = #21
+      system-system-spacing.minimum-distance = #21
+      systems-per-page = #5
     }
     \score { %\articulate
       <<
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \DasLichtOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \DasLichtOboeII
-            }
-          >>
-        >>
-        \new StaffGroup<<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \DasLichtViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \DasLichtViolinoII
-            }
-          >>
-          \new Staff {
-            \set Staff.instrumentName = "vla"
-            \DasLichtViola
-          }
-        >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "Adam"
-            \new Voice = "Soli" { \dynamicUp \DasLichtSoli }
+            \set Staff.instrumentName = \markup \center-column { "Cain" "Eva" "Adam" "Abel" }
+            \new Voice = "Soli" { \dynamicUp \SoHatDennSoli }
           }
-          \new Lyrics \lyricsto Soli \DasLichtSoliLyrics
+          \new Lyrics \lyricsto Soli \SoHatDennSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \DasLichtBassoContinuo
+            \SoHatDennBassoContinuo
           }
         >>
-        \new FiguredBass { \DasLichtBassFigures }
+        \new FiguredBass { \SoHatDennBassFigures }
       >>
-      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
-      \midi { \tempo 4 = 75 }
+      \layout { }
+      \midi { \tempo 4 = 70 }
     }
   }
 }
