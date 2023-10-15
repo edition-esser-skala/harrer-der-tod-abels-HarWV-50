@@ -8,6 +8,7 @@
 
 Adam = \markup \remark "Adam"
 Abel = \markup \remark "Abel"
+AbelCain = \markup \remark "Abel und Cain"
 Cain = \markup \remark "Cain"
 Eva = \markup \remark "Eva"
 Gott = \markup \remark "Die Stimme Gottes"
@@ -43,6 +44,13 @@ tempoDasLicht = \tempoMarkup "Andantino"
 tempoSoHatDenn = \tempoMarkup "[Recitativo]"
 tempoVerruchter = \tempoMarkup "Allegro"
   tempoVerruchterB = \tempoMarkup "Adagio"
+
+
+% 2.1
+tempoIchHabe = \tempoMarkup "Allegro assai"
+  tempoIchHabeB = \tempoMarkup "[Recitativo]"
+  tempoIchHabeC = \tempoMarkup "Adagio"
+  tempoIchHabeD = \tempoMarkup "Adagio"
 
 
 \include "notes/fl1.ly"

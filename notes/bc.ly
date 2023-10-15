@@ -1945,3 +1945,153 @@ VerruchterBassFigures = \figuremode {
   r1
   <4>4 <_+>2. %19 finis
 }
+
+IchHabeBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoIchHabe
+    \partial 8 \mvTr e8\fE-\soloE ^\tweak TextScript.X-offset #0 ^\unisonoE a16 a e e cis cis a a g' g e e cis cis a a
+    g' g e e cis cis h h ais4~ ais8 r
+    R1*2
+    r2 h'16^\unisonoE h fis fis d d h h %5
+    h' h fis fis dis dis h h a'! a fis fis dis dis cis cis
+    his4~ his8 r r2
+    R1*2
+    r2 cis~\pE %10
+    \tempoIchHabeB cis fis~
+    fis gis4 a~
+    a1
+    d,~
+    d~ %15
+    d2 e~
+    e fis4 dis~
+    dis1
+    e~
+    e~ %20
+    e~
+    e
+    a,
+    d
+    e4 a,2.~ %25
+    a1
+    fis'~
+    fis
+    g~
+    g %30
+    c,
+    f~
+    f2 g4 c,~
+    c1~
+    c %35
+    cis~
+    cis2 d~
+    d b
+    a1~
+    a %40
+    d
+    es2 f4 d~
+    d1
+    h!
+    c~ %45
+    c
+    b
+    a
+    fis'~
+    fis2^\critnote g~ %50
+    g a4 gis~
+    gis2 a~
+    a1
+    d,~
+    d2 g~ %55
+    g1~
+    g2 c,~
+    c a~
+    a b~
+    b1 %60
+    es
+    f4 \tempoIchHabeC e2.
+    f1
+    h,!~
+    h %65
+    \after 4 \tempoIchHabeD c
+    d4 h!2.
+    c1~
+    c2 f~
+    f1~ %70
+    f2 b,~
+    b1~
+    b2 a\fermata \bar "|." %73 finis
+  }
+}
+
+IchHabeBassFigures = \figuremode {
+  r8 r1
+  r2 <6\\ _+>
+  r1*4 %6
+  <6\\ _+>1
+  r1*2
+  r2 <5\+> %10
+  r q
+  <6\\ 4\+ 2\+>2 <5\+ _+>4 <_+>
+  r1
+  <_+>
+  r %15
+  <7! _+>2 <5>
+  r4 <6\\ 4\+ 2\+> <5\+ _+> <6 _+>
+  r1
+  <_+>1
+  r %20
+  <7! _+>
+  r
+  <8 _+>2 <7! \t>
+  <_+>2. <4\+ 2>4
+  <_+> q2. %25
+  r2 <7! _+>
+  <6>1
+  r
+  r
+  <7!> %30
+  r
+  r
+  <4! 2>
+  r
+  r2 <7-> %35
+  <6>1
+  <5>
+  r2 <6>
+  <_+>1
+  r %40
+  <5 3>2 <6- 5->
+  <5-> <_!>4 <6->
+  r2 <5->
+  <6>1
+  <_-> %45
+  r2 <4\+ 2>
+  <6>2. <4! 2>4
+  <6>1
+  q
+  <5>2 <_-> %50
+  r4 <4\+ 2> <_+> <6 _!>
+  r2 <_!>
+  <_+>1
+  <8 _+>2 <7! \t>
+  r1 %55
+  r
+  <7!>
+  r2 <6>
+  r1
+  r %60
+  <5->2 <4! 2>
+  r4 <6>2.
+  <_->1
+  <6>
+  <7- 5> %65
+  <_->2 <6! 4\+>
+  <_+>4 <6>2.
+  <_!>1
+  r
+  r %70
+  <7->2 <5>
+  <6>1
+  r2 <_+> %73 finis
+}

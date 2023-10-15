@@ -1427,3 +1427,158 @@ SoHatDennSoliLyrics = \lyricmode {
   liegt die ärg -- ſte Stimm ver --
   gra -- ben. %84 finis
 }
+
+IchHabeSoli = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoIchHabe
+    \partial 8 r8 R1
+    r2 r4 r8 cis^\Cain
+    fis fis fis eis fis cis r fis
+    cis' cis, cis d e4 r16 e e fis
+    g8. g16 g8 fis \appoggiatura e d d r4 %5
+    R1
+    r4 r16 gis gis dis dis4 r8 cis
+    dis dis dis16 e fis gis a4 r8 fis
+    a a a gis fis4 r8 fis
+    e dis gis fis \appoggiatura fis e e r e %10
+    \tempoIchHabeB gis gis cis16 cis cis h! a4 r8 fis
+    his8. his16 his8 cis gis gis r e
+    a4 r16 a, cis d e8 e fis g!
+    fis fis r a a([ d,)] r d
+    a' a a g a4 r8 a %15
+    a a c! h g4 r16 g fis g
+    e8 r16 e ais8 h fis fis r h
+    h fis fis e fis r16 gis a8 gis
+    \appoggiatura fis e4 \clef treble r8 e'^\Abel gis gis gis a
+    h4 r8 h h h, h cis? %20
+    d!4 r8 d d d fis d
+    \appoggiatura cis? h4 r8 h e e e d
+    cis cis r cis g'! g g fis
+    fis4 r8 fis e d gis8. a16
+    e8 e \clef bass r e,^\Cain \appoggiatura d cis cis cis d %25
+    e4 r8 e g! g g fis
+    d4 r8 d a' a a g
+    a4 r8 a a fis c'! h
+    h4 r16 h h a g8 r16 g g8 a
+    f!8 f r d g d d16 e f g %30
+    e8 e r16 e g f g8 g c b
+    a4 r16 a g a f4. f8
+    h!8. h16 h8 c g4 r
+    g g8 f \appoggiatura f e4 \clef treble r8 g'^\Abel
+    c4 \clef bass r8 g,^\Cain b r16 b b8 a %35
+    a a \clef treble r a'^\Abel e4 r8 f
+    g8. g16 g8 a \appoggiatura g f8 f r4
+    a8 f16 e d8 r16 d d8 d g d
+    e4 \clef bass r8 e,^\Cain e d cis4
+    r8 cis e f g g b a %40
+    f f r16 f f g as8.\fermata as16 as8 b
+    g g r16 g a b f4 \clef treble r8 b^\Abel
+    f'4 r8 g as as as g
+    g4 \clef bass r8 d,^\Cain g4 r16 g f g
+    es4 \clef treble r8 c'^\Abel es es f g %45
+    g c, r c fis8. fis16 fis8 g
+    g d \clef bass r d,^\Cain g8. f!16 e!8 f
+    f([ c)] \clef treble r16 f'^\Abel a g a8 b c es,
+    d d \clef bass a4^\Cain a8([ d,)] r a'
+    c c c b b b r b %50
+    a g cis d a4 r8 e
+    h'!8 r16 h h8 c a4 \clef treble r8 a'^\Eva
+    cis cis h a e'4 \forceClef r8 << \context Voice = "Soli" { \voiceOne a,8^\AbelCain \appoggiatura g fis4 \oneVoice } \\ { a,8 d4 } >>
+    r \forceClef c'^\Eva d8 e
+    e a, r16 a h c h4 r %55
+    d h8 a g g r d
+    f! f f g e4 \clef bass c^\Cain
+    c8 g b a f f \clef treble r16 c'^\Abel f e
+    f8 f es f d4 \clef bass r16 b,^\Cain d es
+    f4 r8 f f f b as %60
+    g4 r8 c a a a b
+    f f \tempoIchHabeC \clef treble r16 g'^\Abel g as b8 b b as
+    \appoggiatura g8 f4 \clef bass r8 c,^\Cain f4 r16 f g as
+    g4 \clef treble r8 d'^\Eva g4 r16 d d es
+    f4 r8 g as as as g %65
+    \appoggiatura f es4 \tempoIchHabeD \forceClef r8 a!^\Abel \appoggiatura g fis8. fis16 fis8 g
+    g([ d)] \forceClef r d^\Eva g g as\fermata g
+    \appoggiatura f! e!4 e r8 e g f
+    g a b8. a16 a8 a r a
+    c8. a16 a8 g f4 r8 f %70
+    es es es f d d r d
+    g g g fis g4 r8 g
+    b g g d e e r4\fermata \bar "|."
+  }
+}
+
+IchHabeSoliLyrics = \lyricmode {
+  Ich %2
+  ha -- be mich ent -- ſchloſ -- ſen: Nun
+  ruh ich e -- her nicht, als biß ich
+  A -- bels Blut ver -- goſ -- ſen. %5
+
+  Was iſt denn wohl mit
+  ſol -- cher Freund -- ſchafft aus -- ge -- richt, die
+  mir von Her -- zen geht, die
+  mir nur Un -- luſt brin -- get, und %10
+  die aus al -- ler mei -- ner Pein die
+  gröb -- ſten Feh -- ler zwin -- get. Er
+  kommt. Mein Her -- ze kalt, zwar lau -- ter
+  Ra -- che, al -- lein, ein
+  freund -- li -- ches Ge -- fühl ſoll %15
+  die Ver -- ſüſ -- ſung ſeyn, da -- durch ich
+  ihn recht ſi -- cher ma -- che. Ge --
+  lieb -- ter Bru -- der, komm, ich war -- te
+  dein. Wie an -- ge -- nehm klingt
+  das! wie lieb -- lich und wie %20
+  fein ist es nicht an -- zu --
+  ſehn, wenn Brü -- der fried -- lich
+  le -- ben und durch der Freund -- ſchafft
+  Band ei -- nan -- der ſich er --
+  ge -- ben. In dir er -- geb ich %25
+  mich, mein Bru -- der, ganz und
+  gar, ich bin nicht mehr der
+  Menſch, der ich vor die -- ſen
+  war. Ver -- giß nur du, was vor -- ge --
+  gan -- gen. Es ſoll nun -- mehr da -- hin ge -- %30
+  lan -- gen, daß Ca -- in al -- len Groll ver --
+  gißt, daß un -- ter uns ſich
+  wah -- re Freund -- ſchafft küßt.
+  Komm, geh’ mit mir. Wo --
+  hin? Aufs Feld, von hier nicht %35
+  fer -- ne. Ach ja, das
+  thu ich herz -- lich ger -- ne.
+  Was a -- ber ſoll denn die Ver -- rich -- tung
+  ſeyn? Es fällt mir ein,
+  ich will durch Buſ -- ſe Gott ver -- %40
+  ſöh -- nen, und ſei -- ne Straf -- fe ab -- zu --
+  leh -- nen ein Opf -- fer thun. Al --
+  lein, das Schlacht -- ſchaaf feh -- let
+  dir. Ach nein, es iſt ſchon
+  hier. Man muß bey ſol -- chen %45
+  Zei -- ten ſein Herz auch wohl be --
+  rei -- ten. Diß al -- les iſt ge --
+  ſchehn. So wird dein Opf -- fer Gott ge --
+  fal -- len. Ach ja, __ er
+  lie -- bet es vor al -- lem, das %50
+  man ihm brin -- gen kan. Komm
+  nur und laß uns gehn. Wo
+  eilt ihr Kin -- der hin! Auffs
+  Feld. Ach was vor
+  Freu -- de ſeh ich an mich, %55
+  ſo lebt ihr bey -- de wie
+  Brü -- der zu -- ge -- hört. Komm,
+  A -- bel, laß uns ei -- len. Ich kom -- me
+  gleich, den Au -- gen -- blick. Du ſagſt, du
+  kömmſt, und blei -- beſt doch zu -- %60
+  rück. Was nut -- zet dein Ver --
+  wei -- len? Ge -- lieb -- te Mut -- ter, le -- be
+  wohl. Komm, komm, der Tag ver --
+  ſtreicht. Wie kommts, daß A -- bel
+  izt ſo ſchmerz -- lich vor mir %65
+  weicht? Ich weiß es nicht wa --
+  rum. Du blei -- beſt seuff -- zend
+  ſte -- hen, als ſollt ich
+  dich nicht wie -- der -- ſe -- hen. So
+  re -- de doch, mein Kind, ant -- %70
+  wor -- te mei -- nen Fra -- gen. Was
+  will der -- glei -- chen Angſt, die
+  du be -- zeu -- geſt, sa -- gen? %73 finis
+}

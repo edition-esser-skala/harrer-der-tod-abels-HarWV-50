@@ -628,3 +628,18 @@ VerruchterViolinoII = {
     \tempoVerruchterB e,2 e4 r\fermata \bar "|." %19 finis
   }
 }
+
+IchHabeViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoIchHabe
+    \partial 8 e8\fE a16 a e e cis cis a a g' g e e cis cis a a
+    g' g e e cis cis h h ais4~ ais8 r
+    R1*2
+    r2 h'16 h fis fis d d h h %5
+    h' h fis fis dis dis h h a'! a fis fis dis dis cis cis
+    his4~ his8 r r2
+    R1*65 %72
+    R1\fermata \bar "|." %73 finis
+  }
+}

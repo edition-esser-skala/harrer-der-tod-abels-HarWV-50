@@ -527,77 +527,131 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.9" "Coro" "Verruchter Haß und Neid"
+  %   \addTocLabel "verruchter"
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \VerruchterOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \VerruchterOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \VerruchterViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \VerruchterViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \VerruchterViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \VerruchterSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \VerruchterSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \VerruchterAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \VerruchterAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \VerruchterTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \VerruchterTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \VerruchterBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \VerruchterBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \VerruchterBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \VerruchterBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
+  % \part "seconda" "2" "Parte Seconda"
   \bookpart {
-    \section "1.9" "Coro" "Verruchter Haß und Neid"
-    \addTocLabel "verruchter"
+    \section "2.1" "Accompagnato" "Ich habe mich entſchloßen"
+    \addTocLabel "ichhabe"
+    \paper {
+      top-system-spacing.basic-distance = #10
+      top-system-spacing.minimum-distance = #10
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #10
+      markup-system-spacing.minimum-distance = #10
+      system-system-spacing.basic-distance = #17
+      system-system-spacing.minimum-distance = #17
+      systems-per-page = #3
+    }
     \score { %\articulate
       <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \VerruchterOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \VerruchterOboeII
-            }
-          >>
-        >>
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
+        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \VerruchterViolinoI
+              \IchHabeViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \VerruchterViolinoII
+              \IchHabeViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \VerruchterViola
+            \IchHabeViola
           }
         >>
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
           \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \VerruchterSoprano }
+            \set Staff.instrumentName = \markup \center-column { "Cain" "Abel" "Eva" }
+            \new Voice = "Soli" { \dynamicUp \IchHabeSoli }
           }
-          \new Lyrics \lyricsto Soprano \VerruchterSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \VerruchterAlto }
-          }
-          \new Lyrics \lyricsto Alto \VerruchterAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \VerruchterTenore }
-          }
-          \new Lyrics \lyricsto Tenore \VerruchterTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \VerruchterBasso }
-          }
-          \new Lyrics \lyricsto Basso \VerruchterBassoLyrics
+          \new Lyrics \lyricsto Soli \IchHabeSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \VerruchterBassoContinuo
+            \IchHabeBassoContinuo
           }
         >>
-        \new FiguredBass { \VerruchterBassFigures }
+        \new FiguredBass { \IchHabeBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }
