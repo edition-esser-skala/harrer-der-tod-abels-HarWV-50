@@ -641,3 +641,119 @@ IchHabeViolinoI = {
     R1\fermata \bar "|." %73 finis
   }
 }
+
+IndemIchViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoIndemIch
+    \mvTr d'4\fE-\conSord a'4. g8
+    \appoggiatura g8 fis4.\trill e16 d \appoggiatura d8 cis4
+    \appoggiatura e8 d8.\trill cis32( d) \appoggiatura fis8 e8.\trill d32( e) \appoggiatura g8 fis8.\trill e32( fis)
+    g4-! fis-! r
+    d,8.(\pp fis16) a4. g8 %5
+    \appoggiatura g fis4.\trill e16 d \appoggiatura d8 cis4
+    \appoggiatura e8 d8.\trill cis32( d) \appoggiatura fis8 e8.\trill d32( e) \appoggiatura g8 fis8.\trill e32( fis)
+    \appoggiatura g8 \scriptOut fis4-! e-! r
+    a\f \appoggiatura a h4. cis8
+    \appoggiatura e16 d8.( cis16 d4.) ais8 %10
+    \appoggiatura cis16 h8.( ais16 h4.) fis8
+    \appoggiatura fis16 e8.( d16 e4.) h8
+    cis2~ cis8 d16 e
+    d2~ \tuplet 3/2 8 { d16 e fis g[ fis e] }
+    d4 \appoggiatura fis e2\trill \noBreak %15
+    d4-! a-! r \bar "S-S"
+    \mvTrr d8(-.\pp-\sempre d-. a'-. a-. a-. g-.) \noBreak
+    \appoggiatura g4 fis8(-. fis-. fis-. fis-. cis-. cis-.)
+    d(-. d-. e-. e-. fis-. fis-.)
+    \appoggiatura a \scriptOut g4-! fis-! r %20
+    d8(-. d-. h'-. h-. h-. h-.)
+    h(-. h-. a-. a-. a-. a-.)
+    gis(-. gis-. gis-. gis-. g-. fis-.)
+    \appoggiatura g \scriptOut fis4-! e-! r
+    e8(-. e-. a-. a-. e-. e-.) %25
+    e(-. e-. dis-. dis-. dis-. d-.)
+    cis(-. cis-. d-. d-. cis-. cis-.)
+    \appoggiatura cis4 h8(-. h-. h-. h-. cis-. d-.)
+    e(-. e-. e-. e-. e-. e-.)
+    fis(-. fis-. fis-. fis-. fis-. gis-.) %30
+    a(-. a-. a-. a-. a-. eis-.)
+    fis(-. fis-. fis-. fis-. fis-. gis-.)
+    \appoggiatura gis4 a8(-. a-. a-. a-. a-. eis-.)
+    fis(-. fis-. fis-. fis-. fis-. cis-.)
+    d(-. d-. d-. d-. cis-. h-.) %35
+    cis4\fermata r r
+    a'\f e'4. d8
+    \appoggiatura d cis4.\trillE h16 a \appoggiatura a8 gis4
+    \appoggiatura h8 a8.\trill gis32( a) \appoggiatura cis8 h8.\trill a32( h) \appoggiatura d8 cis8.\trill h32( cis)
+    \appoggiatura d8 cis4-! h-! r %40
+    \appoggiatura d8 cis8.\trill h32( cis) \appoggiatura e8 d8.\trill cis32( d) \appoggiatura fis8 e8.\trill d32( e)
+    fis4~ fis16 d( cis h) fis'-!\p d( cis h)
+    a4 \appoggiatura cis h2\trill
+    a4 a, r
+    a8(-.\p a-. e'-. e-. e-. d-.) %45
+    \appoggiatura d4 cis8(-. cis-. cis-. cis-. h-. h-.)
+    a(-. a-. h-. h-. cis-. cis-.)
+    d4-! cis-! r
+    a8(-. a-. e'-. e-. e-. e-.)
+    e(-. e-. e-. e-. e-. e-.) %50
+    a(-. a-. a-. a-. a-. a-.)
+    a(-. g!-. g-. g-. a-. a-.)
+    h(-. h-. h-. h-. h-. h-.)
+    a(-. a-. a-. a-. a-. a-.)
+    a([-. a-. a-. a-. a-.)] g16 fis %55
+    \appoggiatura fis4 e2 r4
+    e-! f4.-! f8-!
+    f(-. f-. f-. f-. f-. f-.)
+    f(-. f-. e-. e-. e-. d-.)
+    d4\trill cis r %60
+    a8(-. a-. a-. a-. a-. a-.)
+    h(-. h-. h-. h-. h-. cis-.)
+    d(-. d-. d-. d-. d-. ais-.)
+    h(-. h-. h-. h-. h-.) g'~
+    g cis,(-. cis-. cis-. cis-.) a'~ %65
+    a d,(-. d-. d-. d-.) h'~
+    h e,(-. e-. e-. e-.) g~
+    g fis4 e d8
+    r4 d \appoggiatura fis8 e4\trillE
+    d2 r4 %70
+    e8(-. e-. a-. a-. a-. a-.)
+    a(-. gis-. gis-. gis-. gis-. g-.)
+    g(-. g-. fis-. fis-. fis-. fis-.)
+    \appoggiatura g \scriptOut fis4-! e-! r
+    a,8(-. a-. d-. d-. d-. d-.) %75
+    d(-.\f d-. d-. d-. d-. d-.)
+    d4\fermata r r
+    \mvTr d'4\f-\dopolareplica a'4. g8
+    \appoggiatura g fis!4.\trillE e16 d \appoggiatura d8 cis4
+    \appoggiatura e8 d8.\trill cis32( d) \appoggiatura fis8 e8.\trill d32( e) \appoggiatura g8 fis8.\trill e32( fis) %80
+    \appoggiatura g8 fis4-! e-! r
+    a \appoggiatura a h4. cis8
+    \appoggiatura cis4 d2~ d8 ais
+    \appoggiatura ais4 h2~ h8 fis
+    \appoggiatura fis4 g2~ g8 h, %85
+    \appoggiatura d4 cis2~ cis8 d16 e
+    d2~ \tuplet 3/2 8 { d16[ e fis] g fis e }
+    d4 \appoggiatura fis e2\trill \noBreak
+    d4-! a,-! r\fermata \bar "||"
+    h8(-.\p h-. fis'-. fis-. fis-. e-.) \noBreak %90
+    \appoggiatura e4 d8(-. d-. d-. d-. d-. d-.)
+    g!(-. g-. g-. g-. g-. fis)-.
+    eis4-! fis-! r
+    cis8(-. cis-. fis-. fis-. fis-. fis-.)
+    fis(-. fis-. h-. h-. h-. h-.) %95
+    a!(-. a-. a-. a-. a-. a-.)
+    a4-! gis-! r
+    cis,8(-. cis-. d!-. d-. d-. eis-.)
+    fis(-. fis-. fis-. fis-. fis-. fis-.)
+    fis4\fermata\f r r %100
+    R2.
+    d4\ff a'4. g8
+    \appoggiatura g fis4.\trillE e16 d \appoggiatura d8 cis4
+    \appoggiatura e8 d8.\trill cis32( d) \appoggiatura fis8 e8.\trill d32( e) \appoggiatura g8 fis8.\trill e32( fis)
+    \appoggiatura g8 \scriptOut fis4-! e-! r %105
+    cis2~ cis8 d16 e
+    d2~ \tuplet 3/2 8 { d16[ e fis] g fis e }
+    d4 \appoggiatura fis e2\trill
+    d4 a r \bar "S-S" %109 finis
+  }
+}

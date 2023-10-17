@@ -634,3 +634,119 @@ IchHabeViola = {
     R1\fermata \bar "|." %73 finis
   }
 }
+
+IndemIchViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 3/4 \tempoIndemIch
+    \mvTr fis8\fE-\conSord fis fis fis e e
+    d d fis fis g g
+    a a a a a a
+    \parOn a4-\parenthesize-! \parOff a-\parenthesize-! r
+    fis,8\pp fis fis' fis e e %5
+    d d fis, fis g g
+    a a a a a a
+    a4-\parenthesize-! a-! r
+    d8\f d g g g g
+    fis fis fis fis fis fis %10
+    d d d d dis dis
+    h h h h h h
+    h h a a a a
+    a a a a h h
+    a a g g g g \noBreak %15
+    fis4 r r \bar "S-S"
+    \mvTrr d'8(-.\pp-\sempre d-. d-. d-. cis-. cis-.) \noBreak
+    a(-. a-. d,-. d-. e-. e-.)
+    fis(-. fis-. cis-. cis-. d-. d-.)
+    \parOn a'4-\parenthesize-! \parOff a-\parenthesize-! r %20
+    fis8(-. fis-. d'-. d-. d-. d-.)
+    cis(-. cis-. cis-. cis-. cis-. cis-.)
+    h(-. h-. h-. h-. a-. a-.)
+    \parOn a4-\parenthesize-! \parOff a-\parenthesize-! r
+    cis8(-. cis-. cis-. cis-. a-. a-.) %25
+    fis(-. fis-. fis-. fis-. e-. e-.)
+    e(-. e-. fis-. fis-. dis-. dis-.)
+    e(-. e-. e-. e-. e-. e-.)
+    e(-. e-. e-. e-. e-. e-.)
+    a(-. a-. h-. h-. h-. h-.) %30
+    a(-. a-. fis-. fis-. cis-. cis-.)
+    a'(-. a-. h-. h-. h-. h-.)
+    a(-. a-. fis-. fis-. cis-. cis-.)
+    d(-. d-. a'-. a-. fis-. fis-.)
+    fis(-. fis-. fis-. fis-. e-. fis-.) %35
+    e4\fermata r r
+    \parOn \mvTr cis'8\f-\parenthesize-!-\staccato cis-! cis-! cis-! h-! \parOff h-\parenthesize-!
+    a a e' e d d
+    e e e e e e
+    e4 e r %40
+    e8 e a a a a
+    a a h4-! r
+    cis,8\pE cis e e e e
+    cis4 r r
+    a8(-.\p a-. a-. a-. e-. e-.) %45
+    e(-. e-. e-. e-. e-. e-.)
+    e(-. e-. e-. e-. e-. e-.)
+    e4-! e-! r
+    a8(-. a-. a-. a-. a-. a-.)
+    g!(-. g-. g-. g-. g-. g-.) %50
+    a(-. a-. c-. c-. c-. c-.)
+    c(-. h-. h-. h-. h-. h-.)
+    h(-. h-. h-. h-. h-. h-.)
+    \appoggiatura d4 cis!8(-. cis-. cis-. cis-. cis-. cis-.)
+    d(-. d-. h-. h-. g-. g-.) %55
+    a2 r4
+    r r a
+    b8(-. b-. b-. b-. a-. a-.)
+    gis(-. gis-. gis-. gis-. gis-. gis-.)
+    a(-. a-. a-. a-. e-. e-.) %60
+    d(-. d-. d-. d-. d-. d-.)
+    d(-. d-. e-. e-. e-. e-.)
+    fis(-. fis-. fis-. fis-. fis-. fis-.)
+    d(-. d-. d-. d-. e-. e-.)
+    e(-. e-. e-. e-. fis-. fis-.) %65
+    fis(-. fis-. fis-.-\critnote fis-. g-. g-.)
+    a(-. a-. a-. a-. a-. a-.)
+    a4 g fis
+    h a g
+    fis8( a g fis e d) %70
+    e(-. e-. e-. e-. cis'-. cis-.)
+    h(-. h-. h-. h-. cis-. a-.)
+    a(-. a-. a-. a-. gis-. gis-.)
+    a4-! a-! r
+    g!8(-. g-. f-. f-. f-. f-.) %75
+    f\f(-. f-. f-. f-. f-. f-.)
+    f4\fermata-\critnote r r
+    \mvTr fis'8-!\f-\staccato-\dopolareplica fis-! fis-! fis-! e-! e-!
+    d d fis fis g g
+    a a a a a a %80
+    a4-! a-! r
+    a8 a g g g g
+    fis fis fis fis fis fis
+    d d d d dis dis
+    h h h h e e %85
+    e e e e e e
+    a a a a h h
+    fis fis a a g g \noBreak
+    fis4 r r\fermata \bar "||"
+    h,8(-.\p h-. h-. h-. ais-. ais-.) \noBreak %90
+    fis(-. fis-. fis-. fis-. fis-. fis-.)
+    h(-. h-. h-. h-. h-. h-.)
+    gis4-! a!-! r
+    ais8(-. ais-. ais-. ais-. ais-. ais-.)
+    fis(-. fis-. d-. d-. d'-. d-.) %95
+    dis(-. dis-. dis-. dis-. dis-. dis-.)
+    cis4-! cis-! r
+    eis,8(-. eis-. fis-. fis-. gis-. gis-.)
+    a(-. a-. h-. ais-. h-. his-.)
+    a4\f\fermata r r %100
+    R2.
+    \mvTrh fis8\ff-\staccato fis fis' fis e e
+    d d fis, fis g g
+    a a a a a a
+    a4-! a-! r %105
+    a8 a a a a a
+    a a a a h h
+    a a a a g g
+    fis4 r r \bar "S-S" %109 finis
+  }
+}

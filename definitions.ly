@@ -12,8 +12,16 @@ AbelCain = \markup \remark "Abel und Cain"
 Cain = \markup \remark "Cain"
 Eva = \markup \remark "Eva"
 Gott = \markup \remark "Die Stimme Gottes"
+
+dopolareplica = \markup {
+  \remark \whiteout
+  \override #'(baseline-skip . 2)
+  \left-column { "dopo la replica" "si levano i sordini" }
+}
 forceClef = \set Staff.forceClef = ##t
 hideAcc = \once \override Accidental.stencil = ##f
+sempre = \markup \remark "sempre"
+staccato = \markup \remark "staccato"
 
 markSegno = \mark \markup \remark { \musicglyph "scripts.segno" }
 markSegnoRec = {
@@ -51,12 +59,15 @@ tempoIchHabe = \tempoMarkup "Allegro assai"
   tempoIchHabeB = \tempoMarkup "[Recitativo]"
   tempoIchHabeC = \tempoMarkup "Adagio"
   tempoIchHabeD = \tempoMarkup "Adagio"
+tempoIndemIch = \tempoMarkup "Moderato"
 
 
 \include "notes/fl1.ly"
 \include "notes/fl2.ly"
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"
+\include "notes/obamore1.ly"
+\include "notes/obamore2.ly"
 \include "notes/obgrande1.ly"
 \include "notes/obgrande2.ly"
 \include "notes/fag1.ly"

@@ -1582,3 +1582,154 @@ IchHabeSoliLyrics = \lyricmode {
   will der -- glei -- chen Angſt, die
   du be -- zeu -- geſt, sa -- gen? %73 finis
 }
+
+IndemIchSoli = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \autoBeamOff \tempoIndemIch
+    R2.*16 \bar "S-S" %16
+    \mvTr d4\pE^\soloE a'4. g8
+    \appoggiatura g4 fis2 cis4
+    d \appoggiatura fis8 e4 \appoggiatura g8 fis4
+    \appoggiatura a8 g4 fis r %20
+    d h' h
+    h( a) r8 a
+    gis2( g8) fis
+    \appoggiatura g fis4 e r
+    e a e %25
+    e( dis4.) d8
+    cis4( d) cis
+    \appoggiatura cis h2 r4
+    e e e
+    fis2~ fis8 gis %30
+    a2~ a8[ eis]
+    fis2~ fis8[ gis]
+    \appoggiatura gis4 a2~ a8[ eis]
+    fis2~ fis8[ cis]
+    d2 cis8([ h)] %35
+    a!4\fermata h2\trill
+    a4 r r
+    R2.*7 %44
+    a4 e'4. d8 %45
+    \appoggiatura d4 cis2 h4
+    a \appoggiatura cis8 h4 \appoggiatura d8 cis4
+    \appoggiatura e8 d4\trill cis r
+    a e' e
+    e2 e4 %50
+    a2~ a8 a
+    a([ g!)] g4 r
+    h \appoggiatura a8 g4 \appoggiatura fis8 e4
+    \appoggiatura d4 cis!2~ cis8 e
+    a2~ a8 g16([ fis)] %55
+    \appoggiatura fis4 e2 r4
+    e f4. f8
+    f2 r8 f
+    f4( e4.) d8
+    \appoggiatura e8 d4 cis r %60
+    a a a
+    h2~ h8 cis
+    d2~ d8[ ais]
+    h2~ h8[ g']
+    \appoggiatura d cis2~ cis8[ a'] %65
+    \appoggiatura e d2~ d8[ h']
+    \appoggiatura fis e2~ e8[ g]~
+    g fis4 e d8
+    r4 d e\trill
+    d2 r4 %70
+    e a a
+    \appoggiatura a8 gis2 r8 g
+    g4( fis4.) fis8
+    \appoggiatura g8 \scriptOut fis4 e r
+    a, d d %75
+    d2 d4
+    d\fermata e2\trill
+    d4 r r
+    R2.*10 \noBreak %88
+    R2.\fermata \bar "||"
+    h4 fis'4. e8 \noBreak %90
+    \appoggiatura e4 d2 r8 d
+    g!2~ g8 fis
+    \appoggiatura fis eis4-! fis-! r
+    cis fis fis
+    fis2 r8 fis %95
+    a!2~ a8 gis!16([ fis)]
+    \appoggiatura gis8 fis4 eis r
+    cis d!4. eis8
+    fis2 r8 fis
+    fis4\fermata \appoggiatura a4 gis2\trill %100
+    fis r4
+    R2.*8 \bar "S-S" %109 finis
+  }
+}
+
+IndemIchSoliLyrics = \lyricmode {
+  In -- dem ich %17
+  nun muß
+  von __ _ dir
+  ſchei -- den, %20
+  ſo ahnt mir
+  was __ durch
+  ängſt -- lich
+  Lei -- den,
+  was ich nicht %25
+  ſel -- ber
+  ſa -- gen
+  kan,
+  das ich nicht
+  ſel -- ber %30
+  ſa --
+  _
+  _
+  _
+  _ _ %35
+  _ gen
+  kan.
+
+  In -- dem ich %45
+  nun muß
+  von __ _ dir
+  ſchei -- den,
+  ſo ahnt mir
+  was durch %50
+  ängſt -- lich
+  Lei -- den,
+  das ich nicht
+  ſel -- ber
+  ſa -- gen %55
+  kan,
+  es ahnt mir
+  was durch
+  ängſt -- lich
+  Lei -- den, %60
+  das ich nicht
+  ſel -- ber
+  ſa --
+  _
+  _ %65
+  _
+  _
+  _ _ _
+  ſa -- gen
+  kan, %70
+  es ahnt mir
+  was durch
+  ängſt -- lich
+  Lei -- den,
+  das ich nicht %75
+  ſel -- ber
+  ſa -- gen
+  kan.
+
+  Ich geh’ von %90
+  dir mit
+  ſchwe -- rem
+  Her -- zen,
+  ich ſe -- he
+  dich mit %95
+  lau -- ter
+  Schmer -- zen
+  und jam -- mer --
+  vol -- len
+  Au -- gen %100
+  an. %101 finis
+}
