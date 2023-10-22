@@ -2323,3 +2323,59 @@ IndemIchBassFigures = \figuremode {
   <6 4>4 <5 3>2
   r2. %109 finis
 }
+
+SoLebeBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoSoLebe
+    d1~
+    d2 e4 eis~
+    eis2 fis~
+    fis1
+    e!~ %5
+    e~
+    e2 r4 fis
+    dis1
+    e~
+    e2 a,~ %10
+    a1~
+    a~
+    a2 d~
+    d h~
+    h1~ %15
+    h2 gis~
+    gis a~
+    a1
+    h'4 ais2.~
+    ais1 %20
+    h~
+    h
+    r4 cis, fis,2\fermata \bar "|." %23 finis
+  }
+}
+
+SoLebeBassFigures = \figuremode {
+  <_+>1
+  <4\+ 2>2 <6\\ 4>8 <5 _+> <6\\ \t>4
+  r2 <5\+>
+  r <6\\ 4\+ 2\+>
+  <6\\ _+>1 %5
+  <6\\ 4\+ 2\+>
+  r2. <5\+ _+>4
+  <6 _+>1
+  <_+>
+  r2 q %10
+  r1
+  <7! _+>
+  r2 <8 _+>
+  <7! \t> <6>
+  r1 %15
+  r2 <6>
+  r1
+  r2 <6\\ 4\+>
+  <6 4>8 <5\+ _+> <6\\ _+>2.
+  r1 %20
+  <5\+ _!>
+  r2 <6\\>
+  r4 <5\+ _+> <5\+ _!>2 %23 finis
+}

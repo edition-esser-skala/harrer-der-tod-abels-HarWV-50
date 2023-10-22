@@ -60,6 +60,7 @@ tempoIchHabe = \tempoMarkup "Allegro assai"
   tempoIchHabeC = \tempoMarkup "Adagio"
   tempoIchHabeD = \tempoMarkup "Adagio"
 tempoIndemIch = \tempoMarkup "Moderato"
+tempoSoLebe = \tempoMarkup "Adagio"
 
 
 \include "notes/fl1.ly"

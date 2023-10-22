@@ -1733,3 +1733,59 @@ IndemIchSoliLyrics = \lyricmode {
   Au -- gen %100
   an. %101 finis
 }
+
+SoLebeSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoSoLebe
+    r8 fis^\Abel fis e \appoggiatura e d4 r8 d
+    \appoggiatura a' gis8.\fermata fis16 gis8 a a([ e)] \forceClef r16 cis'^\Eva cis gis
+    gis8 a h cis \appoggiatura h a4 r16 a a gis
+    fis4 r8 fis his8. his16 his8 cis
+    cis([ gis)] r16 gis gis gis cis8 cis cis8. h16 %5
+    ais4 ais r8 fis' fis cis
+    cis d e d \appoggiatura cis h4 r
+    \clef "treble_8" r8 fis,^\Adam fis gis a!16 a gis fis h8 fis
+    \appoggiatura a gis4 r16 e gis a h4 r8 h
+    h h e h cis cis r16 a cis h %10
+    a4 r8 a a16 e e fis g!8 fis
+    g8 g r16 g h g \appoggiatura fis8 e4 r8 e
+    e e a g fis fis r16 fis a h
+    c!8 c c h g4 \clef treble r8 d'^\Eva
+    g g h c d d r d %15
+    f! d d c h h r16 h h c
+    d8 d e d \appoggiatura d c4 r16 a a a
+    c8 h a r16 a dis8 dis dis e
+    e([ h)] \clef "treble_8" r cis,^\Adam fis fis fis eis
+    fis4 r8 cis cis d! e d %20
+    d d r fis, d' d d cis
+    h4 r8 h gis gis h a
+    \appoggiatura gis fis fis r4 r2\fermata \bar "|." %23 finis
+  }
+}
+
+SoLebeSoliLyrics = \lyricmode {
+  So le -- be denn, ge --
+  lieb -- te Mut -- ter, wohl. Nun geht er
+  vol -- ler Weh -- muth fort und läſ -- ſet
+  mich be -- trübt an die -- ſem
+  Ort. Wem ſo ein Ab -- ſchied nicht be -- %5
+  we -- get, der muß von
+  Stahl und Ei -- ſen ſeyn.
+  Was nimmt dich, E -- va, vor Be -- trüb -- niß
+  ein? Dein Au -- ge thränt, wer
+  hat denn diß er -- re -- get? Du denkſt wirk -- %10
+  lich, es ſey nur ein ver -- ſtell -- tes
+  We -- ſen, was Ca -- in läßt aus
+  ſei -- nen Au -- gen le -- ſen, und haſt der
+  Wahr -- heit Grund ver -- richt?
+  Ich weiß von kei -- nem Lei -- de, viel -- %15
+  mehr em -- pfind ich Freu -- de, daß ſie nun
+  wie -- der Freun -- de ſind, und un -- ter
+  ih -- nen ſich kein Zan -- ken mehr ent --
+  ſpinnt. So ſa -- get E -- va
+  wohl, al -- lein, ich ſoll -- te %20
+  mey -- nen, zur Freu -- de ſchi -- cke
+  ſich nicht ſo ein ängſt -- lich
+  Wei -- nen. %23 finis
+}
