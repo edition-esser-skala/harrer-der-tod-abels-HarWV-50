@@ -750,3 +750,179 @@ IndemIchViola = {
     fis4 r r \bar "S-S" %109 finis
   }
 }
+
+WennBetruebteViola = {
+  \relative c' {
+    \clef alto
+    \key h \minor \time 3/8 \tempoWennBetruebte
+    h4\fE r8
+    R4.
+    r8 r cis'
+    h h, r
+    R4.*2 %6
+    r8 r fis'
+    d h r
+    h cis4
+    d8 h4 %10
+    cis8 ais' fis
+    fis fis, r
+    cis'\pp r r
+    d r r
+    d r r %15
+    fis r r
+    fis r r
+    fis r r
+    ais r fis
+    fis4 d8\f %20
+    h' cis4
+    a!8 h4
+    gis8 ais4
+    fis8 d4
+    e8 fis4 %25
+    d8 e fis
+    g fis fis
+    fis\pE e d
+    e\fE fis fis \noBreak
+    d4 r8 \bar "S-S" %30
+    h4\pE r8 \noBreak
+    R4.
+    r8 r cis'
+    h h, r
+    R4.*2 %36
+    r8 r fis'
+    fis d r
+    a!4.
+    h %40
+    cis
+    d
+    r8 a' cis
+    a4 h8
+    g4. %45
+    a4 cis,8
+    d4 h8
+    cis4 a8
+    h cis e
+    a,4 a'8 %50
+    h cis e
+    a, g a16 h
+    a4\f\fermata r8
+    d,4 r8
+    R4. %55
+    r8 r e^\critnote
+    a a r
+    R4.*2
+    r8 a a %60
+    a a r
+    e\pE r r
+    fis r r
+    fis r r
+    a r r %65
+    a r r
+    a r r
+    cis r a
+    a4 cis,8\fE
+    d e4 %70
+    cis8 d4
+    h8 cis e
+    a,4 a'8\p
+    h cis e
+    a, g a %75
+    h\fE a g
+    fis4 r8
+    h,4\pE r8
+    R4.
+    r8 r cis' %80
+    h h, r
+    R4.*2
+    r8 r fis'
+    fis d e16 fis %85
+    e4.
+    cis
+    a
+    h
+    g' %90
+    fis
+    fis4 gis8
+    fis fis, r
+    cis' r r
+    d r r %95
+    d r r
+    fis r r
+    fis r r
+    fis r r
+    g fis fis %100
+    d4 r8
+    e( fis) a
+    d,4 e8
+    h'4 gis8
+    e4 fis8 %105
+    cis'4 ais8
+    fis4 h8~
+    h ais? gis
+    fis4 r8
+    h cis4 %110
+    a!8 h4
+    gis8 ais4
+    fis8 d4
+    fis8 cis4
+    d8 e fis %115
+    d\fermata r r
+    d4\ff r8
+    R4.
+    r8-\critnote r a'!
+    a a r %120
+    r r gis
+    gis gis r
+    r fis fis
+    fis fis r
+    cis\p r r %125
+    d r r
+    d r r
+    fis r r
+    fis r r
+    fis r r %130
+    ais r fis
+    fis4 d8\f
+    h' cis4
+    a!8 h4
+    gis8 ais4 %135
+    fis8 d4
+    e8 fis4
+    d8 e fis
+    g fis fis
+    fis\pE e d %140
+    e fis[\fE fis] \noBreak
+    d4 r8\fermata \bar "||"
+    R4.*2
+    r8 r e\pE %145
+    e cis e
+    fis4 r8
+    R4.
+    r8 r fis
+    fis d r %150
+    e4 d8~
+    d e4
+    cis!8( h) h
+    h h r
+    R4.*2 %156
+    r8 r cis'
+    h h, r
+    r fis' fis
+    h( a!) g~ %160
+    g g4
+    c?8( h) a
+    g\fermata r r
+    g4\fE r8
+    R4. %165
+    r8 r eis
+    fis4 d8
+    h' cis4
+    a!8 h4
+    gis8 ais4 %170
+    fis8 d4
+    fis8 cis4
+    d8 e fis
+    g fis fis
+    d4 r8 \bar "S-S" %175 finis
+  }
+}

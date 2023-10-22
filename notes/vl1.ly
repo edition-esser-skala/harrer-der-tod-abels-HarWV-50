@@ -757,3 +757,367 @@ IndemIchViolinoI = {
     d4 a r \bar "S-S" %109 finis
   }
 }
+
+WennBetruebteViolinoSolo = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 3/8 \tempoWennBetruebte
+    \mvTr fis'8(\fE-\tuttiE h,) cis-!
+    d( e fis
+    g) g-! g-!
+    \appoggiatura a16 g8 fis r
+    fis( h,) cis-! %5
+    d( e fis
+    e) d-! cis-!
+    \appoggiatura e32 d16 cis h8 r
+    g'4 e16( cis)
+    fis4 d16( h) %10
+    e8 e d
+    \appoggiatura e16 d8 cis r
+    r16 \mvTrr fis,(\ppE-\solo g! fis) ais( fis)
+    h( fis) cis'( fis,) d'8
+    r16 fis,( g fis) h( fis)
+    cis'( fis,) d'( fis,) e'8
+    r16 fis,( g fis) cis'( fis,)
+    d'( fis,) e'( fis,) fis'( d)
+    e( cis) cis'( e,) d( h')
+    \appoggiatura h ais8[ fis] \mvTr fis8\f-\tutti %20
+    g!4 cis,8
+    fis4 h,8
+    e4 ais,8
+    d4 fis,8
+    cis'4 fis,8~ %25
+    fis16 d'8 cis h16~
+    h e d8 cis~
+    cis16 d8\p cis h16~
+    h g'\f d8 cis \noBreak
+    h h, r \bar "S-S" %30
+    fis''(\p h,) cis-! \noBreak
+    d( e fis
+    g) g[ g]
+    \appoggiatura a16 g8 fis r
+    fis( h,) cis %35
+    d( e fis)
+    e \appoggiatura d cis4\trill
+    d16 cis h8 r
+    r d dis~
+    dis( e) e~ %40
+    e( fis) fis~
+    fis( g) g
+    a4 g8~
+    g \once \tieDashed fis4~
+    fis8 e d %45
+    \appoggiatura d cis4 r8
+    h4 e8
+    a,4 d8
+    g4.~
+    g8 fis d %50
+    g4.~
+    g16 fis8 e d16
+    fis4\f\fermata r8
+    a( d,) e
+    fis( g a %55
+    h) h-! h-!
+    \appoggiatura cis16 h8 a r
+    a( d,) e
+    fis( g a
+    g) g-! fis-! %60
+    \appoggiatura g16 fis8 e r
+    r16 \mvTr a,\p-\solo( h a) cis( a)
+    d( a) e'( a,) fis'8
+    r16 a,( h a) d( a)
+    e'( a,) fis'( a,) g'8 %65
+    r16 a,( h a) e'( a,)
+    fis'( a,) g'( a,) a'( fis)
+    g( e) fis-! d( cis d)
+    \appoggiatura d32 cis16[ h a8] \mvTr a'\f-\tuttiE
+    h4 e,8 %70
+    a4 d,8
+    g4.~
+    g8[ fis] d\p
+    g4.~
+    g16 fis8 e d16~ %75
+    d h\f \appoggiatura d8 cis4
+    d r8
+    fis(\p h,) cis
+    d( e fis
+    g) g[ g] %80
+    \appoggiatura a16 g8 fis r
+    fis( h,) cis-!
+    d( e) fis
+    e \appoggiatura d cis4\trill
+    d16 cis h8 r %85
+    r g' g
+    g( fis) eis~
+    eis( fis) fis~
+    fis e dis~
+    dis( e) e~ %90
+    e d cis~
+    cis( d) d
+    \appoggiatura e16 d8 cis r
+    r16 fis,(-\soloE g fis) ais( fis)
+    h( fis) cis'( fis,) d'8 %95
+    r16 fis,( g fis) h( fis)
+    cis'( fis,) d'( fis,) e'8
+    r16 fis,( g fis) cis'( fis,)
+    d'( fis,) e'( fis,) fis'( d)
+    cis8 \appoggiatura h ais4 %100
+    h4 r8
+    c?4.~-\tuttiE
+    c8 h cis
+    d4.~
+    d8 cis dis %105
+    e4.~
+    e8 d! d~
+    d cis h
+    \appoggiatura h32 ais16 gis fis8 r
+    g'!4 cis,8 %110
+    fis4 h,8
+    e4 ais,8
+    d4 fis,8
+    cis'4 fis,8~
+    fis16 d'8 cis h16 %115
+    h8\fermata r r
+    fis'(\ff h,) cis
+    d( e fis)
+    g( g \scriptOut g-!)
+    g( fis) a,-! %120
+    fis'-! fis-! fis-!
+    fis( e) fis,-!
+    e'-! e-! d-!
+    \appoggiatura e16 d8 cis r
+    r16 \mvTr fis,(\p-\solo g fis) ais( fis) %125
+    h( fis) cis'( fis,) d'8
+    r16 fis,( g) fis h( fis)
+    cis'( fis,) d'( fis,) e'8
+    r16 fis,( g fis) cis'( fis,)
+    d'( fis,) e'( fis,) fis'( fis,) %130
+    e'( cis) cis'( e,) d( h')
+    \appoggiatura h16 ais8[ fis] \mvTr fis\f-\tutti
+    g!4 cis,8
+    fis4 h,8
+    e4 ais,8 %135
+    d4 fis,8
+    cis'4 fis,8~
+    fis16 d'8 cis h16~
+    h e d8 cis~
+    cis16 d8\p cis h16~ %140
+    h g'\f d8 cis \noBreak
+    h h, r\fermata \bar "||"
+    h'(\pE gis a!) \noBreak
+    h( cis d)
+    d( cis h) %145
+    \appoggiatura d32 cis16 h a8 r
+    cis( ais h)
+    cis( d e)
+    e( d cis)
+    d16 cis h8 r %150
+    c4.
+    \appoggiatura c8 h4.-\critnote
+    \appoggiatura h8 a!4.
+    \appoggiatura a16 g8 fis r
+    h( cis dis) %155
+    e( fis g)
+    a g4
+    \appoggiatura a16 g8 fis r
+    h dis,4
+    e8 e4~ %160
+    e8 e4~
+    e8 e4
+    g8\fermata r r
+    e(\fE h') a-!
+    g g( fis) %165
+    e( cis'!) h
+    ais16[ gis fis8] fis
+    g4 cis,8
+    fis4 h,8
+    e4 ais,8 %170
+    d4 fis,8
+    cis'4 fis,8~
+    fis16 d'8 cis h16~
+    h g' d8[ cis]
+    h h, r \bar "S-S" %175 finis
+  }
+}
+
+WennBetruebteViolinoI = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 3/8 \tempoWennBetruebte
+    fis'8(\fE h,) cis-!
+    d( e fis
+    g) g-! g-!
+    \appoggiatura a16 g8 fis r
+    fis( h,) cis-! %5
+    d( e fis
+    e) d-! cis-!
+    \appoggiatura e32 d16 cis h8 r
+    g'4 e16( cis)
+    fis4 d16( h) %10
+    e8 e d
+    \appoggiatura e16 d8 cis r
+    ais\pp r r
+    h r r
+    h r r %15
+    cis r r
+    cis r r
+    d r r
+    e r d
+    cis4 fis8\f %20
+    g!4 cis,8
+    fis4 h,8
+    e4 ais,8
+    d4 fis,8
+    cis'4 fis,8~ %25
+    fis16 d'8 cis h16~
+    h e d8 cis~
+    cis16 d8\p cis h16~
+    h g'\f d8 cis \noBreak
+    h h, r \bar "S-S" %30
+    fis''(\p h,) cis-! \noBreak
+    d( e fis
+    g) g[ g]
+    \appoggiatura a16 g8 fis r
+    fis( h,) cis %35
+    d( e fis)
+    e \appoggiatura d cis4\trill
+    d16 cis h8 r
+    r d dis~
+    dis( e) e~ %40
+    e( fis) fis~
+    fis( g) g
+    a4 g8~
+    g \once \tieDashed fis4~
+    fis8 e d %45
+    \appoggiatura d cis4 r8
+    h4 e8
+    a,4 d8
+    g4.~
+    g8 fis d %50
+    g4.~
+    g16 fis8 e d16
+    fis4\f\fermata r8
+    a( d,) e
+    fis( g a %55
+    h) h-! h-!
+    \appoggiatura cis16 h8 a r
+    a( d,) e
+    fis( g a
+    g) g-! fis-! %60
+    \appoggiatura g16 fis8 e r
+    cis\pE r r
+    d r r
+    d r r
+    e r r %65
+    e r r
+    fis r r
+    g r fis
+    e4 a8\f
+    h4 e,8 %70
+    a4 d,8
+    g4.~
+    g8[ fis] d\p
+    g4.~
+    g16 fis8 e d16~ %75
+    d h\f \appoggiatura d8 cis4
+    d r8
+    fis(\p h,) cis
+    d( e fis
+    g) g[ g] %80
+    \appoggiatura a16 g8 fis r
+    fis( h,) cis-!
+    d( e) fis
+    e \appoggiatura d cis4\trill
+    d16 cis h8 r %85
+    r g' g
+    g( fis) eis~
+    eis( fis) fis~
+    fis e dis~
+    dis( e) e~ %90
+    e d cis~
+    cis( d) d
+    \appoggiatura e16 d8 cis r
+    ais r r
+    h r r %95
+    h r r
+    cis r r
+    d r r
+    d r r
+    e \appoggiatura d cis4 %100
+    h r8
+    c?4.~
+    c8 h cis
+    d4.~
+    d8 cis dis %105
+    e4.~
+    e8 d! d~
+    d cis h
+    \appoggiatura h32 ais16 gis fis8 r
+    g'!4 cis,8 %110
+    fis4 h,8
+    e4 ais,8
+    d4 fis,8
+    cis'4 fis,8~
+    fis16 d'8 cis h16 %115
+    h8\fermata r r
+    fis'(\ff h,) cis
+    d( e fis)
+    g( g \scriptOut g-!)
+    g( fis) a,-! %120
+    fis'-! fis-! fis-!
+    fis( e) fis,-!
+    e'-! e-! d-!
+    \appoggiatura e16 d8 cis r
+    ais\p r r %125
+    h r r
+    h r r
+    cis r r
+    cis r r
+    d r r %130
+    e r d
+    cis4 fis8\f
+    g!4 cis,8
+    fis4 h,8
+    e4 ais,8 %135
+    d4 fis,8
+    cis'4 fis,8~
+    fis16 d'8 cis h16~
+    h e d8 cis~
+    cis16 d8\p cis h16~ %140
+    h g'\f d8 cis \noBreak
+    h h, r\fermata \bar "||"
+    h'(\pE gis a!) \noBreak
+    h( cis d)
+    d( cis h) %145
+    \appoggiatura d32 cis16 h a8 r
+    cis( ais h)
+    cis( d e)
+    e( d cis)
+    d16 cis h8 r %150
+    c4.
+    \appoggiatura c8 h4.-\critnote
+    \appoggiatura h8 a!4.
+    \appoggiatura a16 g8 fis r
+    h( cis dis) %155
+    e( fis g)
+    a g4
+    \appoggiatura a16 g8 fis r
+    h dis,4
+    e8 e4~ %160
+    e8 e4~
+    e8 e4
+    g8\fermata r r
+    e(\fE h') a-!
+    g g( fis) %165
+    e( cis'!) h
+    ais16[ gis fis8] fis
+    g4 cis,8
+    fis4 h,8
+    e4 ais,8 %170
+    d4 fis,8
+    cis'4 fis,8~
+    fis16 d'8 cis h16~
+    h g' d8[ cis]
+    h h, r \bar "S-S" %175 finis
+  }
+}

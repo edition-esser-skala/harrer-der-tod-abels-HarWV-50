@@ -240,3 +240,89 @@ VerruchterOboeI = {
     \tempoVerruchterB h4.\trill h8 a4 r\fermata \bar "|." %19 finis
   }
 }
+
+WennBetruebteOboeI = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 3/8 \tempoWennBetruebte
+    fis'8(\fE h,) cis-!
+    d( e fis
+    g) g-! g-!
+    \appoggiatura a16 g8 fis r
+    fis( h,) cis-! %5
+    d( e fis
+    e) d-! cis-!
+    \appoggiatura e32 d16 cis h8 r
+    g'4 e16( cis)
+    fis4 d16( h) %10
+    e8 e d
+    \appoggiatura e16 d8 cis r
+    R4.*7 %19
+    r8 r fis\f %20
+    g!4 cis,8
+    fis4 h,8
+    e4 ais,8
+    d4 fis,8
+    cis'4 fis,8~ %25
+    fis16 d'8 cis h16~
+    h e d8 cis~
+    cis16 d8\p cis h16~
+    h g'\f d8 cis \noBreak
+    h4 r8 \bar "S-S" %30
+    R4.*22 %52
+    R4.\fermata
+    a'8(\fE d,) e
+    fis( g a %55
+    h) h-! h-!
+    \appoggiatura cis16 h8 a r
+    a( d,) e
+    fis( g a
+    g) g-! fis-! %60
+    \appoggiatura g16 fis8 e r
+    R4.*7 %68
+    r8 r a\f
+    h4 e,8 %70
+    a4 d,8
+    g4.~
+    g8[ fis] d\p
+    g4.~
+    g16 fis8 e d16~ %75
+    d h\f \appoggiatura d8 cis4
+    d r8
+    R4.*38 %115
+    R4.\fermata
+    fis8(\ff h,) cis
+    d( e fis)
+    g( g \scriptOut g-!)
+    g( fis) a,-! %120
+    fis'-! fis-! fis-!
+    fis( e) fis,-!
+    e'-! e-! d-!
+    \appoggiatura e16 d8 cis r
+    R4.*7 %131
+    r8 r fis\f
+    g!4 cis,8
+    fis4 h,8
+    e4 ais,8 %135
+    d4 fis,8
+    cis'4 fis,8~
+    fis16 d'8 cis h16~
+    h e d8 cis~
+    cis16 d8\p cis h16~ %140
+    h g'\f d8 cis \noBreak
+    h4 r8\fermata \bar "||"
+    R4.*21 %163
+    e8(\fE h') a-!
+    g g( fis) %165
+    e( cis'!) h
+    ais16[ gis fis8] fis
+    g4 cis,8
+    fis4 h,8
+    e4 ais,8 %170
+    d4 fis,8
+    cis'4 fis,8~
+    fis16 d'8 cis h16~
+    h g' d8[ cis]
+    h4 r8 \bar "S-S" %175 finis
+  }
+}

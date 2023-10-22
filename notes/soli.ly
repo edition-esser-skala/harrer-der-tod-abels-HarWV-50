@@ -1789,3 +1789,192 @@ SoLebeSoliLyrics = \lyricmode {
   ſich nicht ſo ein ängſt -- lich
   Wei -- nen. %23 finis
 }
+
+WennBetruebteSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key h \minor \time 3/8 \autoBeamOff \tempoWennBetruebte
+    R4.*30 \bar "S-S" %30
+    \mvTr fis8([\pE^\soloE h,)] cis
+    d([ e)] fis
+    g g4
+    g8 fis r
+    fis([ h,)] cis %35
+    d([ e)] fis
+    e8 \appoggiatura d cis4
+    d16([ cis)] h8 r
+    r d dis
+    dis([ e)] e %40
+    e([ fis)] fis
+    fis([ g)] g
+    a4 g8
+    g([ fis)] fis
+    fis([ e)] d %45
+    \appoggiatura d cis4 r8
+    h4 e8
+    a,4 d8
+    g4.~
+    g8[ fis d] %50
+    g4.~
+    g16[ fis8 e d16]~
+    d[\fermata e] \appoggiatura fis8 e4\trill
+    d r8
+    R4.*23 %77
+    fis8([ h,)] cis
+    d([ e)] fis
+    g g4 %80
+    g8 fis r
+    fis([ h,)] cis
+    d([ e)] fis
+    e \appoggiatura d cis4
+    d16([ cis)] h8 r %85
+    r g' g
+    g([ fis)] eis
+    eis([ fis)] fis
+    fis([ e)] dis
+    dis([ e)] e %90
+    e([ d)] cis
+    cis([ d)] d
+    \appoggiatura d cis4 r8
+    ais h([ cis)]
+    d e fis~ %95
+    fis[ e d]
+    cis([ h ais)]
+    h([ d ais)]
+    h([ cis d)]
+    e \appoggiatura d cis4 %100
+    h r8
+    c4 c8
+    c([ h)] cis
+    d4 d8
+    d([ cis)] dis %105
+    e4 e8
+    e([ d!)] d
+    d cis([ h)]
+    ais16([ gis)] fis8 r
+    g'!4 cis,8 %110
+    fis4 h,8
+    e4 ais,8
+    d4 fis,8
+    cis'4 fis,8~
+    fis16[ d'8 cis h16]~ %115
+    h16[\fermata cis] cis4\trill
+    h r8
+    R4.*24 \noBreak %141
+    R4.\fermata \bar "||"
+    h8([ gis)] a! \noBreak
+    h([ cis)] d
+    d([ cis)] h %145
+    cis16([ h)] a8 r
+    cis ais([ h)]
+    cis([ d)] e
+    e([ d)] cis
+    d16([ cis)] h8 r %150
+    c4 c8
+    \appoggiatura c h4 h8
+    \appoggiatura h a4 a8
+    \appoggiatura a16 g8 fis r
+    h([ cis!)] dis %155
+    e([ fis)] g
+    a g4
+    \appoggiatura g8 fis4 r8
+    h dis,4
+    e4.~ %160
+    e~
+    e4 e8
+    e fis4\fermata\trill
+    e4 r8
+    R4.*11 \bar "S-S" %175 finis
+  }
+}
+
+WennBetruebteSoliLyrics = \lyricmode {
+  Wenn be -- %31
+  trüb -- te
+  Zäh -- ren
+  flieſ -- ſen,
+  kan man %35
+  wohl mit
+  Wahr -- heit
+  ſchlieſ -- ſen,
+  daß ein
+  in -- ner -- %40
+  li -- ches
+  Quä -- len
+  ſie aus
+  un -- ſern
+  Au -- gen %45
+  preßt,
+  ſie aus
+  un -- ſern
+  Au --
+  %50
+  _
+
+  gen
+  preßt.
+
+  Wenn be -- %78
+  trüb -- te
+  Zäh -- ren %80
+  flieſ -- ſen,
+  kan man
+  wohl mit
+  Wahr -- heit
+  ſchlieſ -- ſen, %85
+  daß ein
+  in -- ner --
+  li -- ches
+  Quä -- len
+  ſie aus %90
+  un -- ſern
+  Au -- gen
+  preßt,
+  ſie aus
+  un -- ſern Au -- %95
+
+  _
+  _
+  _
+  _ gen %100
+  preßt,
+  man kan
+  wohl mit
+  Wahr -- heit
+  ſchlieſ -- ſen, %105
+  daß ein
+  in -- ner --
+  li -- ches
+  Quä -- len
+  ſie aus %110
+  un -- ſern
+  Au -- _
+  _ _
+  _ _
+  %115
+  gen
+  preßt.
+
+  Soll man %143
+  das vor
+  Luſt er -- %145
+  ken -- nen
+  und voll --
+  kom -- men
+  Freu -- de
+  nen -- nen, %150
+  wenn die
+  Weh -- muth
+  ei -- ner
+  See -- len
+  ſich im %155
+  Ant -- litz
+  fin -- den
+  läßt,
+  ſich im
+  Ant -- %160
+
+  litz
+  fin -- den
+  läßt? %164 finis
+}

@@ -208,3 +208,89 @@ VerruchterOboeII = {
     \tempoVerruchterB e4. e8 e4 r\fermata \bar "|." %19 finis
   }
 }
+
+WennBetruebteOboeII = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 3/8 \tempoWennBetruebte
+    d4\fE ais'8
+    h( cis d
+    e) e-! e-!
+    \appoggiatura fis16 e8 d r
+    r r ais %5
+    h( cis d
+    cis) h-! ais-!
+    h fis r
+    g'4 e16( cis)
+    fis4 d16( h) %10
+    cis8 cis h
+    \appoggiatura cis16 h8 ais r
+    R4.*7 %19
+    r8 r fis'\f %20
+    g!4 cis,8
+    fis4 h,8
+    e4 ais,8
+    d4 fis,8
+    cis'4 fis,8~ %25
+    fis16 d'8 cis h16~
+    h cis h8 ais
+    fis\p fis fis
+    g\f h ais \noBreak
+    h4 r8 \bar "S-S" %30
+    R4.*22 %52
+    R4.\fermata
+    fis4\fE cis'8
+    d( e fis %55
+    g) g-! g-!
+    \appoggiatura a16 g8 fis r
+    r r cis
+    d( e fis
+    e) e-! d-! %60
+    \appoggiatura e16 d8 cis r
+    R4.*7 %68
+    r8 r a'\f
+    h4 e,8 %70
+    a4 d,8
+    g4.~
+    g8[ fis] d\p
+    g4.~
+    g16 fis8 e d16~ %75
+    d h\f \appoggiatura d8 cis4
+    d r8
+    R4.*38 %115
+    R4.\fermata
+    fis8(\ff h,) cis
+    h( cis d)
+    e( e \scriptOut e-!)
+    e( d) r %120
+    d-! d-! d-!
+    \once \slurDashed d( cis) r
+    \parOn cis-\parenthesize-! cis-! \parOff h-\parenthesize-!
+    \appoggiatura cis16 h8 ais r
+    R4.*7 %131
+    r8 r fis'\f
+    g!4 cis,8
+    fis4 h,8
+    e4 ais,8 %135
+    d4 fis,8
+    cis'4 fis,8~
+    fis16 d'8 cis h16~
+    h8 h ais
+    fis\p fis fis %140
+    g h[\f ais] \noBreak
+    h4 r8\fermata \bar "||"
+    R4.*21 %163
+    e8(\fE g) fis-!
+    e e( d!) %165
+    cis!( e) d
+    cis fis4
+    g!4 cis,8
+    fis4 h,8
+    e4 ais,8 %170
+    d4 fis,8
+    cis'4 fis,8~
+    fis16 d'8 cis h16~
+    h h h8[ ais]
+    h4 r8 \bar "S-S" %175 finis
+  }
+}
