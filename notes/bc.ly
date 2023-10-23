@@ -2729,3 +2729,192 @@ WennBetruebteBassFigures = \figuremode {
   r <6 4> <5 _+>
   r4. %175 finis
 }
+
+MeinAdamBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoMeinAdam
+      \set Staff.timeSignatureFraction = 4/4
+    eis2\pE fis~
+    fis e~
+    e1~
+    e2 a~
+    a1~ %5
+    a
+    d,~
+    d2 g~
+    g a~
+    a h4 c~ %10
+    c2 f,~
+    f b,~
+    b r4 c
+    f1
+    d2 es~ %15
+    es1
+    e
+    f~
+    f
+    es~ %20
+    es
+    des
+    c
+    d!~
+    d %25
+    es~
+    es2 as,~
+    as1~
+    as2 b4 a~
+    a1~ %30
+    a2 fis'~
+    fis1~
+    fis
+    g
+    a %35
+    b
+    c,
+    d4 \once \tieDashed cis2.~
+    cis1~
+    cis~ %40
+    cis2 d~
+    d1
+    g~
+    g2 a4 gis~
+    gis1 %45
+    a
+    g2 dis~
+    dis1~
+    dis2 e~
+    e1 %50
+    f!~
+    f2 e~
+    e1
+    a,~
+    a~ %55
+    a
+    d
+    g
+    r4 a-!\fE d,-! r
+    r2 \tempoMeinAdamB g16 d h g g' d h g %60
+    g'4-! r r2
+    e4-! e-! e-\parenthesize-! r
+    r2 f4-! \parOn f-\parenthesize-!
+    \parOff f-\parenthesize-! r r8 r16 d-! d8-! r
+    r2 r8 es-! es-! es-! %65
+    es4~ es8 r16\fermata \tempoMeinAdamC \mvTr es'\f-\unisonoE es4. es,8\p
+    es es es es fes4\fermata r16 fes es des
+    es4\ff^\tenuto r \tempoMeinAdamD r16 as,(-\unisonoE b as) as-! as( b as)
+    as4 r r2
+    r2 r16 a( b a) a-! a( b a) %70
+    a4 r r2
+    \tempoMeinAdamE r8 b(-. b-. b-.) b'4~ b8 r
+    r2 es,~\pE
+    es r4 f\fE
+    \after 8 \pE e1~ %75
+    e
+    f
+    \tempoMeinAdamF r8 g\fE g g g\p g g g
+    fis4~\pp fis8 r r2
+    r8 f^\tenutoE f4~ f8 r r4 %80
+    r2 \tempoMeinAdamG es16\f es es es es\p es es es
+    es es es es es es es es es\f es es es es\p es es es
+    es es es es es es es es \stemUp des\f des des des des\p des des des
+    des des des des des des des des \stemNeutral c\f c c c c\p c c c
+    c c c c c c c c c c c c c c c c %85
+    c c c c c c c c des8. \tempoMeinAdamH des16[-!\f des8.-! des16]-!
+    des4~ des8 r r2
+    r8 r16 des des4 r es
+    \time 2/4 \markTimeSig #'(2 4) as, r\fermata \bar "|." %89 finis
+  }
+}
+
+MeinAdamBassFigures = \figuremode {
+  <6\\ _+>2 <5\+>
+  r4 <6\\> <_+>2
+  r1
+  <7! _+>2 <_+>
+  r1 %5
+  r
+  <8 _+>
+  <7! \t>
+  r2 <5 3>
+  <6\\ 4\+> <5\+ _+>4 <5> %10
+  r1
+  r2 <5>
+  <6>1
+  r
+  <6->2 <5-> %15
+  r1
+  <6>
+  <_->
+  r2 <4! 2>
+  <6>1 %20
+  <4! 2>
+  <6->
+  <6- _->
+  <6->
+  <5-> %25
+  q
+  r2 q
+  r1
+  <4! 2->2. <6>4
+  r1 %30
+  r2 <6>
+  r1
+  <5>
+  <_->
+  <6!> %35
+  <5>2 <6>
+  <_-> <4\+ 2>
+  <6- 4>8 <5 _+> <6 _!>2.
+  r1
+  <7-> %40
+  r2 <8 _!>
+  <\t \t> <7! _+>
+  <_->1
+  <4\+ 2>2 <_+>4 <6 _!>
+  r1 %45
+  \bo <5 [_!]>2 \bc <6\\ [\t]>
+  r <6 _+>
+  <5 \t>1
+  r2 <5>
+  <6>1 %50
+  <5>2 <6>
+  r <_+>
+  r1
+  r
+  r %55
+  <7! _+>
+  r
+  <_->2. <4\+ 2>4
+  r <7 _+> <_+>2
+  r1 %60
+  r
+  <6>
+  r
+  r2 r8. <6->16 r4
+  r2 r8 <5->4. %65
+  r1
+  r
+  <7- 5->
+  r
+  r %70
+  r
+  r
+  r2 <5- _->
+  <4! 2>1
+  <6>1 %75
+  r
+  <_->2.. <4! 2>8
+  r8 <7 _!>4. <6- 4>2
+  <7- _!>1
+  r8 <4 2>2.. %80
+  r2 <6>
+  r <4! 2>
+  r <6->
+  <6- 4 2-> <6- _->
+  r <6- 5- _-> %85
+  r <5->
+  r1
+  r8. <6- 4! 2->16 r2 <7- 5->4
+  <5->2 %89 finis
+}

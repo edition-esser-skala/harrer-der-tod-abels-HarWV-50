@@ -941,3 +941,42 @@ WennBetruebteViolinoII = {
     h h, r \bar "S-S" %175 finis
   }
 }
+
+MeinAdamViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoMeinAdam
+      \set Staff.timeSignatureFraction = 4/4
+    R1*58 %58
+    r4 e'-!\fE <fis a, d,>-! r
+    r2 \tempoMeinAdamB <g h, d, g,>4 q %60
+    q-! r r2
+    c,16 g e c g c e g c4 r
+    r2 f16 c a f c f a c
+    f4 r r8 r16 f-! f8-! r
+    r2 r8 es-! es-! es-! %65
+    <es b es,>4~ es8 r16\fermata \tempoMeinAdamC es\f es4. es,8\p
+    es es es es fes4\fermata r16 fes es des
+    b'4\ff^\tenuto r \tempoMeinAdamD r16 as,( b as) as-! as( b as)
+    as4 r r2
+    r r16 a( b a) a-! a( b a) %70
+    a4 r r2
+    \tempoMeinAdamE r8 b(-. b-. b-.) b'4~ b8 r
+    R1
+    r2 r4 a!
+    g r r2 %75
+    R1*2
+    \tempoMeinAdamF r8 h!\fE h h c\p c c c
+    c4~\pp c8 r r2
+    r8 d^\tenuto d4~ d8 r r4 %80
+    r2 \tempoMeinAdamG c16\f c c c c\p c c c
+    c c c c c c c c c\f c c c c\p c c c
+    c c c c c c c c b\f b b b b\p b b b
+    b b b b b b b b as\f as as as as\p as as as
+    as as as as as as as as as as as as as as as as %85
+    as as as as as as as as as8. \tempoMeinAdamH as16[\f as8. as16]
+    as4~ as8 r r2
+    r8 r16 b b4 r des
+    \time 2/4 \markTimeSig #'(2 4) c r\fermata \bar "|." %89 finis
+  }
+}

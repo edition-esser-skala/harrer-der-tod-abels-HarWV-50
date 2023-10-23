@@ -926,3 +926,42 @@ WennBetruebteViola = {
     d4 r8 \bar "S-S" %175 finis
   }
 }
+
+MeinAdamViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoMeinAdam
+      \set Staff.timeSignatureFraction = 4/4
+    R1*58 %58
+    r4 cis-!\fE a-! r
+    r2 \tempoMeinAdamB g'16 d h g g' d h g %60
+    g'4-! r r2
+    \parOn g,4-\parenthesize-! g-! \parOff g-\parenthesize-! r
+    r2 a4-! a-!
+    c-\parenthesize-! r r8 r16 b-! b8-! r
+    r2 r8 b-! b-! b-! %65
+    b4~ b8 r16\fermata \tempoMeinAdamC \mvTr es'\f es4. es,8\p
+    es es es es fes4\fermata r16 fes es des
+    g4\ff^\tenuto r \tempoMeinAdamD r16 as,( b as) as-! as( b as)
+    as4 r r2
+    r2 r16 a( b a) a-! a( b a) %70
+    a4 r r2
+    \tempoMeinAdamE r8 b(-. b-. b-.) b'4~ b8 r
+    R1
+    r2 r4 f
+    c r r2 %75
+    R1*2
+    \tempoMeinAdamF r8 g'\fE g g g\p g g g
+    a!4~\pp a8 r r2
+    r8 h!^\tenuto h4~ h8 r r4 %80
+    r2 \tempoMeinAdamG g16\f g g g g\p g g g
+    g g g g g g g g a!\f a a a a\p a a a
+    a a a a a a a a f\f f f f f\p f f f
+    g g g g g g g g as\f as as as as\p as as as
+    as as as as as as as as ges ges ges ges ges ges ges ges %85
+    ges ges ges ges ges ges ges ges f8. \tempoMeinAdamH des16[-!\f des8.-! des16]-!
+    des4~ des8 r r2
+    r8 r16 des des4 r es
+    \time 2/4 \markTimeSig #'(2 4) es r\fermata \bar "|." %89 finis
+  }
+}

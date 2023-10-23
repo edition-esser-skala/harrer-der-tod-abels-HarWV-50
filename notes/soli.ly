@@ -1978,3 +1978,191 @@ WennBetruebteSoliLyrics = \lyricmode {
   fin -- den
   läßt? %164 finis
 }
+
+MeinAdamSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoMeinAdam
+      \set Staff.timeSignatureFraction = 4/4
+    cis'4^\Eva h8 cis a4 r16 fis fis gis?
+    a8 a a h gis4 r8 e!
+    gis gis h a h h r cis
+    d! d d e \appoggiatura d cis4 r8 e,
+    a a cis cis cis d e cis %5
+    a4 r16 a e fis g!8 g g a
+    fis fis r16 fis fis g a8 a a h
+    c!8. c16 d8 c h h r16 h h c
+    d8 d e d c4 r16 c h a
+    dis8 dis dis e h4 r16 e e d? %10
+    c8 r16 c b8 c a a r a
+    c c d es d4 r16 d d g,
+    g8 a b a \appoggiatura g f f r4
+    \clef "treble_8" r8 f,^\Adam a c a a g f
+    b4 \clef treble r8 b'^\Eva g4 \clef "treble_8" r8 b,^\Adam %15
+    es4 r16 g, g as b8 b b16 b c des
+    c4 r16 g g as b8 b des16 des c b
+    as8 as \clef treble r8 c'^\Eva as as c as
+    f4 r8 f h!8. h16 h8 c
+    c g \clef "treble_8" r g,^\Adam es'8. c16 c8 b %20
+    a!4 r8 b c c c des
+    b4 r16 b b c des8. des16 des8 c
+    as4 \clef treble r8 es'^\Eva as as b c
+    b4 r8 b f f f g
+    as as r as b b b as %25
+    g g r es g as b b
+    b c des8. c16 c4 r8 as
+    c c b c \appoggiatura b as4 r8 as
+    d!8. d16 d8 es b4 \clef "treble_8" r8 c,^\Adam
+    f c c b c4 r8 c %30
+    c d es es \appoggiatura es d d r d
+    d a a g a a a b
+    c c r c c d es d
+    \appoggiatura c b4 r8 d, g a b16 b c d
+    c4 r8 f,! c' d es16. es32 es16 f %35
+    d8 d r d g, g g f
+    es4 r8 c' fis,8. fis16 fis8 g
+    g d \clef treble r a''^\Eva a e! e d
+    e4 r8 e e e g f!
+    g r16 a b8\fermata a \appoggiatura a g4 r8 g %40
+    f e a g f f r d
+    a' a a b c! r16 c d8 c
+    b4 r8 b d b a g
+    cis r16 cis cis8 d a a r h
+    e h h c d r16 d e8 d %45
+    c4 r16 a a h c8 c d c
+    \appoggiatura c h4 r16 h h h h8. fis16 fis8 r16 fis
+    fis8 fis a g a a r16 a a h
+    c8 c c h g g r16 g c h
+    c4 r8 c e c c g %50
+    a4 r16 a d cis d4 r8 f
+    d d d a h h \clef bass r h,^\Cain
+    h d, d e f! f f e
+    \appoggiatura d c4 \clef treble r8 e''^\Eva e([ a,)] r16 a a e
+    e8 d e r16 e e8 f g!g %55
+    r g g g g a b a
+    f f \clef bass r16 a,^\Cain a a d8 r16 d d8 c!
+    b4 r8 b a g cis8. d16
+    d8 a r4 r \forceClef r8 a^\Gott
+    d r16 d d8 a \tempoMeinAdamB h!4 r %60
+    r8 g g a h h d g,
+    c c r4 \forceClef r8 c,^\Cain g' g
+    g g c g a4 r
+    r c8 c16 d b4 \forceClef r8 f^\Gott
+    f f b8. f16 g8 g r4 %65
+    r r8 r16\fermata \tempoMeinAdamC es' es4. es,8
+    es es es es fes4\fermata r16 fes es des
+    des'8. des16 des8. des16 \appoggiatura des8 \tempoMeinAdamD c c r4
+    r8 as as16 es es des es4 r8 es
+    es f ges ges \appoggiatura ges f f r4 %70
+    r8 c c des es es es f?
+    \tempoMeinAdamE des4 r r r8 f
+    b b b as? ges4 r8 es
+    a a a b b([ f)] r4
+    r8 c g'16 g g f g4 r16 g g as %75
+    b4 r8 b b b c b
+    as as r4 c8 as16 b c f, h16. c32
+    \tempoMeinAdamF c8 g r4 r2
+    \forceClef r4 r8 a!^\Cain \appoggiatura h! c4 r16 c c d
+    \appoggiatura c8 h!4 r r8 d g, a %80
+    h h h c \tempoMeinAdamG c([ g)] r g
+    c c c b a!4 r8 b
+    c c c des b4 r16 b b as
+    g8. g16 g8 as as([ es)] r es
+    es es es f ges4 r8 ges %85
+    f es as ges f f r4
+    r r8 f b b b as
+    g!4 r16 g g as es8 es r4
+    \time 2/4 \markTimeSig #'(2 4) r2\fermata \bar "|." %89 finis
+  }
+}
+
+MeinAdamSoliLyrics = \lyricmode {
+  Mein A -- dam, mein, ich ha -- be
+  Ur -- ſach froh zu ſeyn, drum,
+  daß mein Au -- ge wei -- net, ge --
+  ſchie -- het nicht aus Leid, es
+  iſt die Wir -- kung ei -- ner Zärt -- lich -- %5
+  keit, die mei -- ne Bruſt in ſich ver --
+  ſpüh -- ret. Des A -- bels Re -- den ha -- ben
+  mich ſo ſehr ge -- rüh -- ret, als er mit
+  ſei -- nem Bru -- der kam und ſo be --
+  weg -- lich Ab -- ſchied nahm. Dir hätt’ es %10
+  auch das Herz ge -- nom -- men, wenn
+  du ſie ſelbſt ge -- ſehn ſo fried -- ſam
+  mit -- ein -- an -- der kom -- men.
+  Und wo -- hin wol -- len ſie denn
+  gehn? Auffs Feld. Ach %15
+  Gott, wenn Ca -- in nur die Tü -- cke nicht ver --
+  ſtellt, die groſ -- ſe Freund -- ſchaft ſcheint mir ſehr ver --
+  däch -- tig. Er iſt kein Ty -- ger
+  nicht und ſei -- ner Sin -- nen
+  mäch -- tig. Wer La -- ſter an ſich %20
+  hat, iſt är -- ger als ein
+  Vieh, denn die Ver -- nunfft ver -- dun -- keln
+  ſie. Wie kan doch der Ver --
+  dacht auch aus den be -- ſten
+  Sa -- chen die ärg -- ſten Schlüſ -- ſe %25
+  ma -- chen, und ſie -- heſt al -- les
+  vor ge -- fähr -- lich an, diß
+  kom -- met durch den Fall, den
+  ich und du ge -- than. Ich
+  weiß mehr als zu -- wohl, daß %30
+  die Ge -- dan -- ken trü -- gen, doch
+  die -- ſes kan die Furcht nicht ü -- ber --
+  wie -- gen, die mich im Her -- zen
+  nagt, ſie macht mich der -- ge -- ſtalt ver --
+  zagt, daß ich ohn wei -- te -- res Ver -- %35
+  wey -- len gleich auff den Füſ -- ſen
+  nach muß ſie zu fin -- den
+  ei -- len. Es iſt mehr als zu
+  wahr, ſeit -- dem wir durch den
+  Fall das E -- lend bau’n und %40
+  uns mit Kum -- mer näh -- ren, ſo
+  ſu -- chen wir die Ruh faſt ü -- ber --
+  all, und nie -- mand auſ -- ſer
+  Gott kan ſie ge -- wäh -- ren. Doch
+  dort kommt Ca -- in her und ganz al -- %45
+  lein. Wo muß der Bru -- der A -- bel
+  ſeyn? Er ſieht ſo ſchüch -- tern aus, als
+  hät -- te ſein Ge -- wiſ -- ſen die größ -- te
+  Miſ -- ſe -- that zu büſ -- ſen. Wo -- hin, mein
+  Sohn? Wa -- rum ent -- fliehſt du %50
+  mir? Was feh -- let dir? Was
+  hat dich ſo er -- ſchre -- cket? Welch
+  Un -- fall füh -- ret gleich die Mut -- ter
+  her. Ach Gott! du biſt ja
+  ü -- ber -- all mit Blut be -- fle -- cket, %55
+  als hättſt du je -- mand todt ge --
+  ſchla -- gen. Nun muß ich fort, ſie möch -- te
+  mich auch um den A -- bel
+  fra -- gen. Wo --
+  hin, du Bö -- ſe -- wicht? %60
+  Wo iſt dein Bru -- der hin -- ge --
+  kom -- men? Soll ich des
+  Bru -- ders Hü -- ter ſeyn?
+  Ich weiß ihn nicht. Was
+  haſt du vor -- ge -- nom -- men? %65
+  Es ſchrey -- et
+  dei -- nes Bru -- ders Blut zu mir um
+  Ra -- che von der Er -- den.
+  Auff die -- ſer ſollſt du nun von
+  mir ver -- flu -- chet wer -- den. %70
+  Weil ſie ihr Maul hat auff -- ge --
+  than und
+  nahm des Bru -- ders Blut von
+  dei -- nen Hän -- den an. __
+  Der A -- cker, den du bauſt, ſoll dir hin -- %75
+  fort nicht ſein Ver -- mö -- gen
+  ge -- ben, un -- ſtätt und flüch -- tig ſollſt du
+  le -- ben.
+  Ach Weh’ und a -- ber
+  Weh’, nun weiß ich %80
+  nicht, wo -- hin ich geh. __ Der
+  Herr ſpricht ü -- ber mich ein
+  ſtren -- ges Ur -- theil aus, er jagt mich
+  aus den Lan -- den naus. Ich
+  ha -- be ſei -- nen Zorn durch %85
+  mei -- ne That ent -- zün -- det,
+  und je -- der ſchlägt mich
+  todt, der mich aus -- fin -- det. %88 finis
+}

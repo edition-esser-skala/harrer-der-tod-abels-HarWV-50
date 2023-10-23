@@ -62,6 +62,14 @@ tempoIchHabe = \tempoMarkup "Allegro assai"
 tempoIndemIch = \tempoMarkup "Moderato"
 tempoSoLebe = \tempoMarkup "Adagio"
 tempoWennBetruebte = \tempoMarkup "Commodo"
+tempoMeinAdam = \tempoMarkup "[Recitativo]"
+  tempoMeinAdamB = \tempoMarkup "Allegro assai" % 110
+  tempoMeinAdamC = \tempoMarkup "Adagio" % 70
+  tempoMeinAdamD = \tempoMarkup "Un poco grave" % 40
+  tempoMeinAdamE = \tempoMarkup "Adagio" % 70
+  tempoMeinAdamF = \tempoMarkup "Adagio" % 70
+  tempoMeinAdamG = \tempoMarkup "Allegro non troppo" %90
+  tempoMeinAdamH = \tempoMarkup "Grave" % 45
 
 
 \include "notes/fl1.ly"
