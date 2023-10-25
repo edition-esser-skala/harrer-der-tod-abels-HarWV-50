@@ -2166,3 +2166,184 @@ MeinAdamSoliLyrics = \lyricmode {
   und je -- der ſchlägt mich
   todt, der mich aus -- fin -- det. %88 finis
 }
+
+AchAchSoli = {
+  \relative c {
+    \clef bass
+    \twofourtime \key f \minor \time 2/4 \autoBeamOff \tempoAchAch
+    \partial 8 r8 R2*20 \noBreak %20
+    r4 r8 \mvTr c'\pE^\soloE \bar "S-S"
+    des4 r8 des \noBreak
+    des([ c)] c4
+    b4. as16([ g)]
+    as([ g)] f8 r c %25
+    f g as b
+    c4. f,8
+    e16([ d)] c8 r c
+    f es des c
+    des4 r16 des[ c des] %30
+    es8[ des c b]
+    c4 r16 c[ b c]
+    des8[ es f g]
+    as[ b c g]
+    as[ g] f4 %35
+    es r8 es
+    as4 b
+    c g
+    as b
+    c4. a8 %40
+    b4 c
+    des a
+    b c
+    des a
+    b8[ as ges f] %45
+    es[ des c b]
+    f'4.\fermata f8
+    b,4 r
+    R2*6 %54
+    r4 r8 b' %55
+    \appoggiatura { b16[ c] } des4 r8 des
+    des([ b)] b4
+    b4. as!16[( b)]
+    c([ b)] as8 r c,
+    f g as b %60
+    c4. f,8
+    e16([ d)] c8 r c
+    c' b as g
+    as4 r16 as[ g as]
+    b8[ as g f] %65
+    g4 r16 g[ f g]
+    as8[ g f es]
+    f4 r16 f[ e f]
+    g8[ f e d]
+    c[ d e c] %70
+    f[ es] des4
+    c r8 c
+    f4 g
+    as b
+    c4. c,8 %75
+    f4 r8 f
+    des' des des c16([ b)]
+    as8 g r c
+    e,4 f
+    g as %80
+    b as
+    \appoggiatura b16 as8 g r c,
+    f4 g
+    as e
+    f g %85
+    as e
+    f g
+    as h
+    c4.\fermata c,8
+    f4 r %90
+    R2*12 \noBreak %102
+    r4 r8\fermata c' \bar "||" \mark \critnote
+    \key f \major \time 3/4 \appoggiatura b4 a2 g4 \noBreak
+    g( f) f %105
+    d' \appoggiatura d c2
+    \appoggiatura c8 b4 a r
+    c a4. g8
+    g4( fis) b
+    b( a) g %110
+    \appoggiatura a8 g4 fis r
+    d g f
+    es2 h4
+    c( es) f
+    g2 r4 %115
+    as g f
+    es( f) r8 fis
+    g2\fermata g,4
+    \key f \minor \time 2/4 c4 r
+    R2*7 %126
+    r4 r8 c' \bar "S-S" %127 finis
+  }
+}
+
+AchAchSoliLyrics = \lyricmode {
+  Ach, %21
+  ach, die
+  Gröſ -- ſe
+  mei -- ner
+  Sün -- den kan %25
+  nim -- mer -- mehr Ver --
+  ge -- bung
+  fin -- den, viel --
+  leicht iſt auch die
+  Reu __ _ %30
+  _
+  _ _
+  _
+  _
+  _ zu %35
+  ſpat, viel --
+  leicht iſt
+  auch die
+  Reu __ _
+  _ _ %40
+  _ _
+  _ _
+  _ _
+  _ _
+  _ %45
+  _
+  _ zu
+  ſpat.
+
+  Ach, %55
+  ach, die
+  Gröſ -- ſe
+  mei -- ner
+  Sün -- den kan
+  nim -- mer -- mehr Ver -- %60
+  ge -- bung
+  fin -- den, viel --
+  leicht iſt auch die
+  Reu __ _
+  _ %65
+  _ _
+  _
+  _ _
+  _
+  _ %70
+  _ zu
+  ſpat, viel --
+  leicht iſt
+  auch die
+  Reu zu %75
+  ſpat. Die
+  Gröſ -- ſe mei -- ner
+  Sün -- den kan
+  nim -- mer --
+  mehr Ver -- %80
+  ge -- bung
+  fin -- den, viel --
+  leicht iſt
+  auch die
+  Reu __ _ %85
+  _ _
+  _ _
+  _ _
+  _ zu
+  ſpat. %90
+
+  Wie %103
+  ſee -- lig
+  iſt __ ein %105
+  gut Ge --
+  wiſ -- ſen,
+  das nicht darff
+  ſol -- che
+  Feh -- ler %110
+  büſ -- ſen,
+  und das gar
+  nichts ver --
+  bro -- chen
+  hat, %115
+  und das gar
+  nichts ver --
+  bro -- chen
+  hat.
+
+  Ach, %127 finis
+}

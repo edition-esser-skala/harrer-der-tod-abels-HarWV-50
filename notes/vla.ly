@@ -965,3 +965,137 @@ MeinAdamViola = {
     \time 2/4 \markTimeSig #'(2 4) es r\fermata \bar "|." %89 finis
   }
 }
+
+AchAchViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key f \minor \time 2/4 \tempoAchAch
+    \partial 8 r8 r as'\fE as4
+    r8 g g4
+    r8 f e e
+    c as r4
+    R2 %5
+    r8 as' c as
+    g e r e
+    c c f f
+    f4 r16 f es! f
+    b,8 b es es %10
+    es4 r16 es^\critnote des es
+    as,8 as as b
+    c c c e
+    c c c c
+    c c c16-! g'( f e) %15
+    f8\p c c c
+    c c c c
+    c4\fE d
+    e r8 e
+    c f4 e8 \noBreak %20
+    f f, r4 \bar "S-S"
+    r8 as'\pE as4 \noBreak
+    r8 g g g
+    r f e e
+    c as r4 %25
+    R2
+    r8 as c as
+    g e r e'
+    c c f f
+    f4 r16 f es! f %30
+    b,8 b es es
+    es4 r16 es des es
+    des8 es f g
+    as b c b
+    as es4 d8 %35
+    es4 r8 g
+    es es es es
+    es es es16-! b'( as g)
+    as8 es es es
+    es es es f %40
+    f f f f
+    f f f16-\parenthesize-! \once \slurDashed c'( b a)
+    f8 f f f
+    f f f16-\parenthesize-! \once \slurDashed c'( b a)
+    b8 as ges f %45
+    es\mfE des c b
+    f'4\fermata r
+    des8\ffE c des ges
+    f a, r a'
+    f f f f %50
+    f f f f
+    f\p f f f
+    f f f f
+    f\fE f ges? f
+    f4 r %55
+    r8 f\pE f4
+    r8 es es es
+    r g! g g
+    es c r4
+    R2 %60
+    r8 as c as
+    g g g g
+    c g' as b
+    c4 r16 c, b c
+    b8 b b b %65
+    b4 r16 b as b
+    as8 as as as
+    as4 r16 as g as
+    g8 g g' f
+    e f g e %70
+    c c4 b8
+    c4 r8 e
+    c c c c
+    c c des! des
+    c c c c %75
+    c4 r
+    r r8 g'
+    f e r4
+    g,8 g f f
+    c' c c c %80
+    c c c c
+    c c r e
+    c c c c
+    c c c16-! g'( f e)
+    f8 c c c %85
+    c c c16-! g'( f e)
+    f8\mfE c c c
+    c c h d
+    c4\fermata r
+    c8\ffE c f f %90
+    f4 r16 f es! f
+    b,8 b es es
+    es4 r16 es des es
+    as,8-\critnote as as b
+    c4 r8 e %95
+    c c c c
+    c c c16-\parenthesize-! \once \slurDashed g'( f e)
+    f8\pE c c c
+    c c c c
+    c4\fE d %100
+    e r8 e
+    c f4 e8 \noBreak
+    f f, r4\fermata \bar "||" \mark \critnote
+    \key f \major \time 3/4 \grace s4 c'4\p c c \noBreak
+    a a a %105
+    b a c
+    c c r
+    c c c
+    a a g
+    d' d d %110
+    d d r
+    d d d
+    c es h
+    c c as'
+    g g, r %115
+    c' b! as
+    g as r8 a\fE \noBreak
+    es2\fermata r4
+    \key f \minor \time 2/4 r4 r8 e \noBreak
+    c c c c %120
+    c c c16-\parenthesize-! \once \slurDashed g'( f e)
+    f8\pE c c c
+    c c c c
+    c4\fE d
+    e r8 e %125
+    f f4 e8
+    f4 r \bar "S-S"
+  }
+}

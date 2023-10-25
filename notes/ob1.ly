@@ -326,3 +326,68 @@ WennBetruebteOboeI = {
     h4 r8 \bar "S-S" %175 finis
   }
 }
+
+AchAchOboeI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key f \minor \time 2/4 \tempoAchAch
+    \partial 8 c'8\fE \appoggiatura c des4 r8 des
+    des( c) r c
+    b b4 as16 g
+    as g f8 r c
+    f-! g-! as-! b-! %5
+    c4. f8
+    \appoggiatura f32 e16 d c8 r g'
+    as32([ g f16)] as8 as32([ g f16)] as8
+    b16 f des! f b,8 as'
+    g32([ f es16)] g8 g32([ f es16)] g8 %10
+    as16 es c es as,8 ges'
+    f16 es des c b as g! f
+    e g c,8 r g''
+    as16-! f( e f) b,-! f'( e f)
+    c-! f( e f) c-! b'( as g) %15
+    as-!\p f( e f) b,-! f'( e f)
+    c-! f( e f) c-! b'( as g)
+    as8\f as4 as8~
+    as g16 f e d c b
+    as8 c, \appoggiatura as' g4\trill \noBreak %20
+    f r \bar "S-S"
+    R2*25 %46
+    R2\fermata
+    b16\ff ges' f es des8 c16 b
+    a g! f8 r c'
+    des16-! b( a b) es,-! b'( a b) %50
+    f-! b( a b) f-! es'( des c)
+    des-!\p b( a b) es,-! b'( a b)
+    f-! b( a b) f-! es'( des c)
+    des32(\f c b8.) \appoggiatura des8 c4\trill
+    b r %55
+    R2*33 %88
+    r4\fermata r8 c\ffE
+    as'32([ g f16)] as8 as32([ g f16)] as8 %90
+    b16 f des! f b,8 as'
+    g32([ f es16)] g8 g32([ f es16)] g8
+    as16 es c es as,8 ges'
+    f16 es des c b as g! f
+    e d c8 r g'' %95
+    as16-! f( e f) b,-! f'( e f)
+    c-! f( e f) c-! b'( as g)
+    as-!\p f( e f) b,-! f'( e f)
+    c-! f( e f) c-! b'( as g)
+    as8\f as4 as8~ %100
+    as g16 f e d c b
+    as8 c, \appoggiatura as' g4\trill \noBreak
+    f r\fermata \bar "||" \mark \critnote
+    \key f \major \time 3/4 \grace s4 R2.*14 \noBreak %117
+    R2.\fermata
+    \key f \minor \time 2/4 r4 r8 g'\fE \noBreak
+    as16-! f( e f) b,-! f'( e f) %120
+    c-! f( e f) c-! b'( as g)
+    as-!\p f( e f) b,-! f'( e f)
+    c-! f( e f) c-! b'( as g)
+    as8\f as4 as8~
+    as g16 f e d c b %125
+    as8 c, \appoggiatura as' g4\trill
+    f r8 c'\p \bar "S-S" %127 finis
+  }
+}

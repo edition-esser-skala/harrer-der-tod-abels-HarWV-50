@@ -752,6 +752,7 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
   %   \section "2.4" "Aria" "Wenn betrübte Zähren fließen"
   %   \addTocLabel "wennbetruebte"
   %   \paper {
@@ -821,9 +822,63 @@
   %     \midi { \tempo 4. = 66 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.5" "Accompagnato" "Mein Adam, mein"
+  %   \addTocLabel "meinadam"
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #3
+  %     indent = 1.5\cm
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \MeinAdamViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \MeinAdamViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \MeinAdamViola
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Eva" "Adam" "Cain" "St. Gottes" }
+  %           \new Voice = "Soli" { \dynamicUp \MeinAdamSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \MeinAdamSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \MeinAdamBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \MeinAdamBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "2.5" "Accompagnato" "Mein Adam, mein"
-    \addTocLabel "meinadam"
+    \section "2.6" "Aria" "Ach, ach, die Größe meiner Sünden"
+    \addTocLabel "achach"
     \paper {
       top-system-spacing.basic-distance = #10
       top-system-spacing.minimum-distance = #10
@@ -833,46 +888,58 @@
       markup-system-spacing.minimum-distance = #10
       system-system-spacing.basic-distance = #17
       system-system-spacing.minimum-distance = #17
-      systems-per-page = #3
-      indent = 1.5\cm
+      systems-per-page = #2
     }
     \score { %\articulate
       <<
-        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
-          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
-            \set GrandStaff.instrumentName = "vl"
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "ob"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \MeinAdamViolinoI
+              \AchAchOboeI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \MeinAdamViolinoII
+              \AchAchOboeII
+            }
+          >>
+        >>
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \AchAchViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \AchAchViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \MeinAdamViola
+            \AchAchViola
           }
         >>
-        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+        \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Eva" "Adam" "Cain" "St. Gottes" }
-            \new Voice = "Soli" { \dynamicUp \MeinAdamSoli }
+            \set Staff.instrumentName = "Cain"
+            \new Voice = "Soli" { \dynamicUp \AchAchSoli }
           }
-          \new Lyrics \lyricsto Soli \MeinAdamSoliLyrics
+          \new Lyrics \lyricsto Soli \AchAchSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \MeinAdamBassoContinuo
+            \AchAchBassoContinuo
           }
         >>
-        \new FiguredBass { \MeinAdamBassFigures }
+        \new FiguredBass { \AchAchBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 90 }
     }
   }
 }

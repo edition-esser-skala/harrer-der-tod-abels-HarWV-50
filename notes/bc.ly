@@ -2918,3 +2918,267 @@ MeinAdamBassFigures = \figuremode {
   r8. <6- 4! 2->16 r2 <7- 5->4
   <5->2 %89 finis
 }
+
+AchAchBassoContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key f \minor \time 2/4 \tempoAchAch
+    \partial 8 r8 r \mvTr f\fE-\soloE f,4
+    r8 es' es,4
+    r8 des' c c,
+    f' f, r4
+    R2 %5
+    r8 f' as f
+    c' c, r c
+    f es! des c
+    des4 r16 des c des
+    es8 des c b %10
+    c4 r16 c b c
+    des8 des des des
+    c d e c
+    f-! c'-! g-! c-!
+    as-! c-! e,-! c'-! %15
+    f,\p c' g c
+    as c e, c'
+    f,16\f es des c h4^\tenuto
+    c r8 c
+    f as c c, \noBreak %20
+    f f, r4 \bar "S-S"
+    r8 f'\p f,4 \noBreak
+    r8 es'! es,! es'
+    r des c c,
+    f' f, r4 %25
+    R2
+    r8 f as f
+    c' c, r c'
+    f es! des c
+    des4 r16 des c des %30
+    es8 des c b
+    c4 r16 c b c
+    des8 es f g
+    as b c g
+    as g f4^\tenuto %35
+    es8 f g es
+    as, es' b es
+    c es g, es'
+    as, es' b es
+    c es c a %40
+    b f' c f
+    des f a, f'
+    b, f' c f
+    des f a, f'
+    b as! ges f %45
+    es\mf des c b
+    f'2\fermata
+    b,8\ff a b es
+    f, g! a f
+    b f' c f %50
+    des f a, f'
+    b,\p f' c f
+    des f a, f'
+    b,\fE des es f
+    b b, r4 %55
+    r8 b'\p b,4
+    r8 g'! g,! g'
+    r es es, es'
+    as as, r4
+    R2 %60
+    r8 f as f
+    c' d e c
+    c' b as g
+    as4 r16 as g as
+    b8 as g f %65
+    g4 r16 g f g
+    as8 g f es
+    f4 r16 f e? f
+    g8 f e d
+    c d e c %70
+    f es des4
+    c8 d e c
+    f c' g c
+    as c b des
+    c b c c, %75
+    f4 r
+    r r8 e
+    f c r4
+    c8 c c c
+    c c c c %80
+    c c c c
+    c c r c
+    f c' g c
+    as c e, c'
+    f, c' g c %85
+    as c e, c'
+    f,\mfE c' g c
+    as c h d
+    c2\fermata
+    f,8\ff es! des! c %90
+    des4 r16 des c des
+    es8 des c b
+    c4 r16 c b c
+    des8 des des des
+    c d e c %95
+    f c' g c
+    as c e, c'
+    f,\p c' g c
+    as c e, c'
+    f,16\f es des c h4^\tenuto %100
+    c r8 c
+    f as c c, \noBreak
+    f f, r4\fermata \bar "||" \mark \critnote
+    \key f \major \time 3/4 \grace s4 f'4\p f, c' \noBreak
+    d d, a' %105
+    b a f
+    e' f r
+    f f es
+    d d d
+    \hideAcc d d d %110
+    \hideAcc d d d
+    \hideAcc d g f!
+    es c h
+    c es f
+    g g, r %115
+    as' g f
+    es( f) r8 fis\f \noBreak
+    g2\fermata r4
+    \key f \minor \time 2/4 c,4 r8 c \noBreak
+    f! c' g c %120
+    as c e, c'
+    f,\p c' g c
+    as^\critnote c e, c'
+    f,16\f es des c h4^\tenuto
+    c r8 c %125
+    f as c c,
+    f f, r4 \bar "S-S" %127 finis
+  }
+}
+
+AchAchBassFigures = \figuremode {
+  r8 <5> <6>4.
+  <7>8 <6>4.
+  r8 q <7 _!>4
+  r2
+  r %5
+  r
+  <_!>
+  r
+  <6>4. <\tllur>16 <5>
+  r2 %10
+  <6>4. <\tllur>16 <5->
+  <5>4. <6>8
+  <5! _!>2
+  r4 <7 4>
+  <6> <6 5> %15
+  r <7>
+  <6> <6 5>
+  r <7 _!>
+  <6 _!>8 <5 \t>4 <\t \t>8
+  r4 <6 4>8 <5 _!> %20
+  r2
+  r8 <6>4.
+  <7>8 <6>4.
+  r8 q <7 _!>4
+  r2 %25
+  r
+  r
+  <_!>
+  r
+  <6>4. <\tllur>16 <5> %30
+  r2
+  <6>4. <\tllur>16 <5->
+  <3>8 <3!> <3> q
+  q q q <5 3>
+  r <6> <7> <6!> %35
+  r2
+  r4 <7 _->
+  <6> <6 5>
+  r <7>
+  <6> <6!>8 <\t> %40
+  r4 <7>
+  <6> <6 5>
+  r <7>
+  <6> <6 5>
+  <8 3>2 \bassFigureExtendersOn %45
+  q4. q8 \bassFigureExtendersOff
+  <6 4>4 <5 _!>
+  r8 <6>4 <6 _->8
+  <_!>2
+  r4 <7> %50
+  <6> <6 5>
+  r <7>
+  <6> <6 5>
+  r8 <6> <6 5 _-> <_!>
+  r2 %55
+  r
+  r8 <6 5>4.
+  r2
+  r
+  r %60
+  r
+  <_!>
+  <\t>
+  <6>4. <\tllur>16 <5->
+  <_!>2 %65
+  <6>4. <\tllur>16 <5->
+  r2
+  <6->4. <\tllur>16 <5>
+  <5>4 q8 <6>
+  <7 _!>2 %70
+  r8 <6> <7> <6>
+  <_!>2
+  r4 <7>
+  <6> q
+  <6 4> <5 _!> %75
+  r2
+  r4. <6>8
+  r <_ _!>4.
+  <5 _!>4 <6 4>
+  <5 _!> <6 4> %80
+  <5 _!> <6 4>
+  <\t \t>8 <5 _!>4 <\t \t>8
+  r4 <7>
+  <6> <6 5>
+  r <7> %85
+  <6> <6 5>
+  r <7>
+  <6> <7 _!>8 <\t \t>
+  <6 4>4 <5 _!>
+  r2 %90
+  <6>4. <\tllur>16 <5>
+  r2
+  <6>4. <\tllur>16 <5->
+  <5>4. <6>8
+  <5! _!>2 %95
+  r4 <7>
+  <6> <6 5>
+  r <7>
+  <6> <6 5>
+  r <7 _!> %100
+  <6 _!>8 <5 \t>4 <\t \t>8
+  r4 <6 4>8 <5 _!>
+  r2
+  <4>4 <3>2
+  <4>4 <3> <6> %105
+  r q2
+  <6 5>2.
+  r2 <4 3>4
+  <4> <_+> <8 6 _+>
+  <\t \t \t> <7 5 \t> <6 4> %110
+  <7 _+>8 <6 4> <5 _+>2
+  <\t \t>2 <4! 2>4
+  <6> <_-> <6>
+  <_-> <6> <7- _->
+  <7 _!>8 <6- 4> <5 _!>2 %115
+  <6>4 <7 _->8 <6- \t> <7- _-> <6>
+  <6>4 <_->4. <7- _!>8
+  <6- 4>2 <5 _!>4
+  <_->4. <_!>8
+  <_->4 <7> %120
+  <6> <6 5>
+  r <7>
+  <6> <6 5>
+  r <7 _!>
+  <6 _!>8 <5 \t>4 <\t \t>8 %125
+  r4 <6 4>8 <5 _!>
+  r2 %127 finis
+}

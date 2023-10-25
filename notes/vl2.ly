@@ -980,3 +980,137 @@ MeinAdamViolinoII = {
     \time 2/4 \markTimeSig #'(2 4) c r\fermata \bar "|." %89 finis
   }
 }
+
+AchAchViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key f \minor \time 2/4 \tempoAchAch
+    \partial 8 c'8\fE \appoggiatura c des4 r8 des
+    des( c) r c
+    b b4 as16 g
+    as g f8 r c
+    f-! g-! as-! b-! %5
+    c4. f8
+    \appoggiatura f32 e16 d c8 r g'
+    as32([ g f16)] as8 as32([ g f16)] as8
+    b16 f des! f b,8 as'
+    g32([ f es16)] g8 g32([ f es16)] g8 %10
+    as16 es c es as,8 ges'
+    f16 es des c b as g! f
+    e g c,8 r g''
+    as16-! f( e f) b,-! f'( e f)
+    c-! f( e f) c-! b'( as g) %15
+    as-!\p f( e f) b,-! f'( e f)
+    c-! f( e f) c-! b'( as g)
+    as8\f as4 as8~
+    as g16 f e d c b
+    as8 c, \appoggiatura as' g4\trill \noBreak %20
+    f r8 c'\p \bar "S-S"
+    des4 r8 des \noBreak
+    des c r c
+    b b4 as16 g
+    \appoggiatura b32 as16 g f8 r c %25
+    f-! g-! as-! b-!
+    c4. f,8
+    e16 d c8 r g'
+    as32([ g f16)] as8 as32([ g f16)] as8
+    b16 f des! f b,8 as' %30
+    g32([ f es16)] g8 g32([ f es16)] g8
+    as16 es c es as,8 ges'
+    f32([ g as16)] g8 as32([ b c16)] b8
+    c32([ des es16)] des8-! es[ des]
+    c32([ b as16)] b8 as16 f' f as, %35
+    \appoggiatura as32 g16 f es8 r b'
+    c16-! as( g as) des,-! as'( g as)
+    es-! as( g as) es-! des'( c b)
+    c-! as( g as) des,-! as'( g as)
+    es-! es'( c b) a-! es'( des c) %40
+    des-! b( a b) es,-! b'( a b)
+    f-! b( a b) f-! es'( des c)
+    des-! b( a b) es,-! b'( a b)
+    f-! b( a b) f-! es'( des c)
+    b8.[ b16 b8. b16] %45
+    b8.[\mf b16 b8. b16]
+    b4\fermata r
+    b16\ff ges' f es des8^\critnote c16 b
+    a16 g! f8 r c'
+    des16-! b( a b) es,-! b'( a b) %50
+    f-! b( a b) f-! es'( des c)
+    des-!\p b( a b) es,-! b'( a b)
+    f-! b( a b) f-! es'( des c)
+    des8\f b4 a8
+    b4 r8 b\p %55
+    \appoggiatura { b16[ c] } des4 r8 b
+    b4 r8 b
+    \appoggiatura c8 b4.\trill as16 b
+    c( b) as8 r c,
+    f g as b %60
+    c4. f,8
+    \appoggiatura f32 e16( d) c8 r c'
+    e32([ d c16]) e8 e32([ d c16]) e8
+    f16 c as c f,8 es'
+    d32([ c b16)] d8 d32([ c b16)] d8 %65
+    es16 b g b es,8 des'
+    c32([ b as16)] c8 c32([ b as16)] c8
+    des16 as f as des,8 c'
+    b32([ as g16)] b8 b32([ as g16)] b8
+    b4~ b16 des c b %70
+    as32([ b c16)] g8 f16 as g f
+    c'8 c, r c'
+    as'16-! f( e f) b,-! f'( e f)
+    c-! f( e f) g-! b( as g)
+    f4 e\trill %75
+    f8 f, r f
+    des' des des c16 b
+    \appoggiatura b16 as8 g r c
+    e,-! g16( c) f,8-\parenthesize-! as16( c)
+    g8-! c16( e) as,8-! c16( f) %80
+    c8-\parenthesize-! e16( g) as,8 as
+    \appoggiatura b16 as8 g r c
+    as'16-! f( e f) b,-! f'( e f)
+    c-! f( e f) c-! b'( as g)
+    as-! f( e f) b,-! f'( e f) %85
+    c-! f( e f) c-! b'( as g)
+    as-!\mf f( e f) b,-! f'( e f)
+    c-! f( e f) d-! f( e f)
+    as,4\fermata r8 c\ffE
+    as'32([ g f16)] as8 as32([ g f16)] as8 %90
+    b16 f des! f b,8 as'
+    g32([ f es16)] g8 g32([ f es16)] g8
+    as16 es c es as,8 ges'
+    f16 es des c b as g! f
+    e d c8 r g'' %95
+    as16-! f( e f) b,-! f'( e f)
+    c-! f( e f) c-! b'( as g)
+    as-!\p f( e f) b,-! f'( e f)
+    c-! f( e f) c-! b'( as g)
+    as8\f as4 as8~ %100
+    as g16 f e d c b
+    as8 c, \appoggiatura as' g4\trill \noBreak
+    f r\fermata \bar "||" \mark \critnote
+    \key f \major \time 3/4 \grace s4 f2\p e4 \noBreak
+    e( d8) f f4 %105
+    f f f
+    g f r
+    a c, c
+    d2 b'4
+    b( a g) %110
+    \appoggiatura a8 g4 fis r
+    fis g2
+    g4 g2
+    g4 c c
+    \appoggiatura d8 c4 h r %115
+    f'4. es4 d8~
+    d c( d) c( d) c\f \noBreak
+    c2\fermata r4
+    \key f \minor \time 2/4 r4 r8 g' \noBreak
+    as16-! f( e f) b,-! f'( e f) %120
+    c-! f( e f) c-! b'( as g)
+    as-!\p f( e f) b,-! f'( e f)
+    c-! f( e f) c-! b'( as g)
+    as8\f as4 as8~
+    as g16 f e d c b %125
+    as8 c, \appoggiatura as' g4\trill
+    f r8 c'\p \bar "S-S" %127 finis
+  }
+}

@@ -71,6 +71,9 @@ tempoMeinAdam = \tempoMarkup "[Recitativo]"
   tempoMeinAdamG = \tempoMarkup "Allegro non troppo" %90
   tempoMeinAdamH = \tempoMarkup "Grave" % 45
 
+% 2.6
+tempoAchAch = \tempoMarkup "Allegro"
+
 
 \include "notes/fl1.ly"
 \include "notes/fl2.ly"
