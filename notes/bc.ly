@@ -3182,3 +3182,58 @@ AchAchBassFigures = \figuremode {
   r4 <6 4>8 <5 _!>
   r2 %127 finis
 }
+
+WoKamBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoWoKam
+      \set Staff.timeSignatureFraction = 4/4
+    e!1\pE
+    f
+    h,!~
+    h2 c~
+    c fis~ %5
+    fis g~
+    g1
+    cis,2 d~
+    d g
+    a4 f!2.~ %10
+    f2 \after 4 \tempoWoKamB e!~
+    e f~
+    f1
+    b,
+    c4 \after 4 \tempoWoKamC h2.~ %15
+    h2 c~
+    c1~
+    c
+    b2 h
+    c1 %20
+    f
+    \time 2/4 \markTimeSig #'(2 4) \grace s8 g4 c,\fermata \bar "|." %22 finis
+  }
+}
+
+WoKamBassFigures = \figuremode {
+  <6>1
+  <_->
+  <6>2 <5>
+  r <_->
+  r <6 _!> %5
+  r <_->
+  r1
+  <6 _!>2 <8 _!>
+  <7! _+> <_->4 <4\+ 2>
+  <_+>4 <6> <4! 2>2 %10
+  r <6>
+  <5-> <_!>
+  r <7->
+  <_->2. <4! 2>4
+  r <6 _!>2. %15
+  <7->2 <5 _->
+  <6- \t> <6! 4\+>
+  <\t \t>1
+  <6>2 <7->
+  <_!>1 %20
+  <_->2 <4! 2>
+  <_!>4 <_-> %22 finis
+}

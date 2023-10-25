@@ -2347,3 +2347,58 @@ AchAchSoliLyrics = \lyricmode {
 
   Ach, %127 finis
 }
+
+WoKamSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoWoKam
+      \set Staff.timeSignatureFraction = 4/4
+    r4 r8 c^\Eva g' g c g
+    as4 r8 c f, f g as
+    g4 r16 d d es? f4 r8 f
+    es d g d es es r16 g g g
+    c8 c d es d d r a! %5
+    d d d a b4 \clef "treble_8" r16 d,^\Adam b a
+    g4 r8 d g g a b
+    a a r16 a b\fermata a \appoggiatura g8 f!4 r8 a
+    c! c c d b r16 cis cis8 d
+    a a \clef treble r16 d'16^\Eva d a h!4 d~ %10
+    d8 g,16 g g a h g c4 \clef "treble_8" \tempoWoKamB r16 g,^\Adam g as
+    b8 b des c \appoggiatura b a a r c
+    f c c des es es f es
+    des4 r16 des c des b8. b16 e8 f
+    c c r4 \clef treble \tempoWoKamC d'!^\Eva f,8 g %15
+    as as as g \appoggiatura f es4 r8 es
+    as as as g fis4 r8 d'
+    d fis, fis g a8. b16 c8 b
+    \appoggiatura a g4 r16 g g g as8.\fermata as16 as8 g
+    \appoggiatura f! e! e r g g g as b %20
+    \appoggiatura b as4 r8 f' h,8. h16 h8 c
+    \time 2/4 \markTimeSig #'(2 4) \appoggiatura as g g r4\fermata \bar "|." %22 finis
+  }
+}
+
+WoKamSoliLyrics = \lyricmode {
+  Wo kam denn Ca -- in
+  hin? Mir wird das Her -- ze
+  ſchwer. Was will das Blut und
+  ſei -- ne Flucht be -- deu -- ten? Was brin -- get
+  A -- dam dort von wei -- tem, und %5
+  kommt ſo ei -- lend her? Hier ſiehſt du
+  nun, daß dein ſo gu -- tes
+  Hof -- fen dir lei -- der nicht, nur
+  a -- ber mein Ver -- dacht wohl ein -- ge --
+  trof -- fen. Was bringſt du da? Ach, __ %10
+  was hat Ca -- in an -- ge -- richt? Er hat den
+  A -- bel todt -- ge -- ſchla -- gen, und
+  diß mit ſei -- nem Blut be -- fleck -- te
+  Kleid kan dir da -- ran Ge -- wiß -- heit
+  ſa -- gen. O nie er -- %15
+  hör -- tes Her -- ze -- leyd, o
+  hen -- kers -- glei -- che That, die
+  Ca -- ins Mör -- der -- hand ver -- ü -- bet
+  hat, o höchſt be -- trüb -- tes An -- ge --
+  den -- ken, das ei -- ne Mut -- ter %20
+  kan biß an ihr En -- de
+  krän -- ken. %22 finis
+}

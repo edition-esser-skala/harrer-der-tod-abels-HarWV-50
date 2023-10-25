@@ -876,9 +876,75 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.6" "Aria" "Ach, ach, die Größe meiner Sünden"
+  %   \addTocLabel "achach"
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #2
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \AchAchOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \AchAchOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \AchAchViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \AchAchViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \AchAchViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Cain"
+  %           \new Voice = "Soli" { \dynamicUp \AchAchSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \AchAchSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \AchAchBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \AchAchBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "2.6" "Aria" "Ach, ach, die Größe meiner Sünden"
-    \addTocLabel "achach"
+    \section "2.7" "Recitativo" "Wo kam denn Cain hin?"
+    \addTocLabel "wokam"
     \paper {
       top-system-spacing.basic-distance = #10
       top-system-spacing.minimum-distance = #10
@@ -888,58 +954,29 @@
       markup-system-spacing.minimum-distance = #10
       system-system-spacing.basic-distance = #17
       system-system-spacing.minimum-distance = #17
-      systems-per-page = #2
+      systems-per-page = #7
+      page-count = #1
     }
     \score { %\articulate
       <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \AchAchOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \AchAchOboeII
-            }
-          >>
-        >>
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \AchAchViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \AchAchViolinoII
-            }
-          >>
+        \new ChoirStaff \with { \smallGroupDistance } <<
           \new Staff {
-            \set Staff.instrumentName = "vla"
-            \AchAchViola
+            \set Staff.instrumentName = \markup \center-column { "Eva" "Adam" }
+            \new Voice = "Soli" { \dynamicUp \WoKamSoli }
           }
-        >>
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "Cain"
-            \new Voice = "Soli" { \dynamicUp \AchAchSoli }
-          }
-          \new Lyrics \lyricsto Soli \AchAchSoliLyrics
+          \new Lyrics \lyricsto Soli \WoKamSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \AchAchBassoContinuo
+            \WoKamBassoContinuo
           }
         >>
-        \new FiguredBass { \AchAchBassFigures }
+        \new FiguredBass { \WoKamBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }
