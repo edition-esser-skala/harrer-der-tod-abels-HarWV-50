@@ -1075,77 +1075,107 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.10" "Choral" "Der Fromme ſtirbt"
+  %   \addTocLabel "derfromme"
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \DerFrommeOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \DerFrommeOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \DerFrommeViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \DerFrommeViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \DerFrommeViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \DerFrommeSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \DerFrommeSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \DerFrommeAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \DerFrommeAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \DerFrommeTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \DerFrommeTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \DerFrommeBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \DerFrommeBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \DerFrommeBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \DerFrommeBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
   \bookpart {
-    \section "2.10" "Choral" "Der Fromme ſtirbt"
-    \addTocLabel "derfromme"
+    \section "2.11" "Recitativo" "Des Höchſten Wunder Wege"
+    \addTocLabel "deshoechsten"
+    \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #2
+    }
     \score { %\articulate
       <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \DerFrommeOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \DerFrommeOboeII
-            }
-          >>
-        >>
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \DerFrommeViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \DerFrommeViolinoII
-            }
-          >>
-          \new Staff {
-            \set Staff.instrumentName = "vla"
-            \DerFrommeViola
-          }
-        >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \DerFrommeSoprano }
+            \set Staff.instrumentName = "Adam"
+            \new Voice = "Soli" { \dynamicUp \DesHoechstenSoli }
           }
-          \new Lyrics \lyricsto Soprano \DerFrommeSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \DerFrommeAlto }
-          }
-          \new Lyrics \lyricsto Alto \DerFrommeAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \DerFrommeTenore }
-          }
-          \new Lyrics \lyricsto Tenore \DerFrommeTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \DerFrommeBasso }
-          }
-          \new Lyrics \lyricsto Basso \DerFrommeBassoLyrics
+          \new Lyrics \lyricsto Soli \DesHoechstenSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \DerFrommeBassoContinuo
+            \DesHoechstenBassoContinuo
           }
         >>
-        \new FiguredBass { \DerFrommeBassFigures }
+        \new FiguredBass { \DesHoechstenBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 80 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }

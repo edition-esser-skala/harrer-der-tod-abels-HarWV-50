@@ -3531,3 +3531,26 @@ DerFrommeBassFigures = \figuremode {
   <6 4 2> <\t \t \t>4 <7 _+>8 <6 4>4 <5 _+> %10
   r1 %11 finis
 }
+
+DesHoechstenBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoDesHoechsten
+      \set Staff.timeSignatureFraction = 4/4
+    fis1~\pE
+    fis
+    g~
+    g2 a~
+    a h~ %5
+    \time 5/4 \markTimeSig #'(5 4) \grace s8 h2 r4 cis, fis,\fermata \bar "|." %6 finis
+  }
+}
+
+DesHoechstenBassFigures = \figuremode {
+  <6>1
+  <5!>
+  <5>2 <6>
+  r <_+>
+  r <5\+> %5
+  r2. <5\+ _+>4 <5\+ _!> %6 finis
+}

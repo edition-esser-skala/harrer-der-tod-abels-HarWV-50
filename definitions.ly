@@ -91,6 +91,9 @@ tempoWenSo = \tempoMarkup "Adagio ma non troppo"
 tempoJaFreylich = \tempoMarkup "[Recitativo]"
 tempoDerFromme = \tempoMarkup "[Allegro]"
 
+% 2.11
+tempoDesHoechsten = \tempoMarkup "[Recitativo]"
+
 
 \include "notes/fl1.ly"
 \include "notes/fl2.ly"

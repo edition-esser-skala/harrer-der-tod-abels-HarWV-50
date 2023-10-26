@@ -2619,3 +2619,26 @@ JaFreylichSoliLyrics = \lyricmode {
   wa -- rum dul -- det er, daß
   Fröm -- mig -- keit ver -- dirbt? %32 finis
 }
+
+DesHoechstenSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoDesHoechsten
+      \set Staff.timeSignatureFraction = 4/4
+    r4 r8 a^\Adam d d d e
+    c! c r c h a d\fermata c
+    h4 r16 h h h e4 r8 h
+    h cis d8. d16 \appoggiatura d8 cis4 r8 cis
+    e e e fis d4 r8 d %5
+    \time 5/4 \markTimeSig #'(5 4) \appoggiatura cis h h h a \appoggiatura gis fis fis r4 r\fermata \bar "|." %6 finis
+  }
+}
+
+DesHoechstenSoliLyrics = \lyricmode {
+  Des Höch -- ſten Wun -- der
+  We -- ge ſind ſo ge -- heim -- niß --
+  voll, daß ſie der Menſch nicht
+  un -- ter -- ſu -- chen ſoll, ſonſt
+  führt ihn die Ver -- nunfft auff %5
+  lau -- ter Irr -- thums Ste -- ge. %6 finis
+}
