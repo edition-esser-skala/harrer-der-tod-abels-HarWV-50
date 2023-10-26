@@ -83,6 +83,7 @@ tempoWoKam = \tempoMarkup "[Recitativo]"
   tempoWoKamB = \tempoMarkup "Adagio"
   tempoWoKamC = \tempoMarkup "Adagio"
 tempoWenSo = \tempoMarkup "Adagio ma non troppo"
+tempoJaFreylich = \tempoMarkup "[Recitativo]"
 
 
 \include "notes/fl1.ly"

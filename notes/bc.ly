@@ -3425,3 +3425,77 @@ WenSoBassFigures = \figuremode {
   r4 <6> <6 4> <5 3>
   r1 %99 finis
 }
+
+JaFreylichBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoJaFreylich
+    e!1~\pE
+    e~
+    e2 f~
+    f1~
+    f2 g4 as~ %5
+    as1
+    a
+    b~
+    b
+    e,!~ %10
+    e
+    f~
+    f2 es~
+    es as~
+    as b,4 h~ %15
+    h1
+    c~
+    c2 cis~
+    cis d~
+    d g %20
+    a4 gis2.~
+    gis2 c,!
+    dis1~
+    dis
+    e %25
+    a
+    h4 ais2.
+    h1~
+    h2 eis,~
+    eis fis~ %30
+    fis g~
+    g fis4 r8 %32 finis
+  }
+}
+
+JaFreylichBassFigures = \figuremode {
+  <6>1
+  r
+  <7- 5->2 <_->
+  r1
+  r4 <4! 2> <_!> <5-> %5
+  r1
+  <6 5->
+  <_->
+  r
+  <6> %10
+  <5->
+  <5 _->
+  <6 \t>2 <[8 5-]>
+  <7- \t> <5->
+  <4! 2> <6 4->8 <5 3> <6>4 %15
+  r2 <7->
+  <_!>1
+  r2 <6>
+  r1
+  r2 <_->4 <4\+ 2> %20
+  <_+> <6 _!>2.
+  r2 <6>
+  <6 _+>1
+  <5 \t>
+  r1 %25
+  <5 3>2 <6\\ 4\+>
+  <6 4>8 <5\+ _+> <6\\ _+>2.
+  <5\+ _!>1
+  r2 <6\\ _+>
+  r <5\+ [_!]> %30
+  <6> <5>
+  <6> <[5\+ _+]>4. %32 finis
+}

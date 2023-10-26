@@ -2545,3 +2545,77 @@ WenSoSoliLyrics = \lyricmode {
 
   Wen %99 finis
 }
+
+JaFreylichSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoJaFreylich
+    r4 r8 c c g g f
+    g g g as b4 r8 b
+    des8. des16 des8 c \appoggiatura b as as r f
+    f g as as as b c b
+    as r16 c h!8. c16 c8 g r4 %5
+    r8 es' c as c c c des
+    es4 r8 c f f f es
+    des des r f des c b4
+    r8 f b b b b c des
+    c c r g' g g, g as %10
+    b4 r8 b b b des c
+    \appoggiatura b as4 r16 f f g as4 r8 as
+    as as b as g g r g
+    des' des es des c4 r8 c
+    d d d es es b r d %15
+    d g, g f as as as g
+    \appoggiatura f e!4 r16 e g f g4 r8 g
+    g g a! b a4 r16 a a e
+    e8 f g a \appoggiatura g f f r a
+    a a d a b r16 d cis8. d16 %20
+    a8 a \clef treble r e''^\Eva e\fermata h h a
+    h h d c \appoggiatura h a4 r16 a h c
+    h8 h r16 h h fis fis8 fis a g
+    a8 a r a a a h a
+    g4 r8 h h h e8. d!16 %25
+    c8 c r a dis dis dis8. e16
+    e8 h r fis cis' cis e d
+    h4 r8 fis h ais h h
+    h h d8. d16 \appoggiatura d8 cis cis r16 gis gis a
+    h8 gis cis8. h16 a8 a r a %30
+    a a d a h4 r8 h
+    e e e h cis4 r8 %32 finis
+  }
+}
+
+JaFreylichSoliLyrics = \lyricmode {
+  Ja frey -- lich iſt wohl
+  die Be -- ge -- ben -- heit auffs
+  Höch -- ſte zu be -- dau -- ern. Wir
+  ha -- ben Ur -- ſach, daß wir Le -- bens --
+  zeit deß -- we -- gen trau -- ern. %5
+  Gott ſelbſt hat nicht den Todt ge --
+  macht, daß Men -- ſchen müſ -- ſen
+  ſter -- ben, er hat nicht Luſt
+  an der Le -- ben -- di -- gen Ver --
+  der -- ben. Die Bö -- ſen ha -- ben %10
+  ihn in die -- ſe Welt ge --
+  bracht, weil ſie da -- nach mit
+  Wort und Wer -- ken rin -- gen, und
+  al -- ſo kan er durch zu
+  al -- len Men -- ſchen drin -- gen. Wir %15
+  bey -- de ſind am er -- ſten Schuld da --
+  ran, denn hät -- ten wir nicht
+  un -- ſern Fall ge -- than, ſo war ihm
+  al -- le Macht be -- nom -- men, und
+  wä -- re nie zu uns auff Er -- den %20
+  kom -- men. Ach ley -- der wird nun
+  al -- les of -- fen -- bahr, um un -- ſret
+  wil -- len muß A -- bel uns zu -- erſt er --
+  fül -- len. Es ſey nur all -- zu
+  wahr, daß auch die Kin -- der %25
+  müſ -- ſen der El -- tern Feh -- ler
+  büſ -- ſen. Er war ge -- recht und
+  ſtirbt, wie kommt es a -- ber,
+  daß die Bö -- ſen le -- ben, die ſich doch
+  wie -- der Gott er -- he -- ben, und %30
+  wa -- rum dul -- det er, daß
+  Fröm -- mig -- keit ver -- dirbt? %32 finis
+}
