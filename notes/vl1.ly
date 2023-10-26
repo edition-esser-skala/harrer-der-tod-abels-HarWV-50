@@ -1122,39 +1122,39 @@ WennBetruebteViolinoI = {
   }
 }
 
-MeinAdamViolinoI = {
+NeinAdamViolinoI = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoMeinAdam
+    \key c \major \time 4/4 \tempoNeinAdam
       \set Staff.timeSignatureFraction = 4/4
     R1*58 %58
     r4 g''-!\fE <fis a, d,>-! r
-    r2 \tempoMeinAdamB <g h, d, g,>4 q %60
+    r2 \tempoNeinAdamB <g h, d, g,>4 q %60
     q-! r r2
     c,16 g e c g c e g c4 r
     r2 f16 c a f c f a c
     a'4 r r8 r16 b-! b8-! r
     r2 r8 g-! g-! g-! %65
-    <g b, es,>4~ g8 r16\fermata \tempoMeinAdamC es\f es4. es,8\p
+    <g b, es,>4~ g8 r16\fermata \tempoNeinAdamC es\f es4. es,8\p
     es es es es fes4\fermata r16 fes es des
-    des'4\ff^\tenuto r \tempoMeinAdamD r16 as,( b as) as-! as( b as)
+    des'4\ff^\tenuto r \tempoNeinAdamD r16 as,( b as) as-! as( b as)
     as4 r r2
     r r16 a( b a) a-! a( b a) %70
     a4 r r2
-    \tempoMeinAdamE r8 b(-. b-. b-.) b'4~ b8 r
+    \tempoNeinAdamE r8 b(-. b-. b-.) b'4~ b8 r
     R1
     r2 r4 c
     c r r2 %75
     R1*2
-    \tempoMeinAdamF r8 f\fE f f es\p es es es
+    \tempoNeinAdamF r8 f\fE f f es\p es es es
     es4~\pp es8 r r2
     r8 g^\tenuto g4~ g8 r r4 %80
-    r2 \tempoMeinAdamG g16\f g g g g\p g g g
+    r2 \tempoNeinAdamG g16\f g g g g\p g g g
     g g g g g g g g f\f f f f f\p f f f
     f f f f f f f f f\f f f f f\p f f f
     es es es es es es es es es\f es es es es\p es es es
     es es es es es es es es es es es es es es es es %85
-    es es es es es es es es des8. \tempoMeinAdamH f16[\f f8. f16]
+    es es es es es es es es des8. \tempoNeinAdamH f16[\f f8. f16]
     f4~ f8 r r2
     r8 r16 g! g4 r g
     \time 2/4 \markTimeSig #'(2 4) as r\fermata \bar "|." %89 finis

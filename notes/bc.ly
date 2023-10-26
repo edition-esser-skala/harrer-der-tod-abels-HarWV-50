@@ -2730,10 +2730,10 @@ WennBetruebteBassFigures = \figuremode {
   r4. %175 finis
 }
 
-MeinAdamBassoContinuo = {
+NeinAdamBassoContinuo = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \tempoMeinAdam
+    \key c \major \time 4/4 \tempoNeinAdam
       \set Staff.timeSignatureFraction = 4/4
     eis2\pE fis~
     fis e~
@@ -2794,40 +2794,40 @@ MeinAdamBassoContinuo = {
     d
     g
     r4 a-!\fE d,-! r
-    r2 \tempoMeinAdamB g16 d h g g' d h g %60
+    r2 \tempoNeinAdamB g16 d h g g' d h g %60
     g'4-! r r2
     e4-! e-! e-\parenthesize-! r
     r2 f4-! \parOn f-\parenthesize-!
     \parOff f-\parenthesize-! r r8 r16 d-! d8-! r
     r2 r8 es-! es-! es-! %65
-    es4~ es8 r16\fermata \tempoMeinAdamC \mvTr es'\f-\unisonoE es4. es,8\p
+    es4~ es8 r16\fermata \tempoNeinAdamC \mvTr es'\f-\unisonoE es4. es,8\p
     es es es es fes4\fermata r16 fes es des
-    es4\ff^\tenuto r \tempoMeinAdamD r16 as,(-\unisonoE b as) as-! as( b as)
+    es4\ff^\tenuto r \tempoNeinAdamD r16 as,(-\unisonoE b as) as-! as( b as)
     as4 r r2
     r2 r16 a( b a) a-! a( b a) %70
     a4 r r2
-    \tempoMeinAdamE r8 b(-. b-. b-.) b'4~ b8 r
+    \tempoNeinAdamE r8 b(-. b-. b-.) b'4~ b8 r
     r2 es,~\pE
     es r4 f\fE
     \after 8 \pE e1~ %75
     e
     f
-    \tempoMeinAdamF r8 g\fE g g g\p g g g
+    \tempoNeinAdamF r8 g\fE g g g\p g g g
     fis4~\pp fis8 r r2
     r8 f^\tenutoE f4~ f8 r r4 %80
-    r2 \tempoMeinAdamG es16\f es es es es\p es es es
+    r2 \tempoNeinAdamG es16\f es es es es\p es es es
     es es es es es es es es es\f es es es es\p es es es
     es es es es es es es es \stemUp des\f des des des des\p des des des
     des des des des des des des des \stemNeutral c\f c c c c\p c c c
     c c c c c c c c c c c c c c c c %85
-    c c c c c c c c des8. \tempoMeinAdamH des16[-!\f des8.-! des16]-!
+    c c c c c c c c des8. \tempoNeinAdamH des16[-!\f des8.-! des16]-!
     des4~ des8 r r2
     r8 r16 des des4 r es
     \time 2/4 \markTimeSig #'(2 4) as, r\fermata \bar "|." %89 finis
   }
 }
 
-MeinAdamBassFigures = \figuremode {
+NeinAdamBassFigures = \figuremode {
   <6\\ _+>2 <5\+>
   r4 <6\\> <_+>2
   r1

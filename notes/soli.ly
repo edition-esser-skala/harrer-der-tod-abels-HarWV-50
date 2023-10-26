@@ -489,7 +489,7 @@ WasFehletSoliLyrics = \lyricmode {
   ja was Gu -- tes gön -- nen, weil wir der --
   glei -- chen al -- le -- wohl auch hof -- fen
   kön -- nen. Reiß die -- ſes Un -- kraut
-  aus, eh es auf Wur -- zel
+  aus, eh es auff Wur -- zel
   faſ -- ſet. Wenn Ca -- in ſei -- nen Bru -- der %25
   haſ -- ſet, ſo wird ſich täg -- lich
   et -- was an -- dres fin -- den, wo --
@@ -996,8 +996,8 @@ WarumErgrimmestSoli = {
 WarumErgrimmestSoliLyrics = \lyricmode {
   Wa -- rum er -- grim -- meſt
   du? Wa -- rum ver -- ſtellſt du die Ge --
-  ben -- den und willſt nicht bey dir rich -- tig
-  wen -- den? Iſts nicht al --
+  ber -- den und willſt nicht bey dir rich -- tig
+  wer -- den? Iſts nicht al --
   ſo? wenn du dich fromm er -- %5
   ziehſt, ſo biſt du an --
   ge -- nehm, hin -- ge -- gen ſie -- he
@@ -1979,10 +1979,10 @@ WennBetruebteSoliLyrics = \lyricmode {
   läßt? %164 finis
 }
 
-MeinAdamSoli = {
+NeinAdamSoli = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \autoBeamOff \tempoMeinAdam
+    \key c \major \time 4/4 \autoBeamOff \tempoNeinAdam
       \set Staff.timeSignatureFraction = 4/4
     cis'4^\Eva h8 cis a4 r16 fis fis gis?
     a8 a a h gis4 r8 e!
@@ -2043,28 +2043,28 @@ MeinAdamSoli = {
     f f \clef bass r16 a,^\Cain a a d8 r16 d d8 c!
     b4 r8 b a g cis8. d16
     d8 a r4 r \forceClef r8 a^\Gott
-    d r16 d d8 a \tempoMeinAdamB h!4 r %60
+    d r16 d d8 a \tempoNeinAdamB h!4 r %60
     r8 g g a h h d g,
     c c r4 \forceClef r8 c,^\Cain g' g
     g g c g a4 r
     r c8 c16 d b4 \forceClef r8 f^\Gott
     f f b8. f16 g8 g r4 %65
-    r r8 r16\fermata \tempoMeinAdamC es' es4. es,8
+    r r8 r16\fermata \tempoNeinAdamC es' es4. es,8
     es es es es fes4\fermata r16 fes es des
-    des'8. des16 des8. des16 \appoggiatura des8 \tempoMeinAdamD c c r4
+    des'8. des16 des8. des16 \appoggiatura des8 \tempoNeinAdamD c c r4
     r8 as as16 es es des es4 r8 es
     es f ges ges \appoggiatura ges f f r4 %70
     r8 c c des es es es f?
-    \tempoMeinAdamE des4 r r r8 f
+    \tempoNeinAdamE des4 r r r8 f
     b b b as? ges4 r8 es
     a a a b b([ f)] r4
     r8 c g'16 g g f g4 r16 g g as %75
     b4 r8 b b b c b
     as as r4 c8 as16 b c f, h16. c32
-    \tempoMeinAdamF c8 g r4 r2
+    \tempoNeinAdamF c8 g r4 r2
     \forceClef r4 r8 a!^\Cain \appoggiatura h! c4 r16 c c d
     \appoggiatura c8 h!4 r r8 d g, a %80
-    h h h c \tempoMeinAdamG c([ g)] r g
+    h h h c \tempoNeinAdamG c([ g)] r g
     c c c b a!4 r8 b
     c c c des b4 r16 b b as
     g8. g16 g8 as as([ es)] r es
@@ -2076,8 +2076,8 @@ MeinAdamSoli = {
   }
 }
 
-MeinAdamSoliLyrics = \lyricmode {
-  Mein A -- dam, mein, ich ha -- be
+NeinAdamSoliLyrics = \lyricmode {
+  Nein, A -- dam, nein, ich ha -- be
   Ur -- ſach froh zu ſeyn, drum,
   daß mein Au -- ge wei -- net, ge --
   ſchie -- het nicht aus Leid, es

@@ -175,7 +175,7 @@ EinLaemmleinAltoLyrics = \lyricmode {
   matt und
   krank, er -- %20
   giebt ſich
-  auf die
+  auff die
   Wür -- ge --
   bank, ent --
   zieht ſich %25

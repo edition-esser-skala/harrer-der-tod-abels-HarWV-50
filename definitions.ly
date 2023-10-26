@@ -1,9 +1,9 @@
 \version "2.24.0"
 
 #(define option-movement-title-format "genre-number-title")
-#(define option-print-all-bar-numbers #t)
+#(define option-print-all-bar-numbers #f)
 \include "ees.ly"
-\include "ees_articulate.ly"
+% \include "ees_articulate.ly"
 
 
 Adam = \markup \remark "Adam"
@@ -73,14 +73,14 @@ tempoIchHabe = \tempoMarkup "Allegro assai"
 tempoIndemIch = \tempoMarkup "Moderato"
 tempoSoLebe = \tempoMarkup "Adagio"
 tempoWennBetruebte = \tempoMarkup "Commodo"
-tempoMeinAdam = \tempoMarkup "[Recitativo]"
-  tempoMeinAdamB = \tempoMarkup "Allegro assai" % 110
-  tempoMeinAdamC = \tempoMarkup "Adagio" % 70
-  tempoMeinAdamD = \tempoMarkup "Un poco grave" % 40
-  tempoMeinAdamE = \tempoMarkup "Adagio" % 70
-  tempoMeinAdamF = \tempoMarkup "Adagio" % 70
-  tempoMeinAdamG = \tempoMarkup "Allegro non troppo" %90
-  tempoMeinAdamH = \tempoMarkup "Grave" % 45
+tempoNeinAdam = \tempoMarkup "[Recitativo]"
+  tempoNeinAdamB = \tempoMarkup "Allegro assai" % 110
+  tempoNeinAdamC = \tempoMarkup "Adagio" % 70
+  tempoNeinAdamD = \tempoMarkup "Un poco grave" % 40
+  tempoNeinAdamE = \tempoMarkup "Adagio" % 70
+  tempoNeinAdamF = \tempoMarkup "Adagio" % 70
+  tempoNeinAdamG = \tempoMarkup "Allegro non troppo" %90
+  tempoNeinAdamH = \tempoMarkup "Grave" % 45
 
 % 2.6
 tempoAchAch = \tempoMarkup "Allegro"
