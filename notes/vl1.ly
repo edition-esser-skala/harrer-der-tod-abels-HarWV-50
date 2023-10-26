@@ -1418,3 +1418,18 @@ DerFrommeViolinoI = {
     h r r2 \markAttacca \bar "||" %11 finis
   }
 }
+
+ManMussViolinoI = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 4/4 \tempoManMuss
+    \partial 4 r4 r16 a'(\fE fis a) r h( g h) r a( fis a) r d( a d)
+    r d( a d) r cis( a cis) \appoggiatura cis8 d4\fermata r
+    r16 cis( ais cis) r d( h d) r e( cis e) r d( h d)
+    cis( cis cis cis) cis( cis cis cis) h4\fermata fis8 g
+    a!4 h a d~ %5
+    d cis d\fermata r8 d
+    cis4 h e d
+    cis2 h4 r \markAttacca \bar "||" %8 finis
+  }
+}

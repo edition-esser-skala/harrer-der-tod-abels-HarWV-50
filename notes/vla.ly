@@ -1213,3 +1213,18 @@ DerFrommeViola = {
     fis r r2 \markAttacca \bar "||" %11 finis
   }
 }
+
+ManMussViola = {
+  \relative c' {
+    \clef alto
+    \key h \minor \time 4/4 \tempoManMuss
+    \partial 4 r4 r16 d(\fE a d) r d( h d) r d( a d) r fis( d fis)
+    r e(^\critnote d e) r e( cis e) fis4\fermata r
+    r16 fis( cis fis) r fis( d fis) r ais( ais ais) r fis( d fis)
+    fis( fis fis fis) fis( fis fis fis) d4\fermata a!
+    a d d d %5
+    g e fis\fermata r8 fis
+    fis4 d cis h~
+    h ais h r \markAttacca \bar "||" %8
+  }
+}

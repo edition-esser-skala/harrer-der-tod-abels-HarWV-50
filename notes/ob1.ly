@@ -481,3 +481,18 @@ DerFrommeOboeI = {
     h r r2 \markAttacca \bar "||" %11 finis
   }
 }
+
+ManMussOboeIeII = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 4/4 \tempoManMuss
+    \partial 4 r4 \mvTr d'1~\fE-\unisono
+    d4 cis d\fermata r
+    fis,1~
+    fis2~ fis4\fermata r
+    d2. d'4~ %5
+    d cis d\fermata r8 fis,
+    fis1~
+    fis2 fis4 r \markAttacca \bar "||" %8
+  }
+}

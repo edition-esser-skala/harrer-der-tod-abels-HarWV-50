@@ -3554,3 +3554,29 @@ DesHoechstenBassFigures = \figuremode {
   r <5\+> %5
   r2. <5\+ _+>4 <5\+ _!> %6 finis
 }
+
+ManMussBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key h \minor \time 4/4 \tempoManMuss
+    \partial 4 r4 d8\fE d d d d d d d
+    a' a a, a d4\fermata r8 h
+    fis fis fis fis fis fis fis fis
+    fis fis fis fis h4\fermata r
+    r16 d fis d r d g d r d fis d r fis d' fis, %5
+    r g fis e a8 a, d4\fermata r
+    r16 fis ais fis r fis h fis r fis ais fis h d, cis h
+    fis'4 fis, h r \markAttacca \bar "||" %8 finis
+  }
+}
+
+ManMussBassFigures = \figuremode {
+  r4 <5 3> <6 4> <5 3>2
+  <4>4 <3>2.
+  <5 _+>4 <6 4> <7 _+> <6 4>
+  <5 \t> <\t _+>2.
+  <5!>4 <6 4> <5 3> <6> %5
+  r1
+  <5 _+>4 <6 4> <7 _+>2
+  <4>4 <_+>2. %8 finis
+}

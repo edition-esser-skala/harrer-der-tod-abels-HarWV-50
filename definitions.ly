@@ -23,7 +23,7 @@ forceClef = \set Staff.forceClef = ##t
 hideAcc = \once \override Accidental.stencil = ##f
 markAttacca = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-  \mark \markup \remark "attaca"
+  \mark \markup \remark "attaca presto"
 }
 sempre = \markup \remark "sempre"
 senzaBR = \markup {
@@ -89,10 +89,11 @@ tempoWoKam = \tempoMarkup "[Recitativo]"
   tempoWoKamC = \tempoMarkup "Adagio"
 tempoWenSo = \tempoMarkup "Adagio ma non troppo"
 tempoJaFreylich = \tempoMarkup "[Recitativo]"
-tempoDerFromme = \tempoMarkup "[Allegro]"
+tempoDerFromme = \tempoMarkup "[Tempo deest]"
 
 % 2.11
 tempoDesHoechsten = \tempoMarkup "[Recitativo]"
+tempoManMuss = \tempoMarkup "[Tempo deest]"
 
 
 \include "notes/fl1.ly"

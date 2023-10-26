@@ -79,3 +79,29 @@ DerFrommeAltoLyrics = \lyricmode {
   bö -- ſer Knech -- %10
   te. %11 finis
 }
+
+ManMussAlto = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 4/4 \autoBeamOff \tempoManMuss
+    \partial 4 d8([\fE e)] fis4 g a a
+    a a a\fermata r8 h
+    ais4 h fis h
+    h( ais) fis\fermata fis
+    d d fis a %5
+    h a a\fermata r8 h
+    ais4 fis fis fis
+    fis2 fis4 r \markAttacca \bar "||" %8 finis
+  }
+}
+
+ManMussAltoLyrics = \lyricmode {
+  Man muß in Got -- tes
+  Herz und Sinn ſein
+  Herz und Sinn er --
+  ge -- ben, ſo
+  wird, was bö -- ſe %5
+  ſcheint, Ge -- winn, und
+  folgt dem Todt das
+  Le -- ben. %8 finis
+}

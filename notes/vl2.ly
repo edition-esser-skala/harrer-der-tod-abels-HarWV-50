@@ -1238,3 +1238,18 @@ DerFrommeViolinoII = {
     h r r2 \markAttacca \bar "||" %11 finis
   }
 }
+
+ManMussViolinoII = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 4/4 \tempoManMuss
+    \partial 4 r4 r16 fis(\fE d fis) r g( d g) r fis( d fis) r a( fis a)
+    r a( e-\critnote a) r a( e a) <fis a>4\fermata r
+    r16 ais( fis ais) r h( fis h) r cis( ais cis) r h( fis h)
+    h( h h h) ais( ais ais ais) <fis h>4\fermata fis
+    d d fis a %5
+    h a a\fermata r8 h
+    ais4 fis fis fis
+    fis2 fis4 r \markAttacca \bar "||" %8
+  }
+}

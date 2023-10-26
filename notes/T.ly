@@ -77,3 +77,29 @@ DerFrommeTenoreLyrics = \lyricmode {
   bö -- ſer Knech -- %10
   te. %11 finis
 }
+
+ManMussTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key h \minor \time 4/4 \autoBeamOff \tempoManMuss
+    \partial 4 d4\fE d d d fis
+    e e fis\fermata r8 fis
+    fis4 fis e fis
+    fis2 d4\fermata a!4
+    a d d d %5
+    g e fis\fermata r8 fis
+    fis4 d cis h
+    h( ais) h r \markAttacca \bar "||" %8
+  }
+}
+
+ManMussTenoreLyrics = \lyricmode {
+  Man muß in Got -- tes
+  Herz und Sinn ſein
+  Herz und Sinn er --
+  ge -- ben, ſo
+  wird, was bö -- ſe %5
+  ſcheint, Ge -- winn, und
+  folgt dem Todt das
+  Le -- ben. %8 finis
+}

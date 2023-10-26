@@ -117,3 +117,18 @@ IchBinEinFagottoI = {
     c c, r \bar "S-S" %181 finis
   }
 }
+
+ManMussFagottoIeII = {
+  \relative c {
+    \clef bass
+    \key h \minor \time 4/4 \tempoManMuss
+    \partial 4 r4 \mvTr d'1\fE-\unisono
+    a2 d,4\fermata r8 h
+    fis'1~
+    fis2 h,4\fermata r
+    d1 %5
+    h'4 a d,\fermata r8 h
+    fis'1~
+    fis2 h,4 r \markAttacca \bar "||" %8
+  }
+}

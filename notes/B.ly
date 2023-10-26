@@ -77,3 +77,29 @@ DerFrommeBassoLyrics = \lyricmode {
   bö -- ſer Knech -- %10
   te. %11 finis
 }
+
+ManMussBasso = {
+  \relative c {
+    \clef bass
+    \key h \minor \time 4/4 \autoBeamOff \tempoManMuss
+    \partial 4 d4\fE d g fis d
+    a' a, d\fermata r8 h
+    fis'4 d ais' h
+    fis2 h,4\fermata d8([ e)]
+    fis4 g fis d %5
+    g a d,\fermata r8 h
+    fis'4 h ais h
+    fis2 h,4 r \markAttacca \bar "||" %8
+  }
+}
+
+ManMussBassoLyrics = \lyricmode {
+  Man muß in Got -- tes
+  Herz und Sinn ſein
+  Herz und Sinn er --
+  ge -- ben, ſo __
+  wird, was bö -- ſe %5
+  ſcheint, Ge -- winn, und
+  folgt dem Todt das
+  Le -- ben. %8 finis
+}
