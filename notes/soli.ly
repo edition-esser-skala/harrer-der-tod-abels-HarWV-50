@@ -2402,3 +2402,146 @@ WoKamSoliLyrics = \lyricmode {
   kan biß an ihr En -- de
   krän -- ken. %22 finis
 }
+
+WenSoSoli = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \autoBeamOff \tempoWenSo
+    \partial 4 r4 R1*11 \noBreak %11
+    R1\fermata
+    R1*3 \noBreak %15
+    r2 r4 \mvTr es\pE^\soloE \bar "S-S"
+    b'2. b8([ h)]
+    h([ c)] c2~ c8[ d]
+    es2 es
+    d8([ c)] b4 r b8([ d,)] %20
+    \appoggiatura d4 es2. g8([ f)]
+    \appoggiatura f4 g2.^\critnote c8([ b)]
+    b([ as)] as2( g4)
+    \appoggiatura as8 g4 f r f8([ b)]
+    b([ a)] a([ g)] g([ f)] f([ d')] %25
+    d([ c) c( b)] b([ a) a( es')]
+    es([ d) d( c)] c([ b)] b([ a)]
+    a2\fermata r4 es'
+    es8([ des)] des([ c)] c([ b)] b([ a)]
+    b1~ %30
+    b2\fermata c\trill
+    b r
+    R1*6 %38
+    r2 r4 es,
+    b'2. b8[( c)] %40
+    c([ des)] des2.
+    des8([ c)] c2~ c8[ b]
+    \appoggiatura c b4 as2 c8([ f,)]
+    \appoggiatura f4 e2. g8([ e)]
+    \appoggiatura e4 f2. c'4 %45
+    c8([ b)] b2( as4)
+    \appoggiatura b8 as4 g r g8([ b)]
+    b([ a)] a([ b)] b([ c)] c([ es!)]
+    es([ d!) d( c)] c([ b) b( as)]
+    as([ g) g( as)] as([ b) b( des)] %50
+    des([ c) c( b)] b([ as) as( g)]
+    g([ f) f( as)] as([ f)] f([ es)]
+    \appoggiatura es4 d2 r4 as'
+    as8([ ges)] ges([ f)] f([ es)] es([ d)]
+    es1~ %55
+    es2 f\trillE
+    es r4 b'8([ es,)]
+    \appoggiatura es4 d2. f8([ d)]
+    \appoggiatura d4 es2. b'4
+    b8([ as)] as2( g4) %60
+    \appoggiatura as8 g4 f r b8([ es)]
+    es([ d)] d([ c)] c([ b)] b([ as)]
+    as([ g) g( f)] f([ es) c'( as)]
+    g2\fermata f
+    es r %65
+    R1*6 %71
+    R1\fermata
+    R1*3 \noBreak %75
+    r2 r4\fermata g \bar "||"
+    es'2. d8([ es)] \noBreak
+    d2 g,
+    c2. h8([ c)]
+    \appoggiatura c16 h8.([^\critnote a?16)] g4 r\fermata g %80
+    g8([ des')] des([ c)] c([ b)] b([ as)]
+    \appoggiatura as4 g2.^\critnote as8([ b)]
+    as([ g)] f4 r c'
+    b( as) r as
+    as( g) r g %85
+    g( f2) es4
+    \appoggiatura es d2 r4 f'
+    f8([ es)] es([ d)] d([ c)] c([ h)]
+    c1~
+    c2\fermata d\trill %90
+    c r
+    R1*7 %98
+    r2 r4 es, \bar "S-S" %99 finis
+  }
+}
+
+WenSoSoliLyrics = \lyricmode {
+  Wen %16
+  ſo ein
+  Zu -- fall __
+  nicht be --
+  we -- get, wes %20
+  Herz ſich
+  nicht durch
+  Mit -- leid __
+  re -- get, hat
+  kei -- nen rech -- ten %25
+  Men -- _
+  _ _ ſchen --
+  ſinn, hat
+  kei -- nen rech -- ten
+  Men -- %30
+  ſchen --
+  ſinn.
+
+  Wen %39
+  ſo ein %40
+  Zu -- fall
+  nicht be --
+  we -- get, wes
+  Herz ſich
+  nicht durch %45
+  Mit -- leid __
+  re -- get, hat
+  kei -- nen rech -- ten
+  Men -- _
+  _ _ %50
+  _ _
+  _ _ ſchen --
+  ſinn, hat
+  kei -- nen rech -- ten
+  Men -- %55
+  ſchen --
+  ſinn, wes
+  Herz ſich
+  nicht durch
+  Mit -- leid __ %60
+  re -- get, hat
+  kei -- nen rech -- ten
+  Men -- _
+  _ ſchen --
+  ſinn. %65
+
+  Es %76
+  ſtirbt mein
+  frömm -- ſter
+  Lei -- bes
+  Er -- be, ein %80
+  Wun -- der iſts, daß
+  ich nicht
+  ſter -- be, und
+  daß ich
+  noch am %85
+  Le -- ben
+  bin, und
+  daß ich noch am
+  Le --
+  ben %90
+  bin.
+
+  Wen %99 finis
+}

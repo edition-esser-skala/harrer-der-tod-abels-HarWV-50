@@ -1099,3 +1099,99 @@ AchAchViola = {
     f4 r \bar "S-S"
   }
 }
+
+WenSoViola = {
+  \relative c' {
+    \clef alto
+    \key es \major \time 4/4 \tempoWenSo
+    \partial 4 r4 es\fE es es es
+    es es es f
+    g b, c c
+    b b b b
+    g g g b %5
+    b es es es
+    b b b b
+    b b r2
+    R1*3 %11
+    b2\pp\fermata r
+    b'4\fE as ges f
+    es es f f
+    r c b4. as8 \noBreak %15
+    \appoggiatura as4 g2 r \bar "S-S"
+    es'4\p es es es \noBreak
+    es es es f
+    g b, c c
+    b b b b %20
+    c c c d
+    b es es es
+    b b b b
+    b b r2
+    R1*3 %27
+    c2\ppE\fermata r
+    f4 es des c
+    b d es c %30
+    d2\fermata r
+    b4\ff b b b
+    b b b b
+    b b ges' ges
+    c, a r2 %35
+    f'4\p es des c
+    b\fE b c c
+    r g' f4. es8
+    \appoggiatura es4 d2 r
+    es4\p es es es %40
+    es g g g
+    g e e e
+    c c c c
+    b b b b
+    c c c c %45
+    c c c c
+    c c r2
+    R1*5 %52
+    b2 r
+    b4 as ges as
+    ges ges c! c %55
+    b b b as
+    g! b es es
+    as, as as as
+    b b b b
+    b b b b %60
+    b b r2
+    b4 b b b\f
+    c c c c
+    b2\fermata r
+    es4\ff es es es %65
+    es es f f
+    f f b, b
+    b b r2
+    R1*3 %71
+    b2\ppE\fermata r
+    b'4\fE as ges f
+    es es f f
+    r c b4. as8 \noBreak %75
+    \appoggiatura as4 g2 r\fermata \bar "||"
+    r4 c(-.\pE c-. c-.)~ \noBreak
+    c b(-. b-. b-.)~
+    b \once \slurDashed as(-. c-. c-.)
+    d2 r\fermata %80
+    R1
+    r4 des\p c c
+    c c r2
+    c4 r b r
+    b r es r %85
+    h2 c
+    \appoggiatura c4 h2 r
+    R1
+    es\mfE
+    es4\fermata r r2 %90
+    R1
+    es4\ff es es es
+    es es es es
+    b b b b
+    b b r2 %95
+    f'4\p es d c
+    b\f as g f
+    es as f f
+    g2 r \bar "S-S" %99 finis
+  }
+}

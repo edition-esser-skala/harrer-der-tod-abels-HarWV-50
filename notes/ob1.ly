@@ -391,3 +391,75 @@ AchAchOboeI = {
     f r8 c'\p \bar "S-S" %127 finis
   }
 }
+
+WenSoOboeI = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoWenSo
+    \partial 4 es4\fE b' b4. b8 b( h)
+    h( c) c4. c8 c( d)
+    es4 es2 es4
+    es8( d) d4. c8 b16( as) g( f)
+    \appoggiatura f4 es-\critnote es4. g8 g( f) %5
+    \appoggiatura f4 g-\critnote g4. c8 c( b)
+    b( as) as2 g4
+    \appoggiatura as8 g4 f r b8(\ppE es)
+    es( d) d( c) c( b) b( g')
+    g( f) f( es) es( d) d( b') %10
+    b( as) as( g) g( as) as-! as-!
+    as2\fermata r4 as\fE
+    as8( ges) ges( f) f( es) es( d)
+    \appoggiatura f es8.(\trill d32 c) b2 as4
+    g!8 c4 f,8 \appoggiatura es4 d2\trillE \noBreak %15
+    es r \bar "S-S"
+    R1*8 %24
+    r2 r4 f8(\pE b) %25
+    b( a) a( g) g( f) f( c')
+    c( b) b( a) a( g) g( f)
+    f2\fermata r
+    R1*2 %30
+    r2\fermata r4 f\ff
+    f' f4. f8 f( fis)
+    fis( g) g4. g8 g( a)
+    a( b) b b b b b b
+    \once \slurDashed a( g!) f4 r es!\p %35
+    es8( des) des( c) c( b) b( a)
+    b8.(\f\trill a32 g) f2 es'4
+    d!8 g4 c,8 \appoggiatura b4 a2\trill
+    b4 r r2
+    R1*8 %47
+    r2 r4 a8(\pE c)
+    c( b) b( as) as( g) g( f)
+    f( es) es( f) f( g) g( b) %50
+    b( as) as( g) g( f) f( es)
+    es( d) d( f) f( as) as( g)
+    \appoggiatura g4 f2 r
+    R1*10 %63
+    R1\fermata
+    b4\ffE b4. c8 c( des) %65
+    des( c) c4. d8 d( es)
+    es( d) d4. c8 b16( as) g( f)
+    \appoggiatura as8 g4 f r b8(\ppE es)
+    es( d) d( c) c( b) b( g')
+    g( f) f( es) es( d) d( b') %70
+    b( as) as( g) g( as) as-! as-!
+    as2\fermata r4 as\fE
+    as8( ges) ges( f) f( es) es( d)
+    es8.(\trill d32 c) b2 as4
+    g!8 c4 f,8 \appoggiatura es4 d2\trill \noBreak %75
+    es r\fermata \bar "||"
+    R1*3 %79
+    R1\fermata %80
+    R1*9 %89
+    R1\fermata %90
+    r2 r4 es\ff
+    b'!4 b4. b8 b( h)
+    h( c) c4. c8 c( b)
+    b( as) as2 g4
+    \appoggiatura as8 g4 f r b8(\p es) %95
+    es( d) d( c) c( b) b( as)
+    as(\f g) g( f) f( es) es( d)
+    es c'4 f,8 \appoggiatura es4 d2\trill
+    es r \bar "S-S" %99 finis
+  }
+}

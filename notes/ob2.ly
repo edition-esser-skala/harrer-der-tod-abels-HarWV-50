@@ -359,3 +359,65 @@ AchAchOboeII = {
     f r8 c'\p \bar "S-S" %127 finis
   }
 }
+
+WenSoOboeII = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoWenSo
+    \partial 4 es4\fE g g4. g8 g( g)
+    g( as) as4. as8 as( as)
+    g4 g2 a4
+    f f f f
+    \appoggiatura f es es4. g8 g( f) %5
+    es4 es4. as8 as( g)
+    g( f) f2 es4
+    \appoggiatura f8 es4 d r2
+    r2 r4 \once \slurDashed g8(\ppE es')
+    es( d) d( c) c( b) b( g') %10
+    g( f) f( e) e( f) f-! f-!
+    f2\fermata r4 as\fE
+    as8( ges) ges( f) f( es) es( d)
+    \appoggiatura f es8.(\trill d32 c) b2 as4
+    g!8 c4 f,8 \appoggiatura es4 d2\trillE \noBreak %15
+    es r \bar "S-S"
+    R1*11 %27
+    R1\fermata
+    R1*2 %30
+    r2\fermata r4 f\ff
+    d'! d4. d8 d( d)
+    d( es) es4. es8 \once \slurDashed es( es)
+    d d d d es es e e
+    f4 c r es\p %35
+    es8( des) des( c) c( b) b( a)
+    b8.(\f\trill a32 g) f2 es'4
+    d!8 g4 c,8 \appoggiatura b4 a2\trill
+    b4 r r2
+    R1*24 %63
+    R1\fermata
+    g4\ffE g4. as8-\critnote as( b) %65
+    b( as) as4. b8 b( c)
+    c( b) b4. as8 g16( f) es( d)
+    \appoggiatura f8 es4 d r2
+    r r4 g8(\ppE es')
+    es( d) d( c) c( b) b( g') %70
+    g( f) f( e) e( f) f-! f-!
+    f2\fermata r4 as\fE
+    as8( ges) ges( f) f( es) es( d)
+    es8.(\trill d32 c) b2 as4
+    g!8 c4 f,8 \appoggiatura es4 d2\trill \noBreak %75
+    es r\fermata \bar "||"
+    R1*3 %79
+    R1\fermata %80
+    R1*9 %89
+    R1\fermata %90
+    r2 r4 es\ff
+    g g4. g8 g( g)
+    g( as) as4. as8 \once \slurDashed as( g)
+    \once \slurDashed g( f) f2 es4
+    \appoggiatura f8 es4 d r b'8(\p es) %95
+    es( d) d( c) c( b) b( as)
+    as(\f g) g( f) f( es) es( d)
+    es c'4 f,8 \appoggiatura es4 d2\trill
+    es r \bar "S-S" %99 finis
+  }
+}

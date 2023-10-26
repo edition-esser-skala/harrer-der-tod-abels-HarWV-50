@@ -1294,3 +1294,109 @@ AchAchViolinoI = {
     f r8 c'\p \bar "S-S" %127 finis
   }
 }
+
+WenSoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoWenSo
+    \partial 4 es4\fE b' b4. b8 b( h)
+    h( c) c4. c8 c( d)
+    es es es es es es es es
+    es( d) d4. c8 b16( as) g( f)
+    \appoggiatura f4 es-\critnote es4. g8 g( f) %5
+    \appoggiatura f4 g-\critnote g4. c8 c( b)
+    b( as) as2 g4
+    \appoggiatura as8 g4 f r2
+    b,4\pp b r b
+    b b r b %10
+    b b b b
+    d2\fermata r4 as''\fE
+    as8( ges) ges( f) f( es) es( d)
+    \appoggiatura f es8.(\trill d32 c) b2 as4
+    g!8 c4 f,8 \appoggiatura es4 d2\trillE \noBreak %15
+    es r4 es\p \bar "S-S"
+    b' b4. b8 b( h) \noBreak
+    h( c) c4. c8 c( d)
+    es es es es es es es es
+    \slurDashed d( c) b2 b8( d,) \slurSolid %20
+    \appoggiatura d4 es-\critnote es4. g8 g( f)
+    \appoggiatura f4 g-\critnote g4. c8 c( b)
+    b( as) as2 g4
+    \appoggiatura as8 g4 f r2
+    f4\ppE f r f %25
+    f f r f
+    f f f f
+    a2\fermata r4 es'
+    es8( des) des( c) c( b) b( a)
+    b\mf b b b ges' b, b b %30
+    b2\fermata r4 f\ff
+    f' f4. f8 f( fis)
+    fis( g) g4. g8 g( a)
+    a( b) b b b b b b
+    \once \slurDashed a( g!) f4 r es!\p %35
+    es8( des) des( c) c( b) b( a)
+    b8.(\f\trill a32 g) f2 es'4
+    d!8 g4 c,8 \appoggiatura b4 a2\trill
+    b4 b, r es\p
+    b' b4. b8 b( c) %40
+    c( des) des4. des8 des( des)
+    des( c) c4. c8 c( b)
+    \appoggiatura c b4 as2 c8( f,)
+    \appoggiatura f4 e e4. g8 g( e)
+    \appoggiatura e4 f-\critnote f4. f8 as( c) %45
+    c( b) b2 as4
+    \appoggiatura b8 as4 g r2
+    f4 f r f
+    b, b r b
+    es! es r es %50
+    as, as r as
+    as as as as
+    b2 r4 as'
+    as8( ges) ges( f) f( es) es( d)
+    es es es es es es es es %55
+    es2 f\trill
+    es4 g!4. b8 b( es,)
+    es4 d4. f8 f( d)
+    \appoggiatura d4 es-\critnote es4. g8 g( b)
+    b( as) as2 g4 %60
+    \appoggiatura as8 g4 f r b8( es)
+    es( d) d( c) c( b) b([\f as)]
+    as( g) g( f) \slurDashed f( es) c'( as) \slurSolid
+    g2\fermata r4 b,\ff
+    b' b4. c8 c( des) %65
+    des( c) c4. d8 d( es)
+    es( d) d4. c8 b16( as) g( f)
+    \appoggiatura as8 g4 f r2
+    b,4\pp b r b
+    b b r b' %70
+    b, b b b
+    d2\fermata r4 as''\fE
+    as8( ges) ges( f) f( es) es( d)
+    es8.(\trill d32 c) b2 as4
+    g!8 c4 f,8 \appoggiatura es4 d2\trill \noBreak %75
+    es r4\fermata g\p \bar "||"
+    es'8(-. es-. es-. es-. es-.) es([ d es)] \noBreak
+    d(-. d-. d-. d-. d-.) d([ c d)]
+    c(-. c-. c-. c-. c-.) c([ h c)]
+    \appoggiatura c16 h8.-\critnote a16 g4 r\fermata g\mf %80
+    g8( des') des( c) c( b) b( as)
+    \appoggiatura as4 g g2\p as8( b)
+    as( g) f4 r c'
+    b( as) r as
+    as( g) r g %85
+    g f2 es4
+    \appoggiatura es d2 r4 f'\mf
+    f8( es) es( d) d( c) c( h)
+    c1
+    c4\fermata r r2 %90
+    r r4 es,\ff
+    b'!4 b4. b8 b( h)
+    h( c) c4. c8 c( b)
+    b( as) as2 g4
+    \appoggiatura as8 g4 f r b8(\p es) %95
+    es( d) d( c) c( b) b( as)
+    as(\f g) g( f) f( es) es( d)
+    es c'4 f,8 \appoggiatura es4 d2\trill
+    es r4 es\p \bar "S-S" %99 finis
+  }
+}

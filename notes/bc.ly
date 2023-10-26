@@ -3237,3 +3237,191 @@ WoKamBassFigures = \figuremode {
   <_->2 <4! 2>
   <_!>4 <_-> %22 finis
 }
+
+WenSoBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key es \major \time 4/4 \tempoWenSo
+    \partial 4 r4 \mvTr es\fE-\soloE es es es
+    es es es es
+    es es c c
+    b b b b
+    c c c d %5
+    es es es es
+    es d es es,
+    b' b r2
+    R1*3 %11
+    b'2\pp\fermata-\senzaBR r
+    \mvTr b4\fE-\tuttiBassi b b b
+    g! g d d
+    es as b b, \noBreak %15
+    es es, r2 \bar "S-S"
+    es'4\p es es es \noBreak
+    es es es es
+    es es c c
+    b b b b %20
+    c c c d
+    es es es es
+    es d es es,
+    b' b r2
+    R1*3 %27
+    f'2\pp\fermata r
+    f4 f f f
+    ges\mf f es e %30
+    f1\fermata
+    b,4\ff b b b
+    b b b b
+    b b ges' ges
+    f f, r2 %35
+    f'4\p f f f
+    d!\fE d a' a
+    b es, f f,
+    b2 r
+    es4\p es es es %40
+    es es es es
+    e e e e
+    f f f as
+    g g g g
+    as as as f %45
+    f e f f,
+    c' c r2
+    R1*5 %52
+    b2 r
+    b4 b b b
+    ces b as a %55
+    b b b b
+    es es es g
+    f f f f
+    g g g es
+    d d es es %60
+    b b r2
+    b4 b b b\f
+    c c c as
+    b1\fermata
+    es4\ff es es es %65
+    as as f f
+    b b b b
+    b b r2
+    R1*3 %71
+    b2\pp\fermata-\senzaBR r
+    \mvTr b4\f-\markup \remark "tutti bassi" b b b
+    g! g d d
+    es as b b, \noBreak %75
+    es es, r2\fermata \bar "||"
+    r4 c''(-.\pE c-. c-.)~
+    c b(-. b-. b-.)~
+    b as(-. as-. as-.)
+    g g, r2\fermata %80
+    R1
+    r4 e' e e
+    f f, r2
+    f'4 r d r
+    es! r c r %85
+    d2 c
+    g'4 g, r2
+    R1
+    as'4\mf g f fis
+    g1\fermata %90
+    c,2 r
+    es4\ff es es es
+    es es es es
+    es d es es,
+    b' b r2 %95
+    b4\p b b b
+    b\f b b b
+    c as b b
+    es es, r2 \bar "S-S" %99 finis
+  }
+}
+
+WenSoBassFigures = \figuremode {
+  r4 r1
+  <5! 3>4 <6 4>2 <7 \t>4
+  <8 3>2 <5>4 <6!>
+  <4> <3>2.
+  <4>4 <3>2 <6 4>8 <\t 3> %5
+  <9>4 <8>2 <6 4>4
+  <5 3> <6 5> <9 4> <8 3>
+  <6 4> <5 3>2.
+  r1*3 %11
+  r1
+  <8 6->4 <7 5> <6- 4> <5 3>
+  <6>2 q4 <5>
+  r <6> <6 4> <5 3> %15
+  <4>4 <3>2.
+  r1
+  <5! 3>4 <6 4>2 <7 \t>4
+  r2 <5>4 <6!>
+  r1 %20
+  <9>4 <8>2 <6 4>8 <\t 3>
+  <9>4 <8>2 <6 4>4
+  <5 3> <6 5> <9 4> <8 3>
+  <6 4> <5 3>2.
+  r1*3 %27
+  <_!>1
+  <8 6->4 <7 5> <6- 4> <5 _!>
+  <6 3> <6! 4> <_-> <6 5 _!> %30
+  <6 4>2 <5 _!>
+  <_!>1
+  <5\+ 3>4 <6 4>2 <7! \t>4
+  <\t \t> <8 3> <6> <6!>
+  <_!>1 %35
+  <8 6->4 <7 5> <6- 4> <5 _!>
+  <6>2 q4 <5>
+  r <6> <6 4> <5 _!>
+  <4>4 <3>2.
+  r1 %40
+  <6 4>4 <7- 5>2.
+  <\t \t>4 <6>2 <5>4
+  <9 4> <8 3>2 <6>4
+  <7> <6!>2.
+  <5!>4 <6>2. %45
+  r4 <6 5> <9 4> <8 3>
+  <6 4> <5 _!>2.
+  r1*5 %52
+  r1
+  <8 6->4 <7 5> <6- 4> <7 3>
+  <5- 3> <\t \t> <7- _!> <\t \t> %55
+  <6! 4>2 <5 \t>4 <7 3>
+  r2. <6>4
+  <7> <6>2.
+  <5>4 <6>2.
+  <6 4>4 <5 3> <9 4> <8 3> %60
+  <6 4> <5 3>2.
+  r1
+  r
+  <6 4>2 <5 3>
+  r2. <6 4>8 <7- 5> %65
+  <9 4->4 <8 3> <5 3> <6! 4>8 <7 5>
+  <9 4>4 <8 3>2.
+  <6 4>4 <5 3>2.
+  r1*3 %71
+  r1
+  <8 6->4 <7 5> <6- 4> <5 3>
+  <6>2 q4 <5>
+  r <6> <6 4> <5 3> %75
+  <4>4 <3>2.
+  r1
+  <5 2>4 <6>2.
+  <6 2>4 <7>2 <6\\>4
+  <_!>1 %80
+  r
+  r4 <7-> <6>2
+  r1
+  <4>4 <3> <6>2
+  <9 4>4 <8 3>2. %85
+  <6! 4>4 <\t 3> <5 4> <\t 3>
+  <6 4> <5 _!>2.
+  r1
+  <5 3>4 <\t \t> <7 _!> <\t \t>
+  <6 4>2 <5 _!> %90
+  r1
+  <5->
+  <5! 3>4 <6 4>2 <5- 3>4
+  r <6 5> <9 4> <8 3>
+  <6 4> <5 3>2. %95
+  r1
+  r
+  r4 <6> <6 4> <5 3>
+  r1 %99 finis
+}

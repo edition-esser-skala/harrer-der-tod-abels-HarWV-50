@@ -21,7 +21,13 @@ dopolareplica = \markup {
 forceClef = \set Staff.forceClef = ##t
 hideAcc = \once \override Accidental.stencil = ##f
 sempre = \markup \remark "sempre"
+senzaBR = \markup {
+  \remark \whiteout
+  \override #'(baseline-skip . 2)
+  \left-column { "senza bassi" "ripieni" }
+}
 staccato = \markup \remark "staccato"
+tuttiBassi = \markup \remark "tutti bassi"
 
 markSegno = \mark \markup \remark { \musicglyph "scripts.segno" }
 markSegnoRec = {
@@ -76,6 +82,7 @@ tempoAchAch = \tempoMarkup "Allegro"
 tempoWoKam = \tempoMarkup "[Recitativo]"
   tempoWoKamB = \tempoMarkup "Adagio"
   tempoWoKamC = \tempoMarkup "Adagio"
+tempoWenSo = \tempoMarkup "Adagio ma non troppo"
 
 
 \include "notes/fl1.ly"

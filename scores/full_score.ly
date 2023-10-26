@@ -942,9 +942,46 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.7" "Recitativo" "Wo kam denn Cain hin?"
+  %   \addTocLabel "wokam"
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #7
+  %     page-count = #1
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new ChoirStaff \with { \smallGroupDistance } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Eva" "Adam" }
+  %           \new Voice = "Soli" { \dynamicUp \WoKamSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \WoKamSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \WoKamBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \WoKamBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "2.7" "Recitativo" "Wo kam denn Cain hin?"
-    \addTocLabel "wokam"
+    \section "2.8" "Aria" "Wen ſo ein Zufall nicht beweget"
+    \addTocLabel "wenso"
     \paper {
       top-system-spacing.basic-distance = #10
       top-system-spacing.minimum-distance = #10
@@ -954,29 +991,58 @@
       markup-system-spacing.minimum-distance = #10
       system-system-spacing.basic-distance = #17
       system-system-spacing.minimum-distance = #17
-      systems-per-page = #7
-      page-count = #1
+      systems-per-page = #2
     }
     \score { %\articulate
       <<
-        \new ChoirStaff \with { \smallGroupDistance } <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \WenSoOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \WenSoOboeII
+            }
+          >>
+        >>
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \WenSoViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \WenSoViolinoII
+            }
+          >>
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Eva" "Adam" }
-            \new Voice = "Soli" { \dynamicUp \WoKamSoli }
+            \set Staff.instrumentName = "vla"
+            \WenSoViola
           }
-          \new Lyrics \lyricsto Soli \WoKamSoliLyrics
+        >>
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "Eva"
+            \new Voice = "Soli" { \dynamicUp \WenSoSoli }
+          }
+          \new Lyrics \lyricsto Soli \WenSoSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \WoKamBassoContinuo
+            \WenSoBassoContinuo
           }
         >>
-        \new FiguredBass { \WoKamBassFigures }
+        \new FiguredBass { \WenSoBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 90 }
     }
   }
 }
