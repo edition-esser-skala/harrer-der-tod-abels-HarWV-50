@@ -103,3 +103,93 @@ ManMussTenoreLyrics = \lyricmode {
   folgt dem Todt das
   Le -- ben. %8 finis
 }
+
+EinLaemmleinTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 4/4 \autoBeamOff \tempoEinLaemmlein
+    \partial 4 h4\fE c2 a
+    g h
+    c d
+    d\fermata r4 d
+    d2 e %5
+    d e
+    e( d)
+    d\fermata r4 h
+    c2 h
+    d e %10
+    e e
+    e\fermata r4 e8([ d)]
+    d2 e
+    d e
+    e(^\critnote d) %15
+    h\fermata r4 h
+    a2 g
+    c d
+    d d
+    h\fermata r4 h %20
+    g2 a
+    h c
+    d e
+    fis\fermata r4 d
+    d2 c! %25
+    d e
+    e1
+    e2\fermata r4 h
+    a2 e'
+    f f %30
+    e e
+    c\fermata r4 e
+    e2 c
+    c a
+    a a %35
+    a\fermata r4 a
+    h2 a
+    g4.( a8) h4( g)
+    g2( fis)
+    g1\fermata \bar "|." %40 finis
+  }
+}
+
+EinLaemmleinTenoreLyrics = \lyricmode {
+  Ein Lämm -- lein
+  geht und
+  trägt die
+  Schuld der
+  Welt und %5
+  ih -- rer
+  Kin --
+  der, es
+  geht und
+  büſ -- ſet %10
+  mit Ge --
+  dult die
+  Sün -- den
+  al -- ler
+  Sün -- %15
+  der, es
+  geht da --
+  hin, wird
+  matt und
+  krank, er -- %20
+  giebt ſich
+  auf die
+  Wür -- ge --
+  bank, ent --
+  zieht ſich %25
+  al -- ler
+  Freu --
+  den, es
+  nimmt an
+  ſich Schmerz, %30
+  Hohn und
+  Spott, Angſt,
+  Wun -- den,
+  Strie -- men,
+  Creuz und %35
+  Todt, und
+  ſpricht: ich
+  wills gern
+  lei --
+  den. %40 finis
+}

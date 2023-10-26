@@ -105,3 +105,93 @@ ManMussSopranoLyrics = \lyricmode {
   folgt dem Todt das
   Le -- ben. %8 finis
 }
+
+EinLaemmleinSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoEinLaemmlein
+    \partial 4 d'4\fE e2 d4( c)
+    h2 d
+    c2. c4
+    h2\fermata r4 a
+    h2 c %5
+    d h
+    a1
+    g2\fermata r4 d'
+    e2 d
+    h d %10
+    c2. c4
+    h2\fermata r4 a
+    h2 c
+    d h
+    a1 %15
+    g2\fermata r4 g
+    a2 h
+    c a
+    h a
+    g\fermata r4 g %20
+    h2 c
+    d e
+    h cis
+    d\fermata r4 h
+    d2 e %25
+    h d
+    c1
+    h2\fermata r4 e
+    e2 e
+    a, d %30
+    c h
+    a\fermata r4 c
+    h2 a
+    g a
+    f! e %35
+    d\fermata r4 d
+    g2 a
+    h4.( c8) d4( h)
+    a1
+    g\fermata \bar "|." %40 finis
+  }
+}
+
+EinLaemmleinSopranoLyrics = \lyricmode {
+  Ein Lämm -- lein
+  geht und
+  trägt die
+  Schuld der
+  Welt und %5
+  ih -- rer
+  Kin --
+  der, es
+  geht und
+  büſ -- ſet %10
+  mit Ge --
+  dult die
+  Sün -- den
+  al -- ler
+  Sün -- %15
+  der, es
+  geht da --
+  hin, wird
+  matt und
+  krank, er -- %20
+  giebt ſich
+  auf die
+  Wür -- ge --
+  bank, ent --
+  zieht ſich %25
+  al -- ler
+  Freu --
+  den, es
+  nimmt an
+  ſich Schmerz, %30
+  Hohn und
+  Spott, Angſt,
+  Wun -- den,
+  Strie -- men,
+  Creuz und %35
+  Todt, und
+  ſpricht: ich
+  wills gern
+  lei --
+  den. %40 finis
+}

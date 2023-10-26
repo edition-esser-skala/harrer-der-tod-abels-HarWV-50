@@ -103,3 +103,93 @@ ManMussBassoLyrics = \lyricmode {
   folgt dem Todt das
   Le -- ben. %8 finis
 }
+
+EinLaemmleinBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \autoBeamOff \tempoEinLaemmlein
+    \partial 4 g'4\fE c,2 d
+    e h
+    a d
+    g\fermata r4 d
+    g2 e %5
+    h e
+    c( d)
+    g\fermata r4 g
+    g2 g
+    g gis %10
+    a a,
+    e'\fermata r4 fis4
+    g2 e
+    h e
+    c(^\critnote d) %15
+    g2\fermata r4 g
+    fis2 g
+    e fis
+    g d
+    g,\fermata r4 g' %20
+    g2 g
+    g g
+    g e
+    d\fermata r4 g
+    h2 c %25
+    g gis
+    a( a,)
+    e'\fermata r4 d
+    c2 cis
+    d h %30
+    e e
+    a,\fermata r4 a
+    e'2 f
+    c cis
+    d a %35
+    d\fermata r4 c!
+    h2 fis'
+    g g,
+    d'1
+    g,\fermata \bar "|." %40 finis
+  }
+}
+
+EinLaemmleinBassoLyrics = \lyricmode {
+  Ein Lämm -- lein
+  geht und
+  trägt die
+  Schuld der
+  Welt und %5
+  ih -- rer
+  Kin --
+  der, es
+  geht und
+  büſ -- ſet %10
+  mit Ge --
+  dult die
+  Sün -- den
+  al -- ler
+  Sün -- %15
+  der, es
+  geht da --
+  hin, wird
+  matt und
+  krank, er -- %20
+  giebt ſich
+  auf die
+  Wür -- ge --
+  bank, ent --
+  zieht ſich %25
+  al -- ler
+  Freu --
+  den, es
+  nimmt an
+  ſich Schmerz, %30
+  Hohn und
+  Spott, Angſt,
+  Wun -- den,
+  Strie -- men,
+  Creuz und %35
+  Todt, und
+  ſpricht: ich
+  wills gern
+  lei --
+  den. %40 finis
+}

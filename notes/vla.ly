@@ -1246,3 +1246,50 @@ DaheroStelleViola = {
     \time 2/4 \markTimeSig #'(2 4) d r \markAttacca \bar "||" %13 finis
   }
 }
+
+EinLaemmleinViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 4/4 \tempoEinLaemmlein
+    \partial 4 h4\fE c c a d
+    e e d d
+    e e d fis
+    d2\fermata r4 d
+    d d g g %5
+    g h, h h
+    e e d d
+    h2\fermata-\critnote r4 h
+    c e h d
+    h d h e %10
+    e c c e
+    e2\fermata r4 e8 d
+    d4 d g e
+    g d h e
+    e e d d %15
+    <h d>2\fermata r4 h
+    d d d d
+    g g a d,
+    d d d c
+    \appoggiatura c h2\fermata r4 h %20
+    d d d d
+    g g g g
+    g h h8-! g( fis e)
+    fis2\fermata r4 g
+    g g g e %25
+    g h e, e
+    e e e e
+    e2\fermata r4 h
+    c c a a
+    a a h h %30
+    a c e e
+    c2\fermata r4 e
+    g! g c, c
+    e e e e
+    d a a a %35
+    a2\fermata r4 a
+    d d d d
+    d d h d
+    d2 d
+    h1\fermata \bar "|." %40 finis
+  }
+}

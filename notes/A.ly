@@ -105,3 +105,93 @@ ManMussAltoLyrics = \lyricmode {
   folgt dem Todt das
   Le -- ben. %8 finis
 }
+
+EinLaemmleinAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoEinLaemmlein
+    \partial 4 g'4\fE g2 fis
+    g g
+    g fis
+    g\fermata r4 fis
+    g2 g %5
+    g g
+    g( fis)
+    g\fermata r4 g
+    g2 g
+    g h %10
+    a a
+    gis\fermata r4 a
+    g2 g
+    g g
+    g( fis) %15
+    d\fermata r4 d
+    d2 d
+    e d4( a')
+    g2 fis
+    d\fermata r4 d %20
+    d2 d
+    g g
+    g g
+    a\fermata r4 g
+    g2 g %25
+    g h~
+    h4 a2.
+    gis2\fermata r4 gis
+    a2. g4
+    a2 h %30
+    a gis
+    e\fermata r4 a
+    g!2 f
+    e e
+    d cis %35
+    d\fermata r4 d
+    d2 d
+    d d
+    d1
+    d\fermata \bar "|." %40 finis
+  }
+}
+
+EinLaemmleinAltoLyrics = \lyricmode {
+  Ein Lämm -- lein
+  geht und
+  trägt die
+  Schuld der
+  Welt und %5
+  ih -- rer
+  Kin --
+  der, es
+  geht und
+  büſ -- ſet %10
+  mit Ge --
+  dult die
+  Sün -- den
+  al -- ler
+  Sün -- %15
+  der, es
+  geht da --
+  hin, wird
+  matt und
+  krank, er -- %20
+  giebt ſich
+  auf die
+  Wür -- ge --
+  bank, ent --
+  zieht ſich %25
+  al -- ler __
+  Freu --
+  den, es
+  nimmt an
+  ſich Schmerz, %30
+  Hohn und
+  Spott, Angſt,
+  Wun -- den,
+  Strie -- men,
+  Creuz und %35
+  Todt, und
+  ſpricht: ich
+  wills gern
+  lei --
+  den. %40 finis
+}

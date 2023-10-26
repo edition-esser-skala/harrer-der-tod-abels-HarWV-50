@@ -1271,3 +1271,50 @@ DaheroStelleViolinoII = {
     \time 2/4 \markTimeSig #'(2 4) a r \markAttacca \bar "||" %13 finis
   }
 }
+
+EinLaemmleinViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoEinLaemmlein
+    \partial 4 g'4\fE g g fis a
+    \slurDashed g8( a) h( c) \slurSolid d-! h( a g)
+    c( a) fis( g) fis-\parenthesize-! fis( g a)
+    \appoggiatura a4 g2\fermata r4 fis
+    g8-! d'( c h) c-! e( d c) %5
+    d-! h( a g) g'4 g,
+    g g fis fis
+    g2\fermata r4 d'
+    e8-! c( h c) d( c) h( a)
+    g( a) h( c) d-! h( a h) %10
+    c-! a( gis a) e-! a( h c)
+    \appoggiatura a4 gis2\fermata-\critnote r4 a
+    h8-! g'( fis g) c,-!-\critnote g'( fis g)
+    d-! g( fis g) g,-! h( a g)
+    g4 g fis fis %15
+    g2\fermata r4 g
+    a8-! c( h a) h-! d( c h)
+    c( h c) e-! d( c) h( a)
+    h-! g( fis g) a,-\parenthesize-! fis'( e fis)
+    g2\fermata r4 g %20
+    g8-! g( fis g) a-! a( g a)
+    h-! h( a h) c-! c( h a)
+    h( dis) e( fis) g( e) d( cis)
+    d2\fermata r4 \once \slurDashed h8( c)
+    d-! g( fis g) e-! g( fis g) %25
+    \slurDashed h,( d) d( c) h( e,) \slurSolid h'4~
+    h a a a
+    \appoggiatura a gis2\fermata-\critnote r4 gis
+    a8-\parenthesize-! a( gis a) e'-! g,( f g)
+    f( a) h( cis) d( f) e( d) %30
+    c-! a( gis a) h,-\parenthesize-! gis'( fis gis)
+    a2\fermata r4 c
+    h8( d) c( h) a-! f( e f)
+    g( b) g( f) e( a) g( a)
+    f( a) d( f,) e( cis') h( cis) %35
+    d2\fermata r4 d,
+    g8( h) a( g) a( c) h( a)
+    g4. a8 h4 g
+    g2 fis
+    d1\fermata \bar "|." %40 finis
+  }
+}

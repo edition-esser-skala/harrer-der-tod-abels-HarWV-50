@@ -1248,51 +1248,124 @@
   %     \midi { \tempo 4 = 80 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.13" "Accompagnato" "Dahero ſtelle man dem Herrn anheim"
+  %   \addTocLabel "daherostelle"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \DaheroStelleViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \DaheroStelleViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \DaheroStelleViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Adam"
+  %           \new Voice = "Soli" { \dynamicUp \DaheroStelleSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \DaheroStelleSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \DaheroStelleBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \DaheroStelleBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "2.13" "Accompagnato" "Dahero ſtelle man dem Herrn anheim"
-    \addTocLabel "daherostelle"
-    \paper {
-      system-system-spacing.basic-distance = #30
-      system-system-spacing.minimum-distance = #30
-      systems-per-page = #2
-    }
+    \section "2.14" "Choral" "Ein Lämmlein geht und trägt die Schuld"
+    \addTocLabel "einlaemmlein"
     \score { %\articulate
       <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \EinLaemmleinOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \EinLaemmleinOboeII
+            }
+          >>
+        >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \DaheroStelleViolinoI
+              \EinLaemmleinViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \DaheroStelleViolinoII
+              \EinLaemmleinViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \DaheroStelleViola
+            \EinLaemmleinViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "Adam"
-            \new Voice = "Soli" { \dynamicUp \DaheroStelleSoli }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \EinLaemmleinSoprano }
           }
-          \new Lyrics \lyricsto Soli \DaheroStelleSoliLyrics
+          \new Lyrics \lyricsto Soprano \EinLaemmleinSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \EinLaemmleinAlto }
+          }
+          \new Lyrics \lyricsto Alto \EinLaemmleinAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \EinLaemmleinTenore }
+          }
+          \new Lyrics \lyricsto Tenore \EinLaemmleinTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \EinLaemmleinBasso }
+          }
+          \new Lyrics \lyricsto Basso \EinLaemmleinBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \DaheroStelleBassoContinuo
+            \EinLaemmleinBassoContinuo
           }
         >>
-        \new FiguredBass { \DaheroStelleBassFigures }
+        \new FiguredBass { \EinLaemmleinBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 2 = 80 }
     }
   }
 }

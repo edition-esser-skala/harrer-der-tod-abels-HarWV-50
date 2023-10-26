@@ -3617,3 +3617,93 @@ DaheroStelleBassFigures = \figuremode {
   <4\+ 2>2. <7 _+>4
   <_+>2 %13 finis
 }
+
+EinLaemmleinBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \tempoEinLaemmlein
+    \partial 4 g'4\fE c, c d d
+    e e h h
+    a a d d
+    g2\fermata r4 d
+    g g e e %5
+    h h e e
+    c a d d,
+    g2\fermata r4 g'
+    g g g g
+    g g gis gis %10
+    a a a, a
+    e'2\fermata r4 fis
+    g g e e
+    h h e e
+    c c d d %15
+    g2\fermata r4 g
+    fis fis g g
+    e e fis fis
+    g g d d,
+    g2\fermata r4 g' %20
+    g g g g
+    g g g g
+    g g e e
+    d2\fermata r4 g
+    h, h c! c %25
+    g g gis gis
+    a a a a
+    e'2\fermata r4 d
+    c c cis cis
+    d d h h %30
+    e e e e
+    a,2\fermata r4 a
+    e' e f f
+    c c cis cis
+    d d a a %35
+    d2\fermata r4 c!
+    h h fis' fis
+    g g g, g
+    d'2 d,
+    g1\fermata \bar "|." %40 finis
+  }
+}
+
+EinLaemmleinBassFigures = \figuremode {
+  r4 r2 <8>4 <7>
+  r2 <6>
+  <7> q
+  r1
+  r2 <6> %5
+  q1
+  <6 5>
+  r2. <5 3>4
+  <6 4>2 <5 3>
+  r <6 5> %10
+  r1
+  <_+>2. <7>8 <6>
+  r2 q
+  q1
+  <6 5> %15
+  r
+  <6>
+  q2 q
+  r1
+  r %20
+  <3 1>2 <4 2>
+  <5 3> <6 4>
+  <5 3> <6\\>
+  r1
+  <6> %25
+  r2 <6 5>
+  <9>4 <8>2.
+  <_+> <\t>4
+  <6>2 <\t>4 <5!>
+  <_!>2 <5!> %30
+  <6 4> <5 _+>
+  r1
+  <_!>2 <5>
+  r <6>
+  <_!> <_+> %35
+  <_!>2. <_+>4
+  <6>2 q
+  r1
+  <4>2 <3>
+  r1 %40 finis
+}

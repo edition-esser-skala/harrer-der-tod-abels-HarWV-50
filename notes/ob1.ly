@@ -496,3 +496,50 @@ ManMussOboeIeII = {
     fis2 fis4 r \markAttacca \bar "||" %8
   }
 }
+
+EinLaemmleinOboeI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoEinLaemmlein
+    \partial 4 d'4\fE e2 d4 c
+    h2 d
+    c2. c4
+    h2\fermata r4 a
+    h2 c %5
+    d h
+    a1
+    g2\fermata r4 d'
+    e2 d
+    h d %10
+    c2. c4
+    h2\fermata r4 a
+    h2 c
+    d h
+    a1 %15
+    g2\fermata r4 g
+    a2 h
+    c a
+    h a
+    g\fermata r4 g %20
+    h2 c
+    d e
+    h cis
+    d\fermata r4 h
+    d2 e %25
+    h d
+    c1
+    h2\fermata r4 e
+    e2 e
+    a, d %30
+    c h
+    a\fermata r4 c
+    h2 a
+    g a
+    f! e %35
+    d\fermata r4 d
+    g2 a
+    h4. c8 d4 h
+    a1
+    g\fermata \bar "|." %40 finis
+  }
+}
