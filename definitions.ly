@@ -96,6 +96,7 @@ tempoDesHoechsten = \tempoMarkup "[Recitativo]"
 tempoManMuss = \tempoMarkup "[Tempo deest]"
 tempoDaheroStelle = \tempoMarkup "[Recitativo]"
 tempoEinLaemmlein = \tempoMarkup "[Tempo deest]"
+tempoDaWirUns = \tempoMarkup "[Recitativo]"
 
 
 \include "notes/fl1.ly"

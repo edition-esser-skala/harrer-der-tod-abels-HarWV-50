@@ -3707,3 +3707,27 @@ EinLaemmleinBassFigures = \figuremode {
   <4>2 <3>
   r1 %40 finis
 }
+
+DaWirUnsBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoDaWirUns
+    gis'1~\pE
+    gis
+    a~
+    a
+    g! %5
+    e2 f!~
+    f e4 a,\fermata \bar "|." %7 finis
+  }
+}
+
+DaWirUnsBassFigures = \figuremode {
+  <6>1
+  r
+  <5>
+  r2 <6\\>
+  r1 %5
+  <6>
+  r2 <_+> %7 finis
+}

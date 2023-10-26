@@ -2678,3 +2678,27 @@ DaheroStelleSoliLyrics = \lyricmode {
   re -- get, und al -- ler Men -- ſchen
   Schuld be -- zahlt und trä -- get. %12 finis
 }
+
+DaWirUnsSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoDaWirUns
+    r4 r8 h^\Adam e h h a
+    h4 r8 c d d f e
+    c4 r8 e, a a a h
+    c4 r8 a c c c d
+    \appoggiatura c h4 r16 g h c d8 d d e %5
+    \appoggiatura d c c r16 c b c a4 r8 a
+    f'16 d h a gis8. a16 e8 e r4\fermata \bar "|." %7 finis
+  }
+}
+
+DaWirUnsSoliLyrics = \lyricmode {
+  Da wir uns nun da --
+  rauff im Gei -- ſte kön -- nen
+  freun, wie glück -- lich wer -- den
+  nicht die ſpä -- ten En -- kel
+  ſeyn, die den Er -- lö -- ſungs -- tag er -- %5
+  le -- ben, den ih -- nen Gott zu
+  al -- ler Men -- ſchen Heil wird ge -- ben. %7 finis
+}

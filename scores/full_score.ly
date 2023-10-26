@@ -1295,77 +1295,107 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.14" "Choral" "Ein Lämmlein geht und trägt die Schuld"
+  %   \addTocLabel "einlaemmlein"
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \EinLaemmleinOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \EinLaemmleinOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \EinLaemmleinViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \EinLaemmleinViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \EinLaemmleinViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \EinLaemmleinSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \EinLaemmleinSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \EinLaemmleinAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \EinLaemmleinAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \EinLaemmleinTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \EinLaemmleinTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \EinLaemmleinBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \EinLaemmleinBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \EinLaemmleinBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \EinLaemmleinBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 80 }
+  %   }
+  % }
   \bookpart {
-    \section "2.14" "Choral" "Ein Lämmlein geht und trägt die Schuld"
-    \addTocLabel "einlaemmlein"
+    \section "2.15" "Recitativo" "Da wir uns nun darauff"
+    \addTocLabel "dawiruns"
+    \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #2
+    }
     \score { %\articulate
       <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \EinLaemmleinOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \EinLaemmleinOboeII
-            }
-          >>
-        >>
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \EinLaemmleinViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \EinLaemmleinViolinoII
-            }
-          >>
-          \new Staff {
-            \set Staff.instrumentName = "vla"
-            \EinLaemmleinViola
-          }
-        >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \EinLaemmleinSoprano }
+            \set Staff.instrumentName = "Adam"
+            \new Voice = "Soli" { \dynamicUp \DaWirUnsSoli }
           }
-          \new Lyrics \lyricsto Soprano \EinLaemmleinSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \EinLaemmleinAlto }
-          }
-          \new Lyrics \lyricsto Alto \EinLaemmleinAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \EinLaemmleinTenore }
-          }
-          \new Lyrics \lyricsto Tenore \EinLaemmleinTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \EinLaemmleinBasso }
-          }
-          \new Lyrics \lyricsto Basso \EinLaemmleinBassoLyrics
+          \new Lyrics \lyricsto Soli \DaWirUnsSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \EinLaemmleinBassoContinuo
+            \DaWirUnsBassoContinuo
           }
         >>
-        \new FiguredBass { \EinLaemmleinBassFigures }
+        \new FiguredBass { \DaWirUnsBassFigures }
       >>
       \layout { }
-      \midi { \tempo 2 = 80 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }
