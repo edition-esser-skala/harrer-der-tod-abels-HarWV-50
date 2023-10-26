@@ -193,3 +193,53 @@ EinLaemmleinTenoreLyrics = \lyricmode {
   lei --
   den. %40 finis
 }
+
+EsSchreyetTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \minor \time 4/4 \autoBeamOff \tempoEsSchreyet
+    \partial 8 r8 r d,\fE d' d d([ cis)] c4
+    d d e8 cis r cis
+    d2 cis4 r8 cis
+    d d d f f4 e
+    d r8 f e e d d %5
+    d4 d d r8 d
+    d d c c c4 c
+    c8 c c d c c r8 c^\critnote
+    c4 c c4. c8
+    c c c c c4 r8 c %10
+    b c b b c f d d
+    c4 c c r8 c
+    es4 c a r8 fis'
+    d4. d8 d d r fis
+    d g a fis g g g g %15
+    e!4 fis d8 b r d
+    f!4 d b g'
+    f4. e16([ d)] a4 r8 e'
+    cis d e cis d e f f
+    \tempoEsSchreyetB f4 cis d r\fermata \bar "|." %20 finis
+  }
+}
+
+EsSchreyetTenoreLyrics = \lyricmode {
+  Es ſchrey -- et A -- bels
+  Blut um Ra -- che, um
+  Ra -- che und
+  klagt den Bru -- der Mör -- der
+  an. Ein je -- der, der nicht %5
+  wohl -- ge -- than, hat
+  ſei -- nen groſ -- ſen Theil an
+  ei -- ner bö -- ſen Sa -- che, und
+  wohl viel -- leicht den
+  Feh -- ler nie er -- kannt. Drum %10
+  fehlt ihm auch die Reu, ſo ſich an
+  Ca -- in fand. Er
+  ſchilt und ſtrafft die
+  Sün -- den -- we -- ge, und
+  ſe -- tzet ſei -- nen Fuß doch ſelbſt auff %15
+  ſol -- che Ste -- ge, er
+  flucht auff Ca -- ins
+  Ü -- bel -- that, da
+  er ihn ſel -- ber doch bey ſich im
+  Her -- zen hat. %20 finis
+}

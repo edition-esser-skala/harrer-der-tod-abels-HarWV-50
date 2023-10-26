@@ -195,3 +195,53 @@ EinLaemmleinAltoLyrics = \lyricmode {
   lei --
   den. %40 finis
 }
+
+EsSchreyetAlto = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \autoBeamOff \tempoEsSchreyet
+    \partial 8 a'8\fE a4. a8 a4.^\critnote a8
+    a4. gis8 a a r a
+    a2 a4 r8 a
+    a a b h a4 a
+    a r8 a a a a a %5
+    a4. a8 g4 r8 a
+    g g g g g4. f!16([ e)]
+    f8 f f f f e r e
+    e4. e8 f4. e16([ f)]
+    g8 g g f \appoggiatura f e4 r8 f %10
+    f f f g a a f g
+    f4 e f r8 c
+    es4 c a' r8 fis
+    d4. a'8 g fis r a
+    g b a a b c d b %15
+    a4. a8 g d r d
+    f!4 d b' g
+    f4. e16([ d)] a'4 r8 a
+    a a a a a a a a
+    \tempoEsSchreyetB a4 a a r\fermata \bar "|." %20 finis
+  }
+}
+
+EsSchreyetAltoLyrics = \lyricmode {
+  Es ſchrey -- et A -- bels
+  Blut um Ra -- che, um
+  Ra -- che und
+  klagt den Bru -- der Mör -- der
+  an. Ein je -- der, der nicht %5
+  wohl -- ge -- than, hat
+  ſei -- nen groſ -- ſen Theil an
+  ei -- ner bö -- ſen Sa -- che, und
+  wohl viel -- leicht den
+  Feh -- ler nie er -- kannt. Drum %10
+  fehlt ihm auch die Reu, ſo ſich an
+  Ca -- in fand. Er
+  ſchilt und ſtrafft die
+  Sün -- den -- we -- ge, und
+  ſe -- tzet ſei -- nen Fuß doch ſelbſt auff %15
+  ſol -- che Ste -- ge, er
+  flucht auff Ca -- ins
+  Ü -- bel -- that, da
+  er ihn ſel -- ber doch bey ſich im
+  Her -- zen hat. %20 finis
+}

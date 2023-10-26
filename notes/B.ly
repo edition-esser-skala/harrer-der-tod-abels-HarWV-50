@@ -193,3 +193,53 @@ EinLaemmleinBassoLyrics = \lyricmode {
   lei --
   den. %40 finis
 }
+
+EsSchreyetBasso = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 4/4 \autoBeamOff \tempoEsSchreyet
+    \partial 8 r8 r d\fE d' d d([ cis)] c4
+    c8([ h)] b4 a8 a, r a'
+    d2 a4 r8 a
+    d c! b gis a4 a,
+    d r8 d a' g fis e %5
+    d4 fis g r8 fis
+    g f e d c([ d e)] c
+    f g a h c c, r4
+    R1
+    r2 r4 r8 a'! %10
+    b a b g f a^\critnote b g
+    c4 c, f r8 c'
+    es4 c a r8 fis
+    d4. d8 g d r d
+    b' g fis d g a b g %15
+    a4 d, g8 g, r d''
+    f!4 d b g
+    f4. e16([ d)] a'4 r8 a
+    a h cis a d a f d
+    \tempoEsSchreyetB a'4 a, d r\fermata \bar "|."
+  }
+}
+
+EsSchreyetBassoLyrics = \lyricmode {
+  Es ſchrey -- et A -- bels
+  Blut um Ra -- che, um
+  Ra -- che und
+  klagt den Bru -- der Mör -- der
+  an. Ein je -- der, der nicht %5
+  wohl -- ge -- than, hat
+  ſei -- nen groſ -- ſen Theil __ an
+  ei -- ner bö -- ſen Sa -- che.
+
+  Drum %10
+  fehlt ihm auch die Reu, ſo ſich an
+  Ca -- in fand. Er
+  ſchilt und ſtrafft die
+  Sün -- den -- we -- ge, und
+  ſe -- tzet ſei -- nen Fuß doch ſelbſt auff %15
+  ſol -- che Ste -- ge, er
+  flucht auff Ca -- ins
+  Ü -- bel -- that, da
+  er ihn ſel -- ber doch bey ſich im
+  Her -- zen hat. %20 finis
+}

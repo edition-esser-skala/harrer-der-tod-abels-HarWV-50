@@ -195,3 +195,53 @@ EinLaemmleinSopranoLyrics = \lyricmode {
   lei --
   den. %40 finis
 }
+
+EsSchreyetSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \autoBeamOff \tempoEsSchreyet
+    \partial 8 a'8\fE f'4. f8 e4. e8
+    d4. d8 cis a r e'
+    f2 e4 r8 e
+    f e d d d4 cis
+    d r8 a c c c c %5
+    c4. c8 b4 r8 d
+    b b b b b4. a16([ g)]
+    a8 a a a a g r g
+    g4. g8 as4. g16([ as)]
+    b8 b b as \appoggiatura as g4 r8 c %10
+    d c d e f c d b
+    a4 g f r8 c'
+    es4 c a r8 fis
+    d4. c'8 b a r d
+    d d d d d d d d %15
+    c4. a8 b16([ a)] g8 r d'
+    f!4 d b g
+    f4. e16([ d)] a'4 r8 a
+    e' e a e f cis d d
+    \tempoEsSchreyetB d4 e\trill d r\fermata \bar "|." %20 finis
+  }
+}
+
+EsSchreyetSopranoLyrics = \lyricmode {
+  Es ſchrey -- et A -- bels
+  Blut um Ra -- che, um
+  Ra -- che und
+  klagt den Bru -- der Mör -- der
+  an. Ein je -- der, der nicht %5
+  wohl -- ge -- than, hat
+  ſei -- nen groſ -- ſen Theil an
+  ei -- ner bö -- ſen Sa -- che, und
+  wohl viel -- leicht den
+  Feh -- ler nie er -- kannt. Drum %10
+  fehlt ihm auch die Reu, ſo ſich an
+  Ca -- in fand. Er
+  ſchilt und ſtrafft die
+  Sün -- den -- we -- ge, und
+  ſe -- tzet ſei -- nen Fuß doch ſelbſt auff %15
+  ſol -- che Ste -- ge, er
+  flucht auff Ca -- ins
+  Ü -- bel -- that, da
+  er ihn ſel -- ber doch bey ſich im
+  Her -- zen hat. %20 finis
+}

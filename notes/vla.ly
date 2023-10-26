@@ -1293,3 +1293,30 @@ EinLaemmleinViola = {
     h1\fermata \bar "|." %40 finis
   }
 }
+
+EsSchreyetViola = {
+  \relative c' {
+    \clef alto
+    \key d \minor \time 4/4 \tempoEsSchreyet
+    \partial 8 r8 r a'\fE a a a e e e
+    d d d d e cis r e
+    d2^\tenuto a'4 r8 a
+    a a d, gis a4 a,
+    f' r8 f e e d d %5
+    d d d d d4 r8 d
+    d d c c c c c c
+    c c c d c c r c\pp
+    c c c c c c c c
+    c c c c c4 r8 c\f %10
+    b c b b c f d d
+    c4 c c r8 c'
+    es es c c a a fis fis
+    d d d d d d r fis
+    d-! g-! a-! fis-! g-! g-! g-! g-! %15
+    e! e fis fis d b r d
+    f! f d d b' b g g
+    f16 g f e f8 e16 d a'8 a, r e'
+    cis d e cis d e f d
+    \tempoEsSchreyetB d4 cis d r\fermata \bar "|." %20 finis
+  }
+}

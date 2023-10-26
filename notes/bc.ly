@@ -3731,3 +3731,53 @@ DaWirUnsBassFigures = \figuremode {
   <6>
   r2 <_+> %7 finis
 }
+
+EsSchreyetBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 4/4 \tempoEsSchreyet
+    \partial 8 r8 r d\fE d' d d cis c4
+    c8 h b4 a8 a, r a'
+    d2^\tenuto a4 r8 a
+    d c! b gis a4 a,
+    d r8 d a' g fis? e %5
+    d d fis fis g g, r fis'
+    g f e d c d e c
+    f g a h c c, r4
+    R1
+    r2 r4 r8 a'!\fE %10
+    b! a b g f a^\critnote b g
+    c4 c, f r8 c'-\unisonoE
+    es es c c a a fis fis
+    d d d d g d r d
+    b'-! g-! fis-! d-! \parOn g-\parenthesize-! a-! b-! \parOff g-\parenthesize-! %15
+    a a d, d g g, r d''-\unisonoE
+    f! f d d b b g g
+    f16 g f e f8 e16 d a'8 a, r a'
+    a h cis a d a f d
+    \tempoEsSchreyetB a'4 a, d r\fermata \bar "|." %20 finis
+  }
+}
+
+EsSchreyetBassFigures = \figuremode {
+  r8 r2 <5 2>4 \once \bassFigureExtendersOn q
+  <6 2>8 <\t \t> <7> <6\\> <_+>2
+  r q
+  r4. <7 _!>8 <6 4>4 <5 _+>
+  r2 <_!>8 <\t> <6 5> <\t \t> %5
+  <7 _+>4 <6 5> r4. <6>8
+  <3> <\t> <6 5> <\t \t> <7>2
+  <8 3>4 \once \bassFigureExtendersOn q8 <7> <6 4> <5 3>4.
+  r1
+  r2.. <6>8 %10
+  r q4 q q4.
+  <6 4>4 <5 3>2.
+  r1
+  r4. <7 _+>4 <_+>4.
+  <6>4 q8 <_+>4 <7>8 <6>4 %15
+  <5!>4 <7 _+>2.
+  r1
+  r2.. <_+>8
+  r2 r8 q <6>4
+  <6 4> <5 _+>2. %20 finis
+}

@@ -132,3 +132,11 @@ ManMussFagottoIeII = {
     fis2 h,4 r \markAttacca \bar "||" %8
   }
 }
+
+EsSchreyetFagottoI = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 4/4 \tempoEsSchreyet
+    \partial 8
+  }
+}

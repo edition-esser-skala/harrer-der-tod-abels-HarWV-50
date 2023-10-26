@@ -98,6 +98,10 @@ tempoDaheroStelle = \tempoMarkup "[Recitativo]"
 tempoEinLaemmlein = \tempoMarkup "[Tempo deest]"
 tempoDaWirUns = \tempoMarkup "[Recitativo]"
 
+% 2.16
+tempoEsSchreyet = \tempoMarkup "Allegro"
+  tempoEsSchreyetB = \tempoMarkup "Adagio"
+
 
 \include "notes/fl1.ly"
 \include "notes/fl2.ly"

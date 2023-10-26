@@ -1368,34 +1368,107 @@
   %     \midi { \tempo 2 = 80 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.15" "Recitativo" "Da wir uns nun darauff"
+  %   \addTocLabel "dawiruns"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #20
+  %     system-system-spacing.minimum-distance = #20
+  %     systems-per-page = #2
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Adam"
+  %           \new Voice = "Soli" { \dynamicUp \DaWirUnsSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \DaWirUnsSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \DaWirUnsBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \DaWirUnsBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "2.15" "Recitativo" "Da wir uns nun darauff"
-    \addTocLabel "dawiruns"
-    \paper {
-      system-system-spacing.basic-distance = #20
-      system-system-spacing.minimum-distance = #20
-      systems-per-page = #2
-    }
+    \section "2.16" "Coro" "Es ſchreyet Abels Blut um Rache"
+    \addTocLabel "esschreyet"
     \score { %\articulate
       <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \EsSchreyetOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \EsSchreyetOboeII
+            }
+          >>
+        >>
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \EsSchreyetViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \EsSchreyetViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "vla"
+            \EsSchreyetViola
+          }
+        >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "Adam"
-            \new Voice = "Soli" { \dynamicUp \DaWirUnsSoli }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \EsSchreyetSoprano }
           }
-          \new Lyrics \lyricsto Soli \DaWirUnsSoliLyrics
+          \new Lyrics \lyricsto Soprano \EsSchreyetSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \EsSchreyetAlto }
+          }
+          \new Lyrics \lyricsto Alto \EsSchreyetAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \EsSchreyetTenore }
+          }
+          \new Lyrics \lyricsto Tenore \EsSchreyetTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \EsSchreyetBasso }
+          }
+          \new Lyrics \lyricsto Basso \EsSchreyetBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \DaWirUnsBassoContinuo
+            \EsSchreyetBassoContinuo
           }
         >>
-        \new FiguredBass { \DaWirUnsBassFigures }
+        \new FiguredBass { \EsSchreyetBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 90 } %45
     }
   }
 }

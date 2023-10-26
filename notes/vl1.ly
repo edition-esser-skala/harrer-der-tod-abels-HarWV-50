@@ -1498,3 +1498,30 @@ EinLaemmleinViolinoI = {
     g\fermata \bar "|." %40 finis
   }
 }
+
+EsSchreyetViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoEsSchreyet
+    \partial 8 a'8\fE << { f'2 } \\ { <a, d,>4 r } >> e'4. e8
+    d4. d8 cis a r cis'
+    d2^\tenuto cis4 r8 e,
+    f16 d' f, d' d, d' f, d' f,4 e\trill
+    d8 d, r a' \tuplet 3/2 8 { c!16[ b a] c b a c[ b a] c b a } %5
+    c a' a c, c a' a c, b8 g, r d''
+    \tuplet 3/2 8 { b16[ a g] b a g b[ a g] b a g } b g' g b, g' b, a g
+    a f' f f f f f f f8 e r g,\pp
+    g16 g g g g g g g as as as as as as g( as)
+    b8 b4 as8 \appoggiatura b16 as8 g r c\f %10
+    d-! c-! d-! e-! f c d b
+    a4 g f r8 c'
+    es16 es es es c c c c a a a a fis fis fis fis
+    d d fis fis a a c c b8 a r d
+    d-! d-! d-! d-! d-! d-! d-! d-! %15
+    c c4 b16 a b a g8 r d'
+    f!16 f f f d d d d b b b b g g g g
+    f g f e f8 e16 d a'8 a, r a'
+    e' e a e f cis d f
+    \tempoEsSchreyetB f4 e\trill d r\fermata \bar "|." %20 finis
+  }
+}

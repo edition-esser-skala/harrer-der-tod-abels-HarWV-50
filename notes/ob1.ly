@@ -543,3 +543,30 @@ EinLaemmleinOboeI = {
     g\fermata \bar "|." %40 finis
   }
 }
+
+EsSchreyetOboeI = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoEsSchreyet
+    \partial 8 a'8\fE f'4. f8 e4. e8
+    d4. d8 cis a r e'
+    f2 e4 r8 e
+    f e d d d4 cis
+    d r8 a c c c c %5
+    c4. c8 b4 r8 d
+    b b b b b4. a16 g
+    a8 a a a a g r g\ppE
+    g4. g8 as4. g16 as
+    b8 b b as \appoggiatura as g4 r8 c\fE %10
+    d c d e f c d b
+    a4 g f r8 c'
+    es8.[ es16 c8. c16] a8.[ a16 fis8. fis16]
+    d8 fis a c b a r d
+    d d d d d d d d %15
+    c4. a8 b16 a g8 r d'
+    f!8.[ f16 d8. d16] b8.[ b16 g8. g16]
+    f g f e f8 e16 d a'4 r8 a
+    e' e a e f cis d d
+    \tempoEsSchreyetB d4 e\trill d r\fermata \bar "|." %20 finis
+  }
+}
