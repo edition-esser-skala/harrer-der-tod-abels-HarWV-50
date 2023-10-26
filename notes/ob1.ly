@@ -463,3 +463,21 @@ WenSoOboeI = {
     es r \bar "S-S" %99 finis
   }
 }
+
+DerFrommeOboeI = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 4/4 \tempoDerFromme
+    \partial 8 h'8\passai h4 h \appoggiatura h8 ais4 r8 fis
+    h4 cis d d
+    e2 \appoggiatura d8 cis4\fermata r8 cis\ff
+    d4 e fis r8 d
+    g4 g fis fis %5
+    e2 d4\fermata r8 d\pp
+    cis4 h h8( a4) fis8
+    a4 a h4. a8
+    \appoggiatura a4 g2 \appoggiatura g8 fis4\fermata r8 fis'\ff
+    e4 d d( cis)\trill %10
+    h r r2 \markAttacca \bar "||" %11 finis
+  }
+}

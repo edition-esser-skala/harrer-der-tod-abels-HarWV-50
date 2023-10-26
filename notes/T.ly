@@ -4,7 +4,7 @@ VerruchterTenore = {
   \relative c' {
     \clef "treble_8"
     \key a \minor \time 4/4 \autoBeamOff \tempoVerruchter
-    \partial 8 \mvTr c8\fE^\tuttiE e e e e e4 r8 h
+    \partial 8 c8\fE e e e e e4 r8 h
     c a h8. e16 e8 e r e
     d d d d d4. c8
     c h r h e d c h
@@ -44,4 +44,36 @@ VerruchterTenoreLyrics = \lyricmode {
   biſt, ſo le -- bet der in
   dir, der ihr be --
   fliſ -- ſen iſt. %19 finis
+}
+
+DerFrommeTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key h \minor \time 4/4 \autoBeamOff \tempoDerFromme
+    \partial 8 d8\passai d4 d \appoggiatura d8 cis4^\critnote r8 cis
+    d4 cis fis fis
+    e2 e4\fermata r8 fis\ff
+    fis4 cis d r8 fis
+    d4 e d d %5
+    d( cis) d\fermata r8 fis\pp
+    fis4 d d4. d8
+    d4 d dis h
+    h2 h4\fermata r8 h\ff
+    cis4 h h( ais) %10
+    h r r2 \markAttacca \bar "|." %11 finis
+  }
+}
+
+DerFrommeTenoreLyrics = \lyricmode {
+  Der From -- me ſtirbt, der
+  recht und rich -- tig
+  wan -- delt, der
+  Bö -- ſe lebt, der
+  wie -- der Gott miß -- %5
+  han -- delt, die
+  Schuld be -- zahlt die
+  Un -- ſchuld, der Ge --
+  rech -- te ſtatt
+  bö -- ſer Knech -- %10
+  te. %11 finis
 }

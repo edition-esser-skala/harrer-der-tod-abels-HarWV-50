@@ -233,7 +233,7 @@ IchBinEinSoli = {
     \clef treble
     \key c \major \time 3/8 \autoBeamOff \tempoIchBinEin
     R4.*34 \bar "S-S" %34
-    \mvTr c8\pE^\soloE e \appoggiatura g16 f16.[(\trill e64 f)] \noBreak %35
+    c8\pE e \appoggiatura g16 f16.[(\trill e64 f)] \noBreak %35
     g8 g4
     g8 g4
     a8 g r
@@ -506,7 +506,7 @@ EinWasserSoli = {
     \key b \major \time 4/4 \autoBeamOff \tempoEinWasser
       \set Staff.timeSignatureFraction = 4/4
     \partial 8 r8 R1*9 \noBreak %9
-    r2 r4 r8 \mvTr f\pE^\soloE \bar "S-S" %10
+    r2 r4 r8 f\pE \bar "S-S" %10
     b4 b b b
     b b a8 f r a16([ b)]
     c4 c c c
@@ -652,7 +652,7 @@ IchLebeNurSoli = {
     \clef bass
     \key g \minor \time 3/8 \autoBeamOff \tempoIchLebeNur
     \partial 8 r8 R4.*31 \noBreak %31
-    r8 r g'\pE^\soloE \bar "S-S"
+    r8 r g'\pE \bar "S-S"
     b a g
     b a g
     es' d cis %35
@@ -1148,7 +1148,7 @@ DasLichtSoli = {
     \clef "treble_8"
     \key a \major \time 4/4 \autoBeamOff \tempoDasLicht
     \partial 8 r8 R1*11 \noBreak %11
-    r2 r4 r8 \mvTr a\pE^\soloE \bar "S-S"
+    r2 r4 r8 a\pE \bar "S-S"
     e'4. d8 \appoggiatura d4 cis4. fis8 \noBreak
     fis( e4) d8 cis16([ h)] a8 r cis
     \appoggiatura cis4 h4. cis8 \appoggiatura cis4 h4. cis8 %15
@@ -1588,7 +1588,7 @@ IndemIchSoli = {
     \clef treble
     \key d \major \time 3/4 \autoBeamOff \tempoIndemIch
     R2.*16 \bar "S-S" %16
-    \mvTr d4\pE^\soloE a'4. g8
+    d4\pE a'4. g8
     \appoggiatura g4 fis2 cis4
     d \appoggiatura fis8 e4 \appoggiatura g8 fis4
     \appoggiatura a8 g4 fis r %20
@@ -1795,7 +1795,7 @@ WennBetruebteSoli = {
     \clef "treble_8"
     \key h \minor \time 3/8 \autoBeamOff \tempoWennBetruebte
     R4.*30 \bar "S-S" %30
-    \mvTr fis8([\pE^\soloE h,)] cis
+    fis8([\pE h,)] cis
     d([ e)] fis
     g g4
     g8 fis r
@@ -2172,7 +2172,7 @@ AchAchSoli = {
     \clef bass
     \twofourtime \key f \minor \time 2/4 \autoBeamOff \tempoAchAch
     \partial 8 r8 R2*20 \noBreak %20
-    r4 r8 \mvTr c'\pE^\soloE \bar "S-S"
+    r4 r8 c'\pE \bar "S-S"
     des4 r8 des \noBreak
     des([ c)] c4
     b4. as16([ g)]
@@ -2410,7 +2410,7 @@ WenSoSoli = {
     \partial 4 r4 R1*11 \noBreak %11
     R1\fermata
     R1*3 \noBreak %15
-    r2 r4 \mvTr es\pE^\soloE \bar "S-S"
+    r2 r4 es\pE \bar "S-S"
     b'2. b8([ h)]
     h([ c)] c2~ c8[ d]
     es2 es
@@ -2581,7 +2581,7 @@ JaFreylichSoli = {
     h h d8. d16 \appoggiatura d8 cis cis r16 gis gis a
     h8 gis cis8. h16 a8 a r a %30
     a a d a h4 r8 h
-    e e e h cis4 r8 %32 finis
+    e e e h cis4 r8 \markAttacca %32 finis
   }
 }
 

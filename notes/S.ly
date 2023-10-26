@@ -4,7 +4,7 @@ VerruchterSoprano = {
   \relative c' {
     \clef treble
     \key a \minor \time 4/4 \autoBeamOff \tempoVerruchter
-    \partial 8 \mvTr e8\fE^\tuttiE c' c c c \appoggiatura c h4 r8 gis
+    \partial 8 e8\fE c' c c c \appoggiatura c h4 r8 gis
     a c h8. d16 c([ h)] a8 r a
     f' f f f f4 e
     e8 d r g, g' f e d
@@ -46,4 +46,36 @@ VerruchterSopranoLyrics = \lyricmode {
   biſt, ſo le -- bet der in
   dir, der ihr be --
   fliſ -- ſen iſt. %19 finis
+}
+
+DerFrommeSoprano = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 4/4 \autoBeamOff \tempoDerFromme
+    \partial 8 h'8\passai h4 h \appoggiatura h8 ais4 r8 fis
+    h4 cis d d
+    e2 \appoggiatura d8 cis4\fermata r8 cis\ff
+    d4 e fis r8 d
+    g4 g fis fis %5
+    e2 d4\fermata r8 d\pp
+    cis4 h h8( a4) fis8
+    a4 a h4. a8
+    \appoggiatura a4 g2 \appoggiatura g8 fis4\fermata r8 fis'\ff
+    e4 d d( cis) %10
+    h r r2 \markAttacca \bar "||" %11 finis
+  }
+}
+
+DerFrommeSopranoLyrics = \lyricmode {
+  Der From -- me ſtirbt, der
+  recht und rich -- tig
+  wan -- delt, der
+  Bö -- ſe lebt, der
+  wie -- der Gott miß -- %5
+  han -- delt, die
+  Schuld be -- zahlt die
+  Un -- ſchuld, der Ge --
+  rech -- te ſtatt
+  bö -- ſer Knech -- %10
+  te. %11 finis
 }

@@ -1220,3 +1220,21 @@ WenSoViolinoII = {
     es r4 es\p \bar "S-S" %99 finis
   }
 }
+
+DerFrommeViolinoII = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 4/4 \tempoDerFromme
+    \partial 8 h'8\passai h16 d d h h d d h ais cis cis ais ais cis cis ais
+    h fis' fis h, cis fis fis cis d fis fis d d fis fis d
+    d h' h a gis fis e d \appoggiatura d8 cis4\fermata r8 fis,\ff
+    h16 d d h a cis cis a d, fis fis d c fis fis c
+    h d d h cis a' a cis, d fis fis d gis, h h gis %5
+    a4 cis'\trill a\fermata r8 a\pp
+    a16(-. a-. a-. a-.) a(-. a-. g-. g-.) g(-. g-. fis-. fis-.) fis(-. fis-. fis-. fis-.)
+    fis(-. fis-. fis-. fis-.) fis(-. fis-. fis-. fis-.) fis(-. fis-. fis-. fis-.) fis(-. fis-. fis-. fis-.)
+    fis8(-. fis-. e-. e-.) \appoggiatura e dis4\fermata r8 fis'\ff
+    e16 cis' cis cis, d! h' h h, h4 ais\trill %10
+    h r r2 \markAttacca \bar "||" %11 finis
+  }
+}

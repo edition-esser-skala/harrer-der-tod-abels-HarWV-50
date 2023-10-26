@@ -4,7 +4,7 @@ VerruchterAlto = {
   \relative c' {
     \clef treble
     \key a \minor \time 4/4 \autoBeamOff \tempoVerruchter
-    \partial 8 \mvTr e8\fE^\tuttiE e a a a \appoggiatura a gis4^\critnote r8 e
+    \partial 8 e8\fE e a a a \appoggiatura a gis4^\critnote r8 e
     e e e h' a a r a
     a a a a g!4 g
     g8 g r g g g g f
@@ -46,4 +46,36 @@ VerruchterAltoLyrics = \lyricmode {
   biſt, ſo le -- bet der in
   dir, der ihr be --
   fliſ -- ſen iſt. %19 finis
+}
+
+DerFrommeAlto = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 4/4 \autoBeamOff \tempoDerFromme
+    \partial 8 fis8\passai fis4 fis fis r8 fis
+    fis4 fis fis8([ h)] h4
+    h2 \appoggiatura h8 a!4\fermata r8 a\ff
+    h4 a a r8 a
+    d4 a a h %5
+    a2 a4\fermata r8 a\pp
+    a4. g8 g([ fis)] fis4
+    fis fis fis fis
+    fis( e) \appoggiatura e8 dis4\fermata r8 d\ff
+    g4( fis8) gis fis2 %10
+    d4 r r2 \markAttacca \bar "||" %11 finis
+  }
+}
+
+DerFrommeAltoLyrics = \lyricmode {
+  Der From -- me ſtirbt, der
+  recht und rich -- tig
+  wan -- delt, der
+  Bö -- ſe lebt, der
+  wie -- der Gott miß -- %5
+  han -- delt, die
+  Schuld be -- zahlt die
+  Un -- ſchuld, der Ge --
+  rech -- te ſtatt
+  bö -- ſer Knech -- %10
+  te. %11 finis
 }

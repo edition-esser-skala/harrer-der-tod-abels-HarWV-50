@@ -4,7 +4,7 @@ VerruchterBasso = {
   \relative c {
     \clef bass
     \key a \minor \time 4/4 \autoBeamOff \tempoVerruchter
-    \partial 8 \mvTr a8\fE^\tuttiE a' a, c a e'4 r8 d
+    \partial 8 a8\fE a' a, c a e'4 r8 d
     c a' gis e a a, r a'
     d d, d' c h([ g c)] c,
     g' g, r g' g g g g
@@ -44,4 +44,36 @@ VerruchterBassoLyrics = \lyricmode {
   biſt, ſo le -- bet der in
   dir, der ihr be --
   fliſ -- ſen iſt. %19 finis
+}
+
+DerFrommeBasso = {
+  \relative c {
+    \clef bass
+    \key h \minor \time 4/4 \autoBeamOff \tempoDerFromme
+    \partial 8 h'8\passai h4 h, fis' r8 e
+    d4 ais' h4. a8
+    gis2 a4\fermata r8 fis\ff
+    h4 a d r8 c
+    h4 cis d gis, %5
+    a2 d,4\fermata r8 d\pp
+    fis4 g d d
+    c c h dis
+    e2 h'4\fermata r8 h\ff
+    h([ ais h)] eis, fis2 %10
+    h,4 r r2 \markAttacca \bar "||" %11 finis
+  }
+}
+
+DerFrommeBassoLyrics = \lyricmode {
+  Der From -- me ſtirbt, der
+  recht und rich -- tig
+  wan -- delt, der
+  Bö -- ſe lebt, der
+  wie -- der Gott miß -- %5
+  han -- delt, die
+  Schuld be -- zahlt die
+  Un -- ſchuld, der Ge --
+  rech -- te ſtatt
+  bö -- ſer Knech -- %10
+  te. %11 finis
 }

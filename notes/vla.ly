@@ -1195,3 +1195,21 @@ WenSoViola = {
     g2 r \bar "S-S" %99 finis
   }
 }
+
+DerFrommeViola = {
+  \relative c' {
+    \clef alto
+    \key h \minor \time 4/4 \tempoDerFromme
+    \partial 8 h'8\passai h h h, h fis' fis, fis' e
+    d d ais' ais h h, h' a
+    e e e e e4\fermata r8 fis\ff
+    h16 d d h a cis cis a d, fis fis d c fis fis c
+    h d d h cis a' a cis, d fis fis d gis, h h gis %5
+    a8 a a a fis4\fermata r8 fis'\pp
+    fis(-. fis-. d-. d-.) d(-. d-. d-. d-.)
+    d(-. d-. d-. d-.) dis(-. dis-. h-. h-.)
+    h(-. h-. h-. h-.) h4\fermata r8 d\ff
+    g g fis gis fis4 fis %10
+    fis r r2 \markAttacca \bar "||" %11 finis
+  }
+}

@@ -74,7 +74,7 @@ WunderbarerBassoContinuo = {
     \clef bass
     \key c \major \time 4/4 \tempoWunderbarer
       \set Staff.timeSignatureFraction = 4/4
-    \mvTr c'8\fE-\soloE h c c, h a g g
+    c'8\fE h c c, h a g g
     a a a a g g g a
     h h h h c2~
     c\pE cis~
@@ -304,7 +304,7 @@ IchBinEinBassoContinuo = {
   \relative c {
     \clef bass
     \key c \major \time 3/8 \tempoIchBinEin
-    \mvTr c4\fE-\soloE r8
+    c4\fE r8
     c8. c'16 g e
     c4 c'8
     c, c' c
@@ -751,7 +751,7 @@ EinWasserBassoContinuo = {
     \clef bass
     \key b \major \time 4/4 \tempoEinWasser
       \set Staff.timeSignatureFraction = 4/4
-    \partial 8 r8 r \mvTr b\fE-\soloE b' a g f es d
+    \partial 8 r8 r b\fE b' a g f es d
     c b a g f f' r4
     r8 f a g f es d c
     b a g f b b b b
@@ -946,7 +946,7 @@ IchLebeNurBassoContinuo = {
   \relative c {
     \clef bass
     \key g \minor \time 3/8 \tempoIchLebeNur
-    \partial 8 \mvTr g'8\fE-\soloE b a g
+    \partial 8 g'8\fE b a g
     b a g
     es' d cis
     d[ d,] c'\p
@@ -1583,7 +1583,7 @@ DasLichtBassoContinuo = {
   \relative c {
     \clef bass
     \key a \major \time 4/4 \tempoDasLicht
-    \partial 8 r8 r \mvTr a'\fE-\soloE cis gis a a, a d
+    \partial 8 r8 r a'\fE cis gis a a, a d
     cis e16( a) h,8 e16( gis) a8 a, r4
     r8 a'\p cis gis a a, a d
     cis e16( a) h,8 a e' e, e' r
@@ -1902,7 +1902,7 @@ VerruchterBassoContinuo = {
   \relative c {
     \clef bass
     \key a \minor \time 4/4 \tempoVerruchter
-    \partial 8 \mvTr a8\fE-\tuttiE a' a, c a e' e, e' d
+    \partial 8 a8\fE a' a, c a e' e, e' d
     c a gis e' a a, r a'
     d d, d' c h g! c c,
     g' g, r g' g g g g
@@ -1950,7 +1950,7 @@ IchHabeBassoContinuo = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \tempoIchHabe
-    \partial 8 \mvTr e8\fE-\soloE ^\tweak TextScript.X-offset #0 ^\unisonoE a16 a e e cis cis a a g' g e e cis cis a a
+    \partial 8 e8\fE^\unisonoE a16 a e e cis cis a a g' g e e cis cis a a
     g' g e e cis cis h h ais4~ ais8 r
     R1*2
     r2 h'16^\unisonoE h fis fis d d h h %5
@@ -2100,7 +2100,7 @@ IndemIchBassoContinuo = {
   \relative c {
     \clef bass
     \key d \major \time 3/4 \tempoIndemIch
-    \mvTr d8\fE-\soloE-\markup \remark "senza fag" ^\tweak TextScript.X-offset #0 ^\conSord d d d cis cis
+    \mvTr d8\fE-\markup \remark "senza fag" -\conSord d d d cis cis
     d d d d e e
     fis fis cis cis d d
     cis4-! d-\parenthesize-! r
@@ -2384,7 +2384,7 @@ WennBetruebteBassoContinuo = {
   \relative c {
     \clef bass
     \key h \minor \time 3/8 \tempoWennBetruebte
-    \mvTr h4\fE-\soloE r8
+    h4\fE r8
     R4.
     r8 r ais'
     h h, r
@@ -2923,7 +2923,7 @@ AchAchBassoContinuo = {
   \relative c {
     \clef bass
     \twofourtime \key f \minor \time 2/4 \tempoAchAch
-    \partial 8 r8 r \mvTr f\fE-\soloE f,4
+    \partial 8 r8 r f\fE f,4
     r8 es' es,4
     r8 des' c c,
     f' f, r4
@@ -3242,7 +3242,7 @@ WenSoBassoContinuo = {
   \relative c {
     \clef bass
     \key es \major \time 4/4 \tempoWenSo
-    \partial 4 r4 \mvTr es\fE-\soloE es es es
+    \partial 4 r4 es\fE es es es
     es es es es
     es es c c
     b b b b
@@ -3304,7 +3304,7 @@ WenSoBassoContinuo = {
     b b r2
     R1*3 %71
     b2\pp\fermata-\senzaBR r
-    \mvTr b4\f-\markup \remark "tutti bassi" b b b
+    \mvTr b4\f-\tuttiBassi b b b
     g! g d d
     es as b b, \noBreak %75
     es es, r2\fermata \bar "||"
@@ -3461,7 +3461,7 @@ JaFreylichBassoContinuo = {
     h2 eis,~
     eis fis~ %30
     fis g~
-    g fis4 r8 %32 finis
+    g fis4 r8 \markAttacca %32 finis
   }
 }
 
@@ -3498,4 +3498,36 @@ JaFreylichBassFigures = \figuremode {
   r <5\+ [_!]> %30
   <6> <5>
   <6> <[5\+ _+]>4. %32 finis
+}
+
+DerFrommeBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key h \minor \time 4/4 \tempoDerFromme
+    \partial 8 h'8\passai h h h, h fis' fis, fis' e
+    d d ais' ais h h, h' a
+    gis gis gis gis a4\fermata r8 fis\ff
+    h16 d d h a cis cis a d, fis fis d c fis fis c
+    h d d h cis a' a cis, d fis fis d gis, h h gis %5
+    a8 a a a d4\fermata r8 d\pp
+    fis(-. fis-. g-. g-.) d(-. d-. d-. d-.)
+    c!(-. c-. c-. c-.) h(-. h-. dis-. dis-.)
+    e(-. e-. e,-. e-.) h'4\fermata r8 h-!\ff
+    h-! ais-! h-! eis-! fis4 fis, %10
+    h-\critnote r r2 \markAttacca \bar "||" %11 finis
+  }
+}
+
+DerFrommeBassFigures = \figuremode {
+  r8 r2 <6 4>8 <5 _+>4 <\t \t>8
+  <6>4 q r4. <\t>8
+  <6>2 <9 4>8 <8 3>4 <5>8
+  r2. <2>4
+  <6> <6 5>2 <7>4 %5
+  <4> <3>2.
+  <5>4 <9>8 <8> <6 4> <5 3>4.
+  <\t \t>2 <_+>4 <6>8 <5>
+  <9 4>4 <8 3> <6 4>8 <5 _+>4 <_!>8
+  <6 4 2> <\t \t \t>4 <7 _+>8 <6 4>4 <5 _+> %10
+  r1 %11 finis
 }

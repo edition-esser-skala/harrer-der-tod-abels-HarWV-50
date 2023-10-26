@@ -13,6 +13,7 @@ Cain = \markup \remark "Cain"
 Eva = \markup \remark "Eva"
 Gott = \markup \remark "Die Stimme Gottes"
 
+
 dopolareplica = \markup {
   \remark \whiteout
   \override #'(baseline-skip . 2)
@@ -20,6 +21,10 @@ dopolareplica = \markup {
 }
 forceClef = \set Staff.forceClef = ##t
 hideAcc = \once \override Accidental.stencil = ##f
+markAttacca = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark "attaca"
+}
 sempre = \markup \remark "sempre"
 senzaBR = \markup {
   \remark \whiteout
@@ -84,6 +89,7 @@ tempoWoKam = \tempoMarkup "[Recitativo]"
   tempoWoKamC = \tempoMarkup "Adagio"
 tempoWenSo = \tempoMarkup "Adagio ma non troppo"
 tempoJaFreylich = \tempoMarkup "[Recitativo]"
+tempoDerFromme = \tempoMarkup "[Allegro]"
 
 
 \include "notes/fl1.ly"

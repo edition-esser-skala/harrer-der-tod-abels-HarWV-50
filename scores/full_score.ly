@@ -1045,34 +1045,107 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.9" "Recitativo" "Ja freylich iſt wohl"
+  %   \addTocLabel "jafreylich"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #20
+  %     system-system-spacing.minimum-distance = #20
+  %     systems-per-page = #5
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Adam" "Eva" }
+  %           \new Voice = "Soli" { \dynamicUp \JaFreylichSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \JaFreylichSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \JaFreylichBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \JaFreylichBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "2.9" "Recitativo" "Ja freylich iſt wohl"
-    \addTocLabel "jafreylich"
-    \paper {
-      system-system-spacing.basic-distance = #20
-      system-system-spacing.minimum-distance = #20
-      systems-per-page = #5
-    }
+    \section "2.10" "Choral" "Der Fromme ſtirbt"
+    \addTocLabel "derfromme"
     \score { %\articulate
       <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \DerFrommeOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \DerFrommeOboeII
+            }
+          >>
+        >>
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \DerFrommeViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \DerFrommeViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "vla"
+            \DerFrommeViola
+          }
+        >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Adam" "Eva" }
-            \new Voice = "Soli" { \dynamicUp \JaFreylichSoli }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \DerFrommeSoprano }
           }
-          \new Lyrics \lyricsto Soli \JaFreylichSoliLyrics
+          \new Lyrics \lyricsto Soprano \DerFrommeSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \DerFrommeAlto }
+          }
+          \new Lyrics \lyricsto Alto \DerFrommeAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \DerFrommeTenore }
+          }
+          \new Lyrics \lyricsto Tenore \DerFrommeTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \DerFrommeBasso }
+          }
+          \new Lyrics \lyricsto Basso \DerFrommeBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \JaFreylichBassoContinuo
+            \DerFrommeBassoContinuo
           }
         >>
-        \new FiguredBass { \JaFreylichBassFigures }
+        \new FiguredBass { \DerFrommeBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 80 }
     }
   }
 }
