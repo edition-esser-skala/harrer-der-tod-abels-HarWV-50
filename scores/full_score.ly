@@ -1178,74 +1178,121 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.12" "Choral" "Man muß in Gottes Herz und Sinn"
+  %   \addTocLabel "manmuss"
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+  %           \ManMussOboeIeII
+  %         }
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
+  %           \ManMussFagottoIeII
+  %         }
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \ManMussViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \ManMussViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \ManMussViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \ManMussSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \ManMussSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \ManMussAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \ManMussAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \ManMussTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \ManMussTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \ManMussBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \ManMussBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \ManMussBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \ManMussBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
   \bookpart {
-    \section "2.12" "Choral" "Man muß in Gottes Herz und Sinn"
-    \addTocLabel "manmuss"
+    \section "2.13" "Accompagnato" "Dahero ſtelle man dem Herrn anheim"
+    \addTocLabel "daherostelle"
+    \paper {
+      system-system-spacing.basic-distance = #30
+      system-system-spacing.minimum-distance = #30
+      systems-per-page = #2
+    }
     \score { %\articulate
       <<
-        \new StaffGroup <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
-            \ManMussOboeIeII
-          }
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
-            \ManMussFagottoIeII
-          }
-        >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \ManMussViolinoI
+              \DaheroStelleViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \ManMussViolinoII
+              \DaheroStelleViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \ManMussViola
+            \DaheroStelleViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \ManMussSoprano }
+            \set Staff.instrumentName = "Adam"
+            \new Voice = "Soli" { \dynamicUp \DaheroStelleSoli }
           }
-          \new Lyrics \lyricsto Soprano \ManMussSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \ManMussAlto }
-          }
-          \new Lyrics \lyricsto Alto \ManMussAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \ManMussTenore }
-          }
-          \new Lyrics \lyricsto Tenore \ManMussTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \ManMussBasso }
-          }
-          \new Lyrics \lyricsto Basso \ManMussBassoLyrics
+          \new Lyrics \lyricsto Soli \DaheroStelleSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \ManMussBassoContinuo
+            \DaheroStelleBassoContinuo
           }
         >>
-        \new FiguredBass { \ManMussBassFigures }
+        \new FiguredBass { \DaheroStelleBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 80 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }

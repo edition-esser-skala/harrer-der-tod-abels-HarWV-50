@@ -3580,3 +3580,40 @@ ManMussBassFigures = \figuremode {
   <5 _+>4 <6 4> <7 _+>2
   <4>4 <_+>2. %8 finis
 }
+
+DaheroStelleBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoDaheroStelle
+      \set Staff.timeSignatureFraction = 4/4
+    gis'1~\pE
+    gis~
+    gis2 a~
+    a1~
+    a2 d,~^\tenuto %5
+    d1
+    dis2 e~
+    e1~
+    e2 d!~
+    d1 %10
+    g~
+    g2 r4 a\fE
+    \time 2/4 \markTimeSig #'(2 4) d, r \markAttacca \bar "||" %13 finis
+  }
+}
+
+DaheroStelleBassFigures = \figuremode {
+  <6>1
+  r2 <5>
+  r <_+>
+  r1
+  <7! _+>2 <_+> %5
+  r1
+  <7! _+>2 <5>
+  r <6\\ 4\+ 2\+>
+  r <_ 6 _+>
+  <7! 5! \t>1 %10
+  <5>2 <6>
+  <4\+ 2>2. <7 _+>4
+  <_+>2 %13 finis
+}

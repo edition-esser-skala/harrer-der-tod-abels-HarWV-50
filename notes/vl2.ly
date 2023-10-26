@@ -1253,3 +1253,21 @@ ManMussViolinoII = {
     fis2 fis4 r \markAttacca \bar "||" %8
   }
 }
+
+DaheroStelleViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoDaheroStelle
+      \set Staff.timeSignatureFraction = 4/4
+    R1*4
+    r2 d'~\pE %5
+    d1
+    c!2 h~
+    h ais~
+    ais h
+    c!1 %10
+    h
+    cis4 r r cis\fE
+    \time 2/4 \markTimeSig #'(2 4) a r \markAttacca \bar "||" %13 finis
+  }
+}

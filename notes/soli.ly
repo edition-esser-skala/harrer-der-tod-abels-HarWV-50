@@ -2642,3 +2642,39 @@ DesHoechstenSoliLyrics = \lyricmode {
   führt ihn die Ver -- nunfft auff %5
   lau -- ter Irr -- thums Ste -- ge. %6 finis
 }
+
+DaheroStelleSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoDaheroStelle
+      \set Staff.timeSignatureFraction = 4/4
+    r4 r8 h^\Adam e h h a
+    h h h cis d4 r16 fis d d
+    h8 cis d cis a4 r8 a
+    cis cis cis d e4 r8 a,
+    g! g a g \appoggiatura g fis4 r8 d' %5
+    d fis, fis16 fis a g a8 a r16 a a h
+    c!8.\fermata h16 a a h a \appoggiatura a8 g g r16 h g' fis
+    e8 r16 d! cis8 h ais4 r8 cis
+    fis cis cis16 d e d \appoggiatura cis8 h4 r16 h h h
+    c4 r8 c h a d c %10
+    h h r16 h h h e4. d8
+    \appoggiatura d cis4 r16 cis cis d a8 a r4
+    \time 2/4 \markTimeSig #'(2 4) r2 \markAttacca \bar "||" %13 finis
+  }
+}
+
+DaheroStelleSoliLyrics = \lyricmode {
+  Da -- he -- ro ſtel -- le
+  man dem Herrn an -- heim das, was man
+  nicht er -- grün -- den kan. Viel --
+  leicht giebt A -- bels Todt ſich
+  als ein Vor -- bild an, es %5
+  wer -- de mit der Zeit auff Er -- den ein noch viel
+  theu -- ren Blut ver -- goſ -- ſen wer -- den, das beſ -- ſer
+  redt als A -- bels Blut, das
+  gnug vor al -- le Sün -- den thut, das Gott ver --
+  ſöhnt, den wir zum Zorn er -- %10
+  re -- get, und al -- ler Men -- ſchen
+  Schuld be -- zahlt und trä -- get. %12 finis
+}

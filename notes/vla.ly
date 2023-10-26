@@ -1228,3 +1228,21 @@ ManMussViola = {
     h ais h r \markAttacca \bar "||" %8
   }
 }
+
+DaheroStelleViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoDaheroStelle
+      \set Staff.timeSignatureFraction = 4/4
+    R1*4
+    r2 a'~\pE %5
+    a1~
+    a2 g~
+    g ais~
+    ais fis
+    a1 %10
+    g2 e~
+    e4 r r e\fE
+    \time 2/4 \markTimeSig #'(2 4) d r \markAttacca \bar "||" %13 finis
+  }
+}
