@@ -24,5 +24,10 @@ sources:
     notes: text book, entitled “Der Todt Abels des Gerechten | In einem Paßions Oratorio wie es in der A. Nicolai | Kirche Ao 1753 am Heil. Charfreytage auffgeführt | werden soll”
 imslp:
 parts:
+  ob_amore1: Oboe d’amore I in A
+  ob_amore2: Oboe d’amore II in A
+  ob_grande1: Oboe grande I in F
+  ob_grande2: Oboe grande II in F
+  vl1: Violino I\\Violino solo
 extra_abbreviations:
   "ob grande": oboe grande

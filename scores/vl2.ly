@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -15,8 +15,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \IntroViolinoI
+          \set Staff.instrumentName = "Violino II"
+          \IntroViolinoII
         }
       >>
     }
@@ -37,7 +37,7 @@
           }
           \new Lyrics \lyricsto Soli \WunderbarerSoliLyrics
         >>
-        \new Staff { \WunderbarerViolinoI }
+        \new Staff { \WunderbarerViolinoII }
       >>
     }
   }
@@ -46,7 +46,7 @@
     \addTocLabel "ichbinein"
     \score {
       <<
-        \new Staff { \IchBinEinViolinoI }
+        \new Staff { \IchBinEinViolinoII }
       >>
     }
   }
@@ -55,7 +55,7 @@
     \addTocLabel "einwasser"
     \score {
       <<
-        \new Staff { \EinWasserViolinoI }
+        \new Staff { \EinWasserViolinoII }
       >>
     }
   }
@@ -64,7 +64,7 @@
     \addTocLabel "ichlebenur"
     \score {
       <<
-        \new Staff { \IchLebeNurViolinoI }
+        \new Staff { \IchLebeNurViolinoII }
       >>
     }
   }
@@ -84,7 +84,7 @@
           }
           \new Lyrics \lyricsto Soli \WarumErgrimmestSoliLyrics
         >>
-        \new Staff { \WarumErgrimmestViolinoI }
+        \new Staff { \WarumErgrimmestViolinoII }
       >>
     }
   }
@@ -94,7 +94,7 @@
     \paper { page-count = #2 }
     \score {
       <<
-        \new Staff { \DasLichtViolinoI }
+        \new Staff { \DasLichtViolinoII }
       >>
     }
   }
@@ -104,7 +104,7 @@
     \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \VerruchterViolinoI }
+        \new Staff { \VerruchterViolinoII }
       >>
     }
   }
@@ -124,7 +124,7 @@
           }
           \new Lyrics \lyricsto Soli \IchHabeSoliLyrics
         >>
-        \new Staff { \IchHabeViolinoI }
+        \new Staff { \IchHabeViolinoII }
       >>
     }
   }
@@ -133,7 +133,7 @@
     \addTocLabel "indemich"
     \score {
       <<
-        \new Staff { \IndemIchViolinoI }
+        \new Staff { \IndemIchViolinoII }
       >>
     }
   }
@@ -142,22 +142,7 @@
     \addTocLabel "wennbetruebte"
     \score {
       <<
-        \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "vl" "solo" }
-          \WennBetruebteViolinoSolo
-        }
-      >>
-    }
-  }
-  \bookpart {
-    \section "2.4" "Aria" "Wenn betrübte Zähren fließen"
-    \addTocLabel "wennbetruebte"
-    \score {
-      <<
-        \new Staff {
-          \set Staff.instrumentName = "vl 1"
-          \WennBetruebteViolinoI
-        }
+        \new Staff { \WennBetruebteViolinoII }
       >>
     }
   }
@@ -177,7 +162,7 @@
           }
           \new Lyrics \lyricsto Soli \NeinAdamSoliLyrics
         >>
-        \new Staff { \NeinAdamViolinoI }
+        \new Staff { \NeinAdamViolinoII }
       >>
     }
   }
@@ -186,7 +171,7 @@
     \addTocLabel "achach"
     \score {
       <<
-        \new Staff { \AchAchViolinoI }
+        \new Staff { \AchAchViolinoII }
       >>
     }
   }
@@ -195,7 +180,7 @@
     \addTocLabel "wenso"
     \score {
       <<
-        \new Staff { \WenSoViolinoI }
+        \new Staff { \WenSoViolinoII }
       >>
     }
   }
@@ -205,7 +190,7 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \DerFrommeViolinoI }
+        \new Staff { \DerFrommeViolinoII }
       >>
     }
   }
@@ -215,7 +200,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \ManMussViolinoI }
+        \new Staff { \ManMussViolinoII }
       >>
     }
   }
@@ -235,7 +220,7 @@
           }
           \new Lyrics \lyricsto Soli \DaheroStelleSoliLyrics
         >>
-        \new Staff { \DaheroStelleViolinoI }
+        \new Staff { \DaheroStelleViolinoII }
       >>
     }
   }
@@ -244,7 +229,7 @@
     \addTocLabel "einlaemmlein"
     \score {
       <<
-        \new Staff { \EinLaemmleinViolinoI }
+        \new Staff { \EinLaemmleinViolinoII }
       >>
     }
   }
@@ -254,7 +239,7 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \EsSchreyetViolinoI }
+        \new Staff { \EsSchreyetViolinoII }
       >>
     }
   }

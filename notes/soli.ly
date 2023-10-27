@@ -1484,8 +1484,8 @@ IchHabeSoli = {
     c c c b b b r b %50
     a g cis d a4 r8 e
     h'!8 r16 h h8 c a4 \clef treble r8 a'^\Eva
-    cis cis h a e'4 \forceClef r8 << \context Voice = "Soli" { \voiceOne a,8^\AbelCain \appoggiatura g fis4 \oneVoice } \\ { a,8 d4 } >>
-    r \forceClef c'^\Eva d8 e
+    cis cis h a e'4 \clef "treble_8" r8 << \context Voice = "Soli" { \voiceOne a,8^\AbelCain \appoggiatura g fis4 \oneVoice } \\ { a,8 d4 } >>
+    r \clef treble c'^\Eva d8 e
     e a, r16 a h c h4 r %55
     d h8 a g g r d
     f! f f g e4 \clef bass c^\Cain

@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "bc")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -18,6 +18,7 @@
           \set Staff.instrumentName = \markup \center-column { "Basso" "continuo" }
           \IntroBassoContinuo
         }
+        \new FiguredBass { \IntroBassFigures }
       >>
     }
   }
@@ -38,6 +39,7 @@
           \new Lyrics \lyricsto Soli \WunderbarerSoliLyrics
         >>
         \new Staff { \WunderbarerBassoContinuo }
+        \new FiguredBass { \WunderbarerBassFigures }
       >>
     }
   }
@@ -47,6 +49,7 @@
     \score {
       <<
         \new Staff { \IchBinEinBassoContinuo }
+        \new FiguredBass { \IchBinEinBassFigures }
       >>
     }
   }
@@ -67,6 +70,7 @@
           \new Lyrics \lyricsto Soli \WasFehletSoliLyrics
         >>
         \new Staff { \WasFehletBassoContinuo }
+        \new FiguredBass { \WasFehletBassFigures }
       >>
     }
   }
@@ -76,6 +80,7 @@
     \score {
       <<
         \new Staff { \EinWasserBassoContinuo }
+        \new FiguredBass { \EinWasserBassFigures }
       >>
     }
   }
@@ -96,6 +101,7 @@
           \new Lyrics \lyricsto Soli \SoSollDerSoliLyrics
         >>
         \new Staff { \SoSollDerBassoContinuo }
+        \new FiguredBass { \SoSollDerBassFigures }
       >>
     }
   }
@@ -105,6 +111,7 @@
     \score {
       <<
         \new Staff { \IchLebeNurBassoContinuo }
+        \new FiguredBass { \IchLebeNurBassFigures }
       >>
     }
   }
@@ -125,6 +132,7 @@
           \new Lyrics \lyricsto Soli \WarumErgrimmestSoliLyrics
         >>
         \new Staff { \WarumErgrimmestBassoContinuo }
+        \new FiguredBass { \WarumErgrimmestBassFigures }
       >>
     }
   }
@@ -134,6 +142,7 @@
     \score {
       <<
         \new Staff { \DasLichtBassoContinuo }
+        \new FiguredBass { \DasLichtBassFigures }
       >>
     }
   }
@@ -154,6 +163,7 @@
           \new Lyrics \lyricsto Soli \SoHatDennSoliLyrics
         >>
         \new Staff { \SoHatDennBassoContinuo }
+        \new FiguredBass { \SoHatDennBassFigures }
       >>
     }
   }
@@ -164,6 +174,7 @@
     \score {
       <<
         \new Staff { \VerruchterBassoContinuo }
+        \new FiguredBass { \VerruchterBassFigures }
       >>
     }
   }
@@ -184,6 +195,7 @@
           \new Lyrics \lyricsto Soli \IchHabeSoliLyrics
         >>
         \new Staff { \IchHabeBassoContinuo }
+        \new FiguredBass { \IchHabeBassFigures }
       >>
     }
   }
@@ -193,6 +205,7 @@
     \score {
       <<
         \new Staff { \IndemIchBassoContinuo }
+        \new FiguredBass { \IndemIchBassFigures }
       >>
     }
   }
@@ -213,6 +226,7 @@
           \new Lyrics \lyricsto Soli \SoLebeSoliLyrics
         >>
         \new Staff { \SoLebeBassoContinuo }
+        \new FiguredBass { \SoLebeBassFigures }
       >>
     }
     \markup \null
@@ -223,6 +237,7 @@
     \score {
       <<
         \new Staff { \WennBetruebteBassoContinuo }
+        \new FiguredBass { \WennBetruebteBassFigures }
       >>
     }
   }
@@ -243,6 +258,7 @@
           \new Lyrics \lyricsto Soli \NeinAdamSoliLyrics
         >>
         \new Staff { \NeinAdamBassoContinuo }
+        \new FiguredBass { \NeinAdamBassFigures }
       >>
     }
   }
@@ -252,6 +268,7 @@
     \score {
       <<
         \new Staff { \AchAchBassoContinuo }
+        \new FiguredBass { \AchAchBassFigures }
       >>
     }
   }
@@ -272,6 +289,7 @@
           \new Lyrics \lyricsto Soli \WoKamSoliLyrics
         >>
         \new Staff { \WoKamBassoContinuo }
+        \new FiguredBass { \WoKamBassFigures }
       >>
     }
   }
@@ -281,6 +299,7 @@
     \score {
       <<
         \new Staff { \WenSoBassoContinuo }
+        \new FiguredBass { \WenSoBassFigures }
       >>
     }
   }
@@ -301,6 +320,7 @@
           \new Lyrics \lyricsto Soli \JaFreylichSoliLyrics
         >>
         \new Staff { \JaFreylichBassoContinuo }
+        \new FiguredBass { \JaFreylichBassFigures }
       >>
     }
   }
@@ -311,6 +331,7 @@
     \score {
       <<
         \new Staff { \DerFrommeBassoContinuo }
+        \new FiguredBass { \DerFrommeBassFigures }
       >>
     }
   }
@@ -331,6 +352,7 @@
           \new Lyrics \lyricsto Soli \DesHoechstenSoliLyrics
         >>
         \new Staff { \DesHoechstenBassoContinuo }
+        \new FiguredBass { \DesHoechstenBassFigures }
       >>
     }
   }
@@ -341,6 +363,7 @@
     \score {
       <<
         \new Staff { \ManMussBassoContinuo }
+        \new FiguredBass { \ManMussBassFigures }
       >>
     }
   }
@@ -361,6 +384,7 @@
           \new Lyrics \lyricsto Soli \DaheroStelleSoliLyrics
         >>
         \new Staff { \DaheroStelleBassoContinuo }
+        \new FiguredBass { \DaheroStelleBassFigures }
       >>
     }
   }
@@ -371,6 +395,7 @@
     \score {
       <<
         \new Staff { \EinLaemmleinBassoContinuo }
+        \new FiguredBass { \EinLaemmleinBassFigures }
       >>
     }
   }
@@ -391,6 +416,7 @@
           \new Lyrics \lyricsto Soli \DaWirUnsSoliLyrics
         >>
         \new Staff { \DaWirUnsBassoContinuo }
+        \new FiguredBass { \DaWirUnsBassFigures }
       >>
     }
   }
@@ -401,6 +427,7 @@
     \score {
       <<
         \new Staff { \EsSchreyetBassoContinuo }
+        \new FiguredBass { \EsSchreyetBassFigures }
       >>
     }
   }

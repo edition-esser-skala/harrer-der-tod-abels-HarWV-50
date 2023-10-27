@@ -56,7 +56,7 @@ tempoSoSollDer = \tempoMarkup "[Recitativo]"
 
 % 1.6
 tempoIchLebeNur = \tempoMarkup "Allegro non troppo"
-tempoWarumErgrimmest = \tempoMarkup "[Recitativo]"
+tempoWarumErgrimmest = \tempoMarkup "[Rec.]"
   tempoWarumErgrimmestB = \tempoMarkup "Allegro"
   tempoWarumErgrimmestC = \tempoMarkup "[Recitativo]"
 tempoDasLicht = \tempoMarkup "Andantino"
@@ -96,7 +96,7 @@ tempoDesHoechsten = \tempoMarkup "[Recitativo]"
 tempoManMuss = \tempoMarkup "[Tempo deest]"
 tempoDaheroStelle = \tempoMarkup "[Recitativo]"
 tempoEinLaemmlein = \tempoMarkup "[Tempo deest]"
-tempoDaWirUns = \tempoMarkup "[Recitativo]"
+tempoDaWirUns = \tempoMarkup "[Rec.]"
 
 % 2.16
 tempoEsSchreyet = \tempoMarkup "Allegro"
